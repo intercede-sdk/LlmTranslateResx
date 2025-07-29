@@ -58,15 +58,16 @@ class Program
         {
             foreach (DictionaryEntry entry in reader)
             {
+                ++progress;
                 //Console.CursorLeft = 0; // not compatible when invoked from the powershell script
-                //Console.Write($"Translating entry {++progress}");
+                //Console.Write($"Translating entry {progress}");
                 Console.Write(".");
 
                 string key = entry.Key.ToString();
-                string value = entry.Value.ToString();
+                string? value = entry.Value?.ToString();
                 try
                 {
-                    string translated = await Translate(value, targetLanguage, options.sourceLanguage ?? "English", options.systemPrompt ?? throw new Exception("System Prompt must be present in appsettings"));
+                    string translated = string.IsNullOrEmpty(value) ? string.Empty : await Translate(value, targetLanguage, options.sourceLanguage ?? "English", options.systemPrompt ?? throw new Exception("System Prompt must be present in appsettings"), options.temparature, options.topP, options.maxOutputTokenCount);
                     translations[key] = translated;
                 }
                 catch(Exception e)
@@ -90,16 +91,44 @@ class Program
         Console.WriteLine($"\nTranslation completed {input} translated to {targetLanguage}, creating file {output}. Number of translations={progress}, {errors} Errors(s)");
     }
 
-    private static async Task<string> Translate(string dataToTranslate, string targetLanguage, string sourceLanguage, string systemPrompt)
+    private static async Task<string> Translate(string dataToTranslate, string targetLanguage, string sourceLanguage, string systemPrompt, float? temperature, float? topP, int? maxTokens)
     {
-        ChatCompletion completion = await chatClient.CompleteChatAsync(
+        var options = new ChatCompletionOptions();
+        if (temperature != null)
+        {
+            options.Temperature = temperature;
+        }
+        if (topP != null)
+        {
+            options.TopP = topP;
+        }
+        if (maxTokens != null)
+        {
+            options.MaxOutputTokenCount = maxTokens;
+        }
+
+        ChatCompletion completion = await CompleteChat(systemPrompt, sourceLanguage, targetLanguage, dataToTranslate, options);
+
+        if (completion.Content.Count == 0)
+        {
+            // give it one more go. some OpenAI APIs seem to not return content sometimes
+            completion = await CompleteChat(systemPrompt, sourceLanguage, targetLanguage, dataToTranslate, options);
+            if (completion.Content.Count == 0)
+                throw new Exception("No content returned from OpenAI API");
+        }
+        return completion.Content[0].Text;
+    }
+
+    private static async Task<ChatCompletion> CompleteChat(string systemPrompt, string sourceLanguage, string targetLanguage, string dataToTranslate, ChatCompletionOptions options)
+    {
+        return await chatClient.CompleteChatAsync(
         [
             // System messages represent instructions or other guidance about how the assistant should behave
-            new SystemChatMessage($"{systemPrompt}. When you are given a string you must translate it from {sourceLanguage} to {targetLanguage}"),
+            new SystemChatMessage($"{systemPrompt}. When you are given a string you must translate it from {sourceLanguage} to {targetLanguage} returning only the translated string. Translate the following: "),
             new UserChatMessage(dataToTranslate),
-        ]);
+        ],
+        options);
 
-        return completion.Content[0].Text;
     }
 
     private static void ConnectToAI(string uri, string apiKey, string model)

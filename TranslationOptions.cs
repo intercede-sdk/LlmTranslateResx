@@ -15,5 +15,22 @@
         public string? targetLanguage { get; set; }
         public string? sourceLanguage { get; set; }
         public string? systemPrompt { get; set; }
+
+        /// <summary>
+        /// https://learn.microsoft.com/en-us/java/api/com.azure.ai.openai.models.chatcompletionsoptions
+        /// optional (higher temp means more creative response)
+        /// </summary>
+        public float? temparature { get; set; }
+
+        /// <summary>
+        /// https://learn.microsoft.com/en-us/java/api/com.azure.ai.openai.models.chatcompletionsoptions
+        /// optional (alternative way of controlling temperature). Is not recommended to set both topP and temperature together
+        /// </summary>
+        public float? topP { get; set; }
+
+        /// <summary>
+        /// optionally specify max output tokens
+        /// </summary>
+        public int? maxOutputTokenCount { get; set; }
     }
 }
