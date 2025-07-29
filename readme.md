@@ -26,6 +26,7 @@ It is common for software that uses resx files to require a separate step (with 
 ## Tailoring translations
 - Choose a llm model that works with your intended targetLanguage. 
 - You may change the systemPrompt parameter. This lets you change the nature of the instructions used to translate (provides context to the translations). For example, before this prompt told the llm that inventory control was part of the product, it was mistranslating "stock" to mean shares rather than the kind of stock held in inventory.
+- You can alter temperature (or topN) in the appsettings (higher temperature means more creative responses)
 - You may spot check some results (eg use a llm or search engine to reverse the translation)
 - While the default systemPrompt is tailored for the Intercede MyID software, by changing the systemPrompt setting you can use this for any resx file for any software that contains translatable strings where the data/@name attribute is the placeholder the application uses and data/value is the (to be translated) text. The instruction to "translate from language x to language y" is automatically applied at the end of the configured systemPrompt.
 
@@ -46,7 +47,7 @@ Note that the suitability and accuracy of any translations is down to the model,
 
 ### Tips for using Azure OpenAI models
 - Use Azure portal to create an "Azure OpenAI". This will give you the endpoint (Uri) and an apiKey to use
-- Then use the "Explore Azure AI Foundry Portal" option in Azure portal to launch the "Azure AI Foundry". From here you deploy a model (e.g. gpt-4.1-mini) which gives you the model string to use in the utility
+- Then use the "Explore Azure AI Foundry Portal" option in Azure portal to launch the "Azure AI Foundry". From here you deploy a model (e.g. gpt-4.1-mini) which shows you the model string to configure in the this utility
 
 ## Automating the translation of many resx files
 It is advisable to test a single file first to ensure you are happy with the result.
