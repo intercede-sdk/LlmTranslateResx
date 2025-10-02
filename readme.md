@@ -20,6 +20,7 @@ At a minimum, the following need to be set
 - uri (of the llm). e.g. https://myprovisionedinstance.openai.azure.com
 - apiKey (to auth to the llm). Be careful not to share this.
 - model (of llm hosted at that uri)
+- azure (true if it is an azure hosted model otherwise false. If this is set incorrectly you may get http 404 errors)
 
 It is common for software that uses resx files to require a separate step (with ResGen.exe) to then .resources file(s) from the .res(x) files. This utility does not perform that step.
 
@@ -49,6 +50,10 @@ Note that the suitability and accuracy of any translations is down to the model,
 - Use Azure portal to create an "Azure OpenAI". This will give you the endpoint (Uri) and an apiKey to use
 - Then use the "Explore Azure AI Foundry Portal" option in Azure portal to launch the "Azure AI Foundry". From here you deploy a model (e.g. gpt-4.1-mini) which shows you the model string to configure in the this utility
 
+### Tips for using local (ollama) models
+- by default the --uri parameter is http://localhost:11434/v1
+- use the argument --azure false
+
 ## Automating the translation of many resx files
 It is advisable to test a single file first to ensure you are happy with the result.
 A script LlmTranslateAllFiles.ps1 is provider that will iterate all resx files in the directory, enabling a single command to translate all resx files
@@ -66,5 +71,5 @@ The following files in a directory are then created
 | etc...       |         |
 
 ## Known Issues
-- It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "profanity filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards.
+- It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "profanity filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards. The content moderation policy in Azure can be set to "Low"
 - Realtime progress is not shown in LlmTranslateAllFiles.ps1, the text output from LlmTranslateResx is delayed due to interaction when powershell calls an executable

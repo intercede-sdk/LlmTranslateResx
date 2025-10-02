@@ -5,6 +5,11 @@
         public string? uri { get; set; }
         public string? apiKey { get; set; }
         public string? model { get; set; }
+
+        /// <summary>
+        /// Set to true if using Azure OpenAI, or false for other providers (eg ollama)
+        /// </summary>
+        public bool? azure { get; set; }
     }
 
     public class TranslationOptions
