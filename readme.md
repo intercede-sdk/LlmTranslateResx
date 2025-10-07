@@ -61,7 +61,7 @@ A script LlmTranslateAllFiles.ps1 is provider that will iterate all resx files i
 Usage:
 The following example creates filename-de.resx files containing German translations of all resx files in the input directory, connecting to the llm identified in the arguments:
 ```
-LlmTranslateAllFiles -outputLanguageCode de --targetLanguage German --uri https://myOpenAiCompatApi --model gpt-4.1-mini --apiKey myApiKey
+.\LlmTranslateAllFiles.ps1 -outputLanguageCode de --targetLanguage German --uri https://myOpenAiCompatApi --model gpt-4.1-mini --apiKey myApiKey
 ```
 The following files in a directory are then created
 | OriginalFile | NewFile |
@@ -71,5 +71,5 @@ The following files in a directory are then created
 | etc...       |         |
 
 ## Known Issues
-- It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "profanity filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards. The content moderation policy in Azure can be set to "Low"
+- It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "content filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards. The content moderation policy in Azure can be set to "Low"
 - Realtime progress is not shown in LlmTranslateAllFiles.ps1, the text output from LlmTranslateResx is delayed due to interaction when powershell calls an executable
