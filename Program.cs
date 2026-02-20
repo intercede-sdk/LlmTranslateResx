@@ -11,8 +11,12 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        var inputOption = new Option<string?>("--input") { Description = "Input filename (e.g. Base.en-US.resx)" };
-        var outputOption = new Option<string?>("--output") { Description = "Output filename to create (e.g. Base.de.resx)" };
+        var inputOption = new Option<FileInfo?>("--input") { Description = "Input filename (e.g. Base.en-US.resx) to translate" };
+        inputOption.AcceptLegalFilePathsOnly();
+        var outputOption = new Option<FileInfo?>("--output") { Description = "Output filename to create (e.g. Base.de.resx)" };
+        outputOption.AcceptLegalFilePathsOnly();
+        var previousFileOption = new Option<FileInfo?>("--previousFile") { Description = "Previousy translated file (e.g. Base.de.resx) to use as reference for translation, if provided will reuse existing translated value where possible" };
+        previousFileOption.AcceptLegalFilePathsOnly();
         var targetLanguageOption = new Option<string?>("--targetLanguage") { Description = "Language to translate to (e.g. German)" };
         var uriOption = new Option<string?>("--uri") { Description = "Uri of the Llm (must have an OpenAI compatible API, can use uris for Azure OpenAI, ChatGPT, Ollama etc)" };
         var apiKeyOption = new Option<string?>("--apiKey") { Description = "Api key to connect to the Llm" };
@@ -23,6 +27,7 @@ class Program
         {
             inputOption,
             outputOption,
+            previousFileOption,
             targetLanguageOption,
             uriOption,
             apiKeyOption,
@@ -30,13 +35,22 @@ class Program
             azure,
         };
         
-        rootCommand.SetAction(async parseResult => {
-            await DoTranslations(parseResult.GetValue(inputOption), parseResult.GetValue(outputOption), parseResult.GetValue(targetLanguageOption), parseResult.GetValue(uriOption), parseResult.GetValue(apiKeyOption), parseResult.GetValue(modelOption), parseResult.GetValue(azure));
+        rootCommand.SetAction(async (parseResult, cancellationToken) => {
+            await DoTranslations(
+                parseResult.GetValue(inputOption)?.FullName,
+                parseResult.GetValue(outputOption)?.FullName,
+                parseResult.GetValue(previousFileOption)?.FullName,
+                parseResult.GetValue(targetLanguageOption), 
+                parseResult.GetValue(uriOption), 
+                parseResult.GetValue(apiKeyOption), 
+                parseResult.GetValue(modelOption), 
+                parseResult.GetValue(azure));
         });
-        new CommandLineConfiguration(rootCommand).Invoke(args);
+
+        await rootCommand.Parse(args).InvokeAsync();
     }
 
-    static async Task DoTranslations(string? input, string? output, string? targetLanguage, string? uri, string? apiKey, string? model, bool? azure)
+    static async Task DoTranslations(string? input, string? output, string? previousFile, string? targetLanguage, string? uri, string? apiKey, string? model, bool? azure)
     {
         var config = new ConfigurationBuilder()
                 .SetBasePath(AppContext.BaseDirectory)
@@ -46,12 +60,30 @@ class Program
 
         var options = config.GetSection("config").Get<TranslationOptions>();
 
-        input = input ?? options.input ?? throw new Exception("input not specified");
-        output = output ?? options.output ?? throw new Exception("output not specified");
+        input ??= options?.input ?? throw new Exception("input not specified. Use --help for usage information");
+        output ??= options?.output ?? throw new Exception("output not specified");
+        previousFile ??= options?.previousFile;
+
         targetLanguage = targetLanguage ?? options?.targetLanguage ?? throw new Exception("targetLanguage not specified");
 
         Console.WriteLine($"Translating {input} to {targetLanguage}\n");
         ConnectToAI(uri ?? options?.llm?.uri, apiKey ?? options?.llm?.apiKey, model ?? options?.llm?.model, azure ?? options.llm?.azure ?? true);
+
+        // if previous file provided, load into a dictionary for fast lookups of existing previous translations
+        var previousTranslations = new Dictionary<string, ResXDataNode>();
+        if (!string.IsNullOrEmpty(previousFile))
+        {
+            using (ResXResourceReader reader = new ResXResourceReader(previousFile))
+            {
+                reader.UseResXDataNodes = true;
+                var readerEnumerator = reader.GetEnumerator();
+                while (readerEnumerator.MoveNext())
+                {
+                    var node = (ResXDataNode)readerEnumerator.Value;
+                    previousTranslations[node.Name] = node;
+                }
+            }
+        }
 
         // read resource entries
         var resourceEntries = new List<ResXDataNode>();
@@ -69,18 +101,30 @@ class Program
         var translatedEntries = new List<ResXDataNode>();
         int errors = 0;
         int progress = 0;
+        int newTranslations = 0;
+        int reusedTranslations = 0;
         foreach (var entry in resourceEntries)
         {
             ++progress;
             Console.Write(".");
 
             string? value = entry.GetValue((ITypeResolutionService)null).ToString();
+
+            // use previous translation if we have one and it has not changed since the last translation (using comment to check for changes since last translation, see where we set the comment later)
+            if (previousTranslations.TryGetValue(entry.Name, out var previousNode) && string.Equals(previousNode.Comment, value))
+            {
+                translatedEntries.Add(previousNode);
+                reusedTranslations++;
+                continue;
+            }
+
             try
             {
                 string translated = string.IsNullOrEmpty(value) ? string.Empty : await Translate(value, targetLanguage, options.sourceLanguage ?? "English", options.systemPrompt ?? throw new Exception("System Prompt must be present in appsettings"), options.temparature, options.topP, options.maxOutputTokenCount);
                 var newEntry = new ResXDataNode(entry.Name, translated);
                 newEntry.Comment = value; // Comment will have the original text (allows for comparison later to tell which translations may want retranslation in future)
                 translatedEntries.Add(newEntry);
+                newTranslations++;
             }
             catch(Exception e)
             {
@@ -103,7 +147,7 @@ class Program
             }
         }
 
-        Console.WriteLine($"\nTranslation completed {input} translated to {targetLanguage}, creating file {output}. Number of translations={progress}, {errors} Errors(s)");
+        Console.WriteLine($"\nTranslation completed {input} translated to {targetLanguage}, creating file {output}, New translations={newTranslations}, Reused translations={reusedTranslations}, {errors} Errors(s)");
     }
 
     private static async Task<string> Translate(string dataToTranslate, string targetLanguage, string sourceLanguage, string systemPrompt, float? temperature, float? topP, int? maxTokens)

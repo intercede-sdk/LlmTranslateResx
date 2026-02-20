@@ -20,7 +20,10 @@ At a minimum, the following need to be set
 - uri (of the llm). e.g. https://myprovisionedinstance.openai.azure.com
 - apiKey (to auth to the llm). Be careful not to share this.
 - model (of llm hosted at that uri)
+
+Optional args:
 - azure (true if it is an azure hosted model otherwise false. If this is set incorrectly you may get http 404 errors)
+- previousFile (file). Can supply the file from a previous translation run (eg of an older version). Where this contains a translation already and the original value (that is stored in <comment>) has not changed, the previous value will be reused. This speeds up translation and can improve consistency across versions. 
 
 It is common for software that uses resx files to require a separate step (with ResGen.exe) to then .resources file(s) from the .res(x) files. This utility does not perform that step.
 
@@ -57,6 +60,7 @@ Note that the suitability and accuracy of any translations is down to the model,
 ## Automating the translation of many resx files
 It is advisable to test a single file first to ensure you are happy with the result.
 A script LlmTranslateAllFiles.ps1 is provider that will iterate all resx files in the directory, enabling a single command to translate all resx files
+If you want to reuse previous translation files if available, create a subfolder called "previous" and put the previous file in that folder.
 
 Usage:
 The following example creates filename-de.resx files containing German translations of all resx files in the input directory, connecting to the llm identified in the arguments:

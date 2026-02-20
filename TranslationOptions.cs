@@ -16,6 +16,7 @@
     {
         public string? input { get; set; }
         public string? output { get; set; }
+        public string? previousFile { get; set; }
         public LlmOptions? llm { get; set; }
         public string? targetLanguage { get; set; }
         public string? sourceLanguage { get; set; }
