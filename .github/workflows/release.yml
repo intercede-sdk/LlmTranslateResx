@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'   # Triggers on tags like v1.0.0
+
+permissions:
+  contents: write  # Needed to create releases and upload assets
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Publish self-contained exe
+        run: dotnet publish LlmTranslateResx.csproj --configuration Release --runtime win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: LlmTranslateResx-win-x64
+          path: ./publish/*
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./publish/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
