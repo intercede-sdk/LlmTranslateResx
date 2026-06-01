@@ -53,9 +53,13 @@ Note that the suitability and accuracy of any translations is down to the model,
 - Use Azure portal to create an "Azure OpenAI". This will give you the endpoint (Uri) and an apiKey to use
 - Then use the "Explore Azure AI Foundry Portal" option in Azure portal to launch the "Azure AI Foundry". From here you deploy a model (e.g. gpt-4.1-mini) which shows you the model string to configure in the this utility
 
+### Tips for using OpenAI models directly
+- Use the `--uri` parameter to specify the OpenAI API endpoint (e.g. `https://api.openai.com/v1`)
+- Use the `--azure false` argument to disable Azure mode
+
 ### Tips for using local (ollama) models
-- by default the --uri parameter is http://localhost:11434/v1
-- use the argument --azure false
+- By default, the `--uri` parameter is `http://localhost:11434/v1`
+- Use the argument `--azure false`
 
 ## Automating the translation of many resx files
 It is advisable to test a single file first to ensure you are happy with the result.
