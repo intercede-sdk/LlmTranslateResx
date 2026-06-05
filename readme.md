@@ -99,33 +99,62 @@ The following files in a directory are then created
 
 ### Translating all resx files on the web server
 
-A script `LlmTranslateWebServerFiles.ps1` is provided that will recursively iterate all resx files across the full folder structure of the web server deployment, enabling a single command to translate all resx files regardless of their depth in the hierarchy.
+Two scripts are provided for translating the full set of resx files across the web server installation.
 
-The default web server root is `C:\Program Files\Intercede\MyID`, which can be overridden with the `-webServerRoot` parameter.
+#### Recommended workflow: copy, translate, copy back
 
-If you want to reuse previous translations where possible, place the existing translated file in a `previous` subfolder within the same directory as the source file (e.g. `rest.core\Dictionaries\previous\Base.de.resx`).
+This approach keeps translation off the live server and gives you a clean backup before any files are changed.
 
-Usage:
-The following example creates German translations of all resx files under the web server root:
+**Step 1 — Copy source files to a Translate folder (run on the web server)**
+
+Run `CopyResxToTranslateFolder.ps1` on the web server. It copies all source resx files from the known MyID component folders into a `Translate` folder, retaining the original folder hierarchy. This folder acts as both the input for translation and a backup of the originals.
+
+```
+.\CopyResxToTranslateFolder.ps1
+```
+
+To specify a custom web server root or destination:
+
+```
+.\CopyResxToTranslateFolder.ps1 -webServerRoot "C:\Program Files\Intercede\MyID" -destination "C:\MyTranslations"
+```
+
+**Step 2 — Move the Translate folder to a Translation PC**
+
+Copy the `Translate` folder to the machine where `LlmTranslateResx.exe` is available (the Translation PC).
+
+If you want to reuse translations from a previous run, place the previously translated files in a `previous` subfolder within each component folder inside `Translate` (e.g. `Translate\rest.core\Dictionaries\previous\Base.de.resx`).
+
+**Step 3 — Translate (run on the Translation PC)**
+
+Run `LlmTranslateWebServerFiles.ps1` against the `Translate` folder:
+
+```
+.\LlmTranslateWebServerFiles.ps1 -outputLanguageCode de -webServerRoot ".\Translate" --targetLanguage German --uri https://myOpenAiCompatApi --model gpt-4.1-mini --apiKey myApiKey
+```
+
+The script handles two source file naming conventions:
+
+| Source file pattern | Example input   | Example output     |
+| ------------------- | --------------- | ------------------ |
+| `*.en-US.resx`      | Base.en-US.resx | Base.de.resx       |
+| `*.resx` (no code)  | Dictionary.resx | Dictionary.de.resx |
+
+Translated files are written alongside their source file within the `Translate` folder hierarchy.
+
+**Step 4 — Copy translated files back to the web server**
+
+Once you are satisfied with the translations, copy the translated `.resx` files from the `Translate` folder back to their corresponding locations under `C:\Program Files\Intercede\MyID` on the web server.
+
+#### Alternative: run directly on the web server
+
+`LlmTranslateWebServerFiles.ps1` can also be run directly on the web server against the live installation folder, which may be convenient in development environments:
 
 ```
 .\LlmTranslateWebServerFiles.ps1 -outputLanguageCode de --targetLanguage German --uri https://myOpenAiCompatApi --model gpt-4.1-mini --apiKey myApiKey
 ```
 
-To target a different installation path:
-
-```
-.\LlmTranslateWebServerFiles.ps1 -outputLanguageCode de -webServerRoot "D:\MyID" --targetLanguage German --uri https://myOpenAiCompatApi --model gpt-4.1-mini --apiKey myApiKey
-```
-
-The script handles two source file naming conventions found in the folder structure:
-
-| Source file pattern | Example input     | Example output  |
-| ------------------- | ----------------- | --------------- |
-| `*.en-US.resx`      | Base.en-US.resx   | Base.de.resx    |
-| `*.resx` (no code)  | Dictionary.resx   | Dictionary.de.resx |
-
-Translated files are written to the same directory as their source file.
+The default web server root is `C:\Program Files\Intercede\MyID`. Use `-webServerRoot` to override it. Note that translated files are written directly into the live installation folder, so using `CopyResxToTranslateFolder.ps1` first is recommended for production servers.
 
 The folder structure to be iterated is as follows:
 
@@ -183,4 +212,4 @@ C:\Program Files\Intercede\MyID\
 ## Known Issues
 
 - It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "content filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards. The content moderation policy in Azure can be set to "Low"
-- Real-time progress is not shown in LlmTranslateFilesInDirectory.ps1 or LlmTranslateWebServerFiles.ps1, the text output from LlmTranslateResx is delayed due to interaction when PowerShell calls an executable.
+- Real-time progress is not shown in LlmTranslateFilesInDirectory.ps1 or LlmTranslateWebServerFiles.ps1; the text output from LlmTranslateResx is delayed due to interaction when PowerShell calls an executable.
