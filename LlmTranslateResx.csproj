@@ -22,7 +22,7 @@
     <None Update="appsettings.production.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="LlmTranslateAllFiles.ps1">
+    <None Update="LlmTranslateFilesInDirectory.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="readme.md">
