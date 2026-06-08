@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="oauth.home_homelabel.label" xml:space="preserve">
+    <value>Willkommen bei MyIDAuth</value>
+    <comment>Welcome to MyIDAuth</comment>
+  </data>
+  <data name="locale.en-GB.name" xml:space="preserve">
+    <value>Englisch (Vereinigtes Königreich)</value>
+    <comment>English (United Kingdom)</comment>
+  </data>
+  <data name="locale.en-US.name" xml:space="preserve">
+    <value>Englisch (Vereinigte Staaten)</value>
+    <comment>English (United States)</comment>
+  </data>
+  <data name="locale.fr.name" xml:space="preserve">
+    <value>Französisch</value>
+    <comment>French</comment>
+  </data>
+  <data name="oauth.device_access.label" xml:space="preserve">
+    <value>Anwendungszugang</value>
+    <comment>Application Access</comment>
+  </data>
+  <data name="oauth.device_confirmauth.label" xml:space="preserve">
+    <value>Bitte bestätigen Sie, dass die Autorisierungsanfrage den Code angibt:</value>
+    <comment>Please confirm that the authorization request quotes the code:</comment>
+  </data>
+  <data name="oauth.device_entercode.label" xml:space="preserve">
+    <value>Bitte geben Sie den auf Ihrem Gerät angezeigten Code ein</value>
+    <comment>Please enter the code displayed on your device</comment>
+  </data>
+  <data name="oauth.device_nodonotallow.label" xml:space="preserve">
+    <value>Nein, nicht erlauben</value>
+    <comment>No, Do Not Allow</comment>
+  </data>
+  <data name="oauth.device_personalinfo.label" xml:space="preserve">
+    <value>Persönliche Informationen</value>
+    <comment>Personal Information</comment>
+  </data>
+  <data name="oauth.device_remember.label" xml:space="preserve">
+    <value>Meine Entscheidung merken</value>
+    <comment>Remember My Decision</comment>
+  </data>
+  <data name="oauth.device_requestpermission.label" xml:space="preserve">
+    <value>fordert Ihre Erlaubnis an</value>
+    <comment>is requesting your permission</comment>
+  </data>
+  <data name="oauth.device_submit.label" xml:space="preserve">
+    <value>Absenden</value>
+    <comment>Submit</comment>
+  </data>
+  <data name="oauth.device_success.label" xml:space="preserve">
+    <value>Sie haben das Gerät erfolgreich autorisiert</value>
+    <comment>You have successfully authorized the device</comment>
+  </data>
+  <data name="oauth.device_uncheckperms.label" xml:space="preserve">
+    <value>Entfernen Sie das Häkchen bei den Berechtigungen, die Sie nicht erteilen möchten.</value>
+    <comment>Uncheck the permissions you do not wish to grant.</comment>
+  </data>
+  <data name="oauth.device_usercode.label" xml:space="preserve">
+    <value>Benutzercode</value>
+    <comment>User Code</comment>
+  </data>
+  <data name="oauth.device_yesallow.label" xml:space="preserve">
+    <value>Ja, Erlauben</value>
+    <comment>Yes, Allow</comment>
+  </data>
+  <data name="oauth.documentlocationlabel.label" xml:space="preserve">
+    <value>Holen Sie sich das {0}</value>
+    <comment>Get the {0}</comment>
+  </data>
+  <data name="oauth.fidoregister_btnnext.label" xml:space="preserve">
+    <value>Weiter</value>
+    <comment>Next</comment>
+  </data>
+  <data name="oauth.fidoregister_complete.label" xml:space="preserve">
+    <value>FIDO-Authenticator-Registrierung abgeschlossen</value>
+    <comment>FIDO Authenticator Registration Complete</comment>
+  </data>
+  <data name="oauth.fidoregister_enterregcode.label" xml:space="preserve">
+    <value>Bitte geben Sie Ihren Registrierungscode ein</value>
+    <comment>Please enter your Registration Code</comment>
+  </data>
+  <data name="oauth.fidoregister_enterregcodeprovided.label" xml:space="preserve">
+    <value>Bitte geben Sie den Ihnen bereitgestellten Registrierungscode ein</value>
+    <comment>Please enter the Registration Code you have been provided with</comment>
+  </data>
+  <data name="oauth.fidoregister_failed.label" xml:space="preserve">
+    <value>FIDO-Registrierung fehlgeschlagen</value>
+    <comment>FIDO Registration Failed</comment>
+  </data>
+  <data name="oauth.fidoregister_header.label" xml:space="preserve">
+    <value>FIDO-Authentifikator registrieren</value>
+    <comment>Register FIDO Authenticator</comment>
+  </data>
+  <data name="oauth.fidoregister_headergenerate.label" xml:space="preserve">
+    <value>FIDO-Authentifikator registrieren</value>
+    <comment>Register FIDO Authenticator</comment>
+  </data>
+  <data name="oauth.fidoregister_instructions.label" xml:space="preserve">
+    <value>Bitte folgen Sie den Anweisungen auf dem Bildschirm, um den Registrierungsprozess für Ihren Sicherheitsschlüssel abzuschließen.</value>
+    <comment>Please follow the on-screen instructions to complete the registration process for your Security Key</comment>
+  </data>
+  <data name="oauth.fidoregister_loading.label" xml:space="preserve">
+    <value>Lädt...</value>
+    <comment>Loading...</comment>
+  </data>
+  <data name="oauth.fidoregister_nowregistered.label" xml:space="preserve">
+    <value>Ihr FIDO-Authenticator ist jetzt bei MyID registriert. Sie können dieses Fenster nun schließen.</value>
+    <comment>Your FIDO Authenticator is now registered with MyID. You may now close this window.</comment>
+  </data>
+  <data name="oauth.fidoregister_completeicon.label" xml:space="preserve">
+    <value>FIDO-Registrierung abgeschlossen Symbol</value>
+    <comment>FIDO registration complete icon</comment>
+  </data>
+  <data name="oauth.fidoregister_tryagain.label" xml:space="preserve">
+    <value>Versuchen Sie es erneut mit Ihrem Registrierungslink</value>
+    <comment>Try using your registration link again</comment>
+  </data>
+  <data name="oauth.fido_btncancel.label" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="oauth.fido_btnretry.label" xml:space="preserve">
+    <value>Erneut versuchen</value>
+    <comment>Retry</comment>
+  </data>
+  <data name="oauth.fido_instructions.label" xml:space="preserve">
+    <value>Bitte folgen Sie den Anweisungen auf dem Bildschirm, um sich mit Ihrem Sicherheitsschlüssel zu authentifizieren.</value>
+    <comment>Please follow the on-screen instructions to authenticate with your Security Key</comment>
+  </data>
+  <data name="oauth.fido_login.label" xml:space="preserve">
+    <value>FIDO Anmeldung</value>
+    <comment>FIDO Login</comment>
+  </data>
+  <data name="oauth.fido_retryinstructions.label" xml:space="preserve">
+    <value>Möchten Sie den Vorgang erneut versuchen?</value>
+    <comment>Would you like to retry the operation?</comment>
+  </data>
+  <data name="oauth.grants.label" xml:space="preserve">
+    <value>Klicken Sie auf {0}, um Ihre gespeicherten Berechtigungen zu verwalten.</value>
+    <comment>Click {0} to manage your stored grants.</comment>
+  </data>
+  <data name="oauth.grants_apigrants.label" xml:space="preserve">
+    <value>API-Berechtigungen</value>
+    <comment>API Grants</comment>
+  </data>
+  <data name="oauth.grants_btnrevoke.label" xml:space="preserve">
+    <value>Zugriff widerrufen</value>
+    <comment>Revoke Access</comment>
+  </data>
+  <data name="oauth.grants_created.label" xml:space="preserve">
+    <value>Erstellt</value>
+    <comment>Created</comment>
+  </data>
+  <data name="oauth.grants_expires.label" xml:space="preserve">
+    <value>Läuft ab</value>
+    <comment>Expires</comment>
+  </data>
+  <data name="oauth.grants_header.label" xml:space="preserve">
+    <value>Client-Anwendungszugriff</value>
+    <comment>Client Application Access</comment>
+  </data>
+  <data name="oauth.grants_headerdetails.label" xml:space="preserve">
+    <value>Nachfolgend finden Sie die Liste der Anwendungen, auf die Sie Zugriff gewährt haben, sowie die Namen der Ressourcen, auf die sie zugreifen können.</value>
+    <comment>Below is the list of applications you have given access to and the names of the resources they have access to.</comment>
+  </data>
+  <data name="oauth.grants_identitygrants.label" xml:space="preserve">
+    <value>Identitätsberechtigungen</value>
+    <comment>Identity Grants</comment>
+  </data>
+  <data name="oauth.grants_nopermissions.label" xml:space="preserve">
+    <value>Sie haben keinen Zugriff auf Anwendungen gewährt</value>
+    <comment>You have not given access to any applications</comment>
+  </data>
+  <data name="oauth.homelabel.label" xml:space="preserve">
+    <value>Willkommen bei MyIDAuth</value>
+    <comment>Welcome to MyIDAuth</comment>
+  </data>
+  <data name="oauth.home_documentlocationlabel.label" xml:space="preserve">
+    <value>Holen Sie sich das {0}</value>
+    <comment>Get the {0}</comment>
+  </data>
+  <data name="oauth.home_documentlocationlink.label" xml:space="preserve">
+    <value>Entdeckungsdokument</value>
+    <comment>Discovery Document</comment>
+  </data>
+  <data name="oauth.account_applicationname.label" xml:space="preserve">
+    <value>{0} Anwendung.</value>
+    <comment>{0} application.</comment>
+  </data>
+  <data name="oauth.account_btncancel.label" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="oauth.account_btnsignin.label" xml:space="preserve">
+    <value>Anmelden</value>
+    <comment>Sign In</comment>
+  </data>
+  <data name="oauth.fido_usernamebtncancel.label" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="oauth.fido_usernamebtnnext.label" xml:space="preserve">
+    <value>Weiter</value>
+    <comment>Next</comment>
+  </data>
+  <data name="oauth.fido_usernameheader.label" xml:space="preserve">
+    <value>FIDO-Anmeldung</value>
+    <comment>FIDO Login</comment>
+  </data>
+  <data name="oauth.account_loggedout.label" xml:space="preserve">
+    <value>Sie sind jetzt abgemeldet</value>
+    <comment>You are now logged out</comment>
+  </data>
+  <data name="oauth.account_logout.label" xml:space="preserve">
+    <value>Abmelden</value>
+    <comment>Logout</comment>
+  </data>
+  <data name="oauth.account_logoutbutton.label" xml:space="preserve">
+    <value>Ja</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="oauth.account_logoutquestion.label" xml:space="preserve">
+    <value>Möchten Sie sich von MyIDAuth abmelden?</value>
+    <comment>Would you like to logout of MyIDAuth?</comment>
+  </data>
+  <data name="oauth.account_returnlink.label" xml:space="preserve">
+    <value>Klicken Sie auf {0}, um zurückzukehren zur</value>
+    <comment>Click {0} to return to the</comment>
+  </data>
+  <data name="oauth.account_securityquestionsheader.label" xml:space="preserve">
+    <value>Bitte beantworten Sie Ihre Sicherheitsfragen</value>
+    <comment>Please answer your security questions</comment>
+  </data>
+  <data name="oauth.base_btncancel.label" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="oauth.base_btnlogin.label" xml:space="preserve">
+    <value>Anmelden</value>
+    <comment>Login</comment>
+  </data>
+  <data name="oauth.base_btnnext.label" xml:space="preserve">
+    <value>Weiter</value>
+    <comment>Next</comment>
+  </data>
+  <data name="oauth.base_fidologin.label" xml:space="preserve">
+    <value>FIDO-Anmeldung</value>
+    <comment>FIDO Login</comment>
+  </data>
+  <data name="oauth.base_fidologon.label" xml:space="preserve">
+    <value>FIDO</value>
+    <comment>FIDO</comment>
+  </data>
+  <data name="oauth.base_header.label" xml:space="preserve">
+    <value>MyID Authentifizierung</value>
+    <comment>MyID Authentication</comment>
+  </data>
+  <data name="oauth.base_invalidlogin.label" xml:space="preserve">
+    <value>Ungültige Anmeldeanforderung</value>
+    <comment>Invalid login request</comment>
+  </data>
+  <data name="oauth.base_nologons.label" xml:space="preserve">
+    <value>Für diesen Client sind keine Anmeldeschemata konfiguriert.</value>
+    <comment>There are no login schemes configured for this client.</comment>
+  </data>
+  <data name="oauth.base_password.label" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>Password</comment>
+  </data>
+  <data name="oauth.base_passwordlogin.label" xml:space="preserve">
+    <value>Passwort Anmeldung</value>
+    <comment>Password Login</comment>
+  </data>
+  <data name="oauth.base_passwordlogon.label" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>Password</comment>
+  </data>
+  <data name="oauth.base_redirectmessagedetails.label" xml:space="preserve">
+    <value>Sobald abgeschlossen, können Sie diesen Tab schließen</value>
+    <comment>Once complete, you may close this tab</comment>
+  </data>
+  <data name="oauth.base_redirectmessageheader.label" xml:space="preserve">
+    <value>Sie werden nun zur Anwendung zurückgeleitet.</value>
+    <comment>You are now being returned to the application.</comment>
+  </data>
+  <data name="oauth.base_rememberlogin.label" xml:space="preserve">
+    <value>Login merken</value>
+    <comment>Remember My Login</comment>
+  </data>
+  <data name="oauth.base_securityquestionlogin.label" xml:space="preserve">
+    <value>Sicherheitsfrage Anmeldung</value>
+    <comment>Security Question Login</comment>
+  </data>
+  <data name="oauth.base_securityquestionslogon.label" xml:space="preserve">
+    <value>Sicherheitsfragen</value>
+    <comment>Security Questions</comment>
+  </data>
+  <data name="oauth.base_signinoption.label" xml:space="preserve">
+    <value>Wie möchten Sie sich anmelden?</value>
+    <comment>How do you want to sign in?</comment>
+  </data>
+  <data name="oauth.base_smartcardconnecting.label" xml:space="preserve">
+    <value>Verbindung zur Smartcard wird hergestellt</value>
+    <comment>Connecting to smart card</comment>
+  </data>
+  <data name="oauth.base_smartcardlogin.label" xml:space="preserve">
+    <value>Smartcard-Anmeldung</value>
+    <comment>Smart Card sign in</comment>
+  </data>
+  <data name="oauth.base_smartcardlogon.label" xml:space="preserve">
+    <value>Smartcard</value>
+    <comment>Smart Card</comment>
+  </data>
+  <data name="oauth.base_tryagain.label" xml:space="preserve">
+    <value>Versuchen Sie es erneut</value>
+    <comment>Try again</comment>
+  </data>
+  <data name="oauth.base_username.label" xml:space="preserve">
+    <value>Benutzername</value>
+    <comment>Username</comment>
+  </data>
+  <data name="oauth.securityquestion.1.label" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>Password</comment>
+  </data>
+  <data name="oauth.securityquestion.10.label" xml:space="preserve">
+    <value>Ein unvergesslicher Ort</value>
+    <comment>A memorable place</comment>
+  </data>
+  <data name="oauth.securityquestion.11.label" xml:space="preserve">
+    <value>Ein denkwürdiges Ereignis</value>
+    <comment>A memorable event</comment>
+  </data>
+  <data name="oauth.securityquestion.12.label" xml:space="preserve">
+    <value>Eine berühmte Person</value>
+    <comment>A famous person</comment>
+  </data>
+  <data name="oauth.securityquestion.13.label" xml:space="preserve">
+    <value>Geburtsort</value>
+    <comment>Place of birth</comment>
+  </data>
+  <data name="oauth.securityquestion.14.label" xml:space="preserve">
+    <value>Ein Land</value>
+    <comment>A country</comment>
+  </data>
+  <data name="oauth.securityquestion.15.label" xml:space="preserve">
+    <value>Ein Fluss</value>
+    <comment>A river</comment>
+  </data>
+  <data name="oauth.securityquestion.16.label" xml:space="preserve">
+    <value>Ein Film</value>
+    <comment>A movie</comment>
+  </data>
+  <data name="oauth.securityquestion.17.label" xml:space="preserve">
+    <value>Ein Lied</value>
+    <comment>A song</comment>
+  </data>
+  <data name="oauth.securityquestion.18.label" xml:space="preserve">
+    <value>Ein Buch</value>
+    <comment>A book</comment>
+  </data>
+  <data name="oauth.securityquestion.19.label" xml:space="preserve">
+    <value>Ein Sport</value>
+    <comment>A sport</comment>
+  </data>
+  <data name="oauth.securityquestion.2.label" xml:space="preserve">
+    <value>Mädchenname der Mutter?</value>
+    <comment>Mothers maiden name?</comment>
+  </data>
+  <data name="oauth.securityquestion.20.label" xml:space="preserve">
+    <value>Eine Postleitzahl</value>
+    <comment>A postcode</comment>
+  </data>
+  <data name="oauth.securityquestion.21.label" xml:space="preserve">
+    <value>Ein Tier</value>
+    <comment>An animal</comment>
+  </data>
+  <data name="oauth.securityquestion.22.label" xml:space="preserve">
+    <value>Erster Fahrzeugtyp</value>
+    <comment>First car type</comment>
+  </data>
+  <data name="oauth.securityquestion.3.label" xml:space="preserve">
+    <value>N.I Nummer?</value>
+    <comment>N.I number?</comment>
+  </data>
+  <data name="oauth.securityquestion.4.label" xml:space="preserve">
+    <value>Lieblingsessen?</value>
+    <comment>Favourite food?</comment>
+  </data>
+  <data name="oauth.securityquestion.5.label" xml:space="preserve">
+    <value>KFZ-Kennzeichen?</value>
+    <comment>Car registration number?</comment>
+  </data>
+  <data name="oauth.securityquestion.6.label" xml:space="preserve">
+    <value>Name des Haustiers</value>
+    <comment>Name of pet</comment>
+  </data>
+  <data name="oauth.securityquestion.7.label" xml:space="preserve">
+    <value>Erste besuchte Schule</value>
+    <comment>First school attended</comment>
+  </data>
+  <data name="oauth.securityquestion.8.label" xml:space="preserve">
+    <value>Eine alte Telefonnummer</value>
+    <comment>An old phone number</comment>
+  </data>
+  <data name="oauth.securityquestion.9.label" xml:space="preserve">
+    <value>Ein denkwürdiges Datum</value>
+    <comment>A memorable date</comment>
+  </data>
+  <data name="oauth.fido_usernamelabel.label" xml:space="preserve">
+    <value>Benutzername</value>
+    <comment>Username</comment>
+  </data>
+  <data name="oauth.account_password.label" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>Password</comment>
+  </data>
+  <data name="oauth.fido_usernameplaceholder.placeholder" xml:space="preserve">
+    <value>Benutzername</value>
+    <comment>Username</comment>
+  </data>
+  <data name="oauth.account_password.placeholder" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>Password</comment>
+  </data>
+  <data name="oauth.base_password.placeholder" xml:space="preserve">
+    <value>Passwort</value>
+    <comment>Password</comment>
+  </data>
+  <data name="oauth.base_username.placeholder" xml:space="preserve">
+    <value>Benutzername</value>
+    <comment>Username</comment>
+  </data>
+  <data name="oauth.fido_usernamemodebtncancel.label" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="oauth.fido_usernamemodebtnnext.label" xml:space="preserve">
+    <value>Weiter</value>
+    <comment>Next</comment>
+  </data>
+  <data name="oauth.fido_usernamemodeheader.label" xml:space="preserve">
+    <value>FIDO-Anmeldung</value>
+    <comment>FIDO Login</comment>
+  </data>
+  <data name="oauth.fido_usernamemoderemember.label" xml:space="preserve">
+    <value>Meine Entscheidung merken</value>
+    <comment>Remember my decision</comment>
+  </data>
+  <data name="oauth.fido_usernamemodetitle.label" xml:space="preserve">
+    <value>Bitte wählen Sie Ihren FIDO-Anmeldestil aus</value>
+    <comment>Please choose your FIDO sign-in style</comment>
+  </data>
+  <data name="oauth.fido_usernamemodeusername.label" xml:space="preserve">
+    <value>Bitte zuerst Benutzernamen eingeben</value>
+    <comment>Enter username first</comment>
+  </data>
+  <data name="oauth.fido_usernamemodeusernameless.label" xml:space="preserve">
+    <value>Benutzername ist nicht erforderlich</value>
+    <comment>Username is not required</comment>
+  </data>
+  <data name="oauth.fido_authenticationerrorbtnclose.label" xml:space="preserve">
+    <value>Schließen</value>
+    <comment>Close</comment>
+  </data>
+  <data name="oauth.fido_authenticationerrorheader.label" xml:space="preserve">
+    <value>FIDO-Anmeldung</value>
+    <comment>FIDO Login</comment>
+  </data>
+  <data name="oauth.fidoregister_btnretry.label" xml:space="preserve">
+    <value>Erneut versuchen</value>
+    <comment>Retry</comment>
+  </data>
+  <data name="oauth.base_authcode.label" xml:space="preserve">
+    <value>Authentifizierungscode</value>
+    <comment>Authentication Code</comment>
+  </data>
+  <data name="oauth.base_authcodelogin.label" xml:space="preserve">
+    <value>Authentifizierungscode Anmeldung</value>
+    <comment>Authentication Code Login</comment>
+  </data>
+  <data name="oauth.base_windows.label" xml:space="preserve">
+    <value>Windows-Authentifizierung</value>
+    <comment>Windows Authentication</comment>
+  </data>
+  <data name="oauth.authcode_enterauthcode.label" xml:space="preserve">
+    <value>Ich habe bereits einen Code.</value>
+    <comment>I already have a code</comment>
+  </data>
+  <data name="oauth.authcode_sendviaemail.label" xml:space="preserve">
+    <value>Per E-Mail senden</value>
+    <comment>Send by email</comment>
+  </data>
+  <data name="oauth.authcode_sendviasms.label" xml:space="preserve">
+    <value>Per SMS senden</value>
+    <comment>Send by SMS</comment>
+  </data>
+  <data name="oauth.base_usernameoremail.label" xml:space="preserve">
+    <value>Benutzername oder E-Mail-Adresse</value>
+    <comment>Username or email address</comment>
+  </data>
+  <data name="oauth.authcode_password.label" xml:space="preserve">
+    <value>Authentifizierungscode</value>
+    <comment>Authentication Code</comment>
+  </data>
+  <data name="oauth.authcode_password.placeholder" xml:space="preserve">
+    <value>Authentifizierungscode</value>
+    <comment>Authentication Code</comment>
+  </data>
+  <data name="oauth.securityquestion.-2.label" xml:space="preserve">
+    <value>Authentifizierungscode</value>
+    <comment>Authentication Code</comment>
+  </data>
+  <data name="oauth.bio_cancel.label" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="oauth.bio_capture.label" xml:space="preserve">
+    <value>Überprüfen</value>
+    <comment>Verify</comment>
+  </data>
+  <data name="oauth.bio_fingerprinttitle.label" xml:space="preserve">
+    <value>Fingerprint überprüfen</value>
+    <comment>Verify Fingerprint</comment>
+  </data>
+  <data name="oauth.bio_remainingattempts.label" xml:space="preserve">
+    <value>Verbleibende Versuche:</value>
+    <comment>Remaining Attempts:</comment>
+  </data>
+  <data name="oauth.bio_biocapturedevice.label" xml:space="preserve">
+    <value>Verifizierungsgerät:</value>
+    <comment>Verification Device:</comment>
+  </data>
+  <data name="oauth.biodevice_crossmatch.label" xml:space="preserve">
+    <value>Crossmatch</value>
+    <comment>Crossmatch</comment>
+  </data>
+  <data name="oauth.biodevice_precise.label" xml:space="preserve">
+    <value>Präzise</value>
+    <comment>Precise</comment>
+  </data>
+  <data name="oauth.biodevice_secugen.label" xml:space="preserve">
+    <value>Secugen</value>
+    <comment>Secugen</comment>
+  </data>
+  <data name="oauth.biodevice_uareu.label" xml:space="preserve">
+    <value>U.are.U</value>
+    <comment>U.are.U</comment>
+  </data>
+  <data name="oauth.biodevice_verifier.label" xml:space="preserve">
+    <value>Crossmatch-Prüfer</value>
+    <comment>Crossmatch Verifier</comment>
+  </data>
+  <data name="oauth.base_selfservice.label" xml:space="preserve">
+    <value>Verwalten Sie meine Anmeldeinformationen</value>
+    <comment>Manage My Credentials</comment>
+  </data>
+  <data name="oauth.base_selfserviceconnecting.label" xml:space="preserve">
+    <value>Selbstbedienung wird gestartet...</value>
+    <comment>Starting self service...</comment>
+  </data>
+  <data name="oauth.retrievingclientidentifier.label" xml:space="preserve">
+    <value>Informationen vom MyID Client-Dienst werden abgerufen...</value>
+    <comment>Retrieving information from MyID Client Service...</comment>
+  </data>
+  <data name="oauth.authenticationCompleteLaunchingSsa.label" xml:space="preserve">
+    <value>Authentifizierung abgeschlossen, klicken Sie hier, um zu MyID zurückzukehren</value>
+    <comment>Authentication complete, click to return to MyID</comment>
+  </data>
+</root>

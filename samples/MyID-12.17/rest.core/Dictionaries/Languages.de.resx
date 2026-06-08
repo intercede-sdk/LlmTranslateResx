@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="locale.ar-SA.name" xml:space="preserve">
+    <value>Arabisch (Saudi-Arabien)</value>
+    <comment>Arabic (Saudi Arabia)</comment>
+  </data>
+  <data name="locale.bg-BG.name" xml:space="preserve">
+    <value>Bulgarisch (Bulgarien)</value>
+    <comment>Bulgarian (Bulgaria)</comment>
+  </data>
+  <data name="locale.ca-ES.name" xml:space="preserve">
+    <value>Katalanisch (Katalan)</value>
+    <comment>Catalan (Catalan)</comment>
+  </data>
+  <data name="locale.zh-TW.name" xml:space="preserve">
+    <value>Chinesisch (Taiwan)</value>
+    <comment>Chinese (Taiwan)</comment>
+  </data>
+  <data name="locale.cs-CZ.name" xml:space="preserve">
+    <value>Tschechisch (Tschechische Republik)</value>
+    <comment>Czech (Czech Republic)</comment>
+  </data>
+  <data name="locale.da-DK.name" xml:space="preserve">
+    <value>Dänisch (Dänemark)</value>
+    <comment>Danish (Denmark)</comment>
+  </data>
+  <data name="locale.de-DE.name" xml:space="preserve">
+    <value>Deutsch (Deutschland)</value>
+    <comment>German (Germany)</comment>
+  </data>
+  <data name="locale.el-GR.name" xml:space="preserve">
+    <value>Griechisch (Griechenland)</value>
+    <comment>Greek (Greece)</comment>
+  </data>
+  <data name="locale.en-US.name" xml:space="preserve">
+    <value>Englisch (Vereinigte Staaten)</value>
+    <comment>English (United States)</comment>
+  </data>
+  <data name="locale.fi-FI.name" xml:space="preserve">
+    <value>Finnisch (Finnland)</value>
+    <comment>Finnish (Finland)</comment>
+  </data>
+  <data name="locale.fr-FR.name" xml:space="preserve">
+    <value>Französisch (Frankreich)</value>
+    <comment>French (France)</comment>
+  </data>
+  <data name="locale.he-IL.name" xml:space="preserve">
+    <value>Hebräisch (Israel)</value>
+    <comment>Hebrew (Israel)</comment>
+  </data>
+  <data name="locale.hu-HU.name" xml:space="preserve">
+    <value>Ungarisch (Ungarn)</value>
+    <comment>Hungarian (Hungary)</comment>
+  </data>
+  <data name="locale.is-IS.name" xml:space="preserve">
+    <value>Isländisch (Island)</value>
+    <comment>Icelandic (Iceland)</comment>
+  </data>
+  <data name="locale.it-IT.name" xml:space="preserve">
+    <value>Italienisch (Italien)</value>
+    <comment>Italian (Italy)</comment>
+  </data>
+  <data name="locale.ja-JP.name" xml:space="preserve">
+    <value>Japanisch (Japan)</value>
+    <comment>Japanese (Japan)</comment>
+  </data>
+  <data name="locale.ko-KR.name" xml:space="preserve">
+    <value>Koreanisch (Korea)</value>
+    <comment>Korean (Korea)</comment>
+  </data>
+  <data name="locale.nl-NL.name" xml:space="preserve">
+    <value>Niederländisch (Niederlande)</value>
+    <comment>Dutch (Netherlands)</comment>
+  </data>
+  <data name="locale.nb-NO.name" xml:space="preserve">
+    <value>Norwegisch, Bokmål (Norwegen)</value>
+    <comment>Norwegian, BokmÃ¥l (Norway)</comment>
+  </data>
+  <data name="locale.pl-PL.name" xml:space="preserve">
+    <value>Polnisch (Polen)</value>
+    <comment>Polish (Poland)</comment>
+  </data>
+  <data name="locale.pt-BR.name" xml:space="preserve">
+    <value>Portugiesisch (Brasilien)</value>
+    <comment>Portuguese (Brazil)</comment>
+  </data>
+  <data name="locale.ro-RO.name" xml:space="preserve">
+    <value>Rumänisch (Rumänien)</value>
+    <comment>Romanian (Romania)</comment>
+  </data>
+  <data name="locale.ru-RU.name" xml:space="preserve">
+    <value>Russisch (Russland)</value>
+    <comment>Russian (Russia)</comment>
+  </data>
+  <data name="locale.hr-HR.name" xml:space="preserve">
+    <value>Kroatisch (Kroatien)</value>
+    <comment>Croatian (Croatia)</comment>
+  </data>
+  <data name="locale.sk-SK.name" xml:space="preserve">
+    <value>Slowakisch (Slowakei)</value>
+    <comment>Slovak (Slovakia)</comment>
+  </data>
+  <data name="locale.sq-AL.name" xml:space="preserve">
+    <value>Albanisch (Albanien)</value>
+    <comment>Albanian (Albania)</comment>
+  </data>
+  <data name="locale.sv-SE.name" xml:space="preserve">
+    <value>Schwedisch (Schweden)</value>
+    <comment>Swedish (Sweden)</comment>
+  </data>
+  <data name="locale.th-TH.name" xml:space="preserve">
+    <value>Thailändisch (Thailand)</value>
+    <comment>Thai (Thailand)</comment>
+  </data>
+  <data name="locale.tr-TR.name" xml:space="preserve">
+    <value>Türkisch (Türkei)</value>
+    <comment>Turkish (Turkey)</comment>
+  </data>
+  <data name="locale.ur-PK.name" xml:space="preserve">
+    <value>Urdu (Islamische Republik Pakistan)</value>
+    <comment>Urdu (Islamic Republic of Pakistan)</comment>
+  </data>
+  <data name="locale.id-ID.name" xml:space="preserve">
+    <value>Indonesisch (Indonesien)</value>
+    <comment>Indonesian (Indonesia)</comment>
+  </data>
+  <data name="locale.uk-UA.name" xml:space="preserve">
+    <value>Ukrainisch (Ukraine)</value>
+    <comment>Ukrainian (Ukraine)</comment>
+  </data>
+  <data name="locale.be-BY.name" xml:space="preserve">
+    <value>Belarussisch (Belarus)</value>
+    <comment>Belarusian (Belarus)</comment>
+  </data>
+  <data name="locale.sl-SI.name" xml:space="preserve">
+    <value>Slowenisch (Slowenien)</value>
+    <comment>Slovenian (Slovenia)</comment>
+  </data>
+  <data name="locale.et-EE.name" xml:space="preserve">
+    <value>Estnisch (Estland)</value>
+    <comment>Estonian (Estonia)</comment>
+  </data>
+  <data name="locale.lv-LV.name" xml:space="preserve">
+    <value>Lettisch (Lettland)</value>
+    <comment>Latvian (Latvia)</comment>
+  </data>
+  <data name="locale.lt-LT.name" xml:space="preserve">
+    <value>Litauisch (Litauen)</value>
+    <comment>Lithuanian (Lithuania)</comment>
+  </data>
+  <data name="locale.fa-IR.name" xml:space="preserve">
+    <value>Persisch (Iran)</value>
+    <comment>Persian (Iran)</comment>
+  </data>
+  <data name="locale.vi-VN.name" xml:space="preserve">
+    <value>Vietnamesisch (Vietnam)</value>
+    <comment>Vietnamese (Vietnam)</comment>
+  </data>
+  <data name="locale.hy-AM.name" xml:space="preserve">
+    <value>Armenisch (Armenien)</value>
+    <comment>Armenian (Armenia)</comment>
+  </data>
+  <data name="locale.az-Latn-AZ.name" xml:space="preserve">
+    <value>Aserbaidschanisch (Latein, Aserbaidschan)</value>
+    <comment>Azeri (Latin, Azerbaijan)</comment>
+  </data>
+  <data name="locale.eu-ES.name" xml:space="preserve">
+    <value>Baskisch (Baskisch)</value>
+    <comment>Basque (Basque)</comment>
+  </data>
+  <data name="locale.mk-MK.name" xml:space="preserve">
+    <value>Mazedonisch (Ehemalige Jugoslawische Republik Mazedonien)</value>
+    <comment>Macedonian (Former Yugoslav Republic of Macedonia)</comment>
+  </data>
+  <data name="locale.af-ZA.name" xml:space="preserve">
+    <value>Afrikaans (Südafrika)</value>
+    <comment>Afrikaans (South Africa)</comment>
+  </data>
+  <data name="locale.ka-GE.name" xml:space="preserve">
+    <value>Georgisch (Georgien)</value>
+    <comment>Georgian (Georgia)</comment>
+  </data>
+  <data name="locale.fo-FO.name" xml:space="preserve">
+    <value>Färöisch (Färöer-Inseln)</value>
+    <comment>Faroese (Faroe Islands)</comment>
+  </data>
+  <data name="locale.hi-IN.name" xml:space="preserve">
+    <value>Hindi (Indien)</value>
+    <comment>Hindi (India)</comment>
+  </data>
+  <data name="locale.ms-MY.name" xml:space="preserve">
+    <value>Malaiisch (Malaysia)</value>
+    <comment>Malay (Malaysia)</comment>
+  </data>
+  <data name="locale.kk-KZ.name" xml:space="preserve">
+    <value>Kasachisch (Kasachstan)</value>
+    <comment>Kazakh (Kazakhstan)</comment>
+  </data>
+  <data name="locale.ky-KG.name" xml:space="preserve">
+    <value>Kirgisisch (Kirgisistan)</value>
+    <comment>Kyrgyz (Kyrgyzstan)</comment>
+  </data>
+  <data name="locale.sw-KE.name" xml:space="preserve">
+    <value>Suaheli (Kenia)</value>
+    <comment>Kiswahili (Kenya)</comment>
+  </data>
+  <data name="locale.uz-Latn-UZ.name" xml:space="preserve">
+    <value>Usbekisch (Latein, Usbekistan)</value>
+    <comment>Uzbek (Latin, Uzbekistan)</comment>
+  </data>
+  <data name="locale.tt-RU.name" xml:space="preserve">
+    <value>Tatarisch (Russland)</value>
+    <comment>Tatar (Russia)</comment>
+  </data>
+  <data name="locale.pa-IN.name" xml:space="preserve">
+    <value>Punjabi (Indien)</value>
+    <comment>Punjabi (India)</comment>
+  </data>
+  <data name="locale.gu-IN.name" xml:space="preserve">
+    <value>Gujarati (Indien)</value>
+    <comment>Gujarati (India)</comment>
+  </data>
+  <data name="locale.ta-IN.name" xml:space="preserve">
+    <value>Tamilisch (Indien)</value>
+    <comment>Tamil (India)</comment>
+  </data>
+  <data name="locale.te-IN.name" xml:space="preserve">
+    <value>Telugu (Indien)</value>
+    <comment>Telugu (India)</comment>
+  </data>
+  <data name="locale.kn-IN.name" xml:space="preserve">
+    <value>Kannada (Indien)</value>
+    <comment>Kannada (India)</comment>
+  </data>
+  <data name="locale.mr-IN.name" xml:space="preserve">
+    <value>Marathi (Indien)</value>
+    <comment>Marathi (India)</comment>
+  </data>
+  <data name="locale.sa-IN.name" xml:space="preserve">
+    <value>Sanskrit (Indien)</value>
+    <comment>Sanskrit (India)</comment>
+  </data>
+  <data name="locale.mn-MN.name" xml:space="preserve">
+    <value>Mongolisch (Kyrillisch, Mongolei)</value>
+    <comment>Mongolian (Cyrillic, Mongolia)</comment>
+  </data>
+  <data name="locale.gl-ES.name" xml:space="preserve">
+    <value>Galicisch (Galicisch)</value>
+    <comment>Galician (Galician)</comment>
+  </data>
+  <data name="locale.kok-IN.name" xml:space="preserve">
+    <value>Konkani (Indien)</value>
+    <comment>Konkani (India)</comment>
+  </data>
+  <data name="locale.syr-SY.name" xml:space="preserve">
+    <value>Syrisch (Syrien)</value>
+    <comment>Syriac (Syria)</comment>
+  </data>
+  <data name="locale.dv-MV.name" xml:space="preserve">
+    <value>Dvivehi (Malediven)</value>
+    <comment>Divehi (Maldives)</comment>
+  </data>
+  <data name="locale.ar-IQ.name" xml:space="preserve">
+    <value>Arabisch (Irak)</value>
+    <comment>Arabic (Iraq)</comment>
+  </data>
+  <data name="locale.zh-CN.name" xml:space="preserve">
+    <value>Chinesisch (Volksrepublik China)</value>
+    <comment>Chinese (People's Republic of China)</comment>
+  </data>
+  <data name="locale.de-CH.name" xml:space="preserve">
+    <value>Deutsch (Schweiz)</value>
+    <comment>German (Switzerland)</comment>
+  </data>
+  <data name="locale.en-GB.name" xml:space="preserve">
+    <value>Englisch (Vereinigtes Königreich)</value>
+    <comment>English (United Kingdom)</comment>
+  </data>
+  <data name="locale.es-MX.name" xml:space="preserve">
+    <value>Spanisch (Mexiko)</value>
+    <comment>Spanish (Mexico)</comment>
+  </data>
+  <data name="locale.fr-BE.name" xml:space="preserve">
+    <value>Französisch (Belgien)</value>
+    <comment>French (Belgium)</comment>
+  </data>
+  <data name="locale.it-CH.name" xml:space="preserve">
+    <value>Italienisch (Schweiz)</value>
+    <comment>Italian (Switzerland)</comment>
+  </data>
+  <data name="locale.nl-BE.name" xml:space="preserve">
+    <value>Niederländisch (Belgien)</value>
+    <comment>Dutch (Belgium)</comment>
+  </data>
+  <data name="locale.nn-NO.name" xml:space="preserve">
+    <value>Norwegisch, Nynorsk (Norwegen)</value>
+    <comment>Norwegian, Nynorsk (Norway)</comment>
+  </data>
+  <data name="locale.pt-PT.name" xml:space="preserve">
+    <value>Portugiesisch (Portugal)</value>
+    <comment>Portuguese (Portugal)</comment>
+  </data>
+  <data name="locale.sr-Latn-CS.name" xml:space="preserve">
+    <value>Serbisch (Lateinisch, Serbien)</value>
+    <comment>Serbian (Latin, Serbia)</comment>
+  </data>
+  <data name="locale.sv-FI.name" xml:space="preserve">
+    <value>Schwedisch (Finnland)</value>
+    <comment>Swedish (Finland)</comment>
+  </data>
+  <data name="locale.az-Cyrl-AZ.name" xml:space="preserve">
+    <value>Aserbaidschanisch (Kyrillisch, Aserbaidschan)</value>
+    <comment>Azeri (Cyrillic, Azerbaijan)</comment>
+  </data>
+  <data name="locale.ms-BN.name" xml:space="preserve">
+    <value>Malaiisch (Brunei Darussalam)</value>
+    <comment>Malay (Brunei Darussalam)</comment>
+  </data>
+  <data name="locale.uz-Cyrl-UZ.name" xml:space="preserve">
+    <value>Usbekisch (Kyrillisch, Usbekistan)</value>
+    <comment>Uzbek (Cyrillic, Uzbekistan)</comment>
+  </data>
+  <data name="locale.ar-EG.name" xml:space="preserve">
+    <value>Arabisch (Ägypten)</value>
+    <comment>Arabic (Egypt)</comment>
+  </data>
+  <data name="locale.zh-HK.name" xml:space="preserve">
+    <value>Chinesisch (Hongkong S.A.R.)</value>
+    <comment>Chinese (Hong Kong S.A.R.)</comment>
+  </data>
+  <data name="locale.de-AT.name" xml:space="preserve">
+    <value>Deutsch (Österreich)</value>
+    <comment>German (Austria)</comment>
+  </data>
+  <data name="locale.en-AU.name" xml:space="preserve">
+    <value>Englisch (Australien)</value>
+    <comment>English (Australia)</comment>
+  </data>
+  <data name="locale.es-ES.name" xml:space="preserve">
+    <value>Spanisch (Spanien)</value>
+    <comment>Spanish (Spain)</comment>
+  </data>
+  <data name="locale.fr-CA.name" xml:space="preserve">
+    <value>Französisch (Kanada)</value>
+    <comment>French (Canada)</comment>
+  </data>
+  <data name="locale.sr-Cyrl-CS.name" xml:space="preserve">
+    <value>Serbisch (Kyrillisch, Serbien)</value>
+    <comment>Serbian (Cyrillic, Serbia)</comment>
+  </data>
+  <data name="locale.ar-LY.name" xml:space="preserve">
+    <value>Arabisch (Libyen)</value>
+    <comment>Arabic (Libya)</comment>
+  </data>
+  <data name="locale.zh-SG.name" xml:space="preserve">
+    <value>Chinesisch (Singapur)</value>
+    <comment>Chinese (Singapore)</comment>
+  </data>
+  <data name="locale.de-LU.name" xml:space="preserve">
+    <value>Deutsch (Luxemburg)</value>
+    <comment>German (Luxembourg)</comment>
+  </data>
+  <data name="locale.en-CA.name" xml:space="preserve">
+    <value>Englisch (Kanada)</value>
+    <comment>English (Canada)</comment>
+  </data>
+  <data name="locale.es-GT.name" xml:space="preserve">
+    <value>Spanisch (Guatemala)</value>
+    <comment>Spanish (Guatemala)</comment>
+  </data>
+  <data name="locale.fr-CH.name" xml:space="preserve">
+    <value>Französisch (Schweiz)</value>
+    <comment>French (Switzerland)</comment>
+  </data>
+  <data name="locale.ar-DZ.name" xml:space="preserve">
+    <value>Arabisch (Algerien)</value>
+    <comment>Arabic (Algeria)</comment>
+  </data>
+  <data name="locale.zh-MO.name" xml:space="preserve">
+    <value>Chinesisch (Macau S.A.R.)</value>
+    <comment>Chinese (Macao S.A.R.)</comment>
+  </data>
+  <data name="locale.de-LI.name" xml:space="preserve">
+    <value>Deutsch (Liechtenstein)</value>
+    <comment>German (Liechtenstein)</comment>
+  </data>
+  <data name="locale.en-NZ.name" xml:space="preserve">
+    <value>Englisch (Neuseeland)</value>
+    <comment>English (New Zealand)</comment>
+  </data>
+  <data name="locale.es-CR.name" xml:space="preserve">
+    <value>Spanisch (Costa Rica)</value>
+    <comment>Spanish (Costa Rica)</comment>
+  </data>
+  <data name="locale.fr-LU.name" xml:space="preserve">
+    <value>Französisch (Luxemburg)</value>
+    <comment>French (Luxembourg)</comment>
+  </data>
+  <data name="locale.ar-MA.name" xml:space="preserve">
+    <value>Arabisch (Marokko)</value>
+    <comment>Arabic (Morocco)</comment>
+  </data>
+  <data name="locale.en-IE.name" xml:space="preserve">
+    <value>Englisch (Irland)</value>
+    <comment>English (Ireland)</comment>
+  </data>
+  <data name="locale.es-PA.name" xml:space="preserve">
+    <value>Spanisch (Panama)</value>
+    <comment>Spanish (Panama)</comment>
+  </data>
+  <data name="locale.fr-MC.name" xml:space="preserve">
+    <value>Französisch (Fürstentum Monaco)</value>
+    <comment>French (Principality of Monaco)</comment>
+  </data>
+  <data name="locale.ar-TN.name" xml:space="preserve">
+    <value>Arabisch (Tunesien)</value>
+    <comment>Arabic (Tunisia)</comment>
+  </data>
+  <data name="locale.en-ZA.name" xml:space="preserve">
+    <value>Englisch (Südafrika)</value>
+    <comment>English (South Africa)</comment>
+  </data>
+  <data name="locale.es-DO.name" xml:space="preserve">
+    <value>Spanisch (Dominikanische Republik)</value>
+    <comment>Spanish (Dominican Republic)</comment>
+  </data>
+  <data name="locale.ar-OM.name" xml:space="preserve">
+    <value>Arabisch (Oman)</value>
+    <comment>Arabic (Oman)</comment>
+  </data>
+  <data name="locale.en-JM.name" xml:space="preserve">
+    <value>Englisch (Jamaika)</value>
+    <comment>English (Jamaica)</comment>
+  </data>
+  <data name="locale.es-VE.name" xml:space="preserve">
+    <value>Spanisch (Venezuela)</value>
+    <comment>Spanish (Venezuela)</comment>
+  </data>
+  <data name="locale.ar-YE.name" xml:space="preserve">
+    <value>Arabisch (Jemen)</value>
+    <comment>Arabic (Yemen)</comment>
+  </data>
+  <data name="locale.en-029.name" xml:space="preserve">
+    <value>Englisch (Karibik)</value>
+    <comment>English (Caribbean)</comment>
+  </data>
+  <data name="locale.es-CO.name" xml:space="preserve">
+    <value>Spanisch (Kolumbien)</value>
+    <comment>Spanish (Colombia)</comment>
+  </data>
+  <data name="locale.ar-SY.name" xml:space="preserve">
+    <value>Arabisch (Syrien)</value>
+    <comment>Arabic (Syria)</comment>
+  </data>
+  <data name="locale.en-BZ.name" xml:space="preserve">
+    <value>Englisch (Belize)</value>
+    <comment>English (Belize)</comment>
+  </data>
+  <data name="locale.es-PE.name" xml:space="preserve">
+    <value>Spanisch (Peru)</value>
+    <comment>Spanish (Peru)</comment>
+  </data>
+  <data name="locale.ar-JO.name" xml:space="preserve">
+    <value>Arabisch (Jordanien)</value>
+    <comment>Arabic (Jordan)</comment>
+  </data>
+  <data name="locale.en-TT.name" xml:space="preserve">
+    <value>Englisch (Trinidad und Tobago)</value>
+    <comment>English (Trinidad and Tobago)</comment>
+  </data>
+  <data name="locale.es-AR.name" xml:space="preserve">
+    <value>Spanisch (Argentinien)</value>
+    <comment>Spanish (Argentina)</comment>
+  </data>
+  <data name="locale.ar-LB.name" xml:space="preserve">
+    <value>Arabisch (Libanon)</value>
+    <comment>Arabic (Lebanon)</comment>
+  </data>
+  <data name="locale.en-ZW.name" xml:space="preserve">
+    <value>Englisch (Simbabwe)</value>
+    <comment>English (Zimbabwe)</comment>
+  </data>
+  <data name="locale.es-EC.name" xml:space="preserve">
+    <value>Spanisch (Ecuador)</value>
+    <comment>Spanish (Ecuador)</comment>
+  </data>
+  <data name="locale.ar-KW.name" xml:space="preserve">
+    <value>Arabisch (Kuwait)</value>
+    <comment>Arabic (Kuwait)</comment>
+  </data>
+  <data name="locale.en-PH.name" xml:space="preserve">
+    <value>Englisch (Republik der Philippinen)</value>
+    <comment>English (Republic of the Philippines)</comment>
+  </data>
+  <data name="locale.es-CL.name" xml:space="preserve">
+    <value>Spanisch (Chile)</value>
+    <comment>Spanish (Chile)</comment>
+  </data>
+  <data name="locale.ar-AE.name" xml:space="preserve">
+    <value>Arabisch (V.A.E.)</value>
+    <comment>Arabic (U.A.E.)</comment>
+  </data>
+  <data name="locale.es-UY.name" xml:space="preserve">
+    <value>Spanisch (Uruguay)</value>
+    <comment>Spanish (Uruguay)</comment>
+  </data>
+  <data name="locale.ar-BH.name" xml:space="preserve">
+    <value>Arabisch (Bahrain)</value>
+    <comment>Arabic (Bahrain)</comment>
+  </data>
+  <data name="locale.es-PY.name" xml:space="preserve">
+    <value>Spanisch (Paraguay)</value>
+    <comment>Spanish (Paraguay)</comment>
+  </data>
+  <data name="locale.ar-QA.name" xml:space="preserve">
+    <value>Arabisch (Katar)</value>
+    <comment>Arabic (Qatar)</comment>
+  </data>
+  <data name="locale.es-BO.name" xml:space="preserve">
+    <value>Spanisch (Bolivien)</value>
+    <comment>Spanish (Bolivia)</comment>
+  </data>
+  <data name="locale.es-SV.name" xml:space="preserve">
+    <value>Spanisch (El Salvador)</value>
+    <comment>Spanish (El Salvador)</comment>
+  </data>
+  <data name="locale.es-HN.name" xml:space="preserve">
+    <value>Spanisch (Honduras)</value>
+    <comment>Spanish (Honduras)</comment>
+  </data>
+  <data name="locale.es-NI.name" xml:space="preserve">
+    <value>Spanisch (Nicaragua)</value>
+    <comment>Spanish (Nicaragua)</comment>
+  </data>
+  <data name="locale.es-PR.name" xml:space="preserve">
+    <value>Spanisch (Puerto Rico)</value>
+    <comment>Spanish (Puerto Rico)</comment>
+  </data>
+  <data name="locale.sma-NO.name" xml:space="preserve">
+    <value>Sami, Südlich (Norwegen)</value>
+    <comment>Sami, Southern (Norway)</comment>
+  </data>
+  <data name="locale.sr-Cyrl-BA.name" xml:space="preserve">
+    <value>Serbisch (Kyrillisch, Bosnien und Herzegowina)</value>
+    <comment>Serbian (Cyrillic, Bosnia and Herzegovina)</comment>
+  </data>
+  <data name="locale.zu-ZA.name" xml:space="preserve">
+    <value>Zulu</value>
+    <comment>Zulu</comment>
+  </data>
+  <data name="locale.xh-ZA.name" xml:space="preserve">
+    <value>Xhosa</value>
+    <comment>Xhosa</comment>
+  </data>
+  <data name="locale.fy-NL.name" xml:space="preserve">
+    <value>Friesisch (Niederlande)</value>
+    <comment>Frisian (Netherlands)</comment>
+  </data>
+  <data name="locale.tn-ZA.name" xml:space="preserve">
+    <value>Setswana (Südafrika)</value>
+    <comment>Setswana (South Africa)</comment>
+  </data>
+  <data name="locale.se-SE.name" xml:space="preserve">
+    <value>Sami, Nord (Schweden)</value>
+    <comment>Sami, Northern (Sweden)</comment>
+  </data>
+  <data name="locale.sma-SE.name" xml:space="preserve">
+    <value>Sami, Südlich (Schweden)</value>
+    <comment>Sami, Southern (Sweden)</comment>
+  </data>
+  <data name="locale.fil-PH.name" xml:space="preserve">
+    <value>Filipino (Philippinen)</value>
+    <comment>Filipino (Philippines)</comment>
+  </data>
+  <data name="locale.smn-FI.name" xml:space="preserve">
+    <value>Sami, Inari (Finnland)</value>
+    <comment>Sami, Inari (Finland)</comment>
+  </data>
+  <data name="locale.quz-PE.name" xml:space="preserve">
+    <value>Quechua (Peru)</value>
+    <comment>Quechua (Peru)</comment>
+  </data>
+  <data name="locale.se-FI.name" xml:space="preserve">
+    <value>Sami, Nord (Finnland)</value>
+    <comment>Sami, Northern (Finland)</comment>
+  </data>
+  <data name="locale.sms-FI.name" xml:space="preserve">
+    <value>Sami, Skolt (Finnland)</value>
+    <comment>Sami, Skolt (Finland)</comment>
+  </data>
+  <data name="locale.cy-GB.name" xml:space="preserve">
+    <value>Walisisch</value>
+    <comment>Welsh</comment>
+  </data>
+  <data name="locale.hr-BA.name" xml:space="preserve">
+    <value>Kroatisch (Bosnien und Herzegowina)</value>
+    <comment>Croatian (Bosnia and Herzegovina)</comment>
+  </data>
+  <data name="locale.iu-Latn-CA.name" xml:space="preserve">
+    <value>Inuktitut (Lateinisch, Kanada)</value>
+    <comment>Inuktitut (Latin, Canada)</comment>
+  </data>
+  <data name="locale.bs-Cyrl-BA.name" xml:space="preserve">
+    <value>Bosnisch (Kyrillisch, Bosnien und Herzegowina)</value>
+    <comment>Bosnian (Cyrillic, Bosnia and Herzegovina)</comment>
+  </data>
+  <data name="locale.moh-CA.name" xml:space="preserve">
+    <value>Mohawk (Mohawk)</value>
+    <comment>Mohawk (Mohawk)</comment>
+  </data>
+  <data name="locale.smj-NO.name" xml:space="preserve">
+    <value>Sami, Lule (Norwegen)</value>
+    <comment>Sami, Lule (Norway)</comment>
+  </data>
+  <data name="locale.arn-CL.name" xml:space="preserve">
+    <value>Mapudungun (Chile)</value>
+    <comment>Mapudungun (Chile)</comment>
+  </data>
+  <data name="locale.mi-NZ.name" xml:space="preserve">
+    <value>Maori</value>
+    <comment>Maori</comment>
+  </data>
+  <data name="locale.quz-EC.name" xml:space="preserve">
+    <value>Quechua (Ecuador)</value>
+    <comment>Quechua (Ecuador)</comment>
+  </data>
+  <data name="locale.ga-IE.name" xml:space="preserve">
+    <value>Irisch (Irland)</value>
+    <comment>Irish (Ireland)</comment>
+  </data>
+  <data name="locale.rm-CH.name" xml:space="preserve">
+    <value>Rätoromanisch (Schweiz)</value>
+    <comment>Romansh (Switzerland)</comment>
+  </data>
+  <data name="locale.sr-Latn-BA.name" xml:space="preserve">
+    <value>Serbisch (Lateinisch, Bosnien und Herzegowina)</value>
+    <comment>Serbian (Latin, Bosnia and Herzegovina)</comment>
+  </data>
+  <data name="locale.smj-SE.name" xml:space="preserve">
+    <value>Sami, Lule (Schweden)</value>
+    <comment>Sami, Lule (Sweden)</comment>
+  </data>
+  <data name="locale.lb-LU.name" xml:space="preserve">
+    <value>Luxemburgisch (Luxemburg)</value>
+    <comment>Luxembourgish (Luxembourg)</comment>
+  </data>
+  <data name="locale.ns-ZA.name" xml:space="preserve">
+    <value>Sesotho sa Leboa (Südafrika)</value>
+    <comment>Sesotho sa Leboa (South Africa)</comment>
+  </data>
+  <data name="locale.quz-BO.name" xml:space="preserve">
+    <value>Quechua (Bolivien)</value>
+    <comment>Quechua (Bolivia)</comment>
+  </data>
+  <data name="locale.se-NO.name" xml:space="preserve">
+    <value>Samisch, Nordsamisch (Norwegen)</value>
+    <comment>Sami, Northern (Norway)</comment>
+  </data>
+  <data name="locale.mt-MT.name" xml:space="preserve">
+    <value>Maltesisch</value>
+    <comment>Maltese</comment>
+  </data>
+  <data name="locale.bs-Latn-BA.name" xml:space="preserve">
+    <value>Bosnisch (Lateinisch, Bosnien und Herzegowina)</value>
+    <comment>Bosnian (Latin, Bosnia and Herzegovina)</comment>
+  </data>
+</root>

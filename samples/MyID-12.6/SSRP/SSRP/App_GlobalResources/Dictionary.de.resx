@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="E0000" xml:space="preserve">
+    <value>Etwas ist schiefgelaufen</value>
+    <comment>Something went wrong</comment>
+  </data>
+  <data name="E0001" xml:space="preserve">
+    <value>Die Anfrage kann nicht fortgesetzt werden</value>
+    <comment>The request cannot continue</comment>
+  </data>
+  <data name="E0002" xml:space="preserve">
+    <value>Zertifikat konnte nicht erhalten werden</value>
+    <comment>Could not obtain certificate</comment>
+  </data>
+  <data name="E0003" xml:space="preserve">
+    <value>Die Anfrage kann nicht fortgesetzt werden</value>
+    <comment>The request cannot continue</comment>
+  </data>
+  <data name="E0004" xml:space="preserve">
+    <value>Anforderung nicht erlaubt</value>
+    <comment>Request Not Allowed</comment>
+  </data>
+  <data name="E0005" xml:space="preserve">
+    <value>Mehrere Anmeldeprofil verfügbar</value>
+    <comment>Multiple Credential Profiles Available</comment>
+  </data>
+  <data name="E0006" xml:space="preserve">
+    <value>Die Anfrage kann nicht fortgesetzt werden</value>
+    <comment>The request cannot continue</comment>
+  </data>
+  <data name="E0007" xml:space="preserve">
+    <value>Konto nicht gefunden</value>
+    <comment>Account Not Found</comment>
+  </data>
+  <data name="E0008" xml:space="preserve">
+    <value>Etwas ist schief gelaufen</value>
+    <comment>Something went wrong</comment>
+  </data>
+  <data name="E0009" xml:space="preserve">
+    <value>Die Anforderung kann nicht erstellt werden, da erforderliche Informationen nicht verfügbar sind.</value>
+    <comment>The request cannot be created because required information is not available.</comment>
+  </data>
+  <data name="E0010" xml:space="preserve">
+    <value>Der Benutzer kann aufgrund von Rollenbeschränkungen nicht importiert werden.</value>
+    <comment>The user cannot be imported due to role restrictions.</comment>
+  </data>
+  <data name="E0011" xml:space="preserve">
+    <value>Konfigurationsfehler, bitte kontaktieren Sie Ihren Administrator.</value>
+    <comment>Configuration error, please contact your administrator.</comment>
+  </data>
+  <data name="E0012" xml:space="preserve">
+    <value>Authentifizierung fehlgeschlagen</value>
+    <comment>Authentication Failed</comment>
+  </data>
+  <data name="E0013" xml:space="preserve">
+    <value>Ungültige Berechtigungen</value>
+    <comment>Invalid Permissions</comment>
+  </data>
+  <data name="E0401" xml:space="preserve">
+    <value>Nicht autorisiert</value>
+    <comment>Unauthorised</comment>
+  </data>
+  <data name="E0403" xml:space="preserve">
+    <value>Kein Zertifikat ausgewählt</value>
+    <comment>No Certificate Selected</comment>
+  </data>
+  <data name="E0404" xml:space="preserve">
+    <value>Seite nicht gefunden</value>
+    <comment>Page Not Found</comment>
+  </data>
+  <data name="E0500" xml:space="preserve">
+    <value>Interner Serverfehler</value>
+    <comment>Internal Server Error</comment>
+  </data>
+  <data name="ED0000" xml:space="preserve">
+    <value>Die Anfrage kann nicht fortgesetzt werden.</value>
+    <comment>The request cannot continue</comment>
+  </data>
+  <data name="ED0001" xml:space="preserve">
+    <value>Etwas ist schiefgelaufen</value>
+    <comment>Something went wrong</comment>
+  </data>
+  <data name="ED0002" xml:space="preserve">
+    <value>Ist die Website für SSL konfiguriert?</value>
+    <comment>Is the site configured for SSL?</comment>
+  </data>
+  <data name="ED0003" xml:space="preserve">
+    <value>Für die Anfrage sind keine geeigneten Berechtigungsprofile vorhanden</value>
+    <comment>There are no suitable credential profiles for the request</comment>
+  </data>
+  <data name="ED0004" xml:space="preserve">
+    <value>Das angeforderte Berechtigungsprofil steht Ihnen nicht zur Verfügung. Starten Sie den Vorgang neu, um ein gültiges Profil auszuwählen.</value>
+    <comment>The requested credential profile is not available to you.  Restart the process to select a valid profile.</comment>
+  </data>
+  <data name="ED0005" xml:space="preserve">
+    <value>Es sind mehrere Profile verfügbar, und eines muss ausgewählt werden.</value>
+    <comment>There are multiple profiles available and one will need to be selected</comment>
+  </data>
+  <data name="ED0006" xml:space="preserve">
+    <value>Die Anfrage befindet sich in einem unbekannten Zustand</value>
+    <comment>The request is in an unrecognised state</comment>
+  </data>
+  <data name="ED0007" xml:space="preserve">
+    <value>Ihr Zertifikat kann keinem Konto im System zugeordnet werden. Die Anfrage kann nicht fortgesetzt werden.</value>
+    <comment>Cannot match your certificate to an account in the system.  The request cannot continue</comment>
+  </data>
+  <data name="ED0008" xml:space="preserve">
+    <value>Die Anfrage kann nicht fortgesetzt werden</value>
+    <comment>The request cannot continue</comment>
+  </data>
+  <data name="ED0012" xml:space="preserve">
+    <value>Die Authentifizierung beim Identitätsanbieter ist fehlgeschlagen</value>
+    <comment>Authentication to the Identity Provider failed</comment>
+  </data>
+  <data name="ED0013" xml:space="preserve">
+    <value>Ihr Konto hat keine Berechtigung für diese Berechtigung.</value>
+    <comment>Your account does not have permission for this credential</comment>
+  </data>
+  <data name="ED0401" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Seite anzusehen.</value>
+    <comment>You do not have permission to view this page.</comment>
+  </data>
+  <data name="ED0403" xml:space="preserve">
+    <value>Sie haben kein Zertifikat zur Identifikation ausgewählt&lt;br/&gt;Um ein Zertifikat auszuwählen, müssen Sie alle Ihre Browser schließen und es erneut versuchen.&lt;br/&gt;Detaillierte Hilfe zur Zertifikatsauswahl ist zu Beginn dieses Vorgangs verfügbar.</value>
+    <comment>You have not selected a certificate to identify yourself&lt;br/&gt;To select a certificate you will need to close all of your browsers and try again.&lt;br/&gt;Detailed certificate selection help is available at the start of this process.</comment>
+  </data>
+  <data name="ED0404" xml:space="preserve">
+    <value>Die angeforderte Seite wurde nicht gefunden.</value>
+    <comment>The requested page was not found.</comment>
+  </data>
+  <data name="ED0500" xml:space="preserve">
+    <value>Der Server hat einen unerwarteten Fehler gemeldet.</value>
+    <comment>The server has reported an unexpected error.</comment>
+  </data>
+  <data name="ID1001" xml:space="preserve">
+    <value>Self-Service-Anfrageportal</value>
+    <comment>Self-Service Request Portal</comment>
+  </data>
+  <data name="ID1002" xml:space="preserve">
+    <value>Sie haben mehrere Optionen zur Auswahl, welche möchten Sie?</value>
+    <comment>You have a few options available, which would you like?</comment>
+  </data>
+  <data name="ID1003" xml:space="preserve">
+    <value>Ein Problem ist aufgetreten</value>
+    <comment>A problem has occurred</comment>
+  </data>
+  <data name="ID1004" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="ID1005" xml:space="preserve">
+    <value>Den Vorgang neu starten</value>
+    <comment>Restart the process</comment>
+  </data>
+  <data name="ID1006" xml:space="preserve">
+    <value>Ihre abgeleiteten Anmeldeinformationen sind zur Abholung bereit</value>
+    <comment>Your Derived Credentials are ready for collection</comment>
+  </data>
+  <data name="ID1007" xml:space="preserve">
+    <value>Bitte verwenden Sie den unten stehenden Link, um die Self-Service-Anwendung zu starten und Ihre virtuelle Smartcard zu sammeln.</value>
+    <comment>Please use the link below to start the Self Service Application to collect your Virtual Smart Card</comment>
+  </data>
+  <data name="ID1008" xml:space="preserve">
+    <value>Zusätzliche Genehmigung ist erforderlich. Sie werden benachrichtigt, wenn Ihre Berechtigungsnachweise zur Abholung bereitstehen.</value>
+    <comment>Additional approval is required.  You will be notified when your credentials are ready for collection.</comment>
+  </data>
+  <data name="ID1009" xml:space="preserve">
+    <value>Starten Sie die Identity Agent- oder MyID Authenticator-App auf Ihrem Mobilgerät und scannen Sie den obigen QR-Code.</value>
+    <comment>Launch the Identity Agent or MyID Authenticator app on your mobile device and scan the QR code above</comment>
+  </data>
+  <data name="ID1010" xml:space="preserve">
+    <value>Anfrage wird bearbeitet</value>
+    <comment>Processing Request</comment>
+  </data>
+  <data name="ID1011" xml:space="preserve">
+    <value>Dies kann einige Momente dauern.</value>
+    <comment>This may take a few moments</comment>
+  </data>
+  <data name="ID1012" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ID1013" xml:space="preserve">
+    <value>Beenden</value>
+    <comment>Finish</comment>
+  </data>
+  <data name="ID1014" xml:space="preserve">
+    <value>Beenden Sie den Vorgang und kehren Sie zum Hauptbildschirm zurück</value>
+    <comment>Finish the process and return to the main screen</comment>
+  </data>
+  <data name="ID1015" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="ID1016" xml:space="preserve">
+    <value>Zurück zum Hauptbildschirm.</value>
+    <comment>Return to the main screen.</comment>
+  </data>
+  <data name="ID1017" xml:space="preserve">
+    <value>Ihre abgeleiteten Anmeldeinformationen wurden angefordert</value>
+    <comment>Your Derived Credentials have been requested</comment>
+  </data>
+  <data name="ID1018" xml:space="preserve">
+    <value>HTTP-Fehler</value>
+    <comment>HTTP Error</comment>
+  </data>
+  <data name="ID1019" xml:space="preserve">
+    <value>Fehlercode</value>
+    <comment>Error Code</comment>
+  </data>
+  <data name="ID1020" xml:space="preserve">
+    <value>Android-App herunterladen</value>
+    <comment>Get Android App</comment>
+  </data>
+  <data name="ID1021" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ID1022" xml:space="preserve">
+    <value>iOS-App herunterladen</value>
+    <comment>Get iOS App</comment>
+  </data>
+  <data name="ID1023" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ID1024" xml:space="preserve">
+    <value>Schließen</value>
+    <comment>Close</comment>
+  </data>
+  <data name="ID1025" xml:space="preserve">
+    <value>Dieses Dialogfeld schließen</value>
+    <comment>Close this dialog</comment>
+  </data>
+  <data name="Android01" xml:space="preserve">
+    <value>Identitäts-Agent für Android herunterladen</value>
+    <comment>Download Identity Agent for android</comment>
+  </data>
+  <data name="Android02" xml:space="preserve">
+    <value>Um den Identity Agent für Android herunterzuladen, scannen Sie den untenstehenden QR-Code. Dadurch gelangen Sie zum App Store.</value>
+    <comment>To download Identity Agent for Android, scan the QR code below.  This will take you to the app in the app store.</comment>
+  </data>
+  <data name="Android03" xml:space="preserve">
+    <value>Installieren Sie die App, klicken Sie auf Schließen und scannen Sie dann den Sammel-QR-Code, um Ihre Berechtigungsnachweise zu sammeln.</value>
+    <comment>Install the app, click Close then scan the collection QR code to collect your credentials.</comment>
+  </data>
+  <data name="iOS01" xml:space="preserve">
+    <value>Identity Agent für iOS herunterladen</value>
+    <comment>Download Identity Agent for iOS</comment>
+  </data>
+  <data name="iOS02" xml:space="preserve">
+    <value>Um den Identity Agent für iOS herunterzuladen, scannen Sie den untenstehenden QR-Code. Dies führt Sie zur App im App Store.</value>
+    <comment>To download Identity Agent for iOS, scan the QR code below.  This will take you to the app in the app store.</comment>
+  </data>
+  <data name="iOS03" xml:space="preserve">
+    <value>Installieren Sie die App, klicken Sie auf Schließen und scannen Sie dann den Sammlung QR-Code, um Ihre Zugangsdaten zu erfassen.</value>
+    <comment>Install the app, click Close then scan the collection QR code to collect your credentials.</comment>
+  </data>
+  <data name="StartUrl" xml:space="preserve">
+    <value>/Start</value>
+    <comment>/Start</comment>
+  </data>
+  <data name="StartPageUrl" xml:space="preserve">
+    <value>/Startseite</value>
+    <comment>/StartPage</comment>
+  </data>
+  <data name="ID1026" xml:space="preserve">
+    <value>Geben Sie diesen Authentifizierungscode ein, wenn Sie dazu aufgefordert werden:</value>
+    <comment>Enter this authentication code when prompted: </comment>
+  </data>
+  <data name="ID1027" xml:space="preserve">
+    <value>Bitte verwenden Sie den unten stehenden Link, um die Self-Service-Anwendung zu starten und Ihre Virtuelle Smartcard zu erstellen.</value>
+    <comment>Please use the link below to start the Self Service Application to collect your Virtual Smart Card</comment>
+  </data>
+  <data name="ID1028" xml:space="preserve">
+    <value>Self-Service-Anwendung starten</value>
+    <comment>Start Self Service Application</comment>
+  </data>
+  <data name="ID1029" xml:space="preserve">
+    <value>Bitte verwenden Sie den untenstehenden Link, um die Self-Service-Anwendung zu starten, Ihre Berechtigung abzurufen und den angezeigten Authentifizierungscode einzugeben, wenn Sie dazu aufgefordert werden.</value>
+    <comment>Please use the link below to start the Self Service Application to collect your credential and enter the Authentication Code shown when prompted</comment>
+  </data>
+  <data name="ID1030" xml:space="preserve">
+    <value>Selbstbedienungsanwendung starten</value>
+    <comment>Start Self Service Application</comment>
+  </data>
+  <data name="ID1031" xml:space="preserve">
+    <value>Bitte verwenden Sie den untenstehenden Link, um die Registrierung Ihrer FIDO-Anmeldeinformation zu starten.</value>
+    <comment>Please use the link below to start the registration of your FIDO credential. </comment>
+  </data>
+  <data name="ID1032" xml:space="preserve">
+    <value>Sie haben eine E-Mail erhalten, die die Details enthält, die Sie zur Registrierung Ihres FIDO-Tokens benötigen. Für die Registrierung benötigen Sie einen Aktivierungscode. Dieser wurde Ihnen separat zugesandt.</value>
+    <comment>You have been sent an email containing the details you need to register your FIDO token.  To perform the registration you will require an activation code.  This has been sent to you seperately.</comment>
+  </data>
+  <data name="ID1033" xml:space="preserve">
+    <value>Jetzt sammeln</value>
+    <comment>Collect Now</comment>
+  </data>
+  <data name="ID1034" xml:space="preserve">
+    <value>Wenn Ihnen kein geeignetes Gerät zur Registrierung zur Verfügung steht, können Sie diesen Vorgang wiederholen, sobald Sie eines haben.</value>
+    <comment>If you do not have a suitable device available to register you can repeat this process when you do.</comment>
+  </data>
+  <data name="ID1035" xml:space="preserve">
+    <value>Jetzt sammeln mit %1</value>
+    <comment>Collect now using %1</comment>
+  </data>
+  <data name="ID1036" xml:space="preserve">
+    <value>Bitte verwenden Sie den untenstehenden Link, um Ihre Berechtigung abzuholen.</value>
+    <comment>Please use the link below to collect your credential</comment>
+  </data>
+</root>

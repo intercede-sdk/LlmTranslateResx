@@ -1,0 +1,827 @@
+<root>
+     <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+        <xsd:element name="root" msdata:IsDataSet="true">
+        <xsd:complexType>
+            <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="metadata">
+                <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                </xsd:sequence>
+                <xsd:attribute name="name" use="required" type="xsd:string" />
+                <xsd:attribute name="type" type="xsd:string" />
+                <xsd:attribute name="mimetype" type="xsd:string" />
+                <xsd:attribute ref="xml:space" />
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="assembly">
+                <xsd:complexType>
+                <xsd:attribute name="alias" type="xsd:string" />
+                <xsd:attribute name="name" type="xsd:string" />
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="data">
+                <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                <xsd:attribute ref="xml:space" />
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resheader">
+                <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" />
+                </xsd:complexType>
+            </xsd:element>
+            </xsd:choice>
+        </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+	<data name="1803.0" xml_space="preserve">
+		<value>Create Card Profile</value>
+	</data>
+	<data name="1807.0" xml_space="preserve">
+		<value>Card Profiles</value>
+	</data>
+	<data name="2096.0" xml_space="preserve">
+		<value>Please contact your system administrator.</value>
+	</data>
+	<data name="2977.0" xml_space="preserve">
+		<value>There was an error communicating with the device.</value>
+	</data>
+	<data name="2978.0" xml_space="preserve">
+		<value>Please check your configuration. If the problem occurs again, contact customer support.</value>
+	</data>
+	<data name="10204.0" xml_space="preserve">
+		<value>There has been an error adding the user or the user already exists in the database</value>
+	</data>
+	<data name="21596.0" xml_space="preserve">
+		<value>Invalid Device</value>
+	</data>
+	<data name="21618.0" xml_space="preserve">
+		<value>This device does not support One Time Passwords</value>
+	</data>
+	<data name="21619.0" xml_space="preserve">
+		<value>This device has not been licensed for use</value>
+	</data>
+	<data name="21628.0" xml_space="preserve">
+		<value>Device Already Assigned</value>
+	</data>
+	<data name="21629.0" xml_space="preserve">
+		<value>This device is already assigned to a user</value>
+	</data>
+	<data name="21633.0" xml_space="preserve">
+		<value>Invalid Card Profile</value>
+	</data>
+	<data name="21642.0" xml_space="preserve">
+		<value>The card is not compatible with the card profile.</value>
+	</data>
+	<data name="21643.0" xml_space="preserve">
+		<value>The card does not have enough space on it to receive the card profile.</value>
+	</data>
+	<data name="21647.0" xml_space="preserve">
+		<value>Only devices known to the system can be issued this card profile. The current card is unknown.</value>
+	</data>
+	<data name="82441.0" xml_space="preserve">
+		<value>Please try restarting the workflow or contact the system administrator</value>
+	</data>
+	<data name="85118.0" xml_space="preserve">
+		<value>The 9B key for this device has not been configured or has been configured incorrectly.  This needs to be corrected before issuance can continue.</value>
+	</data>
+	<data name="85119.0" xml_space="preserve">
+		<value>The 9B key specified for this device is incorrect.  This needs to be corrected before issuance can continue.</value>
+	</data>
+	<data name="85120.0" xml_space="preserve">
+		<value>The 9B key specified for this device is incorrect.  This needs to be corrected before issuance can continue.</value>
+	</data>
+	<data name="85121.0" xml_space="preserve">
+		<value>The 9B key specified for this device is incorrect.  Please ensure that the correct Encryption Type has been selected.  This needs to be corrected before issuance can continue.</value>
+	</data>
+	<data name="85167.0" xml_space="preserve">
+		<value>The key for this device has not been configured or has been configured incorrectly.  This needs to be corrected before issuance can continue</value>
+	</data>
+	<data name="91161.0" xml_space="preserve">
+		<value>Get User Details</value>
+	</data>
+	<data name="92083.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="92122.0" xml_space="preserve">
+		<value>Select Card Profile</value>
+	</data>
+	<data name="92126.0" xml_space="preserve">
+		<value>Assign Asset</value>
+	</data>
+	<data name="92152.0" xml_space="preserve">
+		<value>Select Card Profile</value>
+	</data>
+	<data name="92174.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="92176.0" xml_space="preserve">
+		<value>Verify User</value>
+	</data>
+	<data name="92183.0" xml_space="preserve">
+		<value>Find Device</value>
+	</data>
+	<data name="92200.0" xml_space="preserve">
+		<value>List Devices</value>
+	</data>
+	<data name="92201.0" xml_space="preserve">
+		<value>List Devices</value>
+	</data>
+	<data name="92215.0" xml_space="preserve">
+		<value>Assign Asset</value>
+	</data>
+	<data name="92300.0" xml_space="preserve">
+		<value>List Devices (Admin)</value>
+	</data>
+	<data name="92301.0" xml_space="preserve">
+		<value>List Devices (Admin)</value>
+	</data>
+	<data name="92343.0" xml_space="preserve">
+		<value>Find Device</value>
+	</data>
+	<data name="92423.0" xml_space="preserve">
+		<value>Update Device</value>
+	</data>
+	<data name="92431.0" xml_space="preserve">
+		<value>Identify Device</value>
+	</data>
+	<data name="92510.0" xml_space="preserve">
+		<value>Activate My Device</value>
+	</data>
+	<data name="92512.0" xml_space="preserve">
+		<value>Device Serial Number Verification</value>
+	</data>
+	<data name="92513.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="92602.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="92665.0" xml_space="preserve">
+		<value>Card Profile Details</value>
+	</data>
+	<data name="92761.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="92762.0" xml_space="preserve">
+		<value>Device Details</value>
+	</data>
+	<data name="96033.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="96043.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="96053.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="96063.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="98031.0" xml_space="preserve">
+		<value>Card Profile Details</value>
+	</data>
+	<data name="98051.0" xml_space="preserve">
+		<value>Get Devices</value>
+	</data>
+	<data name="98052.0" xml_space="preserve">
+		<value>Export Devices</value>
+	</data>
+	<data name="98072.0" xml_space="preserve">
+		<value>Card Profile Details</value>
+	</data>
+	<data name="98410.0" xml_space="preserve">
+		<value>Add Assets</value>
+	</data>
+	<data name="98411.0" xml_space="preserve">
+		<value>Add Assets</value>
+	</data>
+	<data name="98420.0" xml_space="preserve">
+		<value>Edit Assets</value>
+	</data>
+	<data name="98421.0" xml_space="preserve">
+		<value>Edit Assets</value>
+	</data>
+	<data name="115050.0" xml_space="preserve">
+		<value>%1 - User %2 requested a card replacement.</value>
+	</data>
+	<data name="410007.0" xml_space="preserve">
+		<value>Please call your System Administrator</value>
+	</data>
+	<data name="410014.0" xml_space="preserve">
+		<value>Contact your System Administrator and request that your scope be increased to "All"</value>
+	</data>
+	<data name="410023.0" xml_space="preserve">
+		<value>Try reducing the amount of content in the card profile. If this is not possible, try using devices with a higher content capacity.</value>
+	</data>
+	<data name="410024.0" xml_space="preserve">
+		<value>Incorrect configuration of public and private sectors on the device.</value>
+	</data>
+	<data name="410025.0" xml_space="preserve">
+		<value>Try repersonalizing the device to provide enough space in the relevant areas</value>
+	</data>
+	<data name="410027.0" xml_space="preserve">
+		<value>The user does not have sufficient privileges to carry out this action</value>
+	</data>
+	<data name="410028.0" xml_space="preserve">
+		<value>You do not have permission to update users of this role</value>
+	</data>
+	<data name="410029.0" xml_space="preserve">
+		<value>Contact your System Administrator</value>
+	</data>
+	<data name="410033.0" xml_space="preserve">
+		<value>The card profile cannot be deleted as it is in use</value>
+	</data>
+	<data name="410034.0" xml_space="preserve">
+		<value>There may be jobs pending for the card profile</value>
+	</data>
+	<data name="410035.0" xml_space="preserve">
+		<value>Cancel any pending jobs for the card profile</value>
+	</data>
+	<data name="410038.0" xml_space="preserve">
+		<value>There has been a problem generating the content for the device</value>
+	</data>
+	<data name="410043.0" xml_space="preserve">
+		<value>The device does not support the PIN type selected.</value>
+	</data>
+	<data name="410044.0" xml_space="preserve">
+		<value>Ensure the Authentication Service selected within the Card Profile match the capabilities of the device.</value>
+	</data>
+	<data name="410047.0" xml_space="preserve">
+		<value>The device does not have GlobalPlatform Keys set up or may not support applets.</value>
+	</data>
+	<data name="410058.0" xml_space="preserve">
+		<value>Please check there is enough available space on the card to complete this operation. If the problem occurs again, contact customer support.</value>
+	</data>
+	<data name="410071.0" xml_space="preserve">
+		<value>Please check this card supports the selected card profile</value>
+	</data>
+	<data name="410072.0" xml_space="preserve">
+		<value>You cannot collect this device because your original device has expired.</value>
+	</data>
+	<data name="420000.0" xml_space="preserve">
+		<value>User cannot be issued with certificates.</value>
+	</data>
+	<data name="420001.0" xml_space="preserve">
+		<value>Different device selected</value>
+	</data>
+	<data name="420002.0" xml_space="preserve">
+		<value>The chosen card profile contains certificates that are disabled and cannot be issued at this time</value>
+	</data>
+	<data name="420003.0" xml_space="preserve">
+		<value>Device not issued</value>
+	</data>
+	<data name="500041.0" xml_space="preserve">
+		<value>You cannot renew this device at this time.</value>
+	</data>
+	<data name="500042.0" xml_space="preserve">
+		<value>Existing Card found - You can not renew this device</value>
+	</data>
+	<data name="500048.0" xml_space="preserve">
+		<value>You cannot renew expired devices.</value>
+	</data>
+	<data name="500050.0" xml_space="preserve">
+		<value>No user found.</value>
+	</data>
+	<data name="500051.0" xml_space="preserve">
+		<value>No user specified.</value>
+	</data>
+	<data name="800002.4" xml_space="preserve">
+		<value>MyID SSA</value>
+	</data>
+	<data name="800534.0" xml_space="preserve">
+		<value>Please contact your system administrator.</value>
+	</data>
+	<data name="800536.0" xml_space="preserve">
+		<value>This software is out of date.\n\nPlease contact your system administrator</value>
+	</data>
+	<data name="800541.0" xml_space="preserve">
+		<value>An unexpected error has occurred.\nPlease call your system administrator.</value>
+	</data>
+	<data name="800542.0" xml_space="preserve">
+		<value>Please call your System Administrator.</value>
+	</data>
+	<data name="800550.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="880007.0" xml_space="preserve">
+		<value>Unable to activate the device.</value>
+	</data>
+	<data name="880008.0" xml_space="preserve">
+		<value>Unable to update the device.</value>
+	</data>
+	<data name="881005.0" xml_space="preserve">
+		<value>Ask your system administrator to check if the BioPack is installed correctly on the server.</value>
+	</data>
+	<data name="881009.0" xml_space="preserve">
+		<value>The authorization code for this device is missing or you have exceeded the number of allowed attempts.</value>
+	</data>
+	<data name="881013.0" xml_space="preserve">
+		<value>The server requested an unknown action.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="881016.0" xml_space="preserve">
+		<value>Please contact your system administrator.</value>
+	</data>
+	<data name="881025.0" xml_space="preserve">
+		<value>Invalid Device</value>
+	</data>
+	<data name="881026.0" xml_space="preserve">
+		<value>This device does not support the card profile selected.</value>
+	</data>
+	<data name="881039.0" xml_space="preserve">
+		<value>The required device drivers are not installed.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="881040.0" xml_space="preserve">
+		<value>The operation has been terminated because the original device presented for this process could not be found.\nPlease contact your System Administrator.</value>
+	</data>
+	<data name="881043.0" xml_space="preserve">
+		<value>The user account is disabled.</value>
+	</data>
+	<data name="881044.0" xml_space="preserve">
+		<value>The user has no security questions configured.</value>
+	</data>
+	<data name="881044.256" xml_space="preserve">
+		<value>Your account has no security questions configured.</value>
+	</data>
+	<data name="881044.512" xml_space="preserve">
+		<value>Your account has no security questions configured.</value>
+	</data>
+	<data name="881045.0" xml_space="preserve">
+		<value>User not found.</value>
+	</data>
+	<data name="881048.0" xml_space="preserve">
+		<value>User has no devices.</value>
+	</data>
+	<data name="881055.0" xml_space="preserve">
+		<value>You have no devices.\nPlease contact your administrator.</value>
+	</data>
+	<data name="881056.0" xml_space="preserve">
+		<value>You have no devices that are available for replacement.\nPlease contact your administrator.</value>
+	</data>
+	<data name="881058.0" xml_space="preserve">
+		<value>Target is not approved to issue a Device Identity.</value>
+	</data>
+	<data name="890018.0" xml_space="preserve">
+		<value>Select Card Profile</value>
+	</data>
+	<data name="890018.256" xml_space="preserve">
+		<value>I want to enable my device for:</value>
+	</data>
+	<data name="890018.512" xml_space="preserve">
+		<value>I want to enable my device for:</value>
+	</data>
+	<data name="890019.0" xml_space="preserve">
+		<value>The temporary card profile was not found in the configuration.</value>
+	</data>
+	<data name="890020.0" xml_space="preserve">
+		<value>You have insufficient permissions to access the card profile.</value>
+	</data>
+	<data name="890032.0" xml_space="preserve">
+		<value>The temporary card profile does not exist.</value>
+	</data>
+	<data name="890034.0" xml_space="preserve">
+		<value>Why are you canceling this device?</value>
+	</data>
+	<data name="890052.0" xml_space="preserve">
+		<value>This action cannot be performed on your device.</value>
+	</data>
+	<data name="890100.0" xml_space="preserve">
+		<value>You have no card profiles available.</value>
+	</data>
+	<data name="890110.0" xml_space="preserve">
+		<value>No suitable card profiles available.</value>
+	</data>
+	<data name="890480.0" xml_space="preserve">
+		<value>Unable to register the device.</value>
+	</data>
+	<data name="890483.0" xml_space="preserve">
+		<value>There are no jobs for this device.</value>
+	</data>
+	<data name="890499.0" xml_space="preserve">
+		<value>The card profile does not support encryption and therefore can not be used for key recovery</value>
+	</data>
+	<data name="890500.0" xml_space="preserve">
+		<value>This device does not support biometric match from card.</value>
+	</data>
+	<data name="890503.0" xml_space="preserve">
+		<value>The security question answers you have entered do not match with those registered in the system. Please contact your system administrator.</value>
+	</data>
+	<data name="890514.0" xml_space="preserve">
+		<value>There has been an error retrieving the Asset's DNS Name</value>
+	</data>
+	<data name="890516.0" xml_space="preserve">
+		<value>Asset was not found in LDAP</value>
+	</data>
+	<data name="890519.0" xml_space="preserve">
+		<value>This job is not being collected on the correct asset</value>
+	</data>
+	<data name="890526.0" xml_space="preserve">
+		<value>No Cancel Device Bundle provided</value>
+	</data>
+	<data name="890527.0" xml_space="preserve">
+		<value>Device not assigned to a user</value>
+	</data>
+	<data name="890537.0" xml_space="preserve">
+		<value>The device is unsuitable for the profile specified</value>
+	</data>
+	<data name="890540.0" xml_space="preserve">
+		<value>The content defined in the card profile is not currently supported by this issuance method. Please contact your system administrator</value>
+	</data>
+	<data name="890551.0" xml_space="preserve">
+		<value>The device specified does not support Attestation.</value>
+	</data>
+	<data name="890560.0" xml_space="preserve">
+		<value>Card profile not present in Job.</value>
+	</data>
+	<data name="890565.0" xml_space="preserve">
+		<value>There is no suitable card profile.</value>
+	</data>
+	<data name="890570.0" xml_space="preserve">
+		<value>The device must be specified to provision this card profile.</value>
+	</data>
+	<data name="890571.0" xml_space="preserve">
+		<value>This device must be assigned to a user to provision this card profile.</value>
+	</data>
+	<data name="891026.0" xml_space="preserve">
+		<value>Update Device</value>
+	</data>
+	<data name="891065.0" xml_space="preserve">
+		<value>Provision Device Settings</value>
+	</data>
+	<data name="891094.0" xml_space="preserve">
+		<value>Device provisioned successfully</value>
+	</data>
+	<data name="891094.32" xml_space="preserve">
+		<value>Provision device completed OK</value>
+	</data>
+	<data name="891097.0" xml_space="preserve">
+		<value>Device canceled successfully</value>
+	</data>
+	<data name="892012.0" xml_space="preserve">
+		<value>This system is not configured to allow issuance of this type of device. Please contact your system administrator.</value>
+	</data>
+	<data name="892013.0" xml_space="preserve">
+		<value>This device can be issued, but the system is not fully configured for this type of device. Please contact your system administrator.</value>
+	</data>
+	<data name="913190.0" xml_space="preserve">
+		<value>Unlock Device</value>
+	</data>
+	<data name="9000502.0" xml_space="preserve">
+		<value>You do not have an account setup that can be used. You will not be able to proceed with the activity until this is resolved.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9000503.0" xml_space="preserve">
+		<value>You do not have any security questions setup for your account. You will not be able to proceed with the activity until these are available.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9000612.0" xml_space="preserve">
+		<value>Please enter the PIN needed to log on to your smart card.</value>
+	</data>
+	<data name="9000614.0" xml_space="preserve">
+		<value>No smart card found.\nPlease insert your card into a reader and select the retry button.</value>
+	</data>
+	<data name="9000614.8" xml_space="preserve">
+		<value>No smart card found.\nPlease insert your card into a reader and select the retry button, or click Cancel to return to the start page.</value>
+	</data>
+	<data name="9000902.0" xml_space="preserve">
+		<value>The content defined in the card profile is not currently supported by this issuance method. Please contact your system administrator</value>
+	</data>
+	<data name="9001003.0" xml_space="preserve">
+		<value>The terms and conditions have not been signed with the issued device.</value>
+	</data>
+	<data name="9001401.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001403.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001405.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001407.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001409.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001411.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001413.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001415.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001417.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001419.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001421.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001423.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001425.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001427.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001429.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001431.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001433.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001435.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001437.0" xml_space="preserve">
+		<value>You are not able to access the soft certificate renewal activity.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001439.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001441.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9001518.0" xml_space="preserve">
+		<value>Summary of actions to be taken by the user after the first stage of a self activation or assisted activation card profile has been collected. E.G The card now requires activation.</value>
+	</data>
+	<data name="9001544.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9002004.0" xml_space="preserve">
+		<value>Only Issue To Known Devices</value>
+	</data>
+	<data name="9002020.0" xml_space="preserve">
+		<value>Invalid Asset Selected</value>
+	</data>
+	<data name="9002021.0" xml_space="preserve">
+		<value>Failed to add asset</value>
+	</data>
+	<data name="9003034.0" xml_space="preserve">
+		<value>Updating your device identity ...</value>
+	</data>
+	<data name="9003100.0" xml_space="preserve">
+		<value>There has been an error accessing the Biometric device. Please contact your system administrator.</value>
+	</data>
+	<data name="9003102.0" xml_space="preserve">
+		<value>There was an error matching your fingerprint. Please contact the system administrator.</value>
+	</data>
+	<data name="9003103.0" xml_space="preserve">
+		<value>There was an error reading the biometrics from the card. Please contact the system administrator.</value>
+	</data>
+	<data name="9003203.0" xml_space="preserve">
+		<value>No supported biometric capture devices were detected.\nPlease contact your system administrator.</value>
+	</data>
+	<data name="9003322.0" xml_space="preserve">
+		<value>The smart card you have inserted is not the correct one for this activity.\nPlease place the card with serial number {0} into a reader and select the Retry button.\n\nIf you do not have this smart card available, please select the  Cancel button to exit the application and contact your system administrator.</value>
+	</data>
+	<data name="9003322.8" xml_space="preserve">
+		<value>The smart card you have inserted is not the correct one for this activity.\nPlease place the card with serial number {0} into a reader and select the Retry button.\n\nIf you do not have this smart card available, please select the Cancel button and contact your system administrator.</value>
+	</data>
+	<data name="9003324.0" xml_space="preserve">
+		<value>The application has encountered an activity type that cannot be processed. Please contact your system administrator.</value>
+	</data>
+	<data name="9003348.0" xml_space="preserve">
+		<value>This card profile requires that the recipient has a photograph captured</value>
+	</data>
+	<data name="9003350.0" xml_space="preserve">
+		<value>The user has no biometrics enrolled. Bypass biometric authentication?</value>
+	</data>
+	<data name="9004001.0" xml_space="preserve">
+		<value>This software is out of date.\n\nPlease contact your system administrator to obtain the latest version.</value>
+	</data>
+	<data name="9004024.0" xml_space="preserve">
+		<value>The Application was unable to resolve a dependency for {0}\nwhich is required by assembly {1}, please contact your system administrator</value>
+	</data>
+	<data name="9004025.0" xml_space="preserve">
+		<value>The application has encountered a problem. Information related to this problem can be found under additional information. Please contact your system administrator for support.</value>
+	</data>
+	<data name="9004026.0" xml_space="preserve">
+		<value>An error has occurred during the activity. Please contact your system administrator and quote the error: Unable to start workflow {0}</value>
+	</data>
+	<data name="9004027.0" xml_space="preserve">
+		<value>An error has occurred during the activity. Please contact your system administrator and quote the error: Error moving to the next stage of workflow {0}</value>
+	</data>
+	<data name="9007014.0" xml_space="preserve">
+		<value>Card Profile</value>
+	</data>
+	<data name="9100413.8" xml_space="preserve">
+		<value>An unexpected error has occurred.\nPlease call your system administrator.</value>
+	</data>
+	<data name="9100900.8" xml_space="preserve">
+		<value>Unknown device inserted.</value>
+	</data>
+	<data name="9200000.8" xml_space="preserve">
+		<value>This software is out of date.\n\nPlease contact your system administrator to obtain the latest version.</value>
+	</data>
+	<data name="9201500.8" xml_space="preserve">
+		<value>Unable to activate the device.</value>
+	</data>
+	<data name="9201801.8" xml_space="preserve">
+		<value>The card is not suitable as it has not been assigned to a user.</value>
+	</data>
+	<data name="10000010.16" xml_space="preserve">
+		<value>Please contact your systems administrator</value>
+	</data>
+	<data name="10000017.16" xml_space="preserve">
+		<value>Select a device from those listed below or insert another device.</value>
+	</data>
+	<data name="10000029.16" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator</value>
+	</data>
+	<data name="10000035.16" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator</value>
+	</data>
+	<data name="90101032.0" xml_space="preserve">
+		<value>Devices</value>
+	</data>
+	<data name="90101033.0" xml_space="preserve">
+		<value>Devices</value>
+	</data>
+	<data name="90101035.0" xml_space="preserve">
+		<value>No assigned devices</value>
+	</data>
+	<data name="90101036.0" xml_space="preserve">
+		<value>At least one device</value>
+	</data>
+	<data name="90103026.0" xml_space="preserve">
+		<value>Card Profile Name</value>
+	</data>
+	<data name="90103027.0" xml_space="preserve">
+		<value>Card Profile Name</value>
+	</data>
+	<data name="90105006.0" xml_space="preserve">
+		<value>Asset Name</value>
+	</data>
+	<data name="90105007.0" xml_space="preserve">
+		<value>Asset Name</value>
+	</data>
+	<data name="90200004.0" xml_space="preserve">
+		<value>User Canceled</value>
+	</data>
+	<data name="90200041.0" xml_space="preserve">
+		<value>Provision Device</value>
+	</data>
+	<data name="90200284.0" xml_space="preserve">
+		<value>Approve MSVSC Creation</value>
+	</data>
+	<data name="90200291.0" xml_space="preserve">
+		<value>Approve Card Profile Selection</value>
+	</data>
+	<data name="90200324.0" xml_space="preserve">
+		<value>Approve Original Device Activation</value>
+	</data>
+	<data name="90200325.0" xml_space="preserve">
+		<value>Erase Device</value>
+	</data>
+	<data name="90200361.0" xml_space="preserve">
+		<value>Select a Device</value>
+	</data>
+	<data name="90200571.0" xml_space="preserve">
+		<value>Select Card Profile</value>
+	</data>
+	<data name="90200581.0" xml_space="preserve">
+		<value>Approve Device Update</value>
+	</data>
+	<data name="90200589.0" xml_space="preserve">
+		<value>Approve Device Update</value>
+	</data>
+	<data name="90201125.0" xml_space="preserve">
+		<value>Approve Original Device Cancellation</value>
+	</data>
+	<data name="90201412.0" xml_space="preserve">
+		<value>Update User</value>
+	</data>
+	<data name="90202622.0" xml_space="preserve">
+		<value>Add Asset to Database</value>
+	</data>
+	<data name="90202624.0" xml_space="preserve">
+		<value>Select an asset to view</value>
+	</data>
+	<data name="90202625.0" xml_space="preserve">
+		<value>Click continue to view identities assigned to the asset.</value>
+	</data>
+	<data name="90202631.0" xml_space="preserve">
+		<value>Select Device</value>
+	</data>
+	<data name="90202642.0" xml_space="preserve">
+		<value>The device is either not registered or you do not have permission to view it</value>
+	</data>
+	<data name="90202793.0" xml_space="preserve">
+		<value>Getting Device Name</value>
+	</data>
+	<data name="90202794.0" xml_space="preserve">
+		<value>Confirm Device Registration</value>
+	</data>
+	<data name="90202796.0" xml_space="preserve">
+		<value>Device has been successfully registered.</value>
+	</data>
+	<data name="90202797.0" xml_space="preserve">
+		<value>Device has not been registered.</value>
+	</data>
+	<data name="90209991.0" xml_space="preserve">
+		<value>Approve User Account Changes</value>
+	</data>
+	<data name="90300005.0" xml_space="preserve">
+		<value>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator</value>
+	</data>
+	<data name="99201103.8" xml_space="preserve">
+		<value>The card is not suitable as it is currently assigned to a user.</value>
+	</data>
+	<data name="99201801.8" xml_space="preserve">
+		<value>The card is not suitable as it has not been assigned to a user.</value>
+	</data>
+	<data name="99202401.8" xml_space="preserve">
+		<value>The card is not suitable as it has not been assigned to a user.</value>
+	</data>
+</root>

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errors.OA10000.UnknownError.message" xml:space="preserve">
+    <value>Serverfehler</value>
+    <comment>Server Error</comment>
+  </data>
+  <data name="errors.OA10001.UnableToCommunicateWithApp.message" xml:space="preserve">
+    <value>Kommunikation mit der App nicht möglich – stellen Sie sicher, dass die MyID UMC App (MyIdClientService) ausgeführt wird</value>
+    <comment>Unable to communicate with app - ensure that MyID UMC app (MyIdClientService) is running</comment>
+  </data>
+  <data name="errors.OA10002.InvalidCredentials.message" xml:space="preserve">
+    <value>Ungültige Anmeldedaten</value>
+    <comment>Invalid credentials</comment>
+  </data>
+  <data name="errors.OA10003.InsufficientSecurityQuestionsConfigured.message" xml:space="preserve">
+    <value>Sie haben nicht genügend Sicherheitsfragen konfiguriert.</value>
+    <comment>You do not have sufficient security questions configured</comment>
+  </data>
+  <data name="errors.OA10004.SecurityPhraseLogonDenied.message" xml:space="preserve">
+    <value>Ihr Benutzername oder Ihre Sicherheitsantwort ist falsch, oder Sie haben möglicherweise keine Berechtigung, auf diesen Client zuzugreifen.</value>
+    <comment>Your username or security response is incorrect, or you may not have permission to access this client.</comment>
+  </data>
+  <data name="errors.OA10005.RegistrationLinkInvalid.message" xml:space="preserve">
+    <value>Der Registrierungslink ist ungültig</value>
+    <comment>The registration link is invalid</comment>
+  </data>
+  <data name="errors.OA10006.LogonCodeLogonMechanismDisabled.message" xml:space="preserve">
+    <value>Logoncode-OTPs sind auf dem Server deaktiviert</value>
+    <comment>Logoncode OTPs are disabled on the server</comment>
+  </data>
+  <data name="errors.OA10007.LogonCodeIncorrect.message" xml:space="preserve">
+    <value>Ihr OTP wurde falsch eingegeben, ist gesperrt, abgelaufen oder Sie haben keine Berechtigung, diese Aktion auszuführen. Bitte versuchen Sie es erneut.</value>
+    <comment>Your OTP has been entered incorrectly, is locked, has expired, or you do not have permission to perform this operation. Please try again.</comment>
+  </data>
+  <data name="errors.OA10008.TimeoutOrSessionInvalid.message" xml:space="preserve">
+    <value>Ihre Sitzung ist abgelaufen oder ungültig, bitte versuchen Sie es erneut</value>
+    <comment>Your session has timed out or is invalid, please try again</comment>
+  </data>
+  <data name="errors.OA10009.FidoRegistrationError.message" xml:space="preserve">
+    <value>Fehler bei der Registrierung von FIDO im Browser</value>
+    <comment>Error registering FIDO in browser</comment>
+  </data>
+  <data name="errors.OA10010.FidoAuthenticationError.message" xml:space="preserve">
+    <value>Fehler bei der Authentifizierung von FIDO im Browser. {0}</value>
+    <comment>Error authenticating FIDO in browser. {0}</comment>
+  </data>
+  <data name="errors.OA10011.FidoAuthenticationFail.message" xml:space="preserve">
+    <value>FIDO-Authentifizierung fehlgeschlagen, bitte versuchen Sie es erneut. Möglicherweise haben Sie keine Berechtigung, auf diesen Client zuzugreifen.</value>
+    <comment>FIDO authentication failed, please try again. You may not have permission to access this client.</comment>
+  </data>
+  <data name="errors.OA10012.FidoRegistrationTokenNotTrusted.message" xml:space="preserve">
+    <value>FIDO-Registrierung fehlgeschlagen, der verwendete FIDO-Token zum Registrieren wurde nicht vertraut. Versuchen Sie, falls vorhanden, einen anderen FIDO-Token. {0}</value>
+    <comment>FIDO registration failed, the FIDO token used to register was not trusted. Try a different FIDO token if you have one. {0}</comment>
+  </data>
+  <data name="errors.OA10013.FidoRegistrationUserMismatch.message" xml:space="preserve">
+    <value>FIDO-Registrierung fehlgeschlagen, Benutzer stimmt nicht überein</value>
+    <comment>FIDO registration failed, user mismatch</comment>
+  </data>
+  <data name="errors.OA10014.FidoRegistrationCredProfileNotFound.message" xml:space="preserve">
+    <value>FIDO-Registrierung fehlgeschlagen, das Berechtigungsprofil ist ungültig</value>
+    <comment>FIDO registration failed, the credential profile is invalid</comment>
+  </data>
+  <data name="errors.OA10015.FidoDeviceAlreadyRegistered.message" xml:space="preserve">
+    <value>FIDO-Registrierung fehlgeschlagen, dieses Token ist bereits registriert</value>
+    <comment>FIDO registration failed, this token is already registered</comment>
+  </data>
+  <data name="errors.OA10016.FidoRegistrationNoMetadata.message" xml:space="preserve">
+    <value>FIDO-Registrierung fehlgeschlagen, das Anmeldeprofil ist auf "Authenticator Attestation Check erzwingen" eingestellt, aber der registrierte Token hat keine auf dem Server verfügbare Metadaten. Versuchen Sie, einen anderen Token zu registrieren.</value>
+    <comment>FIDO registration failed, the credential profile is set to Enforce Authenticator Attestation Check, but the token registered does not have metadata available on the server. Try registering a different token.</comment>
+  </data>
+  <data name="errors.OA10017.FidoRegistrationMetadataFail.message" xml:space="preserve">
+    <value>FIDO-Registrierung fehlgeschlagen, es gab ein Problem beim Zugriff auf den FIDO-Metadatenserver</value>
+    <comment>FIDO registration failed, there was a problem accessing the FIDO Metadata Server</comment>
+  </data>
+  <data name="errors.OA10018.FidoNoIssuedTokens.message" xml:space="preserve">
+    <value>Sie haben keine FIDO-Token registriert.</value>
+    <comment>You do not have any FIDO tokens registered</comment>
+  </data>
+  <data name="errors.OA10032.JwtSigningCertMissing.message" xml:space="preserve">
+    <value>Konfiguriertes JWT-Signaturzertifikat konnte nicht gefunden werden</value>
+    <comment>Unable to find configured JWT signing certificate</comment>
+  </data>
+  <data name="errors.OA10033.JwtSignCertAndRSASigningMissing.message" xml:space="preserve">
+    <value>Kein JWT-Signaturzertifikat konfiguriert und kein RSA-Signaturschlüssel-Containername konfiguriert</value>
+    <comment>No JWT signing certificate configured and no RSA signing key containername configured</comment>
+  </data>
+  <data name="errors.OA10034.JwtIncorrectKeySize.message" xml:space="preserve">
+    <value>Der JWT-Signaturschlüssel ist konfiguriert, aber hat einen falschen Algorithmus oder eine falsche Schlüsselgröße.</value>
+    <comment>JWT signing key is configured, but has an incorrect algorithm or key size</comment>
+  </data>
+  <data name="errors.OA10035.JwtSignerFailure.message" xml:space="preserve">
+    <value>JWT-Signaturzertifikat generiert, konnte jedoch nicht geladen werden</value>
+    <comment>Generated JWT signer certificate, but unable to load it</comment>
+  </data>
+  <data name="errors.OA10036.JwtSigningAndRSAAndJwtGenerationNotConfigured.message" xml:space="preserve">
+    <value>Kein JWT-Signaturzertifikat konfiguriert und kein RSA-Signaturschlüsselspeichername konfiguriert, und nicht konfiguriert zur Erstellung eines JWT-Signaturschlüssels</value>
+    <comment>No JWT signing certificate configured and no RSA signing key containername configured, and not configured to generate a JWT signing key</comment>
+  </data>
+  <data name="errors.OA10037.OperationPermissionFailed.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Operation durchzuführen. Ihre Berechtigungen konnten nicht überprüft werden.</value>
+    <comment>You do not have permission to perform this operation. Your permissions could not be verified</comment>
+  </data>
+  <data name="errors.OA10038.OperationPermissionDenied.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Aktion auszuführen</value>
+    <comment>You do not have permission to perform this operation</comment>
+  </data>
+  <data name="errors.OA10039.OperationPermissionDoesNotExist.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Operation an dem identifizierten Objekt durchzuführen, oder das identifizierte Objekt existiert nicht.</value>
+    <comment>You do not have permission to perform this operation on the identified object or the identified object does not exist</comment>
+  </data>
+  <data name="errors.OA10040.CredentialProfileDenied.message" xml:space="preserve">
+    <value>Die Ihnen zugewiesenen Rollen haben keine Berechtigung, das Anmeldeinformationsprofil dieser Anfrage zu sammeln.</value>
+    <comment>Your assigned roles do not have permission to collect this request’s credential profile</comment>
+  </data>
+  <data name="errors.OA10041.PermissionDeniedMissingData.message" xml:space="preserve">
+    <value>Autorisierungsfehler, fehlende Daten</value>
+    <comment>Authorization failure, missing data</comment>
+  </data>
+  <data name="errors.OA10042.OperationDeniedIncorrectState.message" xml:space="preserve">
+    <value>Dieser Artikel befindet sich nicht im richtigen Zustand, um diese Operation auszuführen.</value>
+    <comment>This item is not in the correct state to perform this operation</comment>
+  </data>
+  <data name="errors.OA10043.PassthroughAuthNoCanUnlockPermission.message" xml:space="preserve">
+    <value>Die Ihnen zugewiesenen Rollen haben keine Berechtigung, dieses Gerät zu entsperren.</value>
+    <comment>Your assigned roles do not have permission to unlock this device</comment>
+  </data>
+  <data name="errors.OA10044.PassthroughAuthCannotPerformThisOperationOnSelf.message" xml:space="preserve">
+    <value>Sie können diese Operation an sich selbst nicht durchführen.</value>
+    <comment>You cannot perform this operation on yourself</comment>
+  </data>
+  <data name="errors.OA10045.PassthroughAuthCannotPerformThisOperationOnOthers.message" xml:space="preserve">
+    <value>Sie können diese Operation bei anderen nicht durchführen.</value>
+    <comment>You cannot perform this operation on others</comment>
+  </data>
+  <data name="errors.OA10046.OtpExpired.message" xml:space="preserve">
+    <value>Der Auth-Code ist abgelaufen</value>
+    <comment>The Auth Code has expired</comment>
+  </data>
+  <data name="errors.OA10047.PassthroughAuthOperationDeniedConditionNotMet.message" xml:space="preserve">
+    <value>Dieser Artikel erfüllt nicht die Anforderungen, um diese Operation durchzuführen</value>
+    <comment>This item does not meet the requirements to perform this operation</comment>
+  </data>
+  <data name="errors.OA10048.DeliveryMechanismNoContactDetails.message" xml:space="preserve">
+    <value>Der Benutzer verfügt nicht über die erforderlichen Kontaktdaten für diesen Zustellmechanismus.</value>
+    <comment>The user does not have the required contact details for this delivery mechanism</comment>
+  </data>
+  <data name="errors.OA10049.SecondaryFingerprintCaptureFailure.message" xml:space="preserve">
+    <value>Beim Erfassen des Fingerabdrucks ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.</value>
+    <comment>An error occurred capturing the fingerprint. Please try again</comment>
+  </data>
+  <data name="errors.OA10050.SecondaryFingerprintCaptureExceededAttempts.message" xml:space="preserve">
+    <value>Die Anzahl der Fingerabdruckversuche wurde überschritten</value>
+    <comment>Number of fingerprint attempts has been exceeded</comment>
+  </data>
+  <data name="errors.OA10051.SecondaryFingerprintNoMatch.message" xml:space="preserve">
+    <value>Es wurde keine Übereinstimmung für den Fingerabdruck gefunden</value>
+    <comment>No match was found for the fingerprint</comment>
+  </data>
+  <data name="errors.OA10052.SecondaryMissingData.message" xml:space="preserve">
+    <value>Autorisierungsfehler, fehlende Daten</value>
+    <comment>Authorization failure, missing data</comment>
+  </data>
+  <data name="errors.OA10053.SecondaryAuthDeniedPrimary.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Aktion durchzuführen</value>
+    <comment>You do not have permission to perform this operation</comment>
+  </data>
+  <data name="errors.OA10054.SecondaryAuthDeniedSecondary.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Aktion auszuführen</value>
+    <comment>You do not have permission to perform this operation</comment>
+  </data>
+  <data name="errors.OA10055.SecondaryAuthOperationPermissionDenied.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Aktion auszuführen.</value>
+    <comment>You do not have permission to perform this operation</comment>
+  </data>
+  <data name="errors.OA10056.SecondaryAuthInvalidRequest.message" xml:space="preserve">
+    <value>Ungültige Anfrage für die sekundäre Authentifizierung</value>
+    <comment>Invalid request for Secondary Authentication</comment>
+  </data>
+  <data name="errors.OA10057.SecondaryAuthClaimsMissing.message" xml:space="preserve">
+    <value>Ein erforderlicher Anspruch für die sekundäre Authentifizierung fehlt</value>
+    <comment>A required claim is missing for Secondary Authentication</comment>
+  </data>
+  <data name="errors.OA10058.SecondaryNoFingers.message" xml:space="preserve">
+    <value>Für diese Person sind keine Fingerabdrücke registriert.</value>
+    <comment>There are no fingerprints registered for this person</comment>
+  </data>
+  <data name="errors.OA10059.PassthroughAuthNoUpdateJobs.message" xml:space="preserve">
+    <value>Für dieses Gerät sind keine Aktualisierungsaufträge zum Abrufen vorhanden</value>
+    <comment>There are no update jobs to collect for this device</comment>
+  </data>
+  <data name="errors.OA10060.PassthroughAuthUserDataNotApproved.message" xml:space="preserve">
+    <value>Das zu erfassende Berechtigungsprofil erfordert eine Benutzerfreigabe, aber der Zielbenutzer besitzt keine solche Freigabe.</value>
+    <comment>The credential profile to be collected requires user data approval, but the target user has no such approval</comment>
+  </data>
+  <data name="errors.OA10061.PassthroughAuthTermsConditionsNotAllowed.message" xml:space="preserve">
+    <value>Das zu sammelnde Berechtigungsprofil erfordert die Annahme von Geschäftsbedingungen, jedoch wird die unterstützte Aktualisierungssammlung nicht unterstützt.</value>
+    <comment>The credential profile to be collected requires terms and conditions to be accepted, but assisted collection of updates does not support this</comment>
+  </data>
+  <data name="errors.OA10062.SelfServiceError.message" xml:space="preserve">
+    <value>Der MyID-Client-Dienst läuft nicht</value>
+    <comment>MyID client service is not running</comment>
+  </data>
+  <data name="errors.OA10063.InvalidClientForSecurityQuestions.message" xml:space="preserve">
+    <value>Sie können keine Sicherheitsfragen für diesen Kunden abrufen.</value>
+    <comment>You cannot retrieve security questions for this client</comment>
+  </data>
+  <data name="errors.OA10064.SecurityQuestionsDiabledForClient.message" xml:space="preserve">
+    <value>Der Anmeldevorgang mit Sicherheitsfragen ist für diesen Klienten deaktiviert</value>
+    <comment>The security questions logon mechanism is disabled for this client</comment>
+  </data>
+  <data name="errors.OA10065.InvalidClientForKeyPairAuth.message" xml:space="preserve">
+    <value>Sie können keine Herausforderung für diesen Client abrufen.</value>
+    <comment>You cannot retrieve a challenge for this client</comment>
+  </data>
+  <data name="errors.OA10066.SmartCardLogonDisabledForClient.message" xml:space="preserve">
+    <value>Der Smartcard-Anmeldemechanismus ist für diesen Client deaktiviert</value>
+    <comment>The smartcard logon logonmechanism is disabled for this client</comment>
+  </data>
+  <data name="errors.OA10067.SmartCardLogonDenied.message" xml:space="preserve">
+    <value>Ihre signierte Herausforderung ist falsch oder Sie haben möglicherweise keine Berechtigung, auf diesen Client zuzugreifen</value>
+    <comment>Your signed challenge is incorrect, or you may not have permission to access this client</comment>
+  </data>
+  <data name="errors.OA10068.WindowsLogonUnknown.message" xml:space="preserve">
+    <value>Windows-Anmeldung fehlgeschlagen, Ihr Windows-Konto ist unbekannt oder nicht vertrauenswürdig</value>
+    <comment>Windows logon failed, your windows account is unknown or untrusted</comment>
+  </data>
+  <data name="errors.OA10069.WindowsLogonNotAllowed.message" xml:space="preserve">
+    <value>Windows-Anmeldung fehlgeschlagen, Ihr Benutzerkonto ist nicht zur Anmeldung berechtigt</value>
+    <comment>Windows logon failed, your user account is not permitted to logon</comment>
+  </data>
+  <data name="errors.OA10070.WindowsLogonNotConfigured.message" xml:space="preserve">
+    <value>Die Windows-Authentifizierung ist auf dem Server deaktiviert</value>
+    <comment>Windows Authentication is disabled on the server</comment>
+  </data>
+  <data name="errors.OA10071.RefreshTokenRetrievalFailure.message" xml:space="preserve">
+    <value>Aktualisierung des Tokens zum Abrufen des Tokens fehlgeschlagen</value>
+    <comment>Refresh Token failed to retrieve token</comment>
+  </data>
+  <data name="errors.OA10072.RefreshTokenMissingData.message" xml:space="preserve">
+    <value>Autorisierungsfehler, fehlende Daten für Token-Aktualisierung</value>
+    <comment>Authorization failure, missing data for Token Refresh</comment>
+  </data>
+  <data name="errors.OA10073.LogonNotPermittedLicenceExpired.message" xml:space="preserve">
+    <value>Die Anmeldung ist nicht erlaubt – die Systemlizenz ist abgelaufen. Bitte wenden Sie sich an einen Systemadministrator.</value>
+    <comment>Logon is not permitted – the system licence has expired. Contact a system administrator.</comment>
+  </data>
+  <data name="errors.OA10074.ExternalLogonNoUserFound.message" xml:space="preserve">
+    <value>Externe Anmeldung fehlgeschlagen, kein passender MyID-Benutzer gefunden</value>
+    <comment>External logon failed, no matching MyID user found</comment>
+  </data>
+  <data name="errors.OA10075.ExternalLogonInvalidMechanism.message" xml:space="preserve">
+    <value>Externe Anmeldung fehlgeschlagen, externes Anmeldemechanismus ungültig</value>
+    <comment>External logon failed, external logon mechanism invalid</comment>
+  </data>
+  <data name="errors.OA10076.ExternalLogonNoStandalone.message" xml:space="preserve">
+    <value>Externe Anmeldung fehlgeschlagen, externe Anmeldung ist im Einzelplatzmodus nicht verfügbar</value>
+    <comment>External logon failed, external logon is not available in standalone mode</comment>
+  </data>
+  <data name="errors.OA10077.ExternalLogonActionFailed.message" xml:space="preserve">
+    <value>Externe Anmeldung fehlgeschlagen, der Anmeldeversuch ist fehlgeschlagen</value>
+    <comment>External logon failed, the attempted logon failed</comment>
+  </data>
+  <data name="errors.OA10078.ExternalLogonMissingMappings.message" xml:space="preserve">
+    <value>Externe Anmeldung fehlgeschlagen, keine Zuordnungen für Ansprüche gefunden</value>
+    <comment>External logon failed, no mappings found for claims</comment>
+  </data>
+  <data name="errors.OA10079.ExternalLogonMissingMandatory.message" xml:space="preserve">
+    <value>Externe Anmeldung fehlgeschlagen, ein obligatorisches Attribut ist weder in den Ansprüchen noch in den Benutzerdaten vorhanden</value>
+    <comment>External logon failed, a mandatory attribute is not present in either the claims or the user info</comment>
+  </data>
+  <data name="errors.OA10080.ExternalLogonNoClaims.message" xml:space="preserve">
+    <value>Externe Anmeldung fehlgeschlagen, keine Ansprüche vom externen Identitätsanbieter übermittelt</value>
+    <comment>External logon failed, no claims supplied by external identity provider</comment>
+  </data>
+  <data name="errors.OA10081.InvalidClientConfiguration.message" xml:space="preserve">
+    <value>Die benutzerdefinierte Konfigurationsdatei ist ungültig.</value>
+    <comment>The custom configuration file is not valid.</comment>
+  </data>
+  <data name="errors.OA10082.ClientConfigurationError.message" xml:space="preserve">
+    <value>Bei der Verarbeitung der benutzerdefinierten Konfigurationsdateien ist ein Problem aufgetreten</value>
+    <comment>There was a problem processing the custom configuration files</comment>
+  </data>
+  <data name="errors.OA890901.MainenanceModeActive.message" xml:space="preserve">
+    <value>Anmeldung verweigert - Das System ist während der Wartung nicht verfügbar.</value>
+    <comment>Logon Denied - The system is unavailable during maintenance.</comment>
+  </data>
+</root>

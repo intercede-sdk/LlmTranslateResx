@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errors.OA10000.UnknownError.message" xml:space="preserve">
+    <value>Server Error</value>
+  </data>
+  <data name="errors.OA10001.UnableToCommunicateWithApp.message" xml:space="preserve">
+    <value>Unable to communicate with app - ensure that MyID UMC app (MyIdClientService) is running</value>
+  </data>
+  <data name="errors.OA10002.InvalidCredentials.message" xml:space="preserve">
+    <value>Invalid credentials</value>
+  </data>
+  <data name="errors.OA10003.InsufficientSecurityQuestionsConfigured.message" xml:space="preserve">
+    <value>You do not have sufficient security questions configured</value>
+  </data>
+  <data name="errors.OA10004.SecurityPhraseLogonDenied.message" xml:space="preserve">
+    <value>Your username or security response is incorrect, or you may not have permission to access this client.</value>
+  </data>
+  <data name="errors.OA10005.RegistrationLinkInvalid.message" xml:space="preserve">
+    <value>The registration link is invalid</value>
+  </data>
+  <data name="errors.OA10006.LogonCodeLogonMechanismDisabled.message" xml:space="preserve">
+    <value>Logoncode OTPs are disabled on the server</value>
+  </data>
+  <data name="errors.OA10007.LogonCodeIncorrect.message" xml:space="preserve">
+    <value>Your OTP has been entered incorrectly, is locked, has expired, or you do not have permission to perform this operation. Please try again.</value>
+  </data>
+  <data name="errors.OA10008.TimeoutOrSessionInvalid.message" xml:space="preserve">
+    <value>Your session has timed out or is invalid, please try again</value>
+  </data>
+  <data name="errors.OA10009.FidoRegistrationError.message" xml:space="preserve">
+    <value>Error registering FIDO in browser</value>
+  </data>
+  <data name="errors.OA10010.FidoAuthenticationError.message" xml:space="preserve">
+    <value>Error authenticating FIDO in browser. {0}</value>
+  </data>
+  <data name="errors.OA10011.FidoAuthenticationFail.message" xml:space="preserve">
+    <value>FIDO authentication failed, please try again. You may not have permission to access this client.</value>
+  </data>
+  <data name="errors.OA10012.FidoRegistrationTokenNotTrusted.message" xml:space="preserve">
+    <value>FIDO registration failed, the FIDO token used to register was not trusted. Try a different FIDO token if you have one. {0}</value>
+  </data>
+  <data name="errors.OA10013.FidoRegistrationUserMismatch.message" xml:space="preserve">
+    <value>FIDO registration failed, user mismatch</value>
+  </data>
+  <data name="errors.OA10014.FidoRegistrationCredProfileNotFound.message" xml:space="preserve">
+    <value>FIDO registration failed, the credential profile is invalid</value>
+  </data>
+  <data name="errors.OA10015.FidoDeviceAlreadyRegistered.message" xml:space="preserve">
+    <value>FIDO registration failed, this token is already registered</value>
+  </data>
+  <data name="errors.OA10016.FidoRegistrationNoMetadata.message" xml:space="preserve">
+    <value>FIDO registration failed, the credential profile is set to Enforce Authenticator Attestation Check, but the token registered does not have metadata available on the server. Try registering a different token.</value>
+  </data>
+  <data name="errors.OA10017.FidoRegistrationMetadataFail.message" xml:space="preserve">
+    <value>FIDO registration failed, there was a problem accessing the FIDO Metadata Server</value>
+  </data>
+  <data name="errors.OA10018.FidoNoIssuedTokens.message" xml:space="preserve">
+    <value>You do not have any FIDO tokens registered</value>
+  </data>
+  <data name="errors.OA10032.JwtSigningCertMissing.message" xml:space="preserve">
+    <value>Unable to find configured JWT signing certificate</value>
+  </data>
+  <data name="errors.OA10033.JwtSignCertAndRSASigningMissing.message" xml:space="preserve">
+    <value>No JWT signing certificate configured and no RSA signing key containername configured</value>
+  </data>
+  <data name="errors.OA10034.JwtIncorrectKeySize.message" xml:space="preserve">
+    <value>JWT signing key is configured, but has an incorrect algorithm or key size</value>
+  </data>
+  <data name="errors.OA10035.JwtSignerFailure.message" xml:space="preserve">
+    <value>Generated JWT signer certificate, but unable to load it</value>
+  </data>
+  <data name="errors.OA10036.JwtSigningAndRSAAndJwtGenerationNotConfigured.message" xml:space="preserve">
+    <value>No JWT signing certificate configured and no RSA signing key containername configured, and not configured to generate a JWT signing key</value>
+  </data>
+  <data name="errors.OA10037.OperationPermissionFailed.message" xml:space="preserve">
+    <value>You do not have permission to perform this operation. Your permissions could not be verified</value>
+  </data>
+  <data name="errors.OA10038.OperationPermissionDenied.message" xml:space="preserve">
+    <value>You do not have permission to perform this operation</value>
+  </data>
+  <data name="errors.OA10039.OperationPermissionDoesNotExist.message" xml:space="preserve">
+    <value>You do not have permission to perform this operation on the identified object or the identified object does not exist</value>
+  </data>
+  <data name="errors.OA10040.CredentialProfileDenied.message" xml:space="preserve">
+    <value>Your assigned roles do not have permission to collect this request’s credential profile</value>
+  </data>
+  <data name="errors.OA10041.PermissionDeniedMissingData.message" xml:space="preserve">
+    <value>Authorization failure, missing data</value>
+  </data>
+  <data name="errors.OA10042.OperationDeniedIncorrectState.message" xml:space="preserve">
+    <value>This item is not in the correct state to perform this operation</value>
+  </data>
+  <data name="errors.OA10043.PassthroughAuthNoCanUnlockPermission.message" xml:space="preserve">
+    <value>Your assigned roles do not have permission to unlock this device</value>
+  </data>
+  <data name="errors.OA10044.PassthroughAuthCannotPerformThisOperationOnSelf.message" xml:space="preserve">
+    <value>You cannot perform this operation on yourself</value>
+  </data>
+  <data name="errors.OA10045.PassthroughAuthCannotPerformThisOperationOnOthers.message" xml:space="preserve">
+    <value>You cannot perform this operation on others</value>
+  </data>
+  <data name="errors.OA10046.OtpExpired.message" xml:space="preserve">
+    <value>The Auth Code has expired</value>
+  </data>
+  <data name="errors.OA10047.PassthroughAuthOperationDeniedConditionNotMet.message" xml:space="preserve">
+    <value>This item does not meet the requirements to perform this operation</value>
+  </data>
+  <data name="errors.OA10048.DeliveryMechanismNoContactDetails.message" xml:space="preserve">
+    <value>The user does not have the required contact details for this delivery mechanism</value>
+  </data>
+  <data name="errors.OA10049.SecondaryFingerprintCaptureFailure.message" xml:space="preserve">
+    <value>An error occurred capturing the fingerprint. Please try again</value>
+  </data>
+  <data name="errors.OA10050.SecondaryFingerprintCaptureExceededAttempts.message" xml:space="preserve">
+    <value>Number of fingerprint attempts has been exceeded</value>
+  </data>
+  <data name="errors.OA10051.SecondaryFingerprintNoMatch.message" xml:space="preserve">
+    <value>No match was found for the fingerprint</value>
+  </data>
+  <data name="errors.OA10052.SecondaryMissingData.message" xml:space="preserve">
+    <value>Authorization failure, missing data</value>
+  </data>
+  <data name="errors.OA10053.SecondaryAuthDeniedPrimary.message" xml:space="preserve">
+    <value>You do not have permission to perform this operation</value>
+  </data>
+  <data name="errors.OA10054.SecondaryAuthDeniedSecondary.message" xml:space="preserve">
+    <value>You do not have permission to perform this operation</value>
+  </data>
+  <data name="errors.OA10055.SecondaryAuthOperationPermissionDenied.message" xml:space="preserve">
+    <value>You do not have permission to perform this operation</value>
+  </data>
+  <data name="errors.OA10056.SecondaryAuthInvalidRequest.message" xml:space="preserve">
+    <value>Invalid request for Secondary Authentication</value>
+  </data>
+  <data name="errors.OA10057.SecondaryAuthClaimsMissing.message" xml:space="preserve">
+    <value>A required claim is missing for Secondary Authentication</value>
+  </data>
+  <data name="errors.OA10058.SecondaryNoFingers.message" xml:space="preserve">
+    <value>There are no fingerprints registered for this person</value>
+  </data>
+  <data name="errors.OA10059.PassthroughAuthNoUpdateJobs.message" xml:space="preserve">
+    <value>There are no update jobs to collect for this device</value>
+  </data>
+  <data name="errors.OA10060.PassthroughAuthUserDataNotApproved.message" xml:space="preserve">
+    <value>The credential profile to be collected requires user data approval, but the target user has no such approval</value>
+  </data>
+  <data name="errors.OA10061.PassthroughAuthTermsConditionsNotAllowed.message" xml:space="preserve">
+    <value>The credential profile to be collected requires terms and conditions to be accepted, but assisted collection of updates does not support this</value>
+  </data>
+  <data name="errors.OA10062.SelfServiceError.message" xml:space="preserve">
+    <value>MyID client service is not running</value>
+  </data>
+  <data name="errors.OA10063.InvalidClientForSecurityQuestions.message" xml:space="preserve">
+    <value>You cannot retrieve security questions for this client</value>
+  </data>
+  <data name="errors.OA10064.SecurityQuestionsDiabledForClient.message" xml:space="preserve">
+    <value>The security questions logon mechanism is disabled for this client</value>
+  </data>
+  <data name="errors.OA10065.InvalidClientForKeyPairAuth.message" xml:space="preserve">
+    <value>You cannot retrieve a challenge for this client</value>
+  </data>
+  <data name="errors.OA10066.SmartCardLogonDisabledForClient.message" xml:space="preserve">
+    <value>The smartcard logon logonmechanism is disabled for this client</value>
+  </data>
+  <data name="errors.OA10067.SmartCardLogonDenied.message" xml:space="preserve">
+    <value>Your signed challenge is incorrect, or you may not have permission to access this client</value>
+  </data>
+  <data name="errors.OA10068.WindowsLogonUnknown.message" xml:space="preserve">
+    <value>Windows logon failed, your windows account is unknown or untrusted</value>
+  </data>
+  <data name="errors.OA10069.WindowsLogonNotAllowed.message" xml:space="preserve">
+    <value>Windows logon failed, your user account is not permitted to logon</value>
+  </data>
+  <data name="errors.OA10070.WindowsLogonNotConfigured.message" xml:space="preserve">
+    <value>Windows Authentication is disabled on the server</value>
+  </data>
+  <data name="errors.OA10071.RefreshTokenRetrievalFailure.message" xml:space="preserve">
+    <value>Refresh Token failed to retrieve token</value>
+  </data>
+  <data name="errors.OA10072.RefreshTokenMissingData.message" xml:space="preserve">
+    <value>Authorization failure, missing data for Token Refresh</value>
+  </data>
+  <data name="errors.OA10073.LogonNotPermittedLicenceExpired.message" xml:space="preserve">
+    <value>Logon is not permitted – the system licence has expired. Contact a system administrator.</value>
+  </data>
+  <data name="errors.OA10074.ExternalLogonNoUserFound.message" xml:space="preserve">
+    <value>External logon failed, no matching MyID user found</value>
+  </data>
+  <data name="errors.OA10075.ExternalLogonInvalidMechanism.message" xml:space="preserve">
+    <value>External logon failed, external logon mechanism invalid</value>
+  </data>
+  <data name="errors.OA10076.ExternalLogonNoStandalone.message" xml:space="preserve">
+    <value>External logon failed, external logon is not available in standalone mode</value>
+  </data>
+  <data name="errors.OA10077.ExternalLogonActionFailed.message" xml:space="preserve">
+    <value>External logon failed, the attempted logon failed</value>
+  </data>
+  <data name="errors.OA10078.ExternalLogonMissingMappings.message" xml:space="preserve">
+    <value>External logon failed, no mappings found for claims</value>
+  </data>
+  <data name="errors.OA10079.ExternalLogonMissingMandatory.message" xml:space="preserve">
+    <value>External logon failed, a mandatory attribute is not present in either the claims or the user info</value>
+  </data>
+  <data name="errors.OA10080.ExternalLogonNoClaims.message" xml:space="preserve">
+    <value>External logon failed, no claims supplied by external identity provider</value>
+  </data>
+  <data name="errors.OA10081.InvalidClientConfiguration.message" xml:space="preserve">
+    <value>The custom configuration file is not valid.</value>
+  </data>
+  <data name="errors.OA10082.ClientConfigurationError.message" xml:space="preserve">
+    <value>There was a problem processing the custom configuration files</value>
+  </data>
+  <data name="errors.OA890901.MainenanceModeActive.message" xml:space="preserve">
+    <value>Logon Denied - The system is unavailable during maintenance.</value>
+  </data>
+</root>

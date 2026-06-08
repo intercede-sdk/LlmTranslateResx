@@ -1,0 +1,1005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1803.0" xml:space="preserve">
+    <value>Kartenvorlage erstellen</value>
+    <comment>Create Card Profile</comment>
+  </data>
+  <data name="1807.0" xml:space="preserve">
+    <value>Kartenprofile</value>
+    <comment>Card Profiles</comment>
+  </data>
+  <data name="2096.0" xml:space="preserve">
+    <value>Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>Please contact your system administrator.</comment>
+  </data>
+  <data name="2977.0" xml:space="preserve">
+    <value>Bei der Kommunikation mit dem Gerät ist ein Fehler aufgetreten.</value>
+    <comment>There was an error communicating with the device.</comment>
+  </data>
+  <data name="2978.0" xml:space="preserve">
+    <value>Bitte überprüfen Sie Ihre Konfiguration. Falls das Problem erneut auftritt, wenden Sie sich an den Kundensupport.</value>
+    <comment>Please check your configuration. If the problem occurs again, contact customer support.</comment>
+  </data>
+  <data name="10204.0" xml:space="preserve">
+    <value>Beim Hinzufügen des Benutzers ist ein Fehler aufgetreten oder der Benutzer existiert bereits in der Datenbank.</value>
+    <comment>There has been an error adding the user or the user already exists in the database</comment>
+  </data>
+  <data name="21596.0" xml:space="preserve">
+    <value>Ungültiges Gerät</value>
+    <comment>Invalid Device</comment>
+  </data>
+  <data name="21618.0" xml:space="preserve">
+    <value>Dieses Gerät unterstützt keine Einmalpasswörter.</value>
+    <comment>This device does not support One Time Passwords</comment>
+  </data>
+  <data name="21619.0" xml:space="preserve">
+    <value>Dieses Gerät wurde nicht zur Verwendung lizenziert</value>
+    <comment>This device has not been licensed for use</comment>
+  </data>
+  <data name="21628.0" xml:space="preserve">
+    <value>Gerät bereits zugewiesen</value>
+    <comment>Device Already Assigned</comment>
+  </data>
+  <data name="21629.0" xml:space="preserve">
+    <value>Dieses Gerät ist bereits einem Benutzer zugewiesen.</value>
+    <comment>This device is already assigned to a user</comment>
+  </data>
+  <data name="21633.0" xml:space="preserve">
+    <value>Ungültiges Kartenprofil</value>
+    <comment>Invalid Card Profile</comment>
+  </data>
+  <data name="21642.0" xml:space="preserve">
+    <value>Die Karte ist mit dem Kartenprofil nicht kompatibel.</value>
+    <comment>The card is not compatible with the card profile.</comment>
+  </data>
+  <data name="21643.0" xml:space="preserve">
+    <value>Die Karte hat nicht genug Speicherplatz, um das Kartenprofil zu empfangen.</value>
+    <comment>The card does not have enough space on it to receive the card profile.</comment>
+  </data>
+  <data name="21647.0" xml:space="preserve">
+    <value>Nur dem System bekannte Geräte können mit diesem Kartenprofil ausgegeben werden. Die aktuelle Karte ist unbekannt.</value>
+    <comment>Only devices known to the system can be issued this card profile. The current card is unknown.</comment>
+  </data>
+  <data name="82441.0" xml:space="preserve">
+    <value>Bitte versuchen Sie, den Arbeitsablauf neu zu starten, oder wenden Sie sich an den Systemadministrator.</value>
+    <comment>Please try restarting the workflow or contact the system administrator</comment>
+  </data>
+  <data name="85118.0" xml:space="preserve">
+    <value>Die 9B-Taste für dieses Gerät wurde nicht konfiguriert oder falsch konfiguriert. Dies muss korrigiert werden, bevor die Ausgabe fortgesetzt werden kann.</value>
+    <comment>The 9B key for this device has not been configured or has been configured incorrectly.  This needs to be corrected before issuance can continue.</comment>
+  </data>
+  <data name="85119.0" xml:space="preserve">
+    <value>Der für dieses Gerät angegebene 9B-Schlüssel ist falsch. Dies muss korrigiert werden, bevor die Ausgabe fortgesetzt werden kann.</value>
+    <comment>The 9B key specified for this device is incorrect.  This needs to be corrected before issuance can continue.</comment>
+  </data>
+  <data name="85120.0" xml:space="preserve">
+    <value>Der für dieses Gerät angegebene 9B-Schlüssel ist falsch. Dies muss korrigiert werden, bevor die Ausstellung fortgesetzt werden kann.</value>
+    <comment>The 9B key specified for this device is incorrect.  This needs to be corrected before issuance can continue.</comment>
+  </data>
+  <data name="85121.0" xml:space="preserve">
+    <value>Der für dieses Gerät angegebene 9B-Schlüssel ist falsch. Bitte stellen Sie sicher, dass der korrekte Verschlüsselungstyp ausgewählt wurde. Dies muss korrigiert werden, bevor die Ausgabe fortgesetzt werden kann.</value>
+    <comment>The 9B key specified for this device is incorrect.  Please ensure that the correct Encryption Type has been selected.  This needs to be corrected before issuance can continue.</comment>
+  </data>
+  <data name="85167.0" xml:space="preserve">
+    <value>Der Schlüssel für dieses Gerät wurde nicht konfiguriert oder falsch konfiguriert. Dies muss korrigiert werden, bevor die Ausgabe fortgesetzt werden kann.</value>
+    <comment>The key for this device has not been configured or has been configured incorrectly.  This needs to be corrected before issuance can continue</comment>
+  </data>
+  <data name="91161.0" xml:space="preserve">
+    <value>Benutzerdetails abrufen</value>
+    <comment>Get User Details</comment>
+  </data>
+  <data name="92083.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="92122.0" xml:space="preserve">
+    <value>Kartenauswahlprofil</value>
+    <comment>Select Card Profile</comment>
+  </data>
+  <data name="92126.0" xml:space="preserve">
+    <value>Vermögenswert zuweisen</value>
+    <comment>Assign Asset</comment>
+  </data>
+  <data name="92152.0" xml:space="preserve">
+    <value>Kartenprofil auswählen</value>
+    <comment>Select Card Profile</comment>
+  </data>
+  <data name="92174.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="92176.0" xml:space="preserve">
+    <value>Benutzer verifizieren</value>
+    <comment>Verify User</comment>
+  </data>
+  <data name="92183.0" xml:space="preserve">
+    <value>Gerät finden</value>
+    <comment>Find Device</comment>
+  </data>
+  <data name="92200.0" xml:space="preserve">
+    <value>Geräte auflisten</value>
+    <comment>List Devices</comment>
+  </data>
+  <data name="92201.0" xml:space="preserve">
+    <value>Geräte auflisten</value>
+    <comment>List Devices</comment>
+  </data>
+  <data name="92215.0" xml:space="preserve">
+    <value>Vermögenswert zuweisen</value>
+    <comment>Assign Asset</comment>
+  </data>
+  <data name="92300.0" xml:space="preserve">
+    <value>Geräte auflisten (Admin)</value>
+    <comment>List Devices (Admin)</comment>
+  </data>
+  <data name="92301.0" xml:space="preserve">
+    <value>Geräte auflisten (Admin)</value>
+    <comment>List Devices (Admin)</comment>
+  </data>
+  <data name="92343.0" xml:space="preserve">
+    <value>Gerät finden</value>
+    <comment>Find Device</comment>
+  </data>
+  <data name="92423.0" xml:space="preserve">
+    <value>Gerät aktualisieren</value>
+    <comment>Update Device</comment>
+  </data>
+  <data name="92431.0" xml:space="preserve">
+    <value>Gerät identifizieren</value>
+    <comment>Identify Device</comment>
+  </data>
+  <data name="92510.0" xml:space="preserve">
+    <value>Mein Gerät aktivieren</value>
+    <comment>Activate My Device</comment>
+  </data>
+  <data name="92512.0" xml:space="preserve">
+    <value>Überprüfung der Gerätenummer</value>
+    <comment>Device Serial Number Verification</comment>
+  </data>
+  <data name="92513.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="92602.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="92665.0" xml:space="preserve">
+    <value>Kartendetails zum Profil</value>
+    <comment>Card Profile Details</comment>
+  </data>
+  <data name="92761.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="92762.0" xml:space="preserve">
+    <value>Gerätedetails</value>
+    <comment>Device Details</comment>
+  </data>
+  <data name="96033.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="96043.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="96053.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="96063.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="98031.0" xml:space="preserve">
+    <value>Kartendetailprofil</value>
+    <comment>Card Profile Details</comment>
+  </data>
+  <data name="98051.0" xml:space="preserve">
+    <value>Geräte abrufen</value>
+    <comment>Get Devices</comment>
+  </data>
+  <data name="98052.0" xml:space="preserve">
+    <value>Geräte exportieren</value>
+    <comment>Export Devices</comment>
+  </data>
+  <data name="98072.0" xml:space="preserve">
+    <value>Kartendetailprofil</value>
+    <comment>Card Profile Details</comment>
+  </data>
+  <data name="98410.0" xml:space="preserve">
+    <value>Vermögenswerte hinzufügen</value>
+    <comment>Add Assets</comment>
+  </data>
+  <data name="98411.0" xml:space="preserve">
+    <value>Vermögenswerte hinzufügen</value>
+    <comment>Add Assets</comment>
+  </data>
+  <data name="98420.0" xml:space="preserve">
+    <value>Vermögenswerte bearbeiten</value>
+    <comment>Edit Assets</comment>
+  </data>
+  <data name="98421.0" xml:space="preserve">
+    <value>Vermögenswerte bearbeiten</value>
+    <comment>Edit Assets</comment>
+  </data>
+  <data name="115050.0" xml:space="preserve">
+    <value>%1 - Benutzer %2 hat eine Kartenerneuerung beantragt.</value>
+    <comment>%1 - User %2 requested a card replacement.</comment>
+  </data>
+  <data name="410007.0" xml:space="preserve">
+    <value>Bitte wenden Sie sich an Ihren Systemadministrator</value>
+    <comment>Please call your System Administrator</comment>
+  </data>
+  <data name="410014.0" xml:space="preserve">
+    <value>Wenden Sie sich an Ihren Systemadministrator und bitten Sie darum, dass Ihr Bereich auf „Alle“ erweitert wird.</value>
+    <comment>Contact your System Administrator and request that your scope be increased to "All"</comment>
+  </data>
+  <data name="410023.0" xml:space="preserve">
+    <value>Versuchen Sie, die Menge der Inhalte im Kartenprofil zu reduzieren. Wenn dies nicht möglich ist, versuchen Sie, Geräte mit höherer Inhaltskapazität zu verwenden.</value>
+    <comment>Try reducing the amount of content in the card profile. If this is not possible, try using devices with a higher content capacity.</comment>
+  </data>
+  <data name="410024.0" xml:space="preserve">
+    <value>Falsche Konfiguration der öffentlichen und privaten Bereiche auf dem Gerät.</value>
+    <comment>Incorrect configuration of public and private sectors on the device.</comment>
+  </data>
+  <data name="410025.0" xml:space="preserve">
+    <value>Versuchen Sie, das Gerät neu zu personalisieren, um in den relevanten Bereichen genügend Platz bereitzustellen.</value>
+    <comment>Try repersonalizing the device to provide enough space in the relevant areas</comment>
+  </data>
+  <data name="410027.0" xml:space="preserve">
+    <value>Der Benutzer verfügt nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.</value>
+    <comment>The user does not have sufficient privileges to carry out this action</comment>
+  </data>
+  <data name="410028.0" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, Benutzer mit dieser Rolle zu aktualisieren</value>
+    <comment>You do not have permission to update users of this role</comment>
+  </data>
+  <data name="410029.0" xml:space="preserve">
+    <value>Wenden Sie sich an Ihren Systemadministrator</value>
+    <comment>Contact your System Administrator</comment>
+  </data>
+  <data name="410033.0" xml:space="preserve">
+    <value>Das Kartenprofil kann nicht gelöscht werden, da es verwendet wird.</value>
+    <comment>The card profile cannot be deleted as it is in use</comment>
+  </data>
+  <data name="410034.0" xml:space="preserve">
+    <value>Es könnten noch Aufträge für das Kartenprofil ausstehen</value>
+    <comment>There may be jobs pending for the card profile</comment>
+  </data>
+  <data name="410035.0" xml:space="preserve">
+    <value>Abbrechen aller ausstehenden Aufträge für das Kartenprofil</value>
+    <comment>Cancel any pending jobs for the card profile</comment>
+  </data>
+  <data name="410038.0" xml:space="preserve">
+    <value>Beim Erzeugen des Inhalts für das Gerät ist ein Problem aufgetreten</value>
+    <comment>There has been a problem generating the content for the device</comment>
+  </data>
+  <data name="410043.0" xml:space="preserve">
+    <value>Das Gerät unterstützt den ausgewählten PIN-Typ nicht.</value>
+    <comment>The device does not support the PIN type selected.</comment>
+  </data>
+  <data name="410044.0" xml:space="preserve">
+    <value>Stellen Sie sicher, dass der im Kartenprofil ausgewählte Authentifizierungsdienst mit den Fähigkeiten des Geräts übereinstimmt.</value>
+    <comment>Ensure the Authentication Service selected within the Card Profile match the capabilities of the device.</comment>
+  </data>
+  <data name="410047.0" xml:space="preserve">
+    <value>Das Gerät hat keine GlobalPlatform-Schlüssel eingerichtet oder unterstützt möglicherweise keine Applets.</value>
+    <comment>The device does not have GlobalPlatform Keys set up or may not support applets.</comment>
+  </data>
+  <data name="410058.0" xml:space="preserve">
+    <value>Bitte überprüfen Sie, ob genügend verfügbarer Speicherplatz auf der Karte vorhanden ist, um diese Operation abzuschließen. Wenn das Problem erneut auftritt, wenden Sie sich bitte an den Kundendienst.</value>
+    <comment>Please check there is enough available space on the card to complete this operation. If the problem occurs again, contact customer support.</comment>
+  </data>
+  <data name="410071.0" xml:space="preserve">
+    <value>Bitte überprüfen Sie, ob diese Karte das ausgewählte Kartenprofil unterstützt</value>
+    <comment>Please check this card supports the selected card profile</comment>
+  </data>
+  <data name="410072.0" xml:space="preserve">
+    <value>Sie können dieses Gerät nicht abholen, da Ihr ursprüngliches Gerät abgelaufen ist.</value>
+    <comment>You cannot collect this device because your original device has expired.</comment>
+  </data>
+  <data name="420000.0" xml:space="preserve">
+    <value>Dem Benutzer können keine Zertifikate ausgestellt werden.</value>
+    <comment>User cannot be issued with certificates.</comment>
+  </data>
+  <data name="420001.0" xml:space="preserve">
+    <value>Anderes Gerät ausgewählt</value>
+    <comment>Different device selected</comment>
+  </data>
+  <data name="420002.0" xml:space="preserve">
+    <value>Das gewählte Kartenprofil enthält Zertifikate, die deaktiviert sind und derzeit nicht ausgegeben werden können.</value>
+    <comment>The chosen card profile contains certificates that are disabled and cannot be issued at this time</comment>
+  </data>
+  <data name="420003.0" xml:space="preserve">
+    <value>Gerät nicht ausgegeben</value>
+    <comment>Device not issued</comment>
+  </data>
+  <data name="500041.0" xml:space="preserve">
+    <value>Sie können dieses Gerät derzeit nicht verlängern.</value>
+    <comment>You cannot renew this device at this time.</comment>
+  </data>
+  <data name="500042.0" xml:space="preserve">
+    <value>Bestehende Karte gefunden - Sie können dieses Gerät nicht erneuern</value>
+    <comment>Existing Card found - You can not renew this device</comment>
+  </data>
+  <data name="500048.0" xml:space="preserve">
+    <value>Sie können abgelaufene Geräte nicht erneuern.</value>
+    <comment>You cannot renew expired devices.</comment>
+  </data>
+  <data name="500050.0" xml:space="preserve">
+    <value>Kein Benutzer gefunden.</value>
+    <comment>No user found.</comment>
+  </data>
+  <data name="500051.0" xml:space="preserve">
+    <value>Kein Benutzer angegeben.</value>
+    <comment>No user specified.</comment>
+  </data>
+  <data name="800002.4" xml:space="preserve">
+    <value>MyID SSA</value>
+    <comment>MyID SSA</comment>
+  </data>
+  <data name="800534.0" xml:space="preserve">
+    <value>Bitte kontaktieren Sie Ihren Systemadministrator.</value>
+    <comment>Please contact your system administrator.</comment>
+  </data>
+  <data name="800536.0" xml:space="preserve">
+    <value>Diese Software ist veraltet.\n\nBitte wenden Sie sich an Ihren Systemadministrator</value>
+    <comment>This software is out of date.\n\nPlease contact your system administrator</comment>
+  </data>
+  <data name="800541.0" xml:space="preserve">
+    <value>Ein unerwarteter Fehler ist aufgetreten.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>An unexpected error has occurred.\nPlease call your system administrator.</comment>
+  </data>
+  <data name="800542.0" xml:space="preserve">
+    <value>Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>Please call your System Administrator.</comment>
+  </data>
+  <data name="800550.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="880007.0" xml:space="preserve">
+    <value>Gerät kann nicht aktiviert werden.</value>
+    <comment>Unable to activate the device.</comment>
+  </data>
+  <data name="880008.0" xml:space="preserve">
+    <value>Update des Geräts nicht möglich.</value>
+    <comment>Unable to update the device.</comment>
+  </data>
+  <data name="881005.0" xml:space="preserve">
+    <value>Bitten Sie Ihren Systemadministrator zu überprüfen, ob der BioPack korrekt auf dem Server installiert ist.</value>
+    <comment>Ask your system administrator to check if the BioPack is installed correctly on the server.</comment>
+  </data>
+  <data name="881009.0" xml:space="preserve">
+    <value>Der Autorisierungscode für dieses Gerät fehlt oder Sie haben die zulässige Anzahl von Versuchen überschritten.</value>
+    <comment>The authorization code for this device is missing or you have exceeded the number of allowed attempts.</comment>
+  </data>
+  <data name="881013.0" xml:space="preserve">
+    <value>Der Server hat eine unbekannte Aktion angefordert.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The server requested an unknown action.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="881016.0" xml:space="preserve">
+    <value>Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>Please contact your system administrator.</comment>
+  </data>
+  <data name="881025.0" xml:space="preserve">
+    <value>Ungültiges Gerät</value>
+    <comment>Invalid Device</comment>
+  </data>
+  <data name="881026.0" xml:space="preserve">
+    <value>Dieses Gerät unterstützt das ausgewählte Kartenprofil nicht.</value>
+    <comment>This device does not support the card profile selected.</comment>
+  </data>
+  <data name="881039.0" xml:space="preserve">
+    <value>Die erforderlichen Gerätetreiber sind nicht installiert.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The required device drivers are not installed.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="881040.0" xml:space="preserve">
+    <value>Der Vorgang wurde abgebrochen, da das ursprünglich für diesen Prozess vorgesehene Gerät nicht gefunden werden konnte.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The operation has been terminated because the original device presented for this process could not be found.\nPlease contact your System Administrator.</comment>
+  </data>
+  <data name="881043.0" xml:space="preserve">
+    <value>Das Benutzerkonto ist deaktiviert.</value>
+    <comment>The user account is disabled.</comment>
+  </data>
+  <data name="881044.0" xml:space="preserve">
+    <value>Der Benutzer hat keine Sicherheitsfragen konfiguriert.</value>
+    <comment>The user has no security questions configured.</comment>
+  </data>
+  <data name="881044.256" xml:space="preserve">
+    <value>Für Ihr Konto sind keine Sicherheitsfragen konfiguriert.</value>
+    <comment>Your account has no security questions configured.</comment>
+  </data>
+  <data name="881044.512" xml:space="preserve">
+    <value>Ihr Konto hat keine Sicherheitsfragen konfiguriert.</value>
+    <comment>Your account has no security questions configured.</comment>
+  </data>
+  <data name="881045.0" xml:space="preserve">
+    <value>Benutzer nicht gefunden.</value>
+    <comment>User not found.</comment>
+  </data>
+  <data name="881048.0" xml:space="preserve">
+    <value>Benutzer hat keine Geräte.</value>
+    <comment>User has no devices.</comment>
+  </data>
+  <data name="881055.0" xml:space="preserve">
+    <value>Sie haben keine Geräte.\nBitte wenden Sie sich an Ihren Administrator.</value>
+    <comment>You have no devices.\nPlease contact your administrator.</comment>
+  </data>
+  <data name="881056.0" xml:space="preserve">
+    <value>Sie haben keine Geräte, die zum Austausch verfügbar sind.\nBitte kontaktieren Sie Ihren Administrator.</value>
+    <comment>You have no devices that are available for replacement.\nPlease contact your administrator.</comment>
+  </data>
+  <data name="881058.0" xml:space="preserve">
+    <value>Das Ziel ist nicht genehmigt, um eine Geräteidentität auszustellen.</value>
+    <comment>Target is not approved to issue a Device Identity.</comment>
+  </data>
+  <data name="890018.0" xml:space="preserve">
+    <value>Kartenprofil auswählen</value>
+    <comment>Select Card Profile</comment>
+  </data>
+  <data name="890018.256" xml:space="preserve">
+    <value>Ich möchte mein Gerät aktivieren für:</value>
+    <comment>I want to enable my device for:</comment>
+  </data>
+  <data name="890018.512" xml:space="preserve">
+    <value>Ich möchte mein Gerät aktivieren für:</value>
+    <comment>I want to enable my device for:</comment>
+  </data>
+  <data name="890019.0" xml:space="preserve">
+    <value>Das temporäre Kartenprofil wurde in der Konfiguration nicht gefunden.</value>
+    <comment>The temporary card profile was not found in the configuration.</comment>
+  </data>
+  <data name="890020.0" xml:space="preserve">
+    <value>Sie haben unzureichende Berechtigungen, um auf das Kartenprofil zuzugreifen.</value>
+    <comment>You have insufficient permissions to access the card profile.</comment>
+  </data>
+  <data name="890032.0" xml:space="preserve">
+    <value>Das temporäre Kartenprofil existiert nicht.</value>
+    <comment>The temporary card profile does not exist.</comment>
+  </data>
+  <data name="890034.0" xml:space="preserve">
+    <value>Warum stornieren Sie dieses Gerät?</value>
+    <comment>Why are you canceling this device?</comment>
+  </data>
+  <data name="890052.0" xml:space="preserve">
+    <value>Diese Aktion kann auf Ihrem Gerät nicht ausgeführt werden.</value>
+    <comment>This action cannot be performed on your device.</comment>
+  </data>
+  <data name="890100.0" xml:space="preserve">
+    <value>Es sind keine Kartenprofile verfügbar.</value>
+    <comment>You have no card profiles available.</comment>
+  </data>
+  <data name="890110.0" xml:space="preserve">
+    <value>Keine geeigneten Kartenprofile verfügbar.</value>
+    <comment>No suitable card profiles available.</comment>
+  </data>
+  <data name="890480.0" xml:space="preserve">
+    <value>Gerät konnte nicht registriert werden.</value>
+    <comment>Unable to register the device.</comment>
+  </data>
+  <data name="890483.0" xml:space="preserve">
+    <value>Für dieses Gerät gibt es keine Aufträge.</value>
+    <comment>There are no jobs for this device.</comment>
+  </data>
+  <data name="890499.0" xml:space="preserve">
+    <value>Das Kartenprofil unterstützt keine Verschlüsselung und kann daher nicht für die Schlüsselwiederherstellung verwendet werden.</value>
+    <comment>The card profile does not support encryption and therefore can not be used for key recovery</comment>
+  </data>
+  <data name="890500.0" xml:space="preserve">
+    <value>Dieses Gerät unterstützt keinen biometrischen Abgleich von der Karte.</value>
+    <comment>This device does not support biometric match from card.</comment>
+  </data>
+  <data name="890503.0" xml:space="preserve">
+    <value>Die von Ihnen eingegebenen Antworten auf die Sicherheitsfragen stimmen nicht mit den im System registrierten überein. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The security question answers you have entered do not match with those registered in the system. Please contact your system administrator.</comment>
+  </data>
+  <data name="890514.0" xml:space="preserve">
+    <value>Beim Abrufen des DNS-Namens des Vermögenswerts ist ein Fehler aufgetreten</value>
+    <comment>There has been an error retrieving the Asset's DNS Name</comment>
+  </data>
+  <data name="890516.0" xml:space="preserve">
+    <value>Der Vermögenswert wurde im LDAP nicht gefunden</value>
+    <comment>Asset was not found in LDAP</comment>
+  </data>
+  <data name="890519.0" xml:space="preserve">
+    <value>Dieser Auftrag wird nicht auf dem richtigen Vermögenswert erfasst.</value>
+    <comment>This job is not being collected on the correct asset</comment>
+  </data>
+  <data name="890526.0" xml:space="preserve">
+    <value>Kein Abbruch-Gerätepaket bereitgestellt</value>
+    <comment>No Cancel Device Bundle provided</comment>
+  </data>
+  <data name="890527.0" xml:space="preserve">
+    <value>Gerät keinem Benutzer zugewiesen</value>
+    <comment>Device not assigned to a user</comment>
+  </data>
+  <data name="890537.0" xml:space="preserve">
+    <value>Das Gerät ist für das angegebene Profil ungeeignet.</value>
+    <comment>The device is unsuitable for the profile specified</comment>
+  </data>
+  <data name="890540.0" xml:space="preserve">
+    <value>Der im Kartenprofil definierte Inhalt wird von dieser Ausstellungsart derzeit nicht unterstützt. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The content defined in the card profile is not currently supported by this issuance method. Please contact your system administrator</comment>
+  </data>
+  <data name="890551.0" xml:space="preserve">
+    <value>Das angegebene Gerät unterstützt keine Attestation.</value>
+    <comment>The device specified does not support Attestation.</comment>
+  </data>
+  <data name="890560.0" xml:space="preserve">
+    <value>Kartenprofil im Auftrag nicht vorhanden.</value>
+    <comment>Card profile not present in Job.</comment>
+  </data>
+  <data name="890565.0" xml:space="preserve">
+    <value>Es gibt kein geeignetes Kartenprofil.</value>
+    <comment>There is no suitable card profile.</comment>
+  </data>
+  <data name="890570.0" xml:space="preserve">
+    <value>Das Gerät muss angegeben werden, um dieses Kartenprofil bereitzustellen.</value>
+    <comment>The device must be specified to provision this card profile.</comment>
+  </data>
+  <data name="890571.0" xml:space="preserve">
+    <value>Dieses Gerät muss einem Benutzer zugewiesen werden, um dieses Kartenprofil bereitzustellen.</value>
+    <comment>This device must be assigned to a user to provision this card profile.</comment>
+  </data>
+  <data name="891026.0" xml:space="preserve">
+    <value>Gerät aktualisieren</value>
+    <comment>Update Device</comment>
+  </data>
+  <data name="891065.0" xml:space="preserve">
+    <value>Geräteeinstellungen bereitstellen</value>
+    <comment>Provision Device Settings</comment>
+  </data>
+  <data name="891094.0" xml:space="preserve">
+    <value>Gerät erfolgreich bereitgestellt</value>
+    <comment>Device provisioned successfully</comment>
+  </data>
+  <data name="891094.32" xml:space="preserve">
+    <value>Gerätebereitstellung erfolgreich abgeschlossen</value>
+    <comment>Provision device completed OK</comment>
+  </data>
+  <data name="891097.0" xml:space="preserve">
+    <value>Gerät erfolgreich abgebrochen</value>
+    <comment>Device canceled successfully</comment>
+  </data>
+  <data name="892012.0" xml:space="preserve">
+    <value>Dieses System ist nicht so konfiguriert, dass die Ausgabe dieses Gerätetyps erlaubt ist. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>This system is not configured to allow issuance of this type of device. Please contact your system administrator.</comment>
+  </data>
+  <data name="892013.0" xml:space="preserve">
+    <value>Dieses Gerät kann ausgegeben werden, aber das System ist für diesen Gerätetyp nicht vollständig konfiguriert. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>This device can be issued, but the system is not fully configured for this type of device. Please contact your system administrator.</comment>
+  </data>
+  <data name="913190.0" xml:space="preserve">
+    <value>Gerät entsperren</value>
+    <comment>Unlock Device</comment>
+  </data>
+  <data name="9000502.0" xml:space="preserve">
+    <value>Sie haben kein eingerichtetes Konto, das verwendet werden kann. Sie können mit der Aktivität nicht fortfahren, bis dieses Problem behoben ist.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have an account setup that can be used. You will not be able to proceed with the activity until this is resolved.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9000503.0" xml:space="preserve">
+    <value>Für Ihr Konto sind keine Sicherheitsfragen eingerichtet. Sie können mit dieser Aktivität nicht fortfahren, solange diese nicht verfügbar sind.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have any security questions setup for your account. You will not be able to proceed with the activity until these are available.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9000612.0" xml:space="preserve">
+    <value>Bitte geben Sie die PIN ein, die zum Anmelden an Ihrer Smartcard erforderlich ist.</value>
+    <comment>Please enter the PIN needed to log on to your smart card.</comment>
+  </data>
+  <data name="9000614.0" xml:space="preserve">
+    <value>Keine Smartcard gefunden.\nBitte legen Sie Ihre Karte in den Leser ein und drücken Sie die Schaltfläche „Erneut versuchen“.</value>
+    <comment>No smart card found.\nPlease insert your card into a reader and select the retry button.</comment>
+  </data>
+  <data name="9000614.8" xml:space="preserve">
+    <value>Keine Smartcard gefunden.\nBitte legen Sie Ihre Karte in den Kartenleser ein und wählen Sie die Schaltfläche „Wiederholen“ oder klicken Sie auf „Abbrechen“, um zur Startseite zurückzukehren.</value>
+    <comment>No smart card found.\nPlease insert your card into a reader and select the retry button, or click Cancel to return to the start page.</comment>
+  </data>
+  <data name="9000902.0" xml:space="preserve">
+    <value>Der im Kartenprofil definierte Inhalt wird von dieser Ausgabemethode derzeit nicht unterstützt. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The content defined in the card profile is not currently supported by this issuance method. Please contact your system administrator</comment>
+  </data>
+  <data name="9001003.0" xml:space="preserve">
+    <value>Die Geschäftsbedingungen wurden nicht mit dem ausgegebenen Gerät unterzeichnet.</value>
+    <comment>The terms and conditions have not been signed with the issued device.</comment>
+  </data>
+  <data name="9001401.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001403.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Rechte, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001405.0" xml:space="preserve">
+    <value>Sie haben nicht ausreichende Berechtigungen, um diese Aktion durchzuführen.\nBitte kontaktieren Sie Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001407.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001409.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001411.0" xml:space="preserve">
+    <value>Sie haben nicht ausreichende Berechtigungen, um diese Operation durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001413.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001415.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Operation auszuführen.\nBitte kontaktieren Sie Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001417.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Operation durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001419.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001421.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001423.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001425.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001427.0" xml:space="preserve">
+    <value>Sie verfügen nicht über die erforderlichen Berechtigungen, um diese Aktion durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001429.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Operation auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001431.0" xml:space="preserve">
+    <value>Sie haben nicht die erforderlichen Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001433.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Operation auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001435.0" xml:space="preserve">
+    <value>Sie verfügen nicht über die erforderlichen Berechtigungen, um diese Aktion durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001437.0" xml:space="preserve">
+    <value>Sie können nicht auf die Aktivität zur Erneuerung des Softzertifikats zugreifen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You are not able to access the soft certificate renewal activity.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001439.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001441.0" xml:space="preserve">
+    <value>Sie haben nicht genügend Berechtigungen, um diese Operation auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9001518.0" xml:space="preserve">
+    <value>Zusammenfassung der vom Benutzer nach der ersten Phase der Selbstaktivierung oder geführten Aktivierung eines Kartenprofils zu ergreifenden Maßnahmen. Zum Beispiel: Die Karte muss jetzt aktiviert werden.</value>
+    <comment>Summary of actions to be taken by the user after the first stage of a self activation or assisted activation card profile has been collected. E.G The card now requires activation.</comment>
+  </data>
+  <data name="9001544.0" xml:space="preserve">
+    <value>Sie haben nicht die erforderlichen Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9002004.0" xml:space="preserve">
+    <value>Nur an bekannte Geräte ausgeben</value>
+    <comment>Only Issue To Known Devices</comment>
+  </data>
+  <data name="9002020.0" xml:space="preserve">
+    <value>Ungültiges Asset ausgewählt</value>
+    <comment>Invalid Asset Selected</comment>
+  </data>
+  <data name="9002021.0" xml:space="preserve">
+    <value>Fehler beim Hinzufügen des Assets</value>
+    <comment>Failed to add asset</comment>
+  </data>
+  <data name="9003034.0" xml:space="preserve">
+    <value>Aktualisiere Ihre Geräteidentität ...</value>
+    <comment>Updating your device identity ...</comment>
+  </data>
+  <data name="9003100.0" xml:space="preserve">
+    <value>Beim Zugriff auf das biometrische Gerät ist ein Fehler aufgetreten. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>There has been an error accessing the Biometric device. Please contact your system administrator.</comment>
+  </data>
+  <data name="9003102.0" xml:space="preserve">
+    <value>Bei der Übereinstimmung Ihres Fingerabdrucks ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Systemadministrator.</value>
+    <comment>There was an error matching your fingerprint. Please contact the system administrator.</comment>
+  </data>
+  <data name="9003103.0" xml:space="preserve">
+    <value>Beim Lesen der biometrischen Daten von der Karte ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Systemadministrator.</value>
+    <comment>There was an error reading the biometrics from the card. Please contact the system administrator.</comment>
+  </data>
+  <data name="9003203.0" xml:space="preserve">
+    <value>Es wurden keine unterstützten biometrischen Erfassungsgeräte erkannt.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>No supported biometric capture devices were detected.\nPlease contact your system administrator.</comment>
+  </data>
+  <data name="9003322.0" xml:space="preserve">
+    <value>Die eingelegte Smartcard ist nicht die richtige für diese Aktivität.\nBitte legen Sie die Karte mit der Seriennummer {0} in ein Kartenlesegerät und wählen Sie die Schaltfläche „Wiederholen“.\n\nWenn Ihnen diese Smartcard nicht zur Verfügung steht, wählen Sie bitte die Schaltfläche „Abbrechen“, um die Anwendung zu beenden, und wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The smart card you have inserted is not the correct one for this activity.\nPlease place the card with serial number {0} into a reader and select the Retry button.\n\nIf you do not have this smart card available, please select the  Cancel button to exit the application and contact your system administrator.</comment>
+  </data>
+  <data name="9003322.8" xml:space="preserve">
+    <value>Die eingelegte Smartcard ist nicht die richtige für diese Aktivität.\nBitte legen Sie die Karte mit der Seriennummer {0} in ein Lesegerät und wählen Sie die Schaltfläche „Wiederholen“.\n\nWenn Ihnen diese Smartcard nicht zur Verfügung steht, wählen Sie bitte die Schaltfläche „Abbrechen“ und wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The smart card you have inserted is not the correct one for this activity.\nPlease place the card with serial number {0} into a reader and select the Retry button.\n\nIf you do not have this smart card available, please select the Cancel button and contact your system administrator.</comment>
+  </data>
+  <data name="9003324.0" xml:space="preserve">
+    <value>Die Anwendung hat einen Aktivitätstyp festgestellt, der nicht verarbeitet werden kann. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The application has encountered an activity type that cannot be processed. Please contact your system administrator.</comment>
+  </data>
+  <data name="9003348.0" xml:space="preserve">
+    <value>Dieses Kartenprofil erfordert, dass der Empfänger ein Foto aufgenommen hat.</value>
+    <comment>This card profile requires that the recipient has a photograph captured</comment>
+  </data>
+  <data name="9003350.0" xml:space="preserve">
+    <value>Der Benutzer hat keine biometrischen Daten registriert. Biometrische Authentifizierung umgehen?</value>
+    <comment>The user has no biometrics enrolled. Bypass biometric authentication?</comment>
+  </data>
+  <data name="9004001.0" xml:space="preserve">
+    <value>Diese Software ist veraltet.\n\nBitte wenden Sie sich an Ihren Systemadministrator, um die neueste Version zu erhalten.</value>
+    <comment>This software is out of date.\n\nPlease contact your system administrator to obtain the latest version.</comment>
+  </data>
+  <data name="9004024.0" xml:space="preserve">
+    <value>Die Anwendung konnte eine Abhängigkeit für {0}\nnicht auflösen, die von der Assembly {1} benötigt wird. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The Application was unable to resolve a dependency for {0}\nwhich is required by assembly {1}, please contact your system administrator</comment>
+  </data>
+  <data name="9004025.0" xml:space="preserve">
+    <value>Die Anwendung hat ein Problem festgestellt. Informationen zu diesem Problem finden Sie unter Zusätzliche Informationen. Bitte wenden Sie sich an Ihren Systemadministrator für Unterstützung.</value>
+    <comment>The application has encountered a problem. Information related to this problem can be found under additional information. Please contact your system administrator for support.</comment>
+  </data>
+  <data name="9004026.0" xml:space="preserve">
+    <value>Während der Aktivität ist ein Fehler aufgetreten. Bitte wenden Sie sich an Ihren Systemadministrator und geben Sie den Fehler an: Workflow {0} konnte nicht gestartet werden.</value>
+    <comment>An error has occurred during the activity. Please contact your system administrator and quote the error: Unable to start workflow {0}</comment>
+  </data>
+  <data name="9004027.0" xml:space="preserve">
+    <value>Bei der Aktivität ist ein Fehler aufgetreten. Bitte wenden Sie sich an Ihren Systemadministrator und geben Sie den Fehlercode an: Fehler beim Übergang zur nächsten Phase des Workflows {0}</value>
+    <comment>An error has occurred during the activity. Please contact your system administrator and quote the error: Error moving to the next stage of workflow {0}</comment>
+  </data>
+  <data name="9007014.0" xml:space="preserve">
+    <value>Kartenprofil</value>
+    <comment>Card Profile</comment>
+  </data>
+  <data name="9100413.8" xml:space="preserve">
+    <value>Ein unerwarteter Fehler ist aufgetreten.\nBitte kontaktieren Sie Ihren Systemadministrator.</value>
+    <comment>An unexpected error has occurred.\nPlease call your system administrator.</comment>
+  </data>
+  <data name="9100900.8" xml:space="preserve">
+    <value>Unbekanntes Gerät eingesetzt.</value>
+    <comment>Unknown device inserted.</comment>
+  </data>
+  <data name="9200000.8" xml:space="preserve">
+    <value>Diese Software ist veraltet.\n\nBitte wenden Sie sich an Ihren Systemadministrator, um die neueste Version zu erhalten.</value>
+    <comment>This software is out of date.\n\nPlease contact your system administrator to obtain the latest version.</comment>
+  </data>
+  <data name="9201500.8" xml:space="preserve">
+    <value>Gerät kann nicht aktiviert werden.</value>
+    <comment>Unable to activate the device.</comment>
+  </data>
+  <data name="9201801.8" xml:space="preserve">
+    <value>Die Karte ist nicht geeignet, da sie keinem Benutzer zugewiesen wurde.</value>
+    <comment>The card is not suitable as it has not been assigned to a user.</comment>
+  </data>
+  <data name="10000010.16" xml:space="preserve">
+    <value>Bitte wenden Sie sich an Ihren Systemadministrator</value>
+    <comment>Please contact your systems administrator</comment>
+  </data>
+  <data name="10000017.16" xml:space="preserve">
+    <value>Wählen Sie ein Gerät aus der unten aufgeführten Liste oder fügen Sie ein anderes Gerät ein.</value>
+    <comment>Select a device from those listed below or insert another device.</comment>
+  </data>
+  <data name="10000029.16" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator</comment>
+  </data>
+  <data name="10000035.16" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Rechte, um diese Aktion durchzuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator</comment>
+  </data>
+  <data name="90101032.0" xml:space="preserve">
+    <value>Geräte</value>
+    <comment>Devices</comment>
+  </data>
+  <data name="90101033.0" xml:space="preserve">
+    <value>Geräte</value>
+    <comment>Devices</comment>
+  </data>
+  <data name="90101035.0" xml:space="preserve">
+    <value>Keine zugewiesenen Geräte</value>
+    <comment>No assigned devices</comment>
+  </data>
+  <data name="90101036.0" xml:space="preserve">
+    <value>Mindestens ein Gerät</value>
+    <comment>At least one device</comment>
+  </data>
+  <data name="90103026.0" xml:space="preserve">
+    <value>Kartenprofilname</value>
+    <comment>Card Profile Name</comment>
+  </data>
+  <data name="90103027.0" xml:space="preserve">
+    <value>Kartenprofilname</value>
+    <comment>Card Profile Name</comment>
+  </data>
+  <data name="90105006.0" xml:space="preserve">
+    <value>Anlagenname</value>
+    <comment>Asset Name</comment>
+  </data>
+  <data name="90105007.0" xml:space="preserve">
+    <value>Anlagenname</value>
+    <comment>Asset Name</comment>
+  </data>
+  <data name="90200004.0" xml:space="preserve">
+    <value>Benutzer abgebrochen</value>
+    <comment>User Canceled</comment>
+  </data>
+  <data name="90200041.0" xml:space="preserve">
+    <value>Gerät bereitstellen</value>
+    <comment>Provision Device</comment>
+  </data>
+  <data name="90200284.0" xml:space="preserve">
+    <value>Erstellung von MSVSC genehmigen</value>
+    <comment>Approve MSVSC Creation</comment>
+  </data>
+  <data name="90200291.0" xml:space="preserve">
+    <value>Kartenprofil-Auswahl genehmigen</value>
+    <comment>Approve Card Profile Selection</comment>
+  </data>
+  <data name="90200324.0" xml:space="preserve">
+    <value>Originalgeräteaktivierung genehmigen</value>
+    <comment>Approve Original Device Activation</comment>
+  </data>
+  <data name="90200325.0" xml:space="preserve">
+    <value>Gerät löschen</value>
+    <comment>Erase Device</comment>
+  </data>
+  <data name="90200361.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select a Device</comment>
+  </data>
+  <data name="90200571.0" xml:space="preserve">
+    <value>Kartenvorlage auswählen</value>
+    <comment>Select Card Profile</comment>
+  </data>
+  <data name="90200581.0" xml:space="preserve">
+    <value>Geräte-Update genehmigen</value>
+    <comment>Approve Device Update</comment>
+  </data>
+  <data name="90200589.0" xml:space="preserve">
+    <value>Geräte-Update genehmigen</value>
+    <comment>Approve Device Update</comment>
+  </data>
+  <data name="90201125.0" xml:space="preserve">
+    <value>Originalgerät-Stornierung genehmigen</value>
+    <comment>Approve Original Device Cancellation</comment>
+  </data>
+  <data name="90201412.0" xml:space="preserve">
+    <value>Benutzer aktualisieren</value>
+    <comment>Update User</comment>
+  </data>
+  <data name="90202622.0" xml:space="preserve">
+    <value>Vermögenswert zur Datenbank hinzufügen</value>
+    <comment>Add Asset to Database</comment>
+  </data>
+  <data name="90202624.0" xml:space="preserve">
+    <value>Wählen Sie ein Asset zur Ansicht aus</value>
+    <comment>Select an asset to view</comment>
+  </data>
+  <data name="90202625.0" xml:space="preserve">
+    <value>Klicken Sie auf Weiter, um die dem Asset zugewiesenen Identitäten anzuzeigen.</value>
+    <comment>Click continue to view identities assigned to the asset.</comment>
+  </data>
+  <data name="90202631.0" xml:space="preserve">
+    <value>Gerät auswählen</value>
+    <comment>Select Device</comment>
+  </data>
+  <data name="90202642.0" xml:space="preserve">
+    <value>Das Gerät ist entweder nicht registriert oder Sie haben keine Berechtigung, es anzuzeigen.</value>
+    <comment>The device is either not registered or you do not have permission to view it</comment>
+  </data>
+  <data name="90202793.0" xml:space="preserve">
+    <value>Gerätename wird abgerufen</value>
+    <comment>Getting Device Name</comment>
+  </data>
+  <data name="90202794.0" xml:space="preserve">
+    <value>Geräteregistrierung bestätigen</value>
+    <comment>Confirm Device Registration</comment>
+  </data>
+  <data name="90202796.0" xml:space="preserve">
+    <value>Gerät wurde erfolgreich registriert.</value>
+    <comment>Device has been successfully registered.</comment>
+  </data>
+  <data name="90202797.0" xml:space="preserve">
+    <value>Gerät wurde nicht registriert.</value>
+    <comment>Device has not been registered.</comment>
+  </data>
+  <data name="90209991.0" xml:space="preserve">
+    <value>Benutzerkontenänderungen genehmigen</value>
+    <comment>Approve User Account Changes</comment>
+  </data>
+  <data name="90300005.0" xml:space="preserve">
+    <value>Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen.\nBitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>You do not have sufficient privileges to perform this operation.\nPlease contact your system administrator</comment>
+  </data>
+  <data name="99201103.8" xml:space="preserve">
+    <value>Die Karte ist nicht geeignet, da sie derzeit einem Benutzer zugewiesen ist.</value>
+    <comment>The card is not suitable as it is currently assigned to a user.</comment>
+  </data>
+  <data name="99201801.8" xml:space="preserve">
+    <value>Die Karte ist nicht geeignet, da sie keinem Benutzer zugewiesen wurde.</value>
+    <comment>The card is not suitable as it has not been assigned to a user.</comment>
+  </data>
+  <data name="99202401.8" xml:space="preserve">
+    <value>Die Karte ist nicht geeignet, da sie keinem Benutzer zugewiesen wurde.</value>
+    <comment>The card is not suitable as it has not been assigned to a user.</comment>
+  </data>
+</root>

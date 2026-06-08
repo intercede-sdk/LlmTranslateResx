@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ID0001" xml:space="preserve">
+    <value>Self-Service Request Portal</value>
+  </data>
+  <data name="ID0002" xml:space="preserve">
+    <value>MyID Derived Credentials</value>
+  </data>
+  <data name="ID0003" xml:space="preserve">
+    <value>Please insert your card and click "Begin", then select your certificate from the popup dialog</value>
+  </data>
+  <data name="ID0004" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="ID0005" xml:space="preserve">
+    <value>Request Derived Credentials</value>
+  </data>
+  <data name="ID0006" xml:space="preserve">
+    <value>When using Internet Explorer, it is possible that the prompt for the certificate will appear behind this browser.</value>
+  </data>
+  <data name="ID0007" xml:space="preserve">
+    <value>Help selecting the right certificate</value>
+  </data>
+  <data name="ID0008" xml:space="preserve">
+    <value>Display detailed insructions about certificate selection</value>
+  </data>
+  <data name="ID0009" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ID0010" xml:space="preserve">
+    <value>Close the help</value>
+  </data>
+  <data name="Chrome01" xml:space="preserve">
+    <value>Certificate Selection</value>
+  </data>
+  <data name="Chrome03" xml:space="preserve">
+    <value>Any certificate you choose, including clicking "Cancel" to select no certificate, will be remembered by the browser until all copies of the browser are closed.  To select a different certificate, close all browsers and restart the process.</value>
+  </data>
+  <data name="Chrome02" xml:space="preserve">
+    <value>Important:</value>
+  </data>
+  <data name="Chrome04" xml:space="preserve">
+    <value>When you click the "Begin" button, the browser will ask you to select which certificate you would like to use to identify yourself.  It will default to the certificate that was most recently installed on your computer.</value>
+  </data>
+  <data name="Chrome05" xml:space="preserve">
+    <value>The certificate prompt will look like this:</value>
+  </data>
+  <data name="Chrome06" xml:space="preserve">
+    <value>This list will only show certificates that have not expired and are suitable for browser based authentication.  If your certificate is not present, make sure your smartcard is inserted and that your certificate is valid.</value>
+  </data>
+  <data name="Chrome07" xml:space="preserve">
+    <value>After selecting a certificate that is on a smartcard, you will be presented for a PIN.</value>
+  </data>
+  <data name="Chrome08" xml:space="preserve">
+    <value>This certificate will remain in use until the browser is closed.  Removing the smartcard will not prevent this.</value>
+  </data>
+  <data name="Edge09" xml:space="preserve">
+    <value>This certificate will remain in use until the browser is closed.  Removing the smartcard will not prevent this.</value>
+  </data>
+  <data name="Edge08" xml:space="preserve">
+    <value>After selecting a certificate that is on a smartcard, you will be presented for a PIN.</value>
+  </data>
+  <data name="Edge07" xml:space="preserve">
+    <value>This list will only show certificates that have not expired and are suitable for browser based authentication.  If your certificate is not present, make sure your smartcard is inserted and that your certificate is valid.</value>
+  </data>
+  <data name="Edge06" xml:space="preserve">
+    <value>If this is not the certificate you wish to use, click the "More Choices" label, then select the certificate you want to use from the list</value>
+  </data>
+  <data name="Edge05" xml:space="preserve">
+    <value>The certificate prompt will look like this:</value>
+  </data>
+  <data name="Edge04" xml:space="preserve">
+    <value>When you click the "Begin" button, the browser will ask you to select which certificate you would like to use to identify yourself.  It will default to the certificate that was most recently installed on your computer.</value>
+  </data>
+  <data name="Edge03" xml:space="preserve">
+    <value>Any certificate you choose, including clicking "Cancel" to select no certificate, will be remembered by the browser until all copies of the browser are closed.  To select a different certificate, close all browsers and restart the process.</value>
+  </data>
+  <data name="Edge02" xml:space="preserve">
+    <value>Important:</value>
+  </data>
+  <data name="Edge01" xml:space="preserve">
+    <value>Certificate Selection</value>
+  </data>
+  <data name="IE10" xml:space="preserve">
+    <value>This certificate will remain in use until the browser is closed.  Removing the smartcard will not prevent this.</value>
+  </data>
+  <data name="IE09" xml:space="preserve">
+    <value>After selecting a certificate that is on a smartcard, you will be presented for a PIN.</value>
+  </data>
+  <data name="IE08" xml:space="preserve">
+    <value>This list will only show certificates that have not expired and are suitable for browser based authentication.  If your certificate is not present, make sure your smartcard is inserted and that your certificate is valid.</value>
+  </data>
+  <data name="IE07" xml:space="preserve">
+    <value>If this is not the certificate you wish to use, click the "More Choices" label, then select the certificate you want to use from the list</value>
+  </data>
+  <data name="IE06" xml:space="preserve">
+    <value>If this dialog does not appear, and the site appears to have frozen, it may be because the browser is obscuring it.  Check for the dialog behind the browser window.</value>
+  </data>
+  <data name="IE05" xml:space="preserve">
+    <value>The certificate prompt will look like this:</value>
+  </data>
+  <data name="IE04" xml:space="preserve">
+    <value>When you click the "Begin" button, the browser will ask you to select which certificate you would like to use to identify yourself.  It will default to the certificate that was most recently installed on your computer.</value>
+  </data>
+  <data name="IE03" xml:space="preserve">
+    <value>Any certificate you choose, including clicking "Cancel" to select no certificate, will be remembered by the browser until all copies of the browser are closed.  To select a different certificate, close all browsers and restart the process.</value>
+  </data>
+  <data name="IE02" xml:space="preserve">
+    <value>Important:</value>
+  </data>
+  <data name="IE01" xml:space="preserve">
+    <value>Certificate Selection</value>
+  </data>
+  <data name="ID0011" xml:space="preserve">
+    <value>Authentication Error</value>
+  </data>
+  <data name="ID0012" xml:space="preserve">
+    <value>Could not find Certificate</value>
+  </data>
+  <data name="ID0013" xml:space="preserve">
+    <value>You may have reached this page by clicking "Cancel" on the certificate selection dialog.</value>
+  </data>
+  <data name="ID0014" xml:space="preserve">
+    <value>To resolve this, close all instances of this browser then repeat the process.</value>
+  </data>
+  <data name="ID0015" xml:space="preserve">
+    <value>If you do not close all your browsers, you will continue to see this page.  (HTTP Error: 403) </value>
+  </data>
+  <data name="ID0018" xml:space="preserve">
+    <value>You can restart the process by inserting your smartcard and clicking the button below (HTTP Error: 404)</value>
+  </data>
+  <data name="ID0017" xml:space="preserve">
+    <value>The resource you are looking for does not exist on this server</value>
+  </data>
+  <data name="ID0016" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="SSRPUrl" xml:space="preserve">
+    <value>/SSRP</value>
+  </data>
+  <data name="StartPageUrl" xml:space="preserve">
+    <value>/StartPage</value>
+  </data>
+  <data name="ID0019" xml:space="preserve">
+    <value>Cannot Validate Certificate</value>
+  </data>
+  <data name="ID0020" xml:space="preserve">
+    <value>Your certificate may have been revoked, or the issuing system could not be reached.  You cannot continue with this process.</value>
+  </data>
+  <data name="ID0021" xml:space="preserve">
+    <value>Please contact your Administrator to resolve this issue.  (HTTP Error: 403.13)</value>
+  </data>
+  <data name="ID0022" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ID0023" xml:space="preserve">
+    <value>The page you are trying to access is secured with SSL</value>
+  </data>
+  <data name="ID0024" xml:space="preserve">
+    <value>The page request was made using HTTP, but the server requires that you use HTTPS.</value>
+  </data>
+  <data name="ID0025" xml:space="preserve">
+    <value>The chosen certificate is either not trusted or invalid</value>
+  </data>
+  <data name="ID0026" xml:space="preserve">
+    <value>The certificate you used for this request is not trusted by the server.</value>
+  </data>
+  <data name="ID0027" xml:space="preserve">
+    <value>Please contact your Administrator to resolve this issue.  (HTTP Error: 403.16)</value>
+  </data>
+  <data name="ID0028" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ID0029" xml:space="preserve">
+    <value>Try changing your URL to use HTTPS.  (HTTP Error: 403.4)</value>
+  </data>
+</root>

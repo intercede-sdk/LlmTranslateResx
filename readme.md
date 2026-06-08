@@ -209,6 +209,15 @@ C:\Program Files\Intercede\MyID\
         └── ErrorCodes.en-US.resx
 ```
 
+## Sample translations
+
+The `samples/` folder contains German translations of MyID CMS Enterprise resource files for versions v12.6, v12.17 and v12.18, produced using an Azure-hosted GPT-4.1-mini LLM. These can be:
+
+- **Installed directly** onto a matching version of MyID as a ready-made set of German translations.
+- **Used as `--previousFile` inputs** when translating a newer version. Where a string has not changed, the existing translation is reused — speeding up translation and improving consistency across versions.
+
+See [samples/readme.md](samples/readme.md) for installation instructions and guidance on using the samples as previous translation files.
+
 ## Known Issues
 
 - It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "content filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards. The content moderation policy in Azure can be set to "Low"

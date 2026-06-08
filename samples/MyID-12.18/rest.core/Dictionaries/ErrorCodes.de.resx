@@ -1,0 +1,2273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errors.email.failureMessage" xml:space="preserve">
+    <value>ist keine gültige E-Mail-Adresse</value>
+    <comment>is an invalid email address</comment>
+  </data>
+  <data name="errors.DatePast.failureMessage" xml:space="preserve">
+    <value>muss ein Datum in der Vergangenheit sein</value>
+    <comment>must be a date in the past</comment>
+  </data>
+  <data name="errors.DateFuture.failureMessage" xml:space="preserve">
+    <value>muss ein Datum in der Zukunft sein</value>
+    <comment>must be a date in the future</comment>
+  </data>
+  <data name="errors.numeric.failureMessage" xml:space="preserve">
+    <value>muss eine Zahl sein</value>
+    <comment>must be a number</comment>
+  </data>
+  <data name="errors.integer.failureMessage" xml:space="preserve">
+    <value>muss eine Zahl sein</value>
+    <comment>must be a number</comment>
+  </data>
+  <data name="errors.directoryName.failureMessage" xml:space="preserve">
+    <value>enthält ungültige Zeichen</value>
+    <comment>has invalid characters</comment>
+  </data>
+  <data name="errors.alphaNumericOnly.failureMessage" xml:space="preserve">
+    <value>muss alphanumerisch sein</value>
+    <comment>must be alphanumeric</comment>
+  </data>
+  <data name="errors.alphaNumericBasic.failureMessage" xml:space="preserve">
+    <value>muss alphanumerisch sein</value>
+    <comment>must be alphanumeric</comment>
+  </data>
+  <data name="errors.numericAllowLeadingZero.failureMessage" xml:space="preserve">
+    <value>muss eine Zahl sein</value>
+    <comment>must be a number</comment>
+  </data>
+  <data name="errors.basicCharacters.failureMessage" xml:space="preserve">
+    <value>darf nur alphanumerische oder bestimmte Zeichen (@, -, . oder ') enthalten</value>
+    <comment>must only include alphanumeric or certain characters (@, -, . or ')</comment>
+  </data>
+  <data name="errors.hex.failureMessage" xml:space="preserve">
+    <value>muss Hexadezimal sein</value>
+    <comment>must be hex</comment>
+  </data>
+  <data name="errors.hexWithDots.failureMessage" xml:space="preserve">
+    <value>muss Hexadezimal sein</value>
+    <comment>must be hex</comment>
+  </data>
+  <data name="errors.currency.failureMessage" xml:space="preserve">
+    <value>muss eine Zahl sein</value>
+    <comment>must be a number</comment>
+  </data>
+  <data name="errors.xmlsafe.failureMessage" xml:space="preserve">
+    <value>darf keine XML-Sonderzeichen (&amp;, &lt;, &gt;, " oder ') enthalten</value>
+    <comment>must not include XML special characters (&amp;, &lt;, &gt;, " or ')</comment>
+  </data>
+  <data name="errors.DistinguishedName.failureMessage" xml:space="preserve">
+    <value>ungültiger DN</value>
+    <comment>invalid dn</comment>
+  </data>
+  <data name="errors.MinDays.failureMessage" xml:space="preserve">
+    <value>muss ein Datum innerhalb des korrekten Zeitbereichs in der Vergangenheit sein</value>
+    <comment>must be a date within correct range in the past</comment>
+  </data>
+  <data name="errors.MaxDays.failureMessage" xml:space="preserve">
+    <value>muss ein Datum innerhalb des korrekten Bereichs in der Zukunft sein</value>
+    <comment>must be a date within correct range in the future</comment>
+  </data>
+  <data name="errors.ListOfIntegers.failureMessage" xml:space="preserve">
+    <value>muss eine durch Kommas getrennte Liste von Ganzzahlen sein</value>
+    <comment>must be a comma seperated list of integers</comment>
+  </data>
+  <data name="errors.minValue.failureMessage" xml:space="preserve">
+    <value>muss größer oder gleich dem im Projekt definierten Mindestwert sein</value>
+    <comment>must be greater than or equal to the minimum value specified in the project definition</comment>
+  </data>
+  <data name="errors.maxValue.failureMessage" xml:space="preserve">
+    <value>muss kleiner oder gleich dem im Projekt definierten Maximalwert sein</value>
+    <comment>must be less than or equal to the maximum value specified in the project definition</comment>
+  </data>
+  <data name="errors.CredProfileName.failureMessage" xml:space="preserve">
+    <value>darf keine ungültigen Zeichen enthalten (&lt;, &gt;, !, &amp;, @, ' oder *)</value>
+    <comment>must not include invalid characters (&lt;, &gt;, !, &amp;, @, ' or *)</comment>
+  </data>
+  <data name="errors.CredProfileDescription.failureMessage" xml:space="preserve">
+    <value>darf keine ungültigen Zeichen (&lt;, &gt;, !, &amp;, @ oder ') enthalten</value>
+    <comment>must not include invalid characters (&lt;, &gt;, !, &amp;, @, or ')</comment>
+  </data>
+  <data name="errors.CommaSeparatedNameValuePair.failureMessage" xml:space="preserve">
+    <value>muss eine durch Kommas getrennte Liste von Namenswert-Paaren sein</value>
+    <comment>must be a comma-separated list of name-value pairs</comment>
+  </data>
+  <data name="errors.WS10000.UnknownError.message" xml:space="preserve">
+    <value>Serverfehler</value>
+    <comment>Server error</comment>
+  </data>
+  <data name="errors.WS10001.UnableToConvertWSQImageTo378.message" xml:space="preserve">
+    <value>Die WSQ-Bilddatei konnte nicht in das biometrische Format 378 konvertiert werden</value>
+    <comment>Unable to convert WSQ image to 378 biometric format</comment>
+  </data>
+  <data name="errors.WS10002.UnableToRetrieveSelectionBoxValues.message" xml:space="preserve">
+    <value>Die Werte für das angegebene Auswahlfeld können nicht abgerufen werden.</value>
+    <comment>Unable to retrieve the values for the specified selection box.</comment>
+  </data>
+  <data name="errors.WS10003.UnableToRetrieveSessionInfo.message" xml:space="preserve">
+    <value>Die angeforderten Sitzungsinformationen konnten nicht abgerufen werden.</value>
+    <comment>Unable to retrieve the requested session information.</comment>
+  </data>
+  <data name="errors.WS10004.UnableToGenerateReportFile.message" xml:space="preserve">
+    <value>Die angeforderte Berichtdatei konnte nicht erstellt werden.</value>
+    <comment>Unable to generate the requested report file.</comment>
+  </data>
+  <data name="errors.WS10005.UnableToGenerateEFTExportFile.message" xml:space="preserve">
+    <value>Die angeforderte EFT-Exportdatei konnte nicht erstellt werden.</value>
+    <comment>Unable to generate the requested EFT export file.</comment>
+  </data>
+  <data name="errors.WS10006.InvalidEntityNameForSubstitution.message" xml:space="preserve">
+    <value>Werte können nicht ersetzt werden, Entitätsname ungültig.</value>
+    <comment>Unable to substitute values, entity name invalid.</comment>
+  </data>
+  <data name="errors.WS10007.InvalidFieldNameForSubstitution.message" xml:space="preserve">
+    <value>Werte können nicht eingefügt werden, Feldname ungültig.</value>
+    <comment>Unable to substitute values, field name invalid.</comment>
+  </data>
+  <data name="errors.WS10008.ErrorSavingImageToFile.message" xml:space="preserve">
+    <value>Beim Speichern des Bildes im Dateisystem ist ein Fehler aufgetreten. Überprüfen Sie die Berechtigungen und die Serverkonfiguration.</value>
+    <comment>An error occurred saving the image to the file system. Check permissions and server configuration.</comment>
+  </data>
+  <data name="errors.WS20000.ServerConfigurationError.message" xml:space="preserve">
+    <value>Serverkonfigurationsfehler</value>
+    <comment>Server configuration error</comment>
+  </data>
+  <data name="errors.WS20001.ServerConfigurationErrorDataDictionary.message" xml:space="preserve">
+    <value>Serverkonfigurationsfehler - DataDictionary ist inkonsistent</value>
+    <comment>Server configuration error - DataDictionary is inconsistent</comment>
+  </data>
+  <data name="errors.WS20002.ServerConfigurationSearchCriteria.message" xml:space="preserve">
+    <value>Serverkonfigurationsfehler - SearchCriteria ist inkonsistent</value>
+    <comment>Server configuration error - SearchCriteria is inconsistent</comment>
+  </data>
+  <data name="errors.WS30000.MinimumDataNotSupplied.message" xml:space="preserve">
+    <value>Mindestdaten nicht angegeben</value>
+    <comment>Minimum data not supplied</comment>
+  </data>
+  <data name="errors.WS30001.InvalidDataSupplied.message" xml:space="preserve">
+    <value>Ungültige Daten angegeben</value>
+    <comment>Invalid data supplied</comment>
+  </data>
+  <data name="errors.WS30002.InvalidFieldDataSupplied.message" xml:space="preserve">
+    <value>Validierungsproblem, der Wert für '{0}', {1}</value>
+    <comment>Validation problem, the value for '{0}', {1}</comment>
+  </data>
+  <data name="errors.WS30003.InvalidPersonId.message" xml:space="preserve">
+    <value>Ungültige Personen-ID angegeben</value>
+    <comment>Invalid person id specified</comment>
+  </data>
+  <data name="errors.WS30004.InvalidRole.message" xml:space="preserve">
+    <value>ungültige Rolle angegeben</value>
+    <comment>invalid role specified</comment>
+  </data>
+  <data name="errors.WS30005.ValidationLengthExceeded.message" xml:space="preserve">
+    <value>darf nicht mehr als {0} Zeichen enthalten</value>
+    <comment>must be no more than {0} characters</comment>
+  </data>
+  <data name="errors.WS30006.InvalidSearchCriteria.message" xml:space="preserve">
+    <value>Ungültiger Wert für Suchkriterien</value>
+    <comment>invalid value for search criteria</comment>
+  </data>
+  <data name="errors.WS30007.FieldMustContainAValue.message" xml:space="preserve">
+    <value>muss einen Wert enthalten</value>
+    <comment>must contain a value</comment>
+  </data>
+  <data name="errors.WS30008.FieldValueIsNotSelectable.message" xml:space="preserve">
+    <value>ist kein auswählbarer Wert</value>
+    <comment>is not a selectable value</comment>
+  </data>
+  <data name="errors.WS30009.FieldFailsValidationRuleDescription.message" xml:space="preserve">
+    <value>Validierungsproblem, der Wert für '{0}', {1}</value>
+    <comment>Validation problem, the value for '{0}', {1}</comment>
+  </data>
+  <data name="errors.WS30010.FieldFailsValidationRuleName.message" xml:space="preserve">
+    <value>Die Validierungsregel {0} wird nicht erfüllt</value>
+    <comment>fails Validation rule {0}</comment>
+  </data>
+  <data name="errors.WS30011.FieldMustBe0or1.message" xml:space="preserve">
+    <value>kann nur 0 oder 1 sein</value>
+    <comment>can only be 0 or 1</comment>
+  </data>
+  <data name="errors.WS30012.FieldMustBeANumber.message" xml:space="preserve">
+    <value>muss eine Zahl sein</value>
+    <comment>must be a number</comment>
+  </data>
+  <data name="errors.WS30013.FieldMustBeAUuid.message" xml:space="preserve">
+    <value>muss eine gültige UUID sein</value>
+    <comment>must be a valid uuid</comment>
+  </data>
+  <data name="errors.WS30014.FieldMustBeDateOrDatetime.message" xml:space="preserve">
+    <value>muss ein Datum oder Datum/Uhrzeit sein</value>
+    <comment>must be a date or datetime</comment>
+  </data>
+  <data name="errors.WS30015.FieldIsMandatory.message" xml:space="preserve">
+    <value>ist obligatorisch</value>
+    <comment>is mandatory</comment>
+  </data>
+  <data name="errors.WS30016.FieldIsNotAValidStatusMapping.message" xml:space="preserve">
+    <value>ist keine gültige Statuszuordnung</value>
+    <comment>is not a valid StatusMapping</comment>
+  </data>
+  <data name="errors.WS30017.FieldFirstNameAndSurnameCannotBothBeEmpty.message" xml:space="preserve">
+    <value>'Vorname' oder 'Nachname' müssen angegeben werden</value>
+    <comment>'First Name' or 'Last Name' must be provided</comment>
+  </data>
+  <data name="errors.WS30018.FieldBolDalDisallowedValue.message" xml:space="preserve">
+    <value>ist kein zulässiger Wert</value>
+    <comment>is not an allowed value</comment>
+  </data>
+  <data name="errors.WS30019.FieldBadBase64.message" xml:space="preserve">
+    <value>ist keine korrekt codierte Binärdatei</value>
+    <comment>is not correctly encoded binary data</comment>
+  </data>
+  <data name="errors.WS30020.FieldMustBeAValidPassword.message" xml:space="preserve">
+    <value>Der angegebene Wert enthält ein oder mehrere unerlaubte Zeichen.</value>
+    <comment>The value provided contains one or more characters which are disallowed.</comment>
+  </data>
+  <data name="errors.WS30021.RequiredBioSamplesForAdjudicationNotFound.message" xml:space="preserve">
+    <value>Die Entscheidung erfordert Fingerabdruckproben, die mit einem 10-Finger-Abdruck-Gerät erfasst wurden. Überprüfen Sie, ob Sie neue Fingerabdrücke erfasst haben, bevor Sie zur Entscheidung einreichen.</value>
+    <comment>Adjudication requires fingerprint samples captured using a 10-Slap enrolment device. Check that you have captured new fingerprints before submitting for adjudication</comment>
+  </data>
+  <data name="errors.WS30022.FieldMustBeDateFuture.message" xml:space="preserve">
+    <value>muss ein Datum in der Zukunft sein</value>
+    <comment>must be a date in the future</comment>
+  </data>
+  <data name="errors.WS30023.FieldMustBeDatePast.message" xml:space="preserve">
+    <value>muss ein Datum in der Vergangenheit sein</value>
+    <comment>must be a date in the past</comment>
+  </data>
+  <data name="errors.WS30024.ImportSerialNumberRangeRequired.message" xml:space="preserve">
+    <value>Informationen zum Seriennummernbereich müssen angegeben werden.</value>
+    <comment>Serial number range information must be supplied.</comment>
+  </data>
+  <data name="errors.WS30025.FieldMustBeRangeInDatePast.message" xml:space="preserve">
+    <value>Das Feld hat die Validierung nicht bestanden, da der angegebene Wert ein Datum innerhalb des korrekten Bereichs in der Vergangenheit sein muss.</value>
+    <comment>The field failed validation as the provided value must be a date within correct range in the past.</comment>
+  </data>
+  <data name="errors.WS30026.FieldMustBeRangeInDateFuture.message" xml:space="preserve">
+    <value>Das Feld hat die Validierung nicht bestanden, da der angegebene Wert ein Datum innerhalb des korrekten zukünftigen Bereichs sein muss.</value>
+    <comment>The field failed validation as the provided value must be a date within correct range in the future.</comment>
+  </data>
+  <data name="errors.WS30027.InvalidRecoveryCertsDifferentOwners.message" xml:space="preserve">
+    <value>Bitte wählen Sie nur Zertifikate für einen einzelnen Inhaber aus.</value>
+    <comment>Please select only certificates for a single owner</comment>
+  </data>
+  <data name="errors.WS30028.InvalidRecoveryCertsNoCertsToRecover.message" xml:space="preserve">
+    <value>Mindestens ein Zertifikat muss ausgewählt werden</value>
+    <comment>At least one certificate must be selected</comment>
+  </data>
+  <data name="errors.WS30029.InvalidRecoveryCertsCertNotFound.message" xml:space="preserve">
+    <value>Das Zertifikat zur Wiederherstellung von {0} ist kein gültiges Zertifikat</value>
+    <comment>Certificate to recover {0} is not a valid certificate</comment>
+  </data>
+  <data name="errors.WS30030.InvalidRecoveryCertsNotArchived.message" xml:space="preserve">
+    <value>Das Zertifikat zur Wiederherstellung von {0} ist nicht archiviert</value>
+    <comment>Certificate to recover {0} is not archived</comment>
+  </data>
+  <data name="errors.WS30031.InvalidRecoveryCertsAuditingDisabled.message" xml:space="preserve">
+    <value>Zertifikate können nicht wiederhergestellt werden, wenn die Überwachung deaktiviert ist</value>
+    <comment>Certificates cannot be recovered when auditing is disabled</comment>
+  </data>
+  <data name="errors.WS30032.InvalidRecoveryCertsInvalidCardProfile.message" xml:space="preserve">
+    <value>Zertifikate können für das ausgewählte Kartenprofil nicht wiederhergestellt werden</value>
+    <comment>Certificates cannot be recovered for the selected card profile</comment>
+  </data>
+  <data name="errors.WS30033.InvalidRecoveryCertsConflictingStorageTypes.message" xml:space="preserve">
+    <value>Die ausgewählten Zertifikate haben widersprüchliche Wiederherstellungsspeichertypen. Eine Anforderung kann keine Zertifikate enthalten, die sowohl nur Software- als auch nur Hardware-Richtlinien erfordern.</value>
+    <comment>The certificates selected have conflicting recovery storage types. A request cannot include certificates that require both software only and hardware only policies</comment>
+  </data>
+  <data name="errors.WS30034.InvalidRecoveryCertsStorageTypeNotValidForCardProfile.message" xml:space="preserve">
+    <value>Mindestens eines der ausgewählten Zertifikate hat eine Speicherpolitik, die nicht mit dem ausgewählten Gerät oder dem Anmeldeinformationenprofil kompatibel ist. Zum Beispiel kann ein Zertifikat mit der Speicherpolitik Hardware nicht als Softwarezertifikat wiederhergestellt werden. Wenn die Speicherpolitik Software ist, kann es nicht auf einem Hardwaregerät wie einer Smartcard oder einem Sicherheitsschlüssel wiederhergestellt werden.</value>
+    <comment>At least one of the certificates selected has a storage policy that is not compatible with the selected device or credential profile. For example, a certificate with storage policy of Hardware cannot be recovered as a software certificate. If the storage policy is Software it cannot be recovered to a hardware device such as a smartcard or security key.</comment>
+  </data>
+  <data name="errors.WS30035.InvalidRecoveryCertsDeviceNotSupported.message" xml:space="preserve">
+    <value>Gerät wird für die Wiederherstellung nicht unterstützt</value>
+    <comment>Device is not supported for recovery</comment>
+  </data>
+  <data name="errors.WS30036.InvalidRecoveryCertsDeviceNotAtValidStatus.message" xml:space="preserve">
+    <value>Gerät befindet sich nicht im gültigen Status für die Wiederherstellung</value>
+    <comment>Device is not at valid status for recovery</comment>
+  </data>
+  <data name="errors.WS30037.InvalidRecoveryCertsNotUnique.message" xml:space="preserve">
+    <value>Alle ausgewählten Zertifikate müssen eindeutig sein</value>
+    <comment>All selected certificates must be unique</comment>
+  </data>
+  <data name="errors.WS30038.InvalidRecoveryCertsExceedsMaximumHistoric.message" xml:space="preserve">
+    <value>Das ausgewählte Gerät unterstützt die Wiederherstellung dieser Anzahl archivierter Zertifikate nicht.</value>
+    <comment>The selected device does not support the recovery of this number of archived certificates</comment>
+  </data>
+  <data name="errors.WS30039.NonPDControlledEndpointJsonDeserializationError.message" xml:space="preserve">
+    <value>Ungültige Daten angegeben. Dies kann daran liegen, dass ein Feld Pflicht ist, aber fehlt, oder der angegebene Wert einen anderen Datentyp hat als erwartet. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>Invalid data supplied. This might be because a field is mandatory but missing, or the supplied value data type is a different to the one expected. Please contact your system administrator.</comment>
+  </data>
+  <data name="errors.WS30040.InvalidRecoverySecretRecoveryNotAllowedByOperation.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil wird für diesen Wiederherstellungsvorgang nicht unterstützt.</value>
+    <comment>Credential Profile is not supported for this recovery operation.</comment>
+  </data>
+  <data name="errors.WS30041.InvalidRecoverySecretRecoveryTargetNotAllowedToBeSameAsOwner.message" xml:space="preserve">
+    <value>Das Ziel der Wiederherstellung kann nicht der Eigentümer der Zertifikate für diese Operation sein.</value>
+    <comment>Target of the recovery cannot be the owner of the certificates for this operation.</comment>
+  </data>
+  <data name="errors.WS30042.RequestNotValidForGetOperation.message" xml:space="preserve">
+    <value>Die angegebene Anfrage ist für diese Operation nicht gültig.</value>
+    <comment>The request specified is not valid to be returned by this operation.</comment>
+  </data>
+  <data name="errors.WS30043.UnableToEditLDAPGroupWithoutExistingLDAPGroup.message" xml:space="preserve">
+    <value>Die Gruppe wurde nicht in LDAP erstellt. Sie können keine Gruppe aktualisieren, die im Active Directory nicht existiert.</value>
+    <comment>The group was not created in LDAP. You cannot update a group that doesn't exist within the Active Directory</comment>
+  </data>
+  <data name="errors.WS30044.InvalidSecurityPhraseNumberConfiguration.message" xml:space="preserve">
+    <value>Es gibt mehr Sicherheitsfragen zur Authentifizierung als zur Registrierung.</value>
+    <comment>There are more security questions to authenticate than to be registered.</comment>
+  </data>
+  <data name="errors.WS30045.AtLeastOnePriority.message" xml:space="preserve">
+    <value>Sie müssen mindestens eine Authentifizierungsmechanismus-Priorität angeben.</value>
+    <comment>You must provide at least one authentication mechanism priority.</comment>
+  </data>
+  <data name="errors.WS30046.OneAuthMechPerPriority.message" xml:space="preserve">
+    <value>Sie können pro Priorität nur ein Authentifizierungsmitglied verwenden.</value>
+    <comment>You can only use one authentication member per priority.</comment>
+  </data>
+  <data name="errors.WS30047.AuthMechNotAllowedForPriority.message" xml:space="preserve">
+    <value>Authentifizierungsmechanismus mit der ID {0} existiert entweder nicht oder ist als Priorität für Authentifizierungsmechanismen nicht zulässig.</value>
+    <comment>Authentication mechanism with id {0} either does not exist, or is not allowed as a authentication mechanism priority.</comment>
+  </data>
+  <data name="errors.WS30048.WindowLogonMustBeFirstPriority.message" xml:space="preserve">
+    <value>Die Windows-Anmeldung muss die höchste Priorität haben, wenn sie ausgewählt ist.</value>
+    <comment>Windows Logon must be the first priority, if it is selected.</comment>
+  </data>
+  <data name="errors.WS30049.InvalidFieldForSubType.message" xml:space="preserve">
+    <value>kann nicht für {0} dieses Typs festgelegt werden.</value>
+    <comment>cannot be set for {0} of this type.</comment>
+  </data>
+  <data name="errors.WS30050.FieldMustBeANumberGreaterThanOrEqualToMinimum.message" xml:space="preserve">
+    <value>muss eine Zahl sein, die größer oder gleich dem in der Projektdefinition angegebenen Mindestwert ist</value>
+    <comment>must be a number greater than or equal to the minimum value specified in the project definition</comment>
+  </data>
+  <data name="errors.WS30051.FieldMustBeANumberLessThanOrEqualToMaximum.message" xml:space="preserve">
+    <value>muss eine Zahl sein, die kleiner oder gleich dem im Projektdesign angegebenen Höchstwert ist</value>
+    <comment>must be a number less than or equal to the maximum value specified in the project definition</comment>
+  </data>
+  <data name="errors.WS30052.CannotSupersedeWithSamePolicy.message" xml:space="preserve">
+    <value>Eine Zertifikatsrichtlinie kann nicht durch sich selbst ersetzt werden.</value>
+    <comment>A certificate policy cannot be superseded by itself.</comment>
+  </data>
+  <data name="errors.WS30053.CannotSupersedeWithSupersededPolicy.message" xml:space="preserve">
+    <value>Eine Zertifizierungsrichtlinie kann nicht durch eine andere Richtlinie ersetzt werden, die selbst ersetzt wurde.</value>
+    <comment>A certificate policy cannot be superseded by another policy that is itself superseded.</comment>
+  </data>
+  <data name="errors.WS30054.CannotSupersedeAPolicyThatIsAlreadySuperseded.message" xml:space="preserve">
+    <value>Eine Zertifikatsrichtlinie kann nicht durch eine andere Richtlinie ersetzt werden, wenn sie bereits ersetzt wurde.</value>
+    <comment>A certificate policy cannot be superseded by another policy if it has already been superseded.</comment>
+  </data>
+  <data name="errors.WS30055.CannotSupersedeWithDisabledPolicy.message" xml:space="preserve">
+    <value>Eine Zertifikatsrichtlinie kann nicht durch eine andere Richtlinie ersetzt werden, die deaktiviert ist.</value>
+    <comment>A certificate policy cannot be superseded by another policy that is disabled.</comment>
+  </data>
+  <data name="errors.WS30056.FilePathCannotContainBackSlashes.message" xml:space="preserve">
+    <value>Der Dateipfad muss Vorwärtsschrägstriche verwenden.</value>
+    <comment>File path must use forward slashes.</comment>
+  </data>
+  <data name="errors.WS30057.InvalidUrlFormat.message" xml:space="preserve">
+    <value>Kein gültiges URL-Format.</value>
+    <comment>Not a valid URL format.</comment>
+  </data>
+  <data name="errors.WS30058.InvalidRaCertificateConfiguration.message" xml:space="preserve">
+    <value>Ungültige RA-Zertifikat-Konfiguration angegeben.</value>
+    <comment>Invalid RA Certificate configuration specified.</comment>
+  </data>
+  <data name="errors.WS30059.CannotSupersedeAPolicyThatUnmanaged.message" xml:space="preserve">
+    <value>Sie können eine Zertifikatsrichtlinie nicht mit einer nicht verwalteten Richtlinie überschreiben.</value>
+    <comment>You cannot supersede a certificate policy with an unmanaged policy.</comment>
+  </data>
+  <data name="errors.WS30060.FieldNotAllowedImageType.message" xml:space="preserve">
+    <value>ist kein gültiges JPEG, PNG, GIF oder BMP.</value>
+    <comment>is not a valid JPEG, PNG, GIF or BMP.</comment>
+  </data>
+  <data name="errors.WS30061.ImportSerialNumberCannotEnterFileAndSerialNumberRange.message" xml:space="preserve">
+    <value>Es kann nur entweder der Bereich der Seriennummern oder die Dateidetails angegeben werden.</value>
+    <comment>Only one of the serial number range information and file details can be supplied.</comment>
+  </data>
+  <data name="errors.WS30062.ImportSerialNumberGenericCSVDeviceTypeNameRequired.message" xml:space="preserve">
+    <value>Der Gerätetyp muss angegeben werden, wenn das Importformat {0} ist.</value>
+    <comment>The device type must be supplied when the import format is {0}.</comment>
+  </data>
+  <data name="errors.WS30063.ImportSerialNumberNotGenericCSVDeviceTypeNameNotRequired.message" xml:space="preserve">
+    <value>Der Gerätetyp kann nicht festgelegt werden, wenn das Importformat {0} ist.</value>
+    <comment>The device type cannot be set when the import format is {0}.</comment>
+  </data>
+  <data name="errors.WS30064.ImportSerialNumberGenericCSVChipTypeNotRequired.message" xml:space="preserve">
+    <value>Der Chiptyp kann nicht festgelegt werden, wenn das Importformat {0} ist.</value>
+    <comment>The chip type cannot be set when the import format is {0}.</comment>
+  </data>
+  <data name="errors.WS30065.InvalidRoleId.message" xml:space="preserve">
+    <value>Eine unbekannte Rolle wurde angegeben</value>
+    <comment>An unknown role was specified</comment>
+  </data>
+  <data name="errors.WS30066.UnsupportedFileType.message" xml:space="preserve">
+    <value>Ein unterstützter Dateityp wurde angegeben, der derzeit nicht unterstützt wird</value>
+    <comment>A supported file type was specified that is not currently supported</comment>
+  </data>
+  <data name="errors.WS40000.DistinguishedNameAlreadyTaken.message" xml:space="preserve">
+    <value>'Distinguished Name' existiert bereits</value>
+    <comment>'Distinguished Name', already exists</comment>
+  </data>
+  <data name="errors.WS40001.LogonNameAlreadyTaken.message" xml:space="preserve">
+    <value>existiert bereits und muss eindeutig sein.</value>
+    <comment>already exists and it must be unique.</comment>
+  </data>
+  <data name="errors.WS40002.CredentialProfileNotFound.message" xml:space="preserve">
+    <value>Das angegebene Berechtigungsprofil konnte nicht gefunden werden</value>
+    <comment>The specified Credential Profile could not be found</comment>
+  </data>
+  <data name="errors.WS40003.DuplicateGroupName.message" xml:space="preserve">
+    <value>Doppelter Gruppenname ist nicht erlaubt (eine Gruppe mit diesem Namen existiert bereits für dieses Elternteil)</value>
+    <comment>Duplicate group name is not allowed (a group with this name already exists for this parent)</comment>
+  </data>
+  <data name="errors.WS40004.UnableToGetDefaultRolesForGroup.message" xml:space="preserve">
+    <value>Standardrollen für Gruppe können nicht abgerufen werden</value>
+    <comment>Unable to get default roles for group</comment>
+  </data>
+  <data name="errors.WS40005.NotFound.message" xml:space="preserve">
+    <value>Der referenzierte Artikel wurde nicht gefunden</value>
+    <comment>The item referenced was not found</comment>
+  </data>
+  <data name="errors.WS40006.GroupOUNotFound.message" xml:space="preserve">
+    <value>Die erforderliche Gruppe, {0}, ist nicht verfügbar</value>
+    <comment>The required group, {0}, is not available</comment>
+  </data>
+  <data name="errors.WS40007.GroupOUDoesNotMatch.message" xml:space="preserve">
+    <value>Der Benutzerstandort im Verzeichnis konnte keiner bestehenden Gruppe zugeordnet werden</value>
+    <comment>The user location in the directory could not be matched to an existing group</comment>
+  </data>
+  <data name="errors.WS40008.ManualLDAPResyncNotPermitted.message" xml:space="preserve">
+    <value>Die Verzeichnissynchronisierung steht mit dieser API aufgrund von Konfigurations- oder Rollenbeschränkungen nicht zur Verfügung.</value>
+    <comment>Directory synchronization is not available with this API due to configuration or role limitations</comment>
+  </data>
+  <data name="errors.WS40009.RequestRejectMustProvideReason.message" xml:space="preserve">
+    <value>Sie müssen einen Grund für die Ablehnung der angegebenen Anfrage angeben.</value>
+    <comment>You must provide a reason for rejecting the specified request.</comment>
+  </data>
+  <data name="errors.WS40010.RequestCancelMustProvideReason.message" xml:space="preserve">
+    <value>Sie müssen einen Grund für die Stornierung der angegebenen Anfrage angeben.</value>
+    <comment>You must provide a reason for cancelling the specified request.</comment>
+  </data>
+  <data name="errors.WS40011.RequestDateMustBeFuture.message" xml:space="preserve">
+    <value>Die Anforderung muss ein Ablaufdatum in der Zukunft haben. Entweder das ausgewählte maximale Ablaufdatum für die Anforderung oder das maximale Ablaufdatum des Benutzers liegt in der Vergangenheit.</value>
+    <comment>The request must have an expiry date in the future. Either the selected maximum expiry date for the request, or the user maximum expiry date is in the past.</comment>
+  </data>
+  <data name="errors.WS40012.RequestReplacementDevice_DeviceNotIssued.message" xml:space="preserve">
+    <value>Das Gerät kann nicht ersetzt werden, da es nicht ausgegeben wurde</value>
+    <comment>The device cannot be replaced because it is not issued</comment>
+  </data>
+  <data name="errors.WS40013.RequestReplacementDevice_DeviceExpired.message" xml:space="preserve">
+    <value>Das Gerät kann nicht ersetzt werden, da es bereits abgelaufen ist.</value>
+    <comment>The device cannot be replaced because it is has already expired</comment>
+  </data>
+  <data name="errors.WS40014.RequestReplacementDevice_DeviceTooCloseToExpiry.message" xml:space="preserve">
+    <value>Das Gerät kann nicht ersetzt werden, da das Ablaufdatum zu nahe ist.</value>
+    <comment>The device cannot be replaced because it is too close to its expiry date</comment>
+  </data>
+  <data name="errors.WS40015.RequestReplacementDevice_DeviceNoCredentialProfile.message" xml:space="preserve">
+    <value>Das Gerät kann nicht ersetzt werden, da es kein Berechtigungsprofil besitzt.</value>
+    <comment>The device cannot be replaced because it does not have a credential profile</comment>
+  </data>
+  <data name="errors.WS40016.RequestDeviceRenewal_DeviceOutsideOfRenewalWindow.message" xml:space="preserve">
+    <value>Das Gerät kann nicht erneuert werden, da seine verbleibende Lebensdauer nicht innerhalb des konfigurierten Zeitfensters für Erneuerungen liegt.</value>
+    <comment>The device cannot be renewed because its remaining lifetime does not fall within the configured window for renewals</comment>
+  </data>
+  <data name="errors.WS40017.Locale_NoResourceNameSupplied.message" xml:space="preserve">
+    <value>Sie müssen mindestens einen Ressourcennamen angeben.</value>
+    <comment>You must provide at least one resource name.</comment>
+  </data>
+  <data name="errors.WS40018.Locale_LanguageNotProvided.message" xml:space="preserve">
+    <value>Sie müssen eine Sprache angeben.</value>
+    <comment>You must provide a language.</comment>
+  </data>
+  <data name="errors.WS40019.Locale_LanguageNotConfigured.message" xml:space="preserve">
+    <value>Die angegebene Sprache wurde nicht zur Verwendung konfiguriert.</value>
+    <comment>The specified language has not been configured for use.</comment>
+  </data>
+  <data name="errors.WS40020.Locale_NoConfiguredLanguages.message" xml:space="preserve">
+    <value>Es wurden keine Sprachen zur Verwendung konfiguriert.</value>
+    <comment>No languages have been configured for use.</comment>
+  </data>
+  <data name="errors.WS40021.Reports_EntityDoesNotExist.message" xml:space="preserve">
+    <value>Die angegebene Entität existiert nicht.</value>
+    <comment>The specified entity does not exist.</comment>
+  </data>
+  <data name="errors.WS40022.Reports_InvalidSearchOpId.message" xml:space="preserve">
+    <value>Die angegebene Vorgangs-ID ist keine gültige Suchoperation.</value>
+    <comment>The specified operation id is not a valid search operation.</comment>
+  </data>
+  <data name="errors.WS40023.Reports_InvalidSearchOpIdForEndpoint.message" xml:space="preserve">
+    <value>Die angegebene Suchvorgangs-ID kann für diesen Endpunkt nicht verwendet werden.</value>
+    <comment>The specified search operation id cannot be used for this endpoint.</comment>
+  </data>
+  <data name="errors.WS40024.DeliveryMechanismNotAllowed.message" xml:space="preserve">
+    <value>Der angegebene Zustellmechanismus existiert nicht oder ist für diesen Vorgang nicht zulässig.</value>
+    <comment>The delivery mechanism specified does not exist or is not allowed for this operation.</comment>
+  </data>
+  <data name="errors.WS40025.DeliveryMechanismNoContactDetails.message" xml:space="preserve">
+    <value>Der Benutzer verfügt nicht über die erforderlichen Kontaktdaten für diesen Zustellmechanismus.</value>
+    <comment>The user does not have the required contact details for this delivery mechanism.</comment>
+  </data>
+  <data name="errors.WS40026.DeliveryMechanismDisabled.message" xml:space="preserve">
+    <value>Der angegebene Auslieferungsmechanismus ist für diesen Vorgang nicht aktiviert.</value>
+    <comment>The specified delivery mechanism is not enabled for this operation.</comment>
+  </data>
+  <data name="errors.WS40027.AuthCodeActionNotSupplied.message" xml:space="preserve">
+    <value>Ein Auth-Code-Vorgang muss angegeben werden.</value>
+    <comment>An auth code action must be supplied.</comment>
+  </data>
+  <data name="errors.WS40028.AuthCodeActionNotSupported.message" xml:space="preserve">
+    <value>Die angegebene Authentifizierungscode-Aktion: {0} wird nicht unterstützt.</value>
+    <comment>The specified auth code action: {0}, is not supported.</comment>
+  </data>
+  <data name="errors.WS40029.AuthCodeActionNotSupportedForEntity.message" xml:space="preserve">
+    <value>Die angegebene Authentifizierungscode-Aktion: {0} wird für dieses Element nicht unterstützt.</value>
+    <comment>The specified auth code action: {0}, is not supported for this item.</comment>
+  </data>
+  <data name="errors.WS40030.EmailNotificationsNotConfigured.message" xml:space="preserve">
+    <value>E-Mail-Benachrichtigungen wurden nicht konfiguriert. Bitte wenden Sie sich an Ihren Administrator.</value>
+    <comment>Email notifications have not been configured. Please contact your administrator.</comment>
+  </data>
+  <data name="errors.WS40031.DeviceNotConfiguredForUnrestrictedCancellation.message" xml:space="preserve">
+    <value>Dieses Gerät ist bereits zugewiesen und muss storniert werden, bevor es einer anderen Person zugewiesen werden kann. Das System ist nicht so konfiguriert, dass eine uneingeschränkte Stornierung erlaubt ist.</value>
+    <comment>This device is already assigned, and must be cancelled before it can be reassigned to a different person. The system is not configured to allow unrestricted cancellation.</comment>
+  </data>
+  <data name="errors.WS40032.DeviceDisposalStatusCannotBeIssued.message" xml:space="preserve">
+    <value>Dieses Gerät hat einen Entsorgungsstatus, der verhindert, dass es erneut ausgegeben wird.</value>
+    <comment>This device has a disposal status that prevents it being issued again.</comment>
+  </data>
+  <data name="errors.WS40033.DeviceCannotBeIssued.message" xml:space="preserve">
+    <value>Dieses Gerät kann nicht von MyID ausgegeben oder aktualisiert werden.</value>
+    <comment>This device cannot be issued or updated by MyID.</comment>
+  </data>
+  <data name="errors.WS40034.RequestAlreadyAssigned.message" xml:space="preserve">
+    <value>Der Anfrage ist bereits ein Gerät zugewiesen.</value>
+    <comment>The request already has an assigned device.</comment>
+  </data>
+  <data name="errors.WS40035.RequestNotSupportAssignment.message" xml:space="preserve">
+    <value>Der Anforderungstyp erlaubt keine Gerätezuweisung.</value>
+    <comment>The request type does not permit device assignment.</comment>
+  </data>
+  <data name="errors.WS40036.RequestNotAwaitingIssueOrValidation.message" xml:space="preserve">
+    <value>Die Anfrage wartet nicht auf Ausstellung oder auf Validierung.</value>
+    <comment>The request is not awaiting issuance or awaiting validation.</comment>
+  </data>
+  <data name="errors.WS40037.RequestTargetOutOfScope.message" xml:space="preserve">
+    <value>Die Anfrage betrifft eine Person, die nicht im Geltungsbereich der authentifizierten Bediener liegt.</value>
+    <comment>The request is for a person that is not within the authenticated operators scope.</comment>
+  </data>
+  <data name="errors.WS40038.DeviceIsNotKnownToMyId.message" xml:space="preserve">
+    <value>Dieses Gerät ist MyID nicht bekannt und das Berechtigungsprofil kann nur mit bekannten Seriennummern verwendet werden.</value>
+    <comment>This device is not known to MyID and the credential profile can only be used with known serial numbers.</comment>
+  </data>
+  <data name="errors.WS40039.DeviceProfileRequirementsNotMet.message" xml:space="preserve">
+    <value>Dieses Gerät erfüllt nicht die Anforderungen des Berechtigungsprofils.</value>
+    <comment>This device does not meet the requirements of the credential profile.</comment>
+  </data>
+  <data name="errors.WS40040.RequestNotAssigned.message" xml:space="preserve">
+    <value>Die Anforderung hat kein zugewiesenes Gerät.</value>
+    <comment>The request does not have an assigned device.</comment>
+  </data>
+  <data name="errors.WS40041.DeviceAssignedToAnotherPersonOrRequest.message" xml:space="preserve">
+    <value>Dieses Gerät ist bereits zugewiesen und muss storniert werden, bevor es einer anderen Person zugewiesen werden kann.</value>
+    <comment>This device is already assigned, and must be cancelled before it can be reassigned to a different person.</comment>
+  </data>
+  <data name="errors.WS40042.DeviceIsOperators.message" xml:space="preserve">
+    <value>Dieses Gerät ist dem aktuellen Benutzer zugewiesen.</value>
+    <comment>This device is assigned to the current operator.</comment>
+  </data>
+  <data name="errors.WS40043.CredProfileContainsNonArchivedCertificates.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil enthält Zertifikate, die nicht archiviert sind.</value>
+    <comment>The credential profile contains certificates that are not archived.</comment>
+  </data>
+  <data name="errors.WS40044.NoAvailableStatusMappings.message" xml:space="preserve">
+    <value>Für die ausgewählte Operation sind keine Statuszuordnungen verfügbar.</value>
+    <comment>There are no status mappings available for the selected operation.</comment>
+  </data>
+  <data name="errors.WS40045.RequestUpdateDevice_DeviceExpired.message" xml:space="preserve">
+    <value>Das Gerät kann nicht aktualisiert werden, da es bereits abgelaufen ist.</value>
+    <comment>The device cannot be updated because it has already expired.</comment>
+  </data>
+  <data name="errors.WS40046.RequestUpdateDevice_DeviceNotIssued.message" xml:space="preserve">
+    <value>Das Gerät kann nicht aktualisiert werden, da der Ausstellungsvorgang nicht abgeschlossen ist.</value>
+    <comment>The device cannot be updated because the issuance process has not been completed.</comment>
+  </data>
+  <data name="errors.WS40047.RequestUpdateDevice_DeviceNoCredentialProfile.message" xml:space="preserve">
+    <value>Das Gerät kann nicht aktualisiert werden, da es kein Berechtigungsprofil besitzt.</value>
+    <comment>The device cannot be updated because it does not have a credential profile.</comment>
+  </data>
+  <data name="errors.WS40048.UpdateLocation_NameAlreadyExists.message" xml:space="preserve">
+    <value>Der Standort kann nicht aktualisiert werden, da ein vorhandener Standort den gewünschten Namen trägt.</value>
+    <comment>The location cannot be updated because an existing location has the requested name.</comment>
+  </data>
+  <data name="errors.WS40049.TransferDevice_DeviceInInvalidState.message" xml:space="preserve">
+    <value>Das Gerät kann nicht übertragen werden, da es sich in einem ungültigen Zustand befindet.</value>
+    <comment>The device cannot be transferred because it is in an invalid state.</comment>
+  </data>
+  <data name="errors.WS40050.CancelDeviceInvalidDeviceProcessStatus.message" xml:space="preserve">
+    <value>Das Gerät kann nicht storniert und sein Entsorgungsstatus auf {0} gesetzt werden.</value>
+    <comment>The device cannot be cancelled and have its disposal status set to {0}.</comment>
+  </data>
+  <data name="errors.WS40051.DisposeDeviceInvalidDeviceState.message" xml:space="preserve">
+    <value>Das Gerät ist noch aktiv und abgelaufen, daher kann der Entsorgungsstatus nicht geändert werden.</value>
+    <comment>The device is still active and has not expired, so cannot have its disposal status changed.</comment>
+  </data>
+  <data name="errors.WS40052.DisposeDeviceDeviceExpiredButNotAllowed.message" xml:space="preserve">
+    <value>Das Gerät ist abgelaufen, aber das System ist so konfiguriert, dass der Entsorgungsstatus abgelaufener Geräte nicht geändert werden darf.</value>
+    <comment>The device has expired but the system is configured to not allow expired devices to have their disposal status changed.</comment>
+  </data>
+  <data name="errors.WS40053.DisposeDeviceInvalidDeviceType.message" xml:space="preserve">
+    <value>Das ausgewählte Gerät kann nicht entsorgt werden. Bitte beachten Sie die Produktdokumentation für weitere Anweisungen.</value>
+    <comment>The device selected cannot be disposed. Please refer to product documentation for further guidance.</comment>
+  </data>
+  <data name="errors.WS40054.AdditionalIdentityAlreadyExists.message" xml:space="preserve">
+    <value>Die angegebene zusätzliche Identität ist bereits vorhanden.</value>
+    <comment>The additional identity specified already exists.</comment>
+  </data>
+  <data name="errors.WS40055.ServerDocument_DeviceNotAssisned.message" xml:space="preserve">
+    <value>Der Anfrage ist kein Gerät zugewiesen.</value>
+    <comment>The request doesn't have an assigned device.</comment>
+  </data>
+  <data name="errors.WS40056.DocumentMissing.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil enthält kein Dokument für den angeforderten Dokumenttyp.</value>
+    <comment>The credential profile does not have a document for the requested doctype.</comment>
+  </data>
+  <data name="errors.WS40057.ServerDocument_InvalidRequestTaskType.message" xml:space="preserve">
+    <value>Serverdokument konnte nicht generiert werden, der Anforderungstyp ist ungültig.</value>
+    <comment>Unable to generate a server document, the request type is invalid.</comment>
+  </data>
+  <data name="errors.WS40058.ServerDocument_InvalidRequestStatus.message" xml:space="preserve">
+    <value>Es ist nicht möglich, ein Serverdokument zu erstellen, der Status der Anfrage ist ungültig.</value>
+    <comment>Unable to generate a server document, the status of the request is invalid.</comment>
+  </data>
+  <data name="errors.WS40059.ServerDocument_InvalidRequestCollectionPeriod.message" xml:space="preserve">
+    <value>Der Serverdokument konnte nicht erstellt werden, der Erfassungszeitraum ist abgelaufen.</value>
+    <comment>Unable to generate a server document, the collection period is over.</comment>
+  </data>
+  <data name="errors.WS40060.ServerDocument_NoPinMailerRequest.message" xml:space="preserve">
+    <value>Serverdokument konnte nicht erstellt werden, PIN-Mailer-Anforderung nicht gefunden.</value>
+    <comment>Unable to generate a server document, PIN Mailer request not found.</comment>
+  </data>
+  <data name="errors.WS40061.ServerDocument_UnknownDocumentType.message" xml:space="preserve">
+    <value>Serverdokument konnte nicht erstellt werden, unbekannter Dokumenttyp.</value>
+    <comment>Unable to generate a server document, unknown document type.</comment>
+  </data>
+  <data name="errors.WS40062.ReinstateDevice_DeviceAlreadyAssigned.message" xml:space="preserve">
+    <value>Das Gerät ist derzeit zugewiesen und kann nicht wiederhergestellt werden.</value>
+    <comment>The device is currently assigned and cannot be reinstated</comment>
+  </data>
+  <data name="errors.WS40063.ReinstateDevice_NotPreviousAssigned.message" xml:space="preserve">
+    <value>Das Gerät wurde zuvor nicht zugewiesen und kann nicht wiederhergestellt werden.</value>
+    <comment>The device has not previously been assigned and cannot be reinstated</comment>
+  </data>
+  <data name="errors.WS40064.ReinstateDevice_DeviceDisposed.message" xml:space="preserve">
+    <value>Das Gerät befindet sich in einem ungültigen Zustand und kann nicht wiederhergestellt werden.</value>
+    <comment>The device is in an invalid state and cannot be reinstated</comment>
+  </data>
+  <data name="errors.WS40065.ReinstateDevice_WrongKind.message" xml:space="preserve">
+    <value>Das Gerät kann nicht wiederhergestellt werden, da es keine Karte ist</value>
+    <comment>Device cannot be reinstated because it is not a card</comment>
+  </data>
+  <data name="errors.WS40066.CertificateCanNotBePatchedIfNotIssued.message" xml:space="preserve">
+    <value>Der Status der Zertifikatserneuerung kann nicht geändert werden, da es derzeit nicht ausgestellt ist.</value>
+    <comment>The certificate cannot have its renewal status changed as it is not currently issued.</comment>
+  </data>
+  <data name="errors.WS40067.MultipleColumnLdapSort.message" xml:space="preserve">
+    <value>Verzeichnis-Suchen erlauben keine Mehrspaltensortierung.</value>
+    <comment>Directory searches do not allow multiple column sorting.</comment>
+  </data>
+  <data name="errors.WS40068.DirectoryConnectionFailed.message" xml:space="preserve">
+    <value>Die Verzeichnisverbindung mit den konfigurierten Anmeldedaten ist fehlgeschlagen.</value>
+    <comment>The directory connection failed with the configured credentials.</comment>
+  </data>
+  <data name="errors.WS40069.CannotContructServerLocation.message" xml:space="preserve">
+    <value>Die bereitgestellten Anmeldeinformationen können keinen gültigen Serverstandort erstellen.</value>
+    <comment>Supplied credentials cannot build a valid server location.</comment>
+  </data>
+  <data name="errors.WS40070.RolesInputEmtpy.message" xml:space="preserve">
+    <value>Die angegebenen Rollen sind ungültig oder leer.</value>
+    <comment>The roles supplied are invalid or empty.</comment>
+  </data>
+  <data name="errors.WS40071.MandatoryRolesMissing.message" xml:space="preserve">
+    <value>Pflichtrollen fehlen sowohl in den eingegebenen als auch in den Standardrollen.</value>
+    <comment>Mandatory roles are missing from both input and default roles.</comment>
+  </data>
+  <data name="errors.WS40072.UserRelationshipAlreadyExists.message" xml:space="preserve">
+    <value>Die Benutzerbeziehung besteht bereits.</value>
+    <comment>User Relationship already exists.</comment>
+  </data>
+  <data name="errors.WS40073.SetSecurityQuestions_NumberOfPasswords.message" xml:space="preserve">
+    <value>Dieser Benutzer muss {0} Sicherheitsphrasen konfiguriert haben.</value>
+    <comment>This user must have {0} security phrases configured.</comment>
+  </data>
+  <data name="errors.WS40074.ReassignToSameOwner.message" xml:space="preserve">
+    <value>Es muss ein neuer Eigentümer zur Neuzuweisung ausgewählt werden.</value>
+    <comment>Must select a new owner to reassign.</comment>
+  </data>
+  <data name="errors.WS40075.CertificateImportOnlyOneSet.message" xml:space="preserve">
+    <value>Es darf nur entweder x509 oder pkcs12 eingestellt werden.</value>
+    <comment>Only one of x509 or pkcs12 must be set.</comment>
+  </data>
+  <data name="errors.WS40076.CertificateImportPasswordSet.message" xml:space="preserve">
+    <value>Wenn pkcs12 verwendet wird, muss ein Passwort festgelegt werden.</value>
+    <comment>If using pkcs12 then password must be set.</comment>
+  </data>
+  <data name="errors.WS40077.CertificateImportBadRequest.message" xml:space="preserve">
+    <value>Beim Importieren des Zertifikats ist ein Fehler aufgetreten.</value>
+    <comment>There was an error importing the certificate.</comment>
+  </data>
+  <data name="errors.WS40078.CertificateImportUserCreationNotAllowed.message" xml:space="preserve">
+    <value>Benutzererstellung nicht erlaubt.</value>
+    <comment>User creation not allowed.</comment>
+  </data>
+  <data name="errors.WS40079.CertificateImportInvalidPassword.message" xml:space="preserve">
+    <value>PKCS12-Passwort ist ungültig.</value>
+    <comment>PKCS12 password is invalid.</comment>
+  </data>
+  <data name="errors.WS40080.CertificateImportInvalidPFX.message" xml:space="preserve">
+    <value>Bitte ein gültiges Base64-PFX-Zertifikat angeben.</value>
+    <comment>Provide a valid base64 pfx certificate.</comment>
+  </data>
+  <data name="errors.WS40081.CertificateImportInvalidCertificate.message" xml:space="preserve">
+    <value>Bitte ein gültiges Zertifikat bereitstellen.</value>
+    <comment>Provide a valid certificate.</comment>
+  </data>
+  <data name="errors.WS40082.CertificateImportInvalidCertPolicy.message" xml:space="preserve">
+    <value>Wählen Sie eine gültige certPolicyID aus.</value>
+    <comment>Select a valid certPolicyID.</comment>
+  </data>
+  <data name="errors.WS40083.CertificateImportUserNotFound.message" xml:space="preserve">
+    <value>Der Benutzer ist nicht in der MyID-Datenbank.</value>
+    <comment>User is not in the MyID Database.</comment>
+  </data>
+  <data name="errors.WS40084.CertificateImportUserNotUnique.message" xml:space="preserve">
+    <value>Kann keinen eindeutigen Benutzer zur Zuordnung finden.</value>
+    <comment>Cannot find unique user to assign.</comment>
+  </data>
+  <data name="errors.WS40085.CertificateImportCertificateNotUnique.message" xml:space="preserve">
+    <value>Zertifikat ist bereits vorhanden.</value>
+    <comment>Certificate already exists.</comment>
+  </data>
+  <data name="errors.WS40086.UserImportNoValidGroup.message" xml:space="preserve">
+    <value>Es gibt keine gültige Gruppe, der der importierte Benutzer zugewiesen werden kann.</value>
+    <comment>There is no valid group to assign to the imported user.</comment>
+  </data>
+  <data name="errors.WS40087.BadGroupParent.message" xml:space="preserve">
+    <value>Sie können eine Gruppe nicht auf sich selbst oder eines ihrer Unterelemente umstellen.</value>
+    <comment>You cannot re-parent a group to itself or one of its children.</comment>
+  </data>
+  <data name="errors.WS40088.RemoveGroupWithSubGroup.message" xml:space="preserve">
+    <value>Sie können keine Gruppe mit einer Untergruppe entfernen.</value>
+    <comment>You cannot remove a group with a subgroup.</comment>
+  </data>
+  <data name="errors.WS40089.RemoveGroupWithMembers.message" xml:space="preserve">
+    <value>Sie können eine Gruppe mit Mitgliedern nicht entfernen.</value>
+    <comment>You cannot remove a group with members.</comment>
+  </data>
+  <data name="errors.WS40090.InvalidRevisionDefinitionProvided.message" xml:space="preserve">
+    <value>Die angegebene Revisionsdefinition ist ungültig.</value>
+    <comment>The provided revision definition is not valid.</comment>
+  </data>
+  <data name="errors.WS40091.InvalidPicklistName.message" xml:space="preserve">
+    <value>Der ausgewählte Auswahllistenname ist ungültig.</value>
+    <comment>Selected picklist name is invalid.</comment>
+  </data>
+  <data name="errors.WS40092.BiometricsFingerDataProvidedIsInvalid.message" xml:space="preserve">
+    <value>Die bereitgestellten biometrischen Fingerabdruckdaten sind ungültig.</value>
+    <comment>The provided biometric finger data is invalid.</comment>
+  </data>
+  <data name="errors.WS40093.BiometricsStoredFingerDataIsInvalid.message" xml:space="preserve">
+    <value>Die gespeicherten biometrischen Fingerdaten sind ungültig. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator.</value>
+    <comment>The stored biometric finger data is invalid. Please contact your administrator for more information.</comment>
+  </data>
+  <data name="errors.WS40094.InvalidNotificationId.message" xml:space="preserve">
+    <value>Die angegebene Benachrichtigungs-ID ist ungültig.</value>
+    <comment>The provided notification id is invalid.</comment>
+  </data>
+  <data name="errors.WS40095.NoNotificationSource.message" xml:space="preserve">
+    <value>Die von diesem Vorgang zurückgegebenen Daten enthalten nicht die Quelle der Benachrichtigung(en). Bitte wenden Sie sich für weitere Informationen an Ihren Administrator.</value>
+    <comment>The data returned by this operation does not include the source of the notification(s). Please contact your administrator for more information.</comment>
+  </data>
+  <data name="errors.WS40096.InvalidNotificationSource.message" xml:space="preserve">
+    <value>Diese Benachrichtigung ist für diesen Vorgang nicht gültig. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator.</value>
+    <comment>This notification in not valid for this operation. Please contact your administrator for more information.</comment>
+  </data>
+  <data name="errors.WS40097.NotificationWithNoJob.message" xml:space="preserve">
+    <value>Diese Benachrichtigung ist keinem Auftrag zugeordnet und für diesen Vorgang nicht geeignet. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator.</value>
+    <comment>This notification has no job associated with it, and is not suitable for this operation. Please contact your administrator for more information.</comment>
+  </data>
+  <data name="errors.WS40098.NotificationWithNoJobStatus.message" xml:space="preserve">
+    <value>Der mit dieser Benachrichtigung verknüpfte Auftrag hat einen ungültigen Auftragsstatus. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator.</value>
+    <comment>The job associated with this notification has an invalid job status. Please contact your administrator for more information.</comment>
+  </data>
+  <data name="errors.WS40099.InvalidNotificationJobStatus.message" xml:space="preserve">
+    <value>Sie können keine Benachrichtigung für einen Auftrag mit dem Status „Mit Fehlern abgeschlossen“, „Abgebrochen“, „Fehlgeschlagen“ oder „Automatisch deaktiviert“ erneut senden.</value>
+    <comment>You cannot resend a notification for a job with the status: 'Completed With Errors', 'Cancelled', 'Failed' or 'AutoDisabled'.</comment>
+  </data>
+  <data name="errors.WS40100.InvalidNotificationType.message" xml:space="preserve">
+    <value>Sie können eine SNMP-Benachrichtigung nicht erneut senden.</value>
+    <comment>You cannot resend a SNMP notification.</comment>
+  </data>
+  <data name="errors.WS40101.CannotCancelCompletedNotification.message" xml:space="preserve">
+    <value>Eine abgeschlossene Benachrichtigung kann nicht storniert werden.</value>
+    <comment>You cannot cancel a Completed Notification.</comment>
+  </data>
+  <data name="errors.WS40102.CannotRemoveLastLogonMethodFromSystem.message" xml:space="preserve">
+    <value>Sie müssen mindestens einen Anmeldemechanismus aktivieren, sonst darf sich niemand anmelden.</value>
+    <comment>You must have at least one logon mechanism active or nobody will be allowed to log on.</comment>
+  </data>
+  <data name="errors.WS40103.MessageTemplateAlreadyExists.message" xml:space="preserve">
+    <value>Die Nachrichtenvorlage kann nicht hinzugefügt werden, da bereits eine Nachrichtenvorlage mit dem gewünschten Namen existiert.</value>
+    <comment>The message template cannot be added because an existing message template has the requested name.</comment>
+  </data>
+  <data name="errors.WS40104.ErrorSavingImageDatabaseStorageNotSupported.message" xml:space="preserve">
+    <value>Beim Speichern des Bildes in der Datenbank ist ein Fehler aufgetreten. Überprüfen Sie die Berechtigungen und die Serverkonfiguration.</value>
+    <comment>An error occurred saving the image to the database. Check permissions and server configuration.</comment>
+  </data>
+  <data name="errors.WS40105.MustSetRestExternalSystemForRestDirectory.message" xml:space="preserve">
+    <value>Das ausgewählte externe System ist für ein REST-Verzeichnis nicht geeignet.</value>
+    <comment>The selected external system is not suitable for a REST directory.</comment>
+  </data>
+  <data name="errors.WS40106.BothAuthDnAndPasswordOrNeither.message" xml:space="preserve">
+    <value>Sie müssen sowohl eine Authentifizierungs-Benutzer-DN als auch ein Passwort festlegen, oder gar keines von beiden.</value>
+    <comment>You must set both an Authentication User DN and Password, or neither.</comment>
+  </data>
+  <data name="errors.WS40107.OnlyOneEmptyBaseDnDirectoryAllowed.message" xml:space="preserve">
+    <value>Es gibt bereits ein LDAP-Verzeichnis, das ohne einen Basis-DN konfiguriert ist.</value>
+    <comment>There is already an LDAP directory which is configured without a Base DN.</comment>
+  </data>
+  <data name="errors.WS40108.GroupNameDoesNotMatch.message" xml:space="preserve">
+    <value>Der Benutzergruppenname im Verzeichnis konnte keiner vorhandenen Gruppe zugeordnet werden.</value>
+    <comment>The user group name in the directory could not be matched to an existing group.</comment>
+  </data>
+  <data name="errors.WS40109.DirectoryTypeNotSupported.message" xml:space="preserve">
+    <value>Sie können keine Aktionen für nicht unterstützte Verzeichnisarten ausführen.</value>
+    <comment>You cannot perform actions against unsupported directory types.</comment>
+  </data>
+  <data name="errors.WS40110.InvalidCredProfileSubType.message" xml:space="preserve">
+    <value>Der Codierungstyp des Berechtigungsprofils wird nicht unterstützt oder existiert nicht.</value>
+    <comment>The credential profile encoding type is not supported or does not exist.</comment>
+  </data>
+  <data name="errors.WS40111.CannotArchiveParentProfiles.message" xml:space="preserve">
+    <value>Dieses Berechtigungsprofil ist ein übergeordnetes Profil eines anderen Berechtigungsprofils und kann daher nicht archiviert werden.</value>
+    <comment>This credential profile is a parent of another credential profile, and therefore cannot be archived.</comment>
+  </data>
+  <data name="errors.WS40112.CredentialProfileInUse.message" xml:space="preserve">
+    <value>Dieses Berechtigungsprofil wird entweder von einem ausgegebenen Gerät verwendet oder ist mit einer offenen Anfrage verknüpft.</value>
+    <comment>This credential profile is either used by an issued device or associated with an outstanding request.</comment>
+  </data>
+  <data name="errors.WS40113.CredentialProfileIsNotCurrent.message" xml:space="preserve">
+    <value>Nur die neueste Version eines Berechtigungsprofils kann bearbeitet oder archiviert werden.</value>
+    <comment>Only the latest version of a credential profile can be edited or archived.</comment>
+  </data>
+  <data name="errors.WS40114.CredentialProfileIsParentOfOtherCredentialProfile.message" xml:space="preserve">
+    <value>Dieses Berechtigungsprofil ist ein übergeordnetes Profil eines anderen Berechtigungsprofils. Sie können den übergeordneten Status nicht entfernen.</value>
+    <comment>This credential profile is a parent of another credential profile. You cannot remove its parent status.</comment>
+  </data>
+  <data name="errors.WS40115.PinGenerationAlgorithmDoesNotRequireKey.message" xml:space="preserve">
+    <value>Der ausgewählte PIN-Generierungsalgorithmus erfordert keinen Schlüssel, aber es wurde ein geschützter Schlüssel ausgewählt.</value>
+    <comment>The pin generation algorithm selected does not require a key, but a protected key has been selected.</comment>
+  </data>
+  <data name="errors.WS40116.ResetPinGenerationAlgorithmDoesNotRequireKey.message" xml:space="preserve">
+    <value>Der ausgewählte Algorithmus zur Generierung der Reset-PIN benötigt keinen Schlüssel, aber es wurde ein durch eine Reset-PIN geschützter Schlüssel ausgewählt.</value>
+    <comment>The reset pin generation algorithm selected does not require a key, but a reset pin protected key has been selected.</comment>
+  </data>
+  <data name="errors.WS40117.CredentialProfileNameAlreadyExists.message" xml:space="preserve">
+    <value>Ein Berechtigungsprofil mit diesem Namen existiert bereits.</value>
+    <comment>A credential profile with this name already exists.</comment>
+  </data>
+  <data name="errors.WS40118.AtLeastOneAllowedPINCharacter.message" xml:space="preserve">
+    <value>Mindestens ein PIN-Zeichentyp muss erlaubt sein.</value>
+    <comment>At least one pin character type must be allowed.</comment>
+  </data>
+  <data name="errors.WS40119.GenerateLengthNotWithinMinMax.message" xml:space="preserve">
+    <value>Die angegebene generierte PIN-Länge liegt nicht zwischen der minimalen und maximalen konfigurierten PIN-Länge.</value>
+    <comment>The generated pin length provided is not between the minimum and maximum configured pin length.</comment>
+  </data>
+  <data name="errors.WS40120.MinPinLengthLessOrEqualToMax.message" xml:space="preserve">
+    <value>Die minimale PIN-Länge muss kleiner oder gleich der maximalen PIN-Länge sein.</value>
+    <comment>The minimum pin length must be less or equal to the maximum pin length.</comment>
+  </data>
+  <data name="errors.WS40121.PreEncodeCardAlwaysRequiresActivation.message" xml:space="preserve">
+    <value>Ein zur Vorcodierung einer Karte konfiguriertes Berechtigungsprofil muss stets eine Aktivierung verlangen.</value>
+    <comment>A credential profile configured to pre encode a card must always require activation.</comment>
+  </data>
+  <data name="errors.WS40122.CredProfiles_WrongSoftCertCardFormat.message" xml:space="preserve">
+    <value>Softwarezertifikate können nur das spezielle Kartenformat 'SystemCertificates.xml' verwenden.</value>
+    <comment>Software certificates can only use the special 'SystemCertificates.xml' card format.</comment>
+  </data>
+  <data name="errors.WS40123.CredProfiles_IdentityAgentMustNotRequireActivationAuthentication.message" xml:space="preserve">
+    <value>Die Anmeldedaten des Identity Agent dürfen beim Aktivieren keine Authentifizierungsmethode erfordern.</value>
+    <comment>Identity Agent credentials cannot require a method of authentication at activation.</comment>
+  </data>
+  <data name="errors.WS40124.CredProfiles_CannotRequireBiometrics.message" xml:space="preserve">
+    <value>Der ausgewählte Anmeldeprofiltyp unterstützt keine biometrischen Anforderungen für die Ausstellung.</value>
+    <comment>The selected credential profile type does not support biometric requirements for issuance.</comment>
+  </data>
+  <data name="errors.WS40125.CredProfiles_IdentityAgentMustUseNumericPinCharacters.message" xml:space="preserve">
+    <value>Numerische PINs sind für Identitätsagent-Kredentialprofile obligatorisch, und keine andere PIN-Zeichenart ist erlaubt.</value>
+    <comment>Numeric PINs are mandatory for Identity Agent credential profiles, and no other PIN character type is allowed.</comment>
+  </data>
+  <data name="errors.WS40126.CredProfiles_CollectionInstructionsSettingsInvalid.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil enthält Sammelanweisungen, ist jedoch nicht für die Erstellung abgeleiteter Berechtigungen vorgesehen.</value>
+    <comment>The credential profile contains collection instructions, but is not for creating derived credentials.</comment>
+  </data>
+  <data name="errors.WS40127.CredProfiles_CannotBothBeAndHaveAParent.message" xml:space="preserve">
+    <value>Ein Berechtigungsprofil kann weder ein übergeordnetes Berechtigungsprofil sein noch ein übergeordnetes Berechtigungsprofil haben.</value>
+    <comment>A credential profile cannot both be a parent credential profile and have a parent credential profile.</comment>
+  </data>
+  <data name="errors.WS40128.CredProfiles_InvalidIssuanceSettingsForActivation.message" xml:space="preserve">
+    <value>Ein Berechtigungsprofil, das nach der Ausstellung eine Aktivierung erfordert, muss vorab codiert werden und kann nach der Ausstellung weder deaktiviert noch mit einem gesperrten PIN versehen werden.</value>
+    <comment>A credential profile that requires activation after issuance must be pre-encoded, and cannot be disabled or have its PIN locked after issuance.</comment>
+  </data>
+  <data name="errors.WS40129.CredProfiles_InvalidIssuanceSettingsForPreEncoding.message" xml:space="preserve">
+    <value>Ein vorcodiertes Berechtigungsprofil erfordert eine Aktivierung und kann nach der Ausstellung nicht deaktiviert werden.</value>
+    <comment>A pre-encoding credential profile requires activation, and cannot be disabled after issuance.</comment>
+  </data>
+  <data name="errors.WS40130.CredProfiles_CannotHaveLockedPinsAndBeDisabled.message" xml:space="preserve">
+    <value>Ein Berechtigungsprofil, das die PIN sperrt, kann nach der Ausstellung nicht mehr deaktiviert werden.</value>
+    <comment>A credential profile that locks the PIN cannot also be disabled after issuance.</comment>
+  </data>
+  <data name="errors.WS40131.CredProfiles_TermsAndConditionTemplateUnnecessary.message" xml:space="preserve">
+    <value>Eine Vorlage für die Allgemeinen Geschäftsbedingungen ist vorhanden, aber die Allgemeinen Geschäftsbedingungen sind deaktiviert.</value>
+    <comment>A terms and conditions template is provided, but terms and conditions are disabled.</comment>
+  </data>
+  <data name="errors.WS40132.CredProfiles_PhotosCannotBeEnforcedForBureau.message" xml:space="preserve">
+    <value>Die Ausstellung über die Dienststelle kann nicht erzwingen, dass Benutzer gültige Fotos haben.</value>
+    <comment>Issuance via bureau cannot enforce users have valid photos.</comment>
+  </data>
+  <data name="errors.WS40133.CredProfiles_InvalidForPairingCodeEmails.message" xml:space="preserve">
+    <value>E-Mails mit Kopplungscodes können nicht gesendet werden, wenn das Berechtigungsprofil OPACITY mit Kopplungscodes nicht verwendet.</value>
+    <comment>Pairing code emails cannot be sent if the credential profile is not using OPACITY with pairing codes.</comment>
+  </data>
+  <data name="errors.WS40134.CredProfiles_NoCardMediaProvided.message" xml:space="preserve">
+    <value>Das Kartenmaterial muss bereitgestellt werden, wenn die Ausgabe über das Büro erfolgt.</value>
+    <comment>The card media must be provided if issuing via bureau.</comment>
+  </data>
+  <data name="errors.WS40135.CredProfiles_KeyRecoveryCannotBeUsedForLogon.message" xml:space="preserve">
+    <value>Ein Schlüsselwiederherstellungs-Zugangsdatenprofil kann nicht für die Anmeldung verwendet werden.</value>
+    <comment>A key recovery credential profile cannot be used for logon.</comment>
+  </data>
+  <data name="errors.WS40136.CredProfiles_KeyRecoveryCannotSpecifyPolicies.message" xml:space="preserve">
+    <value>Die Schlüsselwiederherstellung verwendet nicht die auf dem Berechtigungsprofil definierten Zertifikatsrichtlinien, aber es wurden Zertifikatsrichtlinien bereitgestellt.</value>
+    <comment>Key recovery will not use certificate policies defined on the credential profile, but certificate policies have been provided.</comment>
+  </data>
+  <data name="errors.WS40137.CredProfiles_KeyRecoveryCannotRequireUserDataApproval.message" xml:space="preserve">
+    <value>Für Schlüsselwiederherstellungs-Zugangsdatenprofile kann keine Benutzerfreigabe erforderlich sein.</value>
+    <comment>User data approval cannot be required for key recovery credential profiles.</comment>
+  </data>
+  <data name="errors.WS40138.CredProfiles_SoftCertRecoveryLocationMustBeSet.message" xml:space="preserve">
+    <value>Ein Softzertifikat-Zugangsdatenprofil, das zur Schlüsselwiederherstellung markiert ist, erfordert die Angabe des Wiederherstellungsorts.</value>
+    <comment>A soft certificate credential profile marked for key recovery requires the recovery location to be specified.</comment>
+  </data>
+  <data name="errors.WS40139.CredProfiles_KeyRecoverySettingsInvalid.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil ist nicht für die Schlüsselwiederherstellung vorgesehen, aber Einstellungen zur Schlüsselwiederherstellung wurden angegeben.</value>
+    <comment>The credential profile is not for key recovery, but key recovery settings have been provided.</comment>
+  </data>
+  <data name="errors.WS40140.CredProfiles_ExternalSystemRequiresMdmRestrictions.message" xml:space="preserve">
+    <value>Ein MDM-Externsystem kann nur angegeben werden, wenn MDM-Beschränkungen aktiv sind.</value>
+    <comment>An MDM external system can only be specified if MDM restrictions are in place.</comment>
+  </data>
+  <data name="errors.WS40141.CredProfiles_ExternalSystemMustBeSetWithMdmRestrictions.message" xml:space="preserve">
+    <value>Ein externes MDM-System muss angegeben werden, wenn MDM-Beschränkungen vorhanden sind.</value>
+    <comment>An MDM external system must be specified if MDM restrictions are in place.</comment>
+  </data>
+  <data name="errors.WS40142.CredProfiles_AttributesSpecifiedWithoutRegisteringWithMDM.message" xml:space="preserve">
+    <value>Ein Berechtigungsprofil muss verlangen, dass Geräte bei einem MDM registriert sind, um die erforderlichen MDM-Attribute anzugeben.</value>
+    <comment>A credential profile must require devices to be registered with an MDM to specify the required MDM attributes.</comment>
+  </data>
+  <data name="errors.WS40143.CredProfiles_CannotEmailUserSpecifiedPINs.message" xml:space="preserve">
+    <value>Wenn ein Benutzer die PINs eines Geräts selbst festlegt, kann die generierte PIN-E-Mail nicht gesendet werden.</value>
+    <comment>If a user will specify the PINs of a device themselves, the generated PIN email cannot be sent.</comment>
+  </data>
+  <data name="errors.WS40144.CredProfiles_CannotSetGeneratedPinLengthForUserSpecifiedPins.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil verwendet benutzerspezifische PINs, aber eine generierte PIN-Länge wurde angegeben.</value>
+    <comment>The credential profile uses user-specified PINs, but a generated PIN length has been provided.</comment>
+  </data>
+  <data name="errors.WS40145.CredProfiles_GeneratedLengthMustBeSetForGeneratedPins.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil verwendet generierte PINs, aber eine Länge für die generierte PIN wurde nicht angegeben.</value>
+    <comment>The credential profile uses generated PINs, but a generated PIN length has not been provided.</comment>
+  </data>
+  <data name="errors.WS40146.CredProfiles_ServerGeneratedPinSettingsInvalid.message" xml:space="preserve">
+    <value>Das Berechtigungsprofil verwendet keine servergenerierten PINs, aber Servergenerierungseinstellungen wurden bereitgestellt.</value>
+    <comment>The credential profile does not use server-generated PINs, but server generation settings have been provided.</comment>
+  </data>
+  <data name="errors.WS40147.CredProfiles_CannotEnforceBannedWordsForServerGeneratedPins.message" xml:space="preserve">
+    <value>Ein Berechtigungsprofil muss die Verwendung verbotener Wörter nicht verhindern, wenn es eine serverseitig generierte PIN verwendet.</value>
+    <comment>A credential profile does not need to prevent the use of banned words if it uses a server-generated PIN.</comment>
+  </data>
+  <data name="errors.WS40148.CredProfiles_FieldMustBeSetForServerGeneratedPins.message" xml:space="preserve">
+    <value>Dieses Feld muss ausgefüllt werden, wenn servergenerierte PINs verwendet werden.</value>
+    <comment>This field must be provided if using server-generated PINs.</comment>
+  </data>
+  <data name="errors.WS40149.CredProfiles_ResetPinProtectedKeyInvalidForAlgorithm.message" xml:space="preserve">
+    <value>Der ausgewählte Reset-PIN-Generator oder Algorithmus erfordert keinen geschützten Schlüssel.</value>
+    <comment>The chosen Reset PIN generator or algorithm does not require a protected key to be specified.</comment>
+  </data>
+  <data name="errors.WS40150.CredProfiles_ResetPinProtectedKeyMustBeSet.message" xml:space="preserve">
+    <value>Der gewählte Reset-PIN-Algorithmus erfordert die Angabe eines geschützten Schlüssels.</value>
+    <comment>The chosen Reset PIN algorithm requires a protected key to be specified.</comment>
+  </data>
+  <data name="errors.WS40151.CredProfiles_FieldMustBeSetForPinSettings.message" xml:space="preserve">
+    <value>Diese PIN-Einstellung muss angegeben werden.</value>
+    <comment>This PIN setting must be provided.</comment>
+  </data>
+  <data name="errors.WS40152.CredProfiles_NoAuthenticationServerForRevokingPasskeys.message" xml:space="preserve">
+    <value>Ein Authentifizierungsserver muss bereitgestellt werden, um FIDO-Passkeys nach deren Ablauf zu widerrufen.</value>
+    <comment>An authentication server must be provided to revoke FIDO passkeys once they expire.</comment>
+  </data>
+  <data name="errors.WS40153.OnlyOneCertPolicyForSigningEncryptionAndDefault.message" xml:space="preserve">
+    <value>Mehrere Zertifizierungsrichtlinien können nicht gleichzeitig für die Signatur, Verschlüsselung oder als Standard ausgewählt werden.</value>
+    <comment>Multiple certificate policies cannot be selected for signing, encryption or as the default.</comment>
+  </data>
+  <data name="errors.WS40154.OnlyOneCertPolicyPerContainer.message" xml:space="preserve">
+    <value>Für den Container '{0}' wurden mehrere Zertifikatrichtlinien ausgewählt, der nur die Speicherung eines einzelnen Zertifikats erlaubt.</value>
+    <comment>Multiple certificate policies were selected for the container '{0}', which only permits a single certificate to be stored in it.</comment>
+  </data>
+  <data name="errors.WS40155.OnlyOneDefaultLayout.message" xml:space="preserve">
+    <value>Es kann nur ein Layout als Standard ausgewählt werden.</value>
+    <comment>Only one layout can be selected as the default.</comment>
+  </data>
+  <data name="errors.WS40156.CredProfiles_CannotSetParentProfileNameAsSelf.message" xml:space="preserve">
+    <value>Sie können kein Berechtigungsprofil als sein eigenes übergeordnetes Element angeben.</value>
+    <comment>You cannot specify a credential profile as its own parent.</comment>
+  </data>
+  <data name="errors.WS40157.CredProfileNotSupportedForManagement.message" xml:space="preserve">
+    <value>Das angeforderte Berechtigungsprofil enthält Einstellungen, die mit der aktuellen Konfiguration nicht kompatibel sind, und wird daher für die Verwaltung nicht unterstützt.</value>
+    <comment>The requested credential profile has settings that are incompatible with the current configuration, and is therefore not supported for management.</comment>
+  </data>
+  <data name="errors.WS40158.CannotChangeCredProfileEncodingType.message" xml:space="preserve">
+    <value>Sie können den Kodierungstyp eines bestehenden Berechtigungsprofils nicht ändern.</value>
+    <comment>You cannot change the encoding type of an existing credential profile.</comment>
+  </data>
+  <data name="errors.WS40159.FieldIsNotAValidCardFormatDocument.message" xml:space="preserve">
+    <value>'{0}' ist kein gültiges Kartenformat-Dokument</value>
+    <comment>'{0}' is not a valid card format document</comment>
+  </data>
+  <data name="errors.WS40160.InvalidLicenceProvided.message" xml:space="preserve">
+    <value>Sie müssen eine gültige Lizenzanforderung bereitstellen.</value>
+    <comment>You must provide a valid license request.</comment>
+  </data>
+  <data name="errors.WS40161.InvalidLicenceWarningLimit.message" xml:space="preserve">
+    <value>Das Lizenz-Warnlimit muss größer oder gleich 0 sein und muss kleiner als die maximale Anzahl der im Lizenzantrag unterstützten Benutzer sein.</value>
+    <comment>The license warning limit must be greater than or equal to 0, and must be less than the maximum number of users supported in the license request.</comment>
+  </data>
+  <data name="errors.WS40162.EulaNotAgreed.message" xml:space="preserve">
+    <value>Sie müssen den Endbenutzer-Lizenzvertrag akzeptieren, um diese Lizenz zu installieren.</value>
+    <comment>You must agree to the end-user license agreement to install this license.</comment>
+  </data>
+  <data name="errors.WS40163.NoPendingLicenceRequest.message" xml:space="preserve">
+    <value>Es muss eine ausstehende Lizenzanforderung im System vorliegen, um diese Aktion auszuführen.</value>
+    <comment>There must be a pending license request in the system to perform this action.</comment>
+  </data>
+  <data name="errors.WS40164.ExistingLicenceRequestForDifferentCompany.message" xml:space="preserve">
+    <value>Die vorhandene installierte Lizenz ist für einen anderen Firmennamen und Standort als die angeforderten.</value>
+    <comment>The existing installed license is for a different company name and location to the ones requested.</comment>
+  </data>
+  <data name="errors.WS40165.NoExistingLicenceRequestRequiresCompany.message" xml:space="preserve">
+    <value>Für diese Lizenzanforderung muss ein Firmenname und ein Standort angegeben werden.</value>
+    <comment>A company name and location must be provided for this license request.</comment>
+  </data>
+  <data name="errors.WS40166.RequestedNumberOfLicencesInvalid.message" xml:space="preserve">
+    <value>Die aktuelle Anzahl der lizenzierten Benutzer auf diesem System übersteigt die angeforderte Anzahl der Lizenzen.</value>
+    <comment>The current number of licensed users on this system exceeds the requested number of licenses.</comment>
+  </data>
+  <data name="errors.WS40167.TamperedLicence.message" xml:space="preserve">
+    <value>Die Lizenz ist für dieses System nicht gültig.</value>
+    <comment>The license is not valid for this system.</comment>
+  </data>
+  <data name="errors.WS40168.CredProfiles_RequisiteUserDataValidationError.message" xml:space="preserve">
+    <value>Die folgenden erforderlichen Benutzerdatenfelder erfüllen nicht die notwendigen Kriterien: {0}</value>
+    <comment>The following Requisite User Data fields do not meet the necessary criteria: {0}</comment>
+  </data>
+  <data name="errors.WS40169.CredProfiles_InvalidIssuanceSettingsForNonDerivedCredential.message" xml:space="preserve">
+    <value>Ein nicht abgeleitetes Berechtigungsprofil kann keine Einschränkungen für mobile Geräte festgelegt haben.</value>
+    <comment>A credential profile that is not derived cannot have Mobile Device Restrictions set.</comment>
+  </data>
+  <data name="errors.WS40170.CredProfiles_TermsAndConditionsTemplateMandatory.message" xml:space="preserve">
+    <value>Allgemeine Geschäftsbedingungen sind für dieses Berechtigungsprofil aktiviert, aber keine Vorlage für allgemeine Geschäftsbedingungen wurde bereitgestellt.</value>
+    <comment>Terms and conditions are enabled for this credential profile, but no terms and conditions template was supplied.</comment>
+  </data>
+  <data name="errors.WS40171.SecurityPhrasesValidationError.message" xml:space="preserve">
+    <value>Die folgenden Sicherheitsphrasen erfüllen nicht die vom Systemadministrator festgelegten Kriterien: {0}</value>
+    <comment>The following security phrases do not meet the criteria configured by the system administrator: {0}</comment>
+  </data>
+  <data name="errors.WS40172.DuplicateSecurityPhrases.message" xml:space="preserve">
+    <value>Sie haben mehr als einmal dieselbe Sicherheitsphrase beantwortet.</value>
+    <comment>You have provided an answer to the same security phrase more than once.</comment>
+  </data>
+  <data name="errors.WS40173.CredProfiles_Policies_PolicyDoesNotExist.message" xml:space="preserve">
+    <value>Die Zertifizierungsrichtlinie '{0}' existiert nicht.</value>
+    <comment>The certificate policy '{0}' does not exist.</comment>
+  </data>
+  <data name="errors.WS40174.CredProfiles_Policies_CannotSpecifyContainersWithoutCardFormat.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' gibt einen Container an, aber es wurde kein Kartenformat angegeben.</value>
+    <comment>Certificate with policy '{0}' specifies a container, but no card format has been specified.</comment>
+  </data>
+  <data name="errors.WS40175.CredProfiles_Policies_ContainerDoesNotExist.message" xml:space="preserve">
+    <value>Der Container '{0}' existiert nicht für das ausgewählte Kartenformat '{1}'.</value>
+    <comment>The container '{0}' does not exist for the selected card format, '{1}'.</comment>
+  </data>
+  <data name="errors.WS40176.CredProfiles_Policies_MissingLogonServiceForSigningCerts.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' ist als Signaturzertifikat ausgewählt, jedoch ist das Berechtigungsprofil nicht für MyID-Anmeldung geeignet.</value>
+    <comment>Certificate with policy '{0}' is selected to be a signing certificate, but the credential profile is not capable of MyID Logon.</comment>
+  </data>
+  <data name="errors.WS40177.CredProfiles_Policies_InactiveCertCannotBeSigningEncryptionOrDefault.message" xml:space="preserve">
+    <value>Zertifikat mit der Richtlinie '{0}' ist inaktiv und kann nicht als Signatur-, Verschlüsselungs- oder Standardzertifikat ausgewählt werden.</value>
+    <comment>Certificate with policy '{0}' is inactive, and cannot be selected to be a signing, encryption or default certificate.</comment>
+  </data>
+  <data name="errors.WS40178.CredProfiles_Policies_NonArchivedCertificatesMustIssueNew.message" xml:space="preserve">
+    <value>Das Zertifikat mit der Richtlinie '{0}' ist aktiv und nicht archiviert, daher ist die Ausgabestrategie "Neu ausstellen" ('issueNew') erforderlich.</value>
+    <comment>Certificate with policy '{0}' is active and not archived, and therefore requires the Issue New ('issueNew') issuance strategy.</comment>
+  </data>
+  <data name="errors.WS40179.CredProfiles_Policies_InactiveCertsMustBeHistoricOnly.message" xml:space="preserve">
+    <value>Zertifikat mit der Richtlinie '{0}' ist inaktiv und erfordert daher die Ausgabestrategie Nur historisch ('historicOnly').</value>
+    <comment>Certificate with policy '{0}' is inactive, and therefore requires the Historic Only ('historicOnly') issuance strategy.</comment>
+  </data>
+  <data name="errors.WS40180.CredProfiles_Policies_ExternallyIssuedOnlyArchivedCanSign.message" xml:space="preserve">
+    <value>Zertifikat mit der Richtlinie '{0}' ist nicht archiviert, wird jedoch als Signaturzertifikat ausgewählt. Nur archivierte Zertifikate können als Signaturzertifikat für extern ausgestellte Berechtigungen ausgewählt werden.</value>
+    <comment>Certificate with policy '{0}' is not archived, but is selected to be a signing certificate. Only archived certificates can be selected as a signing certificate for Externally Issued credentials.</comment>
+  </data>
+  <data name="errors.WS40181.CredProfiles_Policies_ExternallyIssuedArchivedCannotEncrypt.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' ist archiviert, wird jedoch als Verschlüsselungszertifikat ausgewählt. Archivierte Zertifikate können für extern ausgestellte Berechtigungen nicht als Verschlüsselungszertifikat ausgewählt werden.</value>
+    <comment>Certificate with policy '{0}' is archived, but is selected to be a encryption certificate. Archived certificates cannot be selected as an encryption certificate for Externally Issued credentials.</comment>
+  </data>
+  <data name="errors.WS40182.CredProfiles_Policies_ExternallyIssuedCannotSetDefault.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' ist als Standardzertifikat ausgewählt, was für extern ausgestellte Berechtigungen ungültig ist.</value>
+    <comment>Certificate with policy '{0}' is selected to be a default certificate, which is invalid for Externally Issued credentials.</comment>
+  </data>
+  <data name="errors.WS40183.CredProfiles_Policies_MissingEncryptionServiceForEncryptionCerts.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' ist als Verschlüsselungszertifikat ausgewählt, aber das Berechtigungsprofil unterstützt keine MyID-Verschlüsselung.</value>
+    <comment>Certificate with policy '{0}' is selected to be an encryption certificate, but the credential profile is not capable of MyID Encryption.</comment>
+  </data>
+  <data name="errors.WS40184.CredProfiles_Policies_ArchivedCertCannotBeSigningEncryptionOrDefault.message" xml:space="preserve">
+    <value>Zertifikat mit der Richtlinie '{0}' ist archiviert und kann nicht als Signatur-, Verschlüsselungs- oder Standardzertifikat ausgewählt werden.</value>
+    <comment>Certificate with policy '{0}' is archived, and cannot be selected to be a signing, encryption or default certificate.</comment>
+  </data>
+  <data name="errors.WS40185.CredProfiles_Policies_EncodingTypeDoesNotAllowSigningEncryptionOrDefault.message" xml:space="preserve">
+    <value>Zertifikat mit der Richtlinie '{0}' ist als Signatur-, Verschlüsselungs- oder Standardzertifikat ausgewählt und kann nicht für Identitätsagenten- oder Geräteidentitätsanmeldeinformationen ausgewählt werden.</value>
+    <comment>Certificate with policy '{0}' is selected to be a signing, encryption or default certificate, which cannot be selected for Identity Agent or Device Identity credentials.</comment>
+  </data>
+  <data name="errors.WS40186.CredProfiles_Policies_SoftCertNeedsPolicies.message" xml:space="preserve">
+    <value>Software-Zertifikate erfordern Zertifizierungsrichtlinien zur Ausstellung.</value>
+    <comment>Software certificates require certificate policies to be issued.</comment>
+  </data>
+  <data name="errors.WS40187.CredProfiles_Policies_ArchivedSoftwareCertificatesMustIssueNew.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' ist ein archiviertes Softwarezertifikat und erfordert daher die Ausgabestrategie "Neuausstellung" ('issueNew').</value>
+    <comment>Certificate with policy '{0}' is an archived software certificate, and therefore requires the Issue New ('issueNew') issuance strategy.</comment>
+  </data>
+  <data name="errors.WS40188.CredProfiles_Policies_CannotHaveHistoricSoftwareCertificates.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' gibt historische Zertifikate an, was für Software-Zertifikatsanmeldeinformationen ungültig ist.</value>
+    <comment>Certificate with policy '{0}' specifies historic certificates, which is invalid for software certificate credentials.</comment>
+  </data>
+  <data name="errors.WS40189.CredProfiles_Policies_SoftCertsRequireAStorageMethod.message" xml:space="preserve">
+    <value>Das Zertifikat mit der Richtlinie '{0}' weist keine Speichermethode ('Container') auf. Alle Richtlinien für Softwarezertifikate erfordern eine Speichermethode.</value>
+    <comment>Certificate with policy '{0}' is missing a storage method ('container'). All software certificate policies require a storage method.</comment>
+  </data>
+  <data name="errors.WS40190.CredProfiles_Policies_InvalidNumberOfHistoricCertificatesWithInactivePolicy.message" xml:space="preserve">
+    <value>Das Zertifikat mit der Richtlinie '{0}' hat eine ungültige Anzahl historischer Zertifikate. Für eine inaktive Richtlinie muss die Anzahl zwischen 1 und 20 liegen.</value>
+    <comment>Certificate with policy '{0}' has an invalid number of historic certificates. Must be between 1 and 20 for an inactive policy.</comment>
+  </data>
+  <data name="errors.WS40191.CredProfiles_Policies_InvalidNumberOfHistoricCertificatesWithActivePolicy.message" xml:space="preserve">
+    <value>Zertifikat mit Richtlinie '{0}' hat eine ungültige Anzahl historischer Zertifikate. Muss für eine aktive Richtlinie zwischen 0 und 20 liegen.</value>
+    <comment>Certificate with policy '{0}' has an invalid number of historic certificates. Must be between 0 and 20 for an active policy.</comment>
+  </data>
+  <data name="errors.WS40192.CredProfiles_Policies_CannotHaveNotArchivedHistoricCertificates.message" xml:space="preserve">
+    <value>Zertifikat mit der Richtlinie '{0}' ist nicht archiviert und kann daher keine historischen Zertifikate haben.</value>
+    <comment>Certificate with policy '{0}' is not archived, and therefore cannot have historic certificates.</comment>
+  </data>
+  <data name="errors.WS40193.CredProfiles_Policies_UnmanagedPolicyCannotIssueNew.message" xml:space="preserve">
+    <value>Zertifikat mit der Richtlinie '{0}' wird nicht von einer Zertifizierungsstelle verwaltet und kann daher die Ausgabe-Strategie "Neu ausstellen" ('issueNew') nicht verwenden.</value>
+    <comment>Certificate with policy '{0}' is not managed by a certificate authority, and therefore cannot use the Issue New ('issueNew') issuance strategy.</comment>
+  </data>
+  <data name="errors.WS40194.CredProfiles_Policies_ContainerDoesNotSupportSigning.message" xml:space="preserve">
+    <value>Das Zertifikat mit der Richtlinie '{0}' ist als Signaturzertifikat ausgewählt, aber der ausgewählte Container '{1}' unterstützt keine Signatur.</value>
+    <comment>Certificate with policy '{0}' is selected to be a signing certificate, but the selected container '{1}' does not support signing.</comment>
+  </data>
+  <data name="errors.WS40195.CredProfiles_CannotChangeKeyRecoverySettings.message" xml:space="preserve">
+    <value>Sie können die Einstellungen "Nur Schlüsselwiederherstellung" / "Drittanbieter-Schlüsselwiederherstellung zulassen" für ein bestehendes Berechtigungsprofil nicht ändern.</value>
+    <comment>You cannot change the Key Recovery Only / Allow Third Party Key Recovery settings for an existing credential profile.</comment>
+  </data>
+  <data name="errors.WS40196.InvalidCertPolicyAttribute.message" xml:space="preserve">
+    <value>Dieses System ist nicht so konfiguriert, dass ein Zertifikatsrichtlinienattribut mit dem Namen '{0}' erlaubt ist.</value>
+    <comment>This system is not configured to allow a certificate policy attribute with the name '{0}'.</comment>
+  </data>
+  <data name="errors.WS40197.InvalidCertificateAuthoritySubType.message" xml:space="preserve">
+    <value>Der Typ der Zertifizierungsstelle wird nicht unterstützt oder existiert nicht.</value>
+    <comment>The Certificate Authority type is not supported or does not exist.</comment>
+  </data>
+  <data name="errors.WS40198.CertPolicies_MicrosoftKeyArchiveMechanismDisabled.message" xml:space="preserve">
+    <value>Der Schlüsselarchivierungsmechanismus für eine Zertifikatspolitik kann nicht geändert werden, wenn er ursprünglich zur Verwendung von Microsoft konfiguriert wurde, ebenso kann keine Richtlinie Microsoft verwenden, es sei denn, sie wurde ursprünglich entsprechend konfiguriert.</value>
+    <comment>The key archive mechanism for a certificate policy cannot be changed if it was originally configured to use the Microsoft, nor can any policy use Microsoft unless it was initially configured as such.</comment>
+  </data>
+  <data name="errors.WS40199.CertPolicies_CSPNameMustNotBeEmpty.message" xml:space="preserve">
+    <value>Der CSP-Name für die Zertifizierungsrichtlinie muss festgelegt werden, wenn das Zertifikat oder der Wiederherstellungsspeicher so konfiguriert sind, dass etwas anderes als Hardware verwendet wird.</value>
+    <comment>The CSP Name for the certificate policy must be set when the certificate or recovery storage are configured to use something other than hardware.</comment>
+  </data>
+  <data name="errors.WS40200.CertPolicies_RequiresValidationMustBeFalse.message" xml:space="preserve">
+    <value>Die Zertifikatsrichtlinie kann keine Validierung verlangen, wenn der Zertifikatsspeicher für die Verwendung von Hardware konfiguriert ist.</value>
+    <comment>The certificate policy cannot require validation when the certificate storage is configured to use hardware.</comment>
+  </data>
+  <data name="errors.WS40201.CertPolicies_PrivateExportableKeyMustBeFalse.message" xml:space="preserve">
+    <value>Die Zertifizierungsrichtlinie unterstützt keinen privat exportierbaren Schlüssel, wenn sowohl das Zertifikat als auch der Wiederherstellungsspeicher für die Verwendung von Hardware konfiguriert sind.</value>
+    <comment>The certificate policy cannot support a private exportable key when the certificate and recovery storage are both configured to use hardware.</comment>
+  </data>
+  <data name="errors.WS40202.CertPolicies_UserProtectedMustBeFalse.message" xml:space="preserve">
+    <value>Die Zertifikatsrichtlinie kann nicht benutzergeschützt sein, wenn sowohl das Zertifikat als auch der Wiederherstellungsspeicher für die Verwendung von Hardware konfiguriert sind.</value>
+    <comment>The certificate policy cannot be user protected when the certificate and recovery storage are both configured to use hardware.</comment>
+  </data>
+  <data name="errors.WS40203.CertPolicies_ArchiveKeyMustBeNoneOrCertAuthority.message" xml:space="preserve">
+    <value>Der Schlüsselarchivmechanismus für eine Zertifizierungsrichtlinie muss entweder auf „keine“ oder auf „Speicherung in einer Zertifizierungsstelle“ eingestellt sein, wenn die Richtlinie Identitätszuordnung unterstützt.</value>
+    <comment>The key archive mechanism for a certificate policy must either be set to none or storage in a certificate authority if the policy supports identity mapping.</comment>
+  </data>
+  <data name="errors.WS40204.CertPolicies_KeyDefaultsCannotBeOverriden.message" xml:space="preserve">
+    <value>Der Schlüsselalgorithmus und der Zweck dieser Zertifikatsrichtlinie können nicht von den Standardwerten geändert werden.</value>
+    <comment>The key algorithm and purpose for this certificate policy cannot be modified from the default values.</comment>
+  </data>
+  <data name="errors.WS40205.CertificateAuthorities_PasswordMustBeSuppliedForPfx.message" xml:space="preserve">
+    <value>Wenn für die Zertifizierungsstelle die PFX-Speicherung eingestellt wird, muss ein Passwort für die PFX angegeben werden.</value>
+    <comment>If setting the Certificate Authority to use PFX storage, then a password must be supplied for the PFX.</comment>
+  </data>
+  <data name="errors.WS40206.CertificateAuthorities_PfxPasswordSuppliedButNotPfxStore.message" xml:space="preserve">
+    <value>Wenn für die Zertifizierungsstelle ein PFX-Passwort verwendet wird, muss die Speicherung auf PFX eingestellt werden.</value>
+    <comment>If setting the Certificate Authority use a PFX password, then the storage must be set to PFX.</comment>
+  </data>
+  <data name="errors.WS40207.CertificateAuthorities_MustBePfxType.message" xml:space="preserve">
+    <value>Der Verbindungstyp muss PFX sein, wenn PFX-Daten angegeben werden.</value>
+    <comment>Connection type must be PFX if supplying PFX details.</comment>
+  </data>
+  <data name="errors.WS40208.CertificateAuthorities_MustBeCertificateType.message" xml:space="preserve">
+    <value>Der Verbindungstyp muss Zertifikat sein, wenn Zertifikatsdetails angegeben werden.</value>
+    <comment>Connection type must be Certificate if supplying certificate details.</comment>
+  </data>
+  <data name="errors.WS40209.CertificateAuthorities_MustBeDualRecoveryType.message" xml:space="preserve">
+    <value>Die doppelte Kontrolle für die Wiederherstellung muss aktiviert sein, wenn Details für die doppelte Wiederherstellung angegeben werden.</value>
+    <comment>Dual Control for recovery must be set if supplying details for dual recovery.</comment>
+  </data>
+  <data name="errors.WS40210.CertificateAuthorities_PfxCertNotSpecifiedButConnectionTypeIsPfx.message" xml:space="preserve">
+    <value>PFX-Zertifikat muss angegeben werden, wenn der Verbindungstyp PFX ist.</value>
+    <comment>PFX Certificate must be specified if connection type is PFX.</comment>
+  </data>
+  <data name="errors.WS40211.CertificateAuthorities_CertNotSpecifiedButConnectionTypeIsCert.message" xml:space="preserve">
+    <value>Zertifikat muss angegeben werden, wenn der Verbindungstyp Zertifikat ist.</value>
+    <comment>Certificate must be specified if connection type is Certificate.</comment>
+  </data>
+  <data name="errors.WS40212.CertificateAuthorities_PfxStoreandDualNotSpecified.message" xml:space="preserve">
+    <value>Ein Dual-Pfx-Speicher wurde angegeben, aber die Verbindung ist kein PFX oder die doppelte Kontrolle ist nicht aktiviert.</value>
+    <comment>A Dual Pfx Store has been specified but the connection is not PFX or dual control is not enabled.</comment>
+  </data>
+  <data name="errors.WS40213.CertificateAuthorities_CertStoreandDualNotSpecified.message" xml:space="preserve">
+    <value>Ein Duales Zertifikatsspeicher wurde angegeben, aber die Verbindung ist nicht zertifiziert oder die doppelte Kontrolle ist nicht aktiviert.</value>
+    <comment>A Dual Certificate Store has been specified but the connection is not Certificate or dual control is not enabled.</comment>
+  </data>
+  <data name="errors.WS40214.CertificateAuthorities_DualCertStoreNotSpecified.message" xml:space="preserve">
+    <value>Die Verbindung ist auf Zertifikat eingestellt und die doppelte Kontrolle ist aktiviert, aber ein Dual-Zertifikat-Speicher wurde nicht angegeben.</value>
+    <comment>The connection is set to Certificate and dual control is enabled but a Dual Certificate Store has been not been specified.</comment>
+  </data>
+  <data name="errors.WS40215.CertificateAuthorities_PfxSuppliedForNonPfxConnectionType.message" xml:space="preserve">
+    <value>Die Verbindung ist nicht vom Typ PFX, aber ein PFX-Passwort wurde angegeben.</value>
+    <comment>Connection is not of type PFX but a PFX password has been supplied.</comment>
+  </data>
+  <data name="errors.WS40216.CertificateAuthorities_PfxPasswordSuppliedForNonPfxConnectionOrDualType.message" xml:space="preserve">
+    <value>Ein doppeltes PFX-Passwort wurde angegeben, aber die Verbindung ist weder PFX noch die Doppelte Kontrolle ist aktiviert.</value>
+    <comment>A dual PFX password has been supplied, but the connection is not PFX or Dual Control is not enabled.</comment>
+  </data>
+  <data name="errors.WS40217.CertificateAuthorities_PfxNotSpecifiedButConnectionTypeIsPfx.message" xml:space="preserve">
+    <value>Pfx muss angegeben werden, wenn der Verbindungstyp PFX ist.</value>
+    <comment>Pfx must be specified if connection type if PFX.</comment>
+  </data>
+  <data name="errors.WS40218.CertificateAuthorities_ApiNotSpecifiedButConnectionTypeIsApi.message" xml:space="preserve">
+    <value>Der API-Schlüssel muss angegeben werden, wenn der Verbindungstyp „API-Schlüssel“ ist.</value>
+    <comment>Api Key must be specified if connection type is Api Key.</comment>
+  </data>
+  <data name="errors.WS40219.CertificateAuthorities_MustBeApiKeyType.message" xml:space="preserve">
+    <value>Der Verbindungstyp muss Api Key sein, wenn Api Key-Daten angegeben werden.</value>
+    <comment>Connection type must be Api Key if supplying Api Key details.</comment>
+  </data>
+  <data name="errors.WS40220.CertificateAuthorities_DualServicePointNotSupplied.message" xml:space="preserve">
+    <value>Duale Wiederherstellung wurde bereitgestellt, aber kein Dual Service Point wurde angegeben.</value>
+    <comment>Dual recovery has been supplied but no Dual Service Point has been supplied.</comment>
+  </data>
+  <data name="errors.WS40221.CertificateAuthorities_DualServicePointSupplied.message" xml:space="preserve">
+    <value>Ein Dual-Service-Punkt wurde geliefert, aber die doppelte Wiederherstellung nicht.</value>
+    <comment>A Dual Service Point has been supplied but Dual recovery has not.</comment>
+  </data>
+  <data name="errors.WS40222.CertificateAuthorities_DualPfxStoreNotSupplied.message" xml:space="preserve">
+    <value>Verbindungstyp, wenn PFX und Dual Recovery bereitgestellt wurden, aber ein Dual PFX Store nicht vorhanden ist.</value>
+    <comment>Connection type if PFX and Dual Recovery has been supplied but a Dual PFX Store has not.</comment>
+  </data>
+  <data name="errors.WS40223.CertificateAuthorities_DualApiNotSupplied.message" xml:space="preserve">
+    <value>Die Dual Control wurde nicht bereitgestellt, aber der Dual-API-Schlüssel wurde angegeben.</value>
+    <comment>Dual Control has not been supplied but Dual Api Key has been specified.</comment>
+  </data>
+  <data name="errors.WS40224.CertificateAuthorities_CannotDeletePoliciesInuse.message" xml:space="preserve">
+    <value>Die Zertifizierungsstelle konnte nicht entfernt werden, da Richtlinien von bestehenden Berechtigungsprofilen verwendet werden.</value>
+    <comment>The Certificate Authority could not be removed because there are policies being used by existing Credential Profiles.</comment>
+  </data>
+  <data name="errors.WS40225.CertificatePolicies_ArchiveKeyCannotBeChanged.message" xml:space="preserve">
+    <value>Der Archivierungsschlüssel kann für diese Zertifikatsrichtlinie nicht geändert werden.</value>
+    <comment>The archive key cannot be changed for this Certificate Policy.</comment>
+  </data>
+  <data name="errors.WS40226.CertificatePolicies_DefaultsCannotBeOverridden.message" xml:space="preserve">
+    <value>Diese Zertifizierungsrichtlinie erlaubt keine Überschreibung der Standardwerte für Schlüssel.</value>
+    <comment>This Certificate Policy does not allow key defaults to be overridden.</comment>
+  </data>
+  <data name="errors.WS40227.CertificateAuthorities_AlreadyExists.message" xml:space="preserve">
+    <value>Zertifizierungsstelle ist bereits vorhanden. In den meisten Fällen werden Name, Typ, Pfad und Dienstpunkt kombiniert, um die eindeutigen Informationen bereitzustellen. Dies kann bei einigen Zertifizierungsstellen variieren – überprüfen Sie die MyID-Produktdokumentation für weitere Informationen.</value>
+    <comment>Certificate Authority already exists. In most cases Name, Type, Path and Service Point are combined to provide the unique information. This may vary for some certificate authorities - check MyID product documentation for further information.</comment>
+  </data>
+  <data name="errors.WS40228.CertificateAuthorities_CannotDeleteHasCertsIssued.message" xml:space="preserve">
+    <value>Diese Zertifizierungsstelle kann nicht gelöscht werden, da ihr Zertifikate ausgestellt wurden.</value>
+    <comment>This Certificate Authority cannot be deleted as it has certificates issued to it.</comment>
+  </data>
+  <data name="errors.WS40229.CertPolicies_CannotEnablePolicyAsCaIsDisabled.message" xml:space="preserve">
+    <value>Die Zertifizierungsrichtlinie kann nicht aktiviert werden, da die Zertifizierungsstelle deaktiviert ist.</value>
+    <comment>The certificate policy cannot be enabled as the certificate authority is disabled.</comment>
+  </data>
+  <data name="errors.WS40230.CertificateAuthorities_NameHasInvalidCharacters.message" xml:space="preserve">
+    <value>Ungültige Zeichen gefunden. Ungültige Zeichen sind: &lt; &gt; &amp; " '</value>
+    <comment>Invalid characters found. Invalid characters are: &lt; &gt; &amp; " '</comment>
+  </data>
+  <data name="errors.WS40231.EditGroups_CannotAddAllowedRolesToGroup.message" xml:space="preserve">
+    <value>Sie können die ausgewählten zulässigen Rollen nicht zur Gruppe hinzufügen. Die Liste der zulässigen Rollen wird von der übergeordneten Gruppe festgelegt.</value>
+    <comment>You cannot add the selected Allowed Roles to the group. The list of Allowed Roles are defined by the parent group.</comment>
+  </data>
+  <data name="errors.WS40232.EditGroups_CannotMoveUsersToGroupBeingDeleted.message" xml:space="preserve">
+    <value>Sie können die Benutzer nicht in die Gruppe verschieben, die gelöscht wird.</value>
+    <comment>You cannot move the users to the group that is being deleted.</comment>
+  </data>
+  <data name="errors.WS40233.CertPolicies_CannotDisablePolicyAsAlreadyDisabled.message" xml:space="preserve">
+    <value>Sie können diese Richtlinie nicht deaktivieren, da sie bereits deaktiviert ist.</value>
+    <comment>You cannot disable this policy as it is already disabled.</comment>
+  </data>
+  <data name="errors.WS40234.CertPolicies_CannotEnablePolicyAsAlreadyEnabled.message" xml:space="preserve">
+    <value>Sie können diese Richtlinie nicht aktivieren, da sie bereits aktiviert ist.</value>
+    <comment>You cannot enable this policy as it is already enabled.</comment>
+  </data>
+  <data name="errors.WS40235.CertPolicies_CannotPolicyStateAsPolicyIsSuperseded.message" xml:space="preserve">
+    <value>Sie können den aktivierten Status dieser Richtlinie nicht ändern, da sie ersetzt wurde.</value>
+    <comment>You cannot change the enabled state of this policy as it has been superseded.</comment>
+  </data>
+  <data name="errors.WS40236.ImageDataNotValidImage.message" xml:space="preserve">
+    <value>Die Daten für das Bild sind kein gültiges JPEG-, PNG-, GIF- oder BMP-Format.</value>
+    <comment>The data for the image is not a valid JPEG, PNG, GIF or BMP.</comment>
+  </data>
+  <data name="errors.WS40237.StatusMappingRestriction.message" xml:space="preserve">
+    <value>Die angegebene Statuszuordnung mit der ID '{0}' (Grund) ist für diese Operation nicht gültig oder wird durch das aktuelle Berechtigungsprofil weiter eingeschränkt.</value>
+    <comment>The provided statusMapping with ID '{0}' (reason) is not valid for this operation or is further restricted by the current credential profile.</comment>
+  </data>
+  <data name="errors.WS40238.AddTransfer_LocationsSame.message" xml:space="preserve">
+    <value>Eine Übertragung muss unterschiedliche Ausgangs- und Zielorte haben.</value>
+    <comment>A transfer must have different from and to locations.</comment>
+  </data>
+  <data name="errors.WS40239.CertificateAuthorities_CannotDisableAsAlreadyDisabled.message" xml:space="preserve">
+    <value>Sie können diese Zertifizierungsstelle nicht deaktivieren, da sie bereits deaktiviert ist.</value>
+    <comment>You cannot disable this Certificate Authority as it is already disabled.</comment>
+  </data>
+  <data name="errors.WS40240.CertificateAuthorities_CannotEnableAsAlreadyEnabled.message" xml:space="preserve">
+    <value>Sie können diese Zertifizierungsstelle nicht aktivieren, da sie bereits aktiviert ist.</value>
+    <comment>You cannot enable this Certificate Authority as it is already enabled.</comment>
+  </data>
+  <data name="errors.WS40241.InvalidDeviceProcessStatus.message" xml:space="preserve">
+    <value>Der Status der Entsorgung des Geräts kann nicht auf '{0}' gesetzt werden. Überprüfen Sie, ob der Status durch das aktuelle Berechtigungsprofil eingeschränkt ist.</value>
+    <comment>The device cannot have its disposal status set to '{0}'. Check if the status is restricted by the current credential profile.</comment>
+  </data>
+  <data name="errors.WS40242.DeviceStatusCannotBeReused.message" xml:space="preserve">
+    <value>Der Status dieses Geräts verhindert eine weitere Verwendung.</value>
+    <comment>The status of this device prevents it from being reused.</comment>
+  </data>
+  <data name="errors.WS40243.EditRolesAttemptingToTransferToSameRole.message" xml:space="preserve">
+    <value>Die Rolle, zu der Benutzer beim Löschen der aktuellen Rolle übertragen werden, darf nicht die aktuelle Rolle sein.</value>
+    <comment>The role to transfer users to upon deletion of the current role must not be the current role.</comment>
+  </data>
+  <data name="errors.WS40244.EditRolesNameAlreadyExists.message" xml:space="preserve">
+    <value>Die Rolle kann nicht hinzugefügt werden, da eine vorhandene Rolle den gewünschten Namen hat.</value>
+    <comment>The role cannot be added because an existing role has the requested name.</comment>
+  </data>
+  <data name="errors.WS40245.EditRolesAttemptingToLinkToLDAPAndSetManagedBy.message" xml:space="preserve">
+    <value>„Verwalter kann nicht festgelegt werden, da die Rolle LDAP-gebunden ist.“</value>
+    <comment>Cannot set managed by as the role is LDAP linked.</comment>
+  </data>
+  <data name="errors.WS40246.EditRolesAttemptingToLinkToLDAPWithoutDefaultScope.message" xml:space="preserve">
+    <value>Der Standardscope muss angegeben werden, wenn die Rolle mit LDAP verknüpft ist.</value>
+    <comment>The default scope must be supplied when the role is LDAP linked.</comment>
+  </data>
+  <data name="errors.WS40247.EditRolesAttemptingToAddDefaultScopeWithoutLDAPLink.message" xml:space="preserve">
+    <value>Kann den Standardbereich nicht festlegen, da die Rolle nicht mit LDAP verknüpft ist.</value>
+    <comment>Unable to set the default scope as the role is not LDAP linked.</comment>
+  </data>
+  <data name="errors.WS50000.Forbidden.message" xml:space="preserve">
+    <value>Ihr aktuelles Authentifizierungsniveau kann auf diese Informationen nicht zugreifen. Die verwendeten Anmeldeinformationen, die Rollen, auf die diese Anmeldeinformationen zugreifen können, und der für diese Rollen verfügbare Umfang können Ihren Zugriff einschränken.</value>
+    <comment>Your current authentication level cannot access this information. The logon credential used, roles that logon credential can access and scope available to those roles may limit your access</comment>
+  </data>
+  <data name="errors.WS50001.LicenceLimitReached.message" xml:space="preserve">
+    <value>Lizenzlimit erreicht</value>
+    <comment>Licence Limit Reached</comment>
+  </data>
+  <data name="errors.WS50002.ForbiddenUpdateOwnDevice.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, Ihr eigenes Gerät zu aktualisieren.</value>
+    <comment>You do not have permission to update your own device</comment>
+  </data>
+  <data name="errors.WS50003.ForbiddenUpdateDeviceAuthenticatedWith.message" xml:space="preserve">
+    <value>Sie haben nicht die Berechtigung, das Gerät zu aktualisieren, mit dem Sie sich authentifiziert haben.</value>
+    <comment>You do not have permission to update the device you authenticated with</comment>
+  </data>
+  <data name="errors.WS50004.ForbiddenEditSelf.message" xml:space="preserve">
+    <value>Das System ist nicht so konfiguriert, dass Sie Ihre eigenen Informationen bearbeiten dürfen.</value>
+    <comment>The system is not configured to allow you to edit your own information</comment>
+  </data>
+  <data name="errors.WS50005.DatabasePeopleSearchDisabled.message" xml:space="preserve">
+    <value>Die Suche nach Personen in der Datenbank ist deaktiviert</value>
+    <comment>Searching for people in the database is disabled</comment>
+  </data>
+  <data name="errors.WS50006.DirectoryPeopleSearchDisabled.message" xml:space="preserve">
+    <value>Die Suche nach Personen im Verzeichnis ist deaktiviert</value>
+    <comment>Searching for people in the directory is disabled</comment>
+  </data>
+  <data name="errors.WS50007.InvalidJobStatusChange.message" xml:space="preserve">
+    <value>Ungültige Statusänderung des Auftrags</value>
+    <comment>Invalid job status change</comment>
+  </data>
+  <data name="errors.WS50008.ForbiddenRequestThisCredentialProfile.message" xml:space="preserve">
+    <value>Die Ihnen zugewiesenen Rollen haben keine Berechtigung, das angegebene Berechtigungsprofil anzufordern.</value>
+    <comment>Your assigned roles do not have permission to request the credential profile specified</comment>
+  </data>
+  <data name="errors.WS50009.ForbiddenRequestForSelf.message" xml:space="preserve">
+    <value>Es ist nicht möglich, Anfragen für sich selbst oder Ihre Geräte zu erstellen.</value>
+    <comment>It is not possible to create requests for yourself or your devices</comment>
+  </data>
+  <data name="errors.WS50010.ForbiddenRequestValidateThisCredentialProfile.message" xml:space="preserve">
+    <value>Ihre zugewiesenen Rollen haben keine Berechtigung, Anfragen für dieses Berechtigungsprofil zu genehmigen oder abzulehnen.</value>
+    <comment>Your assigned roles do not have permission to approve or reject requests for this credential profile</comment>
+  </data>
+  <data name="errors.WS50011.ForbiddenRequestTargetCannotHoldCredentialProfile.message" xml:space="preserve">
+    <value>Die ausgewählte Person hat keine zugewiesene Rolle, die das angeforderte Berechtigungsprofil halten kann.</value>
+    <comment>The person selected does not have a role assigned that can hold the requested credential profile</comment>
+  </data>
+  <data name="errors.WS50012.ForbiddenRequestTargetNotApprovedForCredentialProfile.message" xml:space="preserve">
+    <value>Die ausgewählte Person hat keine genehmigten Benutzerdaten. Das Berechtigungsprofil erfordert, dass Benutzerdaten genehmigt werden, bevor es angefordert werden kann.</value>
+    <comment>The person selected does not have user data approved. The credential profile requires user data to be approved before it can be requested</comment>
+  </data>
+  <data name="errors.WS50013.ForbiddenRequestWrongKindForCredentialProfile.message" xml:space="preserve">
+    <value>Das ausgewählte Konto ist mit dieser Anforderung nicht kompatibel (Art stimmt nicht überein)</value>
+    <comment>The account selected is not compatible with this request (kind is mismatched)</comment>
+  </data>
+  <data name="errors.WS50014.ForbiddenRequestValidatorSameAsInitiator.message" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, Anträge zu genehmigen oder abzulehnen, die Sie selbst gestellt haben.</value>
+    <comment>You are not permitted to approve or reject requests that you have made</comment>
+  </data>
+  <data name="errors.WS50015.ForbiddenRequestValidatorSameAsTarget.message" xml:space="preserve">
+    <value>Sie dürfen keine Anträge genehmigen oder ablehnen, die Sie erhalten werden.</value>
+    <comment>You are not permitted to approve or reject requests that you will receive</comment>
+  </data>
+  <data name="errors.WS50016.ForbiddenRequestTargetDoesNotHaveRequisiteDataForCredentialProfile.message" xml:space="preserve">
+    <value>Die ausgewählte Person verfügt nicht über alle erforderlichen Informationen für dieses Berechtigungsprofil. Überprüfen Sie die Audit-Details der Personenhistorie, um die fehlenden erforderlichen Benutzerdaten zu identifizieren.</value>
+    <comment>The person selected does not have all required information for this credential profile. Check the Person History audit details to identify the missing requisite user data.</comment>
+  </data>
+  <data name="errors.WS50017.ForbiddenRequestTargetRequiresDistinguishedName.message" xml:space="preserve">
+    <value>Die ausgewählte Person verfügt nicht über einen Distinguished Name. Dieses Profil erfordert einen Distinguished Name für die Ausstellung von Berechtigungen.</value>
+    <comment>The person selected does not have a Distinguished Name. This profile requires a Distinguished Name for credential issuance.</comment>
+  </data>
+  <data name="errors.WS50018.ForbiddenRequestDerivedCredential.message" xml:space="preserve">
+    <value>Dieses Berechtigungsprofil kann nur über einen abgeleiteten Berechtigungsprozess angefordert werden.</value>
+    <comment>This credential profile can only be requested using a Derived Credential process</comment>
+  </data>
+  <data name="errors.WS50019.RequestCredentialProfileEncodingTypeNotSupported.message" xml:space="preserve">
+    <value>Anfragen, die mit dieser API erstellt werden, müssen einen geeigneten Kodierungstyp enthalten.</value>
+    <comment>Requests created using this API must include an appropriate encoding type</comment>
+  </data>
+  <data name="errors.WS50020.RoleProhibitedInSelectedGroup.message" xml:space="preserve">
+    <value>Eine angeforderte Rolle wurde durch die Anwendung von Gruppenrollenbeschränkungen ausgeschlossen</value>
+    <comment>A requested role has been excluded through the application of group role restrictions</comment>
+  </data>
+  <data name="errors.WS50021.RequestedScopeGreaterThanOperatorMaximumScope.message" xml:space="preserve">
+    <value>Der für eine Rolle angeforderte Bereich ist größer als der maximal vom aktuellen Operator zuweisbare Bereich.</value>
+    <comment>The scope requested for a role is greater than the maximum scope assignable by the current operator</comment>
+  </data>
+  <data name="errors.WS50022.ManagerControlledRoleMayNotBeAssigned.message" xml:space="preserve">
+    <value>Eine angeforderte Rolle wird vom Manager kontrolliert und der Bediener besitzt nicht die Rolle, die ihm erlauben würde, sie zuzuweisen.</value>
+    <comment>A requested role is manager controlled and the operator does not hold the role that would permit them to assign it</comment>
+  </data>
+  <data name="errors.WS50023.ForbiddenUpdateThisRequest.message" xml:space="preserve">
+    <value>Dieser Anfragetyp darf nicht aktualisiert werden.</value>
+    <comment>This type of request is not allowed to be updated</comment>
+  </data>
+  <data name="errors.WS50024.EnableDisableDirectoryPersonForbidden.message" xml:space="preserve">
+    <value>Das Aktivieren/Deaktivieren einer Verzeichnisperson ist nicht erlaubt</value>
+    <comment>Enabling/Disabling a directory person is not allowed</comment>
+  </data>
+  <data name="errors.WS50025.ManagePivApplicantForbidden.message" xml:space="preserve">
+    <value>Um diese Person zu bearbeiten, verwenden Sie den Workflow „PIV-Bewerber bearbeiten“ im MyID Desktop Client.</value>
+    <comment>To edit this person, use the 'Edit PIV Applicant' workflow in MyID Desktop Client</comment>
+  </data>
+  <data name="errors.WS50026.AddRemoveAdminGroupsForbidden.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, die angegebenen Administratorgruppen hinzuzufügen oder zu entfernen.</value>
+    <comment>You do not have permission to add or remove the specified administrator groups</comment>
+  </data>
+  <data name="errors.WS50027.ForbiddenRequestInvalidScopeForUser.message" xml:space="preserve">
+    <value>Der Betreiber verfügt nicht über den erforderlichen Umfang, um eine Anforderung für dieses Konto zu erstellen.</value>
+    <comment>The operator does not have sufficient scope to create a request for this account</comment>
+  </data>
+  <data name="errors.WS50028.RequestIsNotAwaitingValidationForbidden.message" xml:space="preserve">
+    <value>Sie können eine Anfrage, die nicht den Status „Ausstehende Validierung“ hat, weder validieren noch ablehnen.</value>
+    <comment>You cannot validate or reject a request which does not have an Awaiting Validation status</comment>
+  </data>
+  <data name="errors.WS50029.RequestIsCompletedCancelledFailedForbidden.message" xml:space="preserve">
+    <value>Sie können eine Anfrage mit dem Status Abgeschlossen, Abgebrochen oder Fehlgeschlagen nicht stornieren.</value>
+    <comment>You cannot cancel a request which has a Completed, Cancelled or Failed status</comment>
+  </data>
+  <data name="errors.WS50030.ForbiddenRequestCredentialProfileRequiresUserPhoto.message" xml:space="preserve">
+    <value>Die ausgewählte Person hat kein Foto. Das Berechtigungsprofil verlangt, dass der Benutzer ein Foto hat, bevor es angefordert werden kann.</value>
+    <comment>The person selected does not have a photo. The credential profile requires the user to have a photo before it can be requested</comment>
+  </data>
+  <data name="errors.WS50031.ForbiddenClonedOperation.message" xml:space="preserve">
+    <value>Die Vorgangs-ID {0} ist kein erlaubter Klon des Vorgangs {1}</value>
+    <comment>Operation ID {0} is not a permitted clone of operation {1}</comment>
+  </data>
+  <data name="errors.WS50032.ForbiddenByOperationConditions.message" xml:space="preserve">
+    <value>Die Bedingungen für den Vorgang mit der ID {0} verbieten die Verwendung des Vorgangs für die Zielentität.</value>
+    <comment>The conditions on the Operation with ID {0} prohibit use of the operation for the target entity</comment>
+  </data>
+  <data name="errors.WS50033.ForbiddenRequestCredentialProfileRequiresFingerprints.message" xml:space="preserve">
+    <value>Die ausgewählte Person verfügt nicht über Fingerabdruck-Biometrie. Das Berechtigungsprofil verlangt, dass der Empfänger Fingerabdruck-Biometrie registriert hat.</value>
+    <comment>The person selected does not have fingerprint biometrics. The credential profile requires that the recipient has fingerprint biometrics enrolled.</comment>
+  </data>
+  <data name="errors.WS50034.ForbiddenRequestCredentialProfileRequiresFacialBio.message" xml:space="preserve">
+    <value>Die ausgewählte Person verfügt nicht über Gesichtsbiometrie. Das Berechtigungsprofil verlangt, dass der Empfänger Gesichtsbiometrie registriert hat.</value>
+    <comment>The person selected does not have facial biometrics. The credential profile requires that the recipient has facial biometrics enrolled.</comment>
+  </data>
+  <data name="errors.WS50035.BlockMultipleRequestsForTarget.message" xml:space="preserve">
+    <value>Eine vorhandene Anfrage wurde gefunden, die diese Aktion verhindert. Überprüfen Sie bereits erstellte Anfragen und brechen Sie diese gegebenenfalls ab.</value>
+    <comment>An existing request has been found that prevents this action. Check requests that are already created and if necessary cancel them.</comment>
+  </data>
+  <data name="errors.WS50036.ForbiddenUsersMaxRequestExpiryExceeded.message" xml:space="preserve">
+    <value>Die ausgewählte Person hat ein maximales Ablaufdatum der Berechtigung, das vor dem angeforderten Datum liegt.</value>
+    <comment>The person selected has a maximum credential expiry date that is before the date requested.</comment>
+  </data>
+  <data name="errors.WS50037.ForbiddenCreateRequestCustomCheck.message" xml:space="preserve">
+    <value>Das Erstellen einer Anfrage ist nicht erlaubt. {0}</value>
+    <comment>Creating a request is not allowed. {0}</comment>
+  </data>
+  <data name="errors.WS50038.ForbiddenInitatiorCannotIssueCredentialProfile.message" xml:space="preserve">
+    <value>Das ausgewählte Berechtigungsprofil ist nicht zulässig, da die Person, die den Auftrag angefordert hat, nicht berechtigt war, dieses Berechtigungsprofil anzufordern.</value>
+    <comment>The selected credential profile is not allowed because the person that requested the job was not allowed to request this credential profile.</comment>
+  </data>
+  <data name="errors.WS50039.ForbiddenCannotSelfActionAdjudication.message" xml:space="preserve">
+    <value>Sie können Ihre eigenen Entscheidungen nicht bearbeiten.</value>
+    <comment>You cannot action your own adjudications.</comment>
+  </data>
+  <data name="errors.WS50040.ForbiddenCannotPerformOperation.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, diese Operation für das ausgewählte Element durchzuführen.</value>
+    <comment>You do not have permission to perform this operation against the selected item.</comment>
+  </data>
+  <data name="errors.WS50041.ForbiddenOutstandingAdjudicationsPresent.message" xml:space="preserve">
+    <value>Diese Aktion kann nicht ausgeführt werden, da der Benutzer noch offene Entscheidungen hat.</value>
+    <comment>This action cannot be performed because the user has outstanding adjudications.</comment>
+  </data>
+  <data name="errors.WS50042.ForbiddenRequestTaskTypeNotSupportedByCredentialProfile.message" xml:space="preserve">
+    <value>Der Anforderungstasktyp wird vom Berechtigungsprofil nicht unterstützt.</value>
+    <comment>The request task type is not supported by the credential profile.</comment>
+  </data>
+  <data name="errors.WS50043.ForbiddenRequestFidoCredential.message" xml:space="preserve">
+    <value>Dieses Berechtigungsprofil kann nur vom Anforderungsgerät angefordert werden.</value>
+    <comment>This credential profile can only be requested from Request Device.</comment>
+  </data>
+  <data name="errors.WS50044.ForbiddenCancelDeviceWhichRequiresValidation.message" xml:space="preserve">
+    <value>Für dieses Gerät ist eine sekundäre Autorisierung zum Abbrechen erforderlich. Bitte verwenden Sie den MyID Desktop Arbeitsablauf "Anmeldeinformationen löschen".</value>
+    <comment>This device requires secondary authorization to cancel it. Please use the MyID Desktop Cancel Credentials workflow.</comment>
+  </data>
+  <data name="errors.WS50045.ForbiddenCancelServerCredentialDevice.message" xml:space="preserve">
+    <value>Das ausgewählte Gerät kann nicht storniert werden. Bitte konsultieren Sie die Produktdokumentation für weitere Anweisungen.</value>
+    <comment>The device selected cannot be cancelled. Please refer to product documentation for further guidance.</comment>
+  </data>
+  <data name="errors.WS50046.ForbiddenInvalidLocaleResource.message" xml:space="preserve">
+    <value>Die angegebene Ressource ist nicht zugänglich oder existiert nicht.</value>
+    <comment>The specified resource is not accessible, or does not exist.</comment>
+  </data>
+  <data name="errors.WS50047.ForbiddenRequestSoftCertCredential.message" xml:space="preserve">
+    <value>Anfragen für Software-Zertifikatpakete sind für diesen Vorgang nicht erlaubt.</value>
+    <comment>Requests for Software Certificate Packages are not permitted for this operation.</comment>
+  </data>
+  <data name="errors.WS50048.ForbiddenDownloadReports.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung zum Herunterladen von Berichten.</value>
+    <comment>You do not have permission to download reports.</comment>
+  </data>
+  <data name="errors.WS50049.AdditionalAuthorizationRequired.message" xml:space="preserve">
+    <value>Für diese Operation ist eine zusätzliche Autorisierung erforderlich.</value>
+    <comment>Additional authorization is required to perform this operation.</comment>
+  </data>
+  <data name="errors.WS50050.RequestAtInvalidStatus.message" xml:space="preserve">
+    <value>Die Anfrage befindet sich nicht in einem gültigen Status für diese Operation.</value>
+    <comment>The request is not at a valid status for this operation.</comment>
+  </data>
+  <data name="errors.WS50051.NoAvailableSecondarySearchReports.message" xml:space="preserve">
+    <value>Es sind keine Berichte verfügbar, um eine Sekundärsuche durchzuführen.</value>
+    <comment>There are no available reports to perform a secondary search.</comment>
+  </data>
+  <data name="errors.WS50052.DeviceOwnerMaxCredentialExpiryPriorToDeviceExpire.message" xml:space="preserve">
+    <value>Der Geräteinhaber hat ein maximales Ablaufdatum, das vor dem Ablaufdatum des Geräts liegt. Das Update kann nicht angefordert werden, da das Berechtigungsprofil nicht auf 'Benutzer-Ablaufdatum ignorieren' gesetzt ist.</value>
+    <comment>The device owner has a maximum expiry date that is earlier than the expiry date of the device. The update cannot be requested because the credential profile does not have 'Ignore User Expiry Date' set.</comment>
+  </data>
+  <data name="errors.WS50053.CredentialCapabilitiesNotSupported.message" xml:space="preserve">
+    <value>Die Funktionen des ausgewählten Berechtigungsprofils werden von dieser Operation nicht unterstützt.</value>
+    <comment>The capabilities of the selected credential profile are not supported by this operation.</comment>
+  </data>
+  <data name="errors.WS50054.CredentialCapabilitiesDoNotMatch.message" xml:space="preserve">
+    <value>Das ausgewählte Berechtigungsprofil verfügt über andere Funktionen als das aktuell verwendete Geräteberechtigungsprofil.</value>
+    <comment>The selected credential profile has different capabilities to the current device credential profile.</comment>
+  </data>
+  <data name="errors.WS50055.AddRequestExclusiveGroupCheckFailure.message" xml:space="preserve">
+    <value>Der Benutzer hat eine bestehende Anfrage oder ein Gerät, das zu einer anderen exklusiven Gruppe gehört, die Anfrage kann nicht hinzugefügt werden.</value>
+    <comment>The user has an existing request or device that exists with a different exclusive group, the request cannot be added.</comment>
+  </data>
+  <data name="errors.WS50056.ValidateRequestExclusiveGroupCheckFailure.message" xml:space="preserve">
+    <value>Der Benutzer hat eine bestehende Anfrage oder ein Gerät, das einer anderen exklusiven Gruppe zugeordnet ist, die Anfrage kann nicht validiert werden.</value>
+    <comment>The user has an existing request or device that exists with a different exclusive group, the request cannot be validated.</comment>
+  </data>
+  <data name="errors.WS50057.CollectRequestExclusiveGroupCheckFailure.message" xml:space="preserve">
+    <value>Der Benutzer hat eine bestehende Anfrage oder ein Gerät, das zu einer anderen exklusiven Gruppe gehört, die Anfrage kann nicht abgeholt werden.</value>
+    <comment>The user has an existing request or device that exists with a different exclusive group, the request cannot be collected.</comment>
+  </data>
+  <data name="errors.WS50058.EFTExportNoSuitableBio.message" xml:space="preserve">
+    <value>Der ausgewählte Benutzer verfügt über keine geeigneten biometrischen Proben für den EFT-Export.</value>
+    <comment>The selected user has no suitable biometric samples for EFT export.</comment>
+  </data>
+  <data name="errors.WS50059.EFTExportNoFingerprintRolls.message" xml:space="preserve">
+    <value>Der ausgewählte Benutzer hat keine Fingerabdruckrollen für den EFT-Export verfügbar.</value>
+    <comment>The selected user has no fingerprint rolls available for EFT export.</comment>
+  </data>
+  <data name="errors.WS50060.ImportDevicesRangeLimitExceeded.message" xml:space="preserve">
+    <value>Maximale Anzahl erzeugter aufeinanderfolgender Seriennummern überschritten.</value>
+    <comment>Maximum number of generated sequential serial numbers exceeded.</comment>
+  </data>
+  <data name="errors.WS50061.GroupDeviceAssignmentExpiry.message" xml:space="preserve">
+    <value>Der Versuch, ein Gerät zuzuweisen, wurde abgelehnt. Das Enddatum der Gerätezuteilung für die Gruppe, mit der diese Person verbunden ist, ist überschritten.</value>
+    <comment>The attempt to assign a device has been rejected. The device assignment end date for the group that this person is associated with has passed.</comment>
+  </data>
+  <data name="errors.WS50062.MaximumDevicesAssignedToGroupExceeded.message" xml:space="preserve">
+    <value>Der Versuch, ein Gerät zuzuweisen, wurde abgelehnt. Die maximale Anzahl zugewiesener Geräte für die Gruppe, mit der diese Person verbunden ist, wurde überschritten.</value>
+    <comment>The attempt to assign a device has been rejected. The maximum number of assigned devices for the group that this person is associated with has been exceeded.</comment>
+  </data>
+  <data name="errors.WS50063.ImportDirectoryPersonPersonAlreadyInDatabase.message" xml:space="preserve">
+    <value>Die ausgewählte Verzeichnisperson ist bereits in der MyID-Datenbank.</value>
+    <comment>The selected directory person is already in the MyID database.</comment>
+  </data>
+  <data name="errors.WS50064.DeliverCardSelfForbidden.message" xml:space="preserve">
+    <value>Sie dürfen dieses Gerät nicht ausliefern.</value>
+    <comment>You are not allowed to deliver this device.</comment>
+  </data>
+  <data name="errors.WS50065.ForbiddenRequestCancelDeviceWhichDoesNotRequireValidation.message" xml:space="preserve">
+    <value>Für dieses Gerät ist keine sekundäre Autorisierung erforderlich, um es zu stornieren.</value>
+    <comment>This device does not require secondary authorization to cancel it.</comment>
+  </data>
+  <data name="errors.WS50066.AddJobDeviceHasActiveRequest.message" xml:space="preserve">
+    <value>Dieses Gerät hat bereits eine aktive Anfrage.</value>
+    <comment>This device already has an active request.</comment>
+  </data>
+  <data name="errors.WS50067.AdditionalIdentityInvalidCertPolicy.message" xml:space="preserve">
+    <value>Die ausgewählte Zertifikatsrichtlinie erlaubt keine Identitätszuordnung.</value>
+    <comment>The selected certificate policy does not allow identity mapping.</comment>
+  </data>
+  <data name="errors.WS50068.ReinstateDevice_ReplacementProgressedTooFar.message" xml:space="preserve">
+    <value>Die Ersatzkarte ist im Ausgabeverfahren zu weit fortgeschritten, um das vorherige Gerät wiederherzustellen.</value>
+    <comment>Replacement card has gone too far through issuance to reinstate previous device</comment>
+  </data>
+  <data name="errors.WS50069.ForbiddenRequestInvalidScopeForUserViewingRequests.message" xml:space="preserve">
+    <value>Der Benutzer hat nicht ausreichende Berechtigungen, um die Anfragen dieses Kontos einzusehen.</value>
+    <comment>The operator does not have sufficient scope to view the requests of this account.</comment>
+  </data>
+  <data name="errors.WS50070.RevokeCertificateDeniedCertNotIssued.message" xml:space="preserve">
+    <value>Das bereitgestellte Zertifikat kann nicht gesperrt oder widerrufen werden, da es derzeit nicht ausgestellt ist.</value>
+    <comment>The provided certificate cannot be suspended or revoked as it is not currently issued.</comment>
+  </data>
+  <data name="errors.WS50071.RevokeCertificateDeniedPolicyUnmanaged.message" xml:space="preserve">
+    <value>Das bereitgestellte Zertifikat kann nicht gesperrt oder widerrufen werden, da es von der Zertifizierungsstelle 'Unmanaged' ausgestellt wurde.</value>
+    <comment>The provided certificate cannot be suspended or revoked as it has been issued by the 'Unmanaged' certificate authority.</comment>
+  </data>
+  <data name="errors.WS50072.RevokeCertificateOutOfScope.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, dieses Zertifikat auszusetzen oder zu widerrufen.</value>
+    <comment>You do not have permission to suspend or revoke this certificate.</comment>
+  </data>
+  <data name="errors.WS50073.UnsuspendCertificateNotSuspended.message" xml:space="preserve">
+    <value>Das bereitgestellte Zertifikat kann nicht entsperrt werden, da es nicht gesperrt ist.</value>
+    <comment>The provided certificate cannot be unsuspended as it is not suspended.</comment>
+  </data>
+  <data name="errors.WS50074.UnsuspendCertificateOutOfScope.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, dieses Zertifikat zu entsperren.</value>
+    <comment>You do not have permission to unsuspend this certificate.</comment>
+  </data>
+  <data name="errors.WS50075.RevokeCertificateInvalidStatusMapping.message" xml:space="preserve">
+    <value>Der angegebene Sperrgrund kann für dieses Zertifikat nicht verwendet werden.</value>
+    <comment>The provided revocation reason cannot be used for this certificate.</comment>
+  </data>
+  <data name="errors.WS50076.PauseCertificateInvalidStatus.message" xml:space="preserve">
+    <value>Das bereitgestellte Zertifikat kann nicht pausiert werden, da es weder zur Ausstellung noch zum Widerruf aussteht.</value>
+    <comment>The provided certificate cannot be paused as it is not pending issuance or revocation.</comment>
+  </data>
+  <data name="errors.WS50077.PauseCertificateOutOfScope.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, dieses Zertifikat zu pausieren.</value>
+    <comment>You do not have permission to pause this certificate.</comment>
+  </data>
+  <data name="errors.WS50078.PauseCertificateNoMoreRetries.message" xml:space="preserve">
+    <value>Das bereitgestellte Zertifikat kann nicht pausiert werden, da keine Wiederholungsversuche unternommen werden.</value>
+    <comment>The provided certificate cannot be paused as no retries will be attempted.</comment>
+  </data>
+  <data name="errors.WS50079.ResumeCertificateInvalidStatus.message" xml:space="preserve">
+    <value>Das bereitgestellte Zertifikat kann nicht wieder aufgenommen werden, da es weder auf Ausstellung noch auf Widerruf aussteht.</value>
+    <comment>The provided certificate cannot be resumed as it is not pending issuance or revocation.</comment>
+  </data>
+  <data name="errors.WS50080.ResumeCertificateOutOfScope.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, dieses Zertifikat fortzusetzen.</value>
+    <comment>You do not have permission to resume this certificate.</comment>
+  </data>
+  <data name="errors.WS50081.UnsuspendCertificateDeniedPolicyUnmanaged.message" xml:space="preserve">
+    <value>Das bereitgestellte Zertifikat kann nicht aufgehoben werden, da es von der Zertifizierungsstelle „Unmanaged“ ausgestellt wurde.</value>
+    <comment>The provided certificate cannot be unsuspended as it has been issued by the 'Unmanaged' certificate authority.</comment>
+  </data>
+  <data name="errors.WS50082.PatchCertificateDeniedPolicyUnmanaged.message" xml:space="preserve">
+    <value>Der Zertifikatstatus für die Erneuerung kann nicht geändert werden, da es von der Zertifizierungsstelle „Unmanaged“ ausgestellt wurde.</value>
+    <comment>The certificate cannot have its renewal status changed as it has been issued by the 'Unmanaged' certificate authority.</comment>
+  </data>
+  <data name="errors.WS50083.PatchCertificateOutOfScope.message" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, den Erneuerungsstatus dieses Zertifikats zu ändern.</value>
+    <comment>You do not have permission to change the renewal status of this certificate.</comment>
+  </data>
+  <data name="errors.WS50084.UpdateRequestDeviceLimitExceeded.message" xml:space="preserve">
+    <value>Die maximale Anzahl von Geräten für eine gegebene Lizenz wurde überschritten.</value>
+    <comment>The maximum number of devices for a given licence has been exceeded exceeded.</comment>
+  </data>
+  <data name="errors.WS50085.RequestUpdateDevice_CardProfileChangeForDocument.message" xml:space="preserve">
+    <value>Sie dürfen das Berechtigungsprofil nicht ändern, wenn Sie ein Update für ein Dokumentgerät anfordern.</value>
+    <comment>You are not allowed to change the credential profile when requesting an update for a document device.</comment>
+  </data>
+  <data name="errors.WS50086.AttemptToSortByNonOrderable.message" xml:space="preserve">
+    <value>Mindestens eines der ausgewählten Felder für die Sortierung ist kein sortierbares Feld.</value>
+    <comment>At least one of the order by fields selected is not an orderable field.</comment>
+  </data>
+  <data name="errors.WS50087.OrderFieldInvalid.message" xml:space="preserve">
+    <value>Mindestens eines der ausgewählten Felder für die Sortierung ist ein ungültiger Feldname.</value>
+    <comment>At least one of the order by fields selected is an invalid field name.</comment>
+  </data>
+  <data name="errors.WS50088.DeviceNotIssued.message" xml:space="preserve">
+    <value>Das Gerät muss aktiv ausgegeben werden, um den Besitzer zu wechseln.</value>
+    <comment>The device has to be actively issued to change owner.</comment>
+  </data>
+  <data name="errors.WS50089.DeviceReassign_NoAdditionalIdentity.message" xml:space="preserve">
+    <value>Gerät mit zusätzlichen Identitätszertifikaten kann nicht neu zugewiesen werden.</value>
+    <comment>Cannot reassign device with additional identity certificates on it.</comment>
+  </data>
+  <data name="errors.WS50090.DeviceReassign_NoKeyRecoveryCertificate.message" xml:space="preserve">
+    <value>Das Gerät kann nicht mit einem als Schlüsselwiederherstellung markierten Berechtigungsprofil neu zugewiesen werden.</value>
+    <comment>Cannot reassign device with a credential profile marked as key recovery.</comment>
+  </data>
+  <data name="errors.WS50091.DeviceReassign_CredNotContact.message" xml:space="preserve">
+    <value>Gerät kann nicht neu zugewiesen werden, wenn das Berechtigungsprofil keine Kodierungsfähigkeit vom Typ Kontakt besitzt.</value>
+    <comment>Cannot reassign device when the credential profile does not have an encoding capability of type contact.</comment>
+  </data>
+  <data name="errors.WS50092.AdditionalIdentityEditForbiddenForImported.message" xml:space="preserve">
+    <value>Die Bearbeitung zusätzlicher Identitäten ist für importierte zusätzliche Identitäten verboten.</value>
+    <comment>Editing of additional identities is forbidden for imported additional identities.</comment>
+  </data>
+  <data name="errors.WS50093.OperationDisabledAdvancedReportsDisabled.message" xml:space="preserve">
+    <value>Die Operation kann für diesen Bericht nicht ausgeführt werden, da er erweiterte Funktionen verwendet, die vom Systemadministrator deaktiviert wurden.</value>
+    <comment>The operation cannot be performed against this report because it uses advanced functionality which has been disabled by the system administrator.</comment>
+  </data>
+  <data name="errors.WS50094.RequestValidationorRejectionIsForbidden.message" xml:space="preserve">
+    <value>Sie können eine Anfrage weder validieren noch ablehnen.</value>
+    <comment>You cannot validate or reject a request.</comment>
+  </data>
+  <data name="errors.WS50095.TemplateTextTooLong.message" xml:space="preserve">
+    <value>Der Text der Vorlage ist zu lang für den ausgewählten Nachrichtenübertragungsweg.</value>
+    <comment>The template text is too long for the selected message transport.</comment>
+  </data>
+  <data name="errors.WS50096.InvalidMessageTemplateSignedValue.message" xml:space="preserve">
+    <value>SMS-Nachrichten können nicht signiert werden.</value>
+    <comment>SMS messages cannot be signed.</comment>
+  </data>
+  <data name="errors.WS50097.UpdatingForbiddenFieldsForGivenType.message" xml:space="preserve">
+    <value>Beschreibung und Platzhalter können für Systemnachrichtenvorlagen nicht aktualisiert werden.</value>
+    <comment>Description and substitutions cannot be updated for system message templates.</comment>
+  </data>
+  <data name="errors.WS50098.UpdatingSignedValue.message" xml:space="preserve">
+    <value>Der signierte Wert für diese Nachrichtenvorlage kann nicht aktualisiert werden.</value>
+    <comment>The signed value for this message template cannot be updated.</comment>
+  </data>
+  <data name="errors.WS50099.DeviceUsesCardLayout.message" xml:space="preserve">
+    <value>Sie können ein Kartendesign nicht entfernen, wenn Geräte damit verbunden sind.</value>
+    <comment>You cannot remove a card layout which has devices associated with it.</comment>
+  </data>
+  <data name="errors.WS50100.RestDirectoryGroupStructureNotSupported.message" xml:space="preserve">
+    <value>Die Gruppenbaumstruktur wird für dieses Verzeichnis nicht unterstützt.</value>
+    <comment>Group tree structure is not supported for this Directory.</comment>
+  </data>
+  <data name="errors.WS50101.InvalidActionForSubType.message" xml:space="preserve">
+    <value>Der aktuelle Vorgang ist für den angegebenen Datensatz nicht zulässig.</value>
+    <comment>The current operation is not allowed for the specified record.</comment>
+  </data>
+  <data name="errors.WS50102.ApprovePersonUserDataAlreadyApproved.message" xml:space="preserve">
+    <value>Der ausgewählte Benutzer hat seine Benutzerdaten bereits genehmigt.</value>
+    <comment>The selected user already has their user data approved.</comment>
+  </data>
+  <data name="errors.WS50103.UnapprovePersonUserDataAlreadyNotApproved.message" xml:space="preserve">
+    <value>Der ausgewählte Benutzer hat seine Benutzerdaten bereits nicht genehmigt.</value>
+    <comment>The selected user already does not have their user data approved.</comment>
+  </data>
+  <data name="errors.WS50104.CannotApproveUnapproveNonPivApplicant.message" xml:space="preserve">
+    <value>Nur Benutzer mit der Rolle PIV-Antragsteller können genehmigt oder abgelehnt werden.</value>
+    <comment>Only users with the PIV Applicant role can be approved or unapproved.</comment>
+  </data>
+  <data name="errors.WS50105.EditRolesAttemptingToLinkToLDAP.message" xml:space="preserve">
+    <value>Die LDAP-Verknüpfung wurde durch die Systemkonfiguration deaktiviert.</value>
+    <comment>LDAP linking has been disabled by the system configuration.</comment>
+  </data>
+  <data name="errors.WS50106.EditRolesAttemptingToAddRolesToDisabledLogonMechanism.message" xml:space="preserve">
+    <value>Sie können keine Rollen für diesen Anmeldemechanismus festlegen.</value>
+    <comment>You cannot set roles for this logon mechanism.</comment>
+  </data>
+  <data name="errors.WS55000.ErrorSavingImageFileExists.message" xml:space="preserve">
+    <value>Dateiname existiert bereits.</value>
+    <comment>Filename already exists.</comment>
+  </data>
+  <data name="errors.WS60000.DatabaseTimeout.message" xml:space="preserve">
+    <value>Die Abfrage ist zeitlich abgelaufen. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator.</value>
+    <comment>The query timed out. Please contact your administrator for more information.</comment>
+  </data>
+  <data name="errors.WS60001.SearchTimeout.message" xml:space="preserve">
+    <value>Die Suchanfrage hat ein Zeitlimit überschritten. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator.</value>
+    <comment>The search query timed out. Please contact your administrator for more information.</comment>
+  </data>
+  <data name="errors.PDProject10000.Unknown.message" xml:space="preserve">
+    <value>Ein unbekannter Fehler ist aufgetreten.</value>
+    <comment>An unknown error occurred.</comment>
+  </data>
+  <data name="errors.PDProject20000.GroupFilterTypeMisused.message" xml:space="preserve">
+    <value>Der Filtertyp 'Gruppe' kann nur für das Attribut 'Name' eines Gruppenobjekts verwendet werden.</value>
+    <comment>The filter type of 'Group' can only be used for the 'Name' attribute of a group entity object.</comment>
+  </data>
+  <data name="errors.PDProject20001.FieldMissingFromGroupBy.message" xml:space="preserve">
+    <value>Dieser Bericht enthält ein GROUP BY. Das Feld: '{0}' ist nicht in einer Aggregatfunktion enthalten und muss daher im GROUP BY aufgenommen werden.</value>
+    <comment>This report contains a GROUP BY. The field: '{0}' is not contained by an aggregate function, so must be included in the GROUP BY.</comment>
+  </data>
+  <data name="errors.PDProject20002.UnionReportAlreadyUsedInOtherUnion.message" xml:space="preserve">
+    <value>Der gewählte Bericht zur Vereinigung mit '{0}' ist bereits Teil einer anderen Vereinigung.</value>
+    <comment>The chosen report to union with '{0}', is already part of another union.</comment>
+  </data>
+  <data name="errors.PDProject20003.UnionReportIncompatible.message" xml:space="preserve">
+    <value>Der ausgewählte Bericht zur Vereinigung mit '{0}' ist nicht kompatibel. Häufige Gründe für dieses Scheitern sind: Eine unterschiedliche Anzahl von Feldern wurde ausgewählt oder die ausgewählten Felder stimmen nicht überein. Die Struktur der generierten Ansichten kann nicht übereinstimmen, zum Beispiel werden unterschiedliche Tabellen verknüpft.</value>
+    <comment>The chosen report to union with '{0}', is incompatible. Common reasons for this failure include: A different number of fields may have been selected or the fields selected do not match. The structure of the views generated may not match, for example it may join to different tables.</comment>
+  </data>
+  <data name="errors.PDProject20004.NonStaticFilterOperator.message" xml:space="preserve">
+    <value>Der Operator '{0}' wird für statische Filter nicht unterstützt.</value>
+    <comment>The operator '{0}', is not supported for static filters.</comment>
+  </data>
+  <data name="errors.PDProject20005.StaticFilterHasNoValue.message" xml:space="preserve">
+    <value>Der statische Filter '{0}' hat keine angegebenen Werte.</value>
+    <comment>The static filter '{0}', does not have any value(s) specified.</comment>
+  </data>
+  <data name="errors.PDProject20006.DataTypeValidation.message" xml:space="preserve">
+    <value>Der Wert '{0}' ist nicht mit dem angegebenen Datentyp kompatibel.</value>
+    <comment>The value '{0}', is not compatible with the specified data type.</comment>
+  </data>
+  <data name="errors.PDProject20007.RoleAttributeMisused.message" xml:space="preserve">
+    <value>Das Feld '{0}' kann nur verwendet werden, wenn keine anderen Objekte vom Objekt '{1}' angehängt sind, da das Rollattribut nur zum Erstellen eines Filters verwendet wird, um nach einer Person anhand der Rolle zu suchen. Wenn Sie das Rollattribut als Ergebnisspalte für einen Bericht auswählen möchten, muss das Objekt '{1}' das Startobjekt sein.</value>
+    <comment>The field '{0}' can only be used if no other objects are joined onto by the object '{1}', this is because the Role attribute is used only for the purpose of creating a filter to search for a person by role. If you need to select the Role attribute as a results column for a report, then the object '{1}' must be the starting object.</comment>
+  </data>
+  <data name="errors.PDProject20008.FilterTypeNotSupported.message" xml:space="preserve">
+    <value>Der statische Filter '{0}' hat einen Datentyp, der nicht unterstützt wird.</value>
+    <comment>Static filter '{0}' has a data type which is not supported.</comment>
+  </data>
+  <data name="errors.PDProject20009.PatternValidation.message" xml:space="preserve">
+    <value>Der Wert '{0}' entspricht nicht dem erlaubten Muster.</value>
+    <comment>The value '{0}', does not match the allowed pattern.</comment>
+  </data>
+  <data name="errors.PDProject20010.InternalAttributeAliasClash.message" xml:space="preserve">
+    <value>Das Feld '{0}' verwendet ein Alias, das reserviert ist. Bitte wählen Sie ein anderes Alias.</value>
+    <comment>The field '{0}' uses an alias which is reserved. Please choose another alias.</comment>
+  </data>
+  <data name="errors.PDProject20011.AvgFunctionMustUseIntAttribute.message" xml:space="preserve">
+    <value>Die Durchschnittsfunktion kann für das Feld '{0}' nicht ausgeführt werden. Der Datentyp der zugehörigen Spalte in der Datenbank ist kein Integer.</value>
+    <comment>Cannot perform the Average function against the field '{0}'. The data type of its database column is not integer.</comment>
+  </data>
+  <data name="errors.PDProject20012.SumFunctionMustUseIntAttribute.message" xml:space="preserve">
+    <value>Die Summenfunktion kann für das Feld '{0}' nicht ausgeführt werden. Der Datentyp der zugehörigen Datenbankspalte ist kein Integer.</value>
+    <comment>Cannot perform the Sum function against the field '{0}'. The data type of its database column is not integer.</comment>
+  </data>
+  <data name="errors.PDProject20013.StringAggregateFunctionMustUseTextAttribute.message" xml:space="preserve">
+    <value>Der String-Aggregat-Funktion kann nicht gegen das Feld '{0}' ausgeführt werden. Der Datentyp seiner Datenbankspalte ist nicht varchar/nvarchar.</value>
+    <comment>Cannot perform the String Aggregate function against the field '{0}'. The data type of its database column is not varchar/nvarchar.</comment>
+  </data>
+  <data name="errors.PD10000.Unknown.message" xml:space="preserve">
+    <value>Ein unbekannter Fehler ist aufgetreten. Aktivieren Sie die Protokollierung, um weitere Details zu erhalten.</value>
+    <comment>An unknown error occurred. Enable logging for more details.</comment>
+  </data>
+  <data name="errors.PD20000.BadRequest.message" xml:space="preserve">
+    <value>Mit den bereitgestellten Daten stimmt etwas nicht. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>There was something wrong with the data supplied. Please contact your system administrator.</comment>
+  </data>
+  <data name="errors.PD20001.InvalidGuid.message" xml:space="preserve">
+    <value>Die angegebene ID ist keine GUID.</value>
+    <comment>The id provided is not a Guid.</comment>
+  </data>
+  <data name="errors.PD20002.PropertyMustBeAlphaNumeric.message" xml:space="preserve">
+    <value>Der Wert '{0}' für die Eigenschaft '{1}' ist nicht alphanumerisch.</value>
+    <comment>The value '{0}' for property '{1}', is not alpha-numeric.</comment>
+  </data>
+  <data name="errors.PD20003.ReportNameMax64Characters.message" xml:space="preserve">
+    <value>Der Berichtname darf 64 Zeichen nicht überschreiten.</value>
+    <comment>Report name must not exceed 64 characters.</comment>
+  </data>
+  <data name="errors.PD20004.Max1PrimaryEntity.message" xml:space="preserve">
+    <value>Es darf nur ein primäres Entity-Objekt ausgewählt werden.</value>
+    <comment>Only one primary entity object may be selected.</comment>
+  </data>
+  <data name="errors.PD20005.PrimaryEntityCannotChange.message" xml:space="preserve">
+    <value>Die primäre Einheit kann nicht geändert werden. Bitte erstellen Sie einen neuen Bericht.</value>
+    <comment>The primary entity cannot be changed. Please create a new report.</comment>
+  </data>
+  <data name="errors.PD20006.Min1Field.message" xml:space="preserve">
+    <value>Mindestens ein Feld muss ausgewählt werden.</value>
+    <comment>At least one field must be selected.</comment>
+  </data>
+  <data name="errors.PD20007.FieldAliasRequired.message" xml:space="preserve">
+    <value>Das Feld '{0}' muss einen Alias haben.</value>
+    <comment>The field '{0}', must have an alias.</comment>
+  </data>
+  <data name="errors.PD20008.FieldAliasMustBeUnique.message" xml:space="preserve">
+    <value>Jedes Feld muss einen eindeutigen Alias haben.</value>
+    <comment>Each field must have a unique alias.</comment>
+  </data>
+  <data name="errors.PD20009.Min1Filter.message" xml:space="preserve">
+    <value>Mindestens ein Filter muss ausgewählt sein.</value>
+    <comment>At least one filter must be selected.</comment>
+  </data>
+  <data name="errors.PD20010.FilterMustHaveField.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss von einem Feld mit einem passenden Alias abgeleitet sein.</value>
+    <comment>The filter '{0}', must be derived from a field with a matching alias.</comment>
+  </data>
+  <data name="errors.PD20011.FilterMustHaveLabel.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss eine Bezeichnung haben.</value>
+    <comment>The filter '{0}', must have a label.</comment>
+  </data>
+  <data name="errors.PD20012.FilterMustHaveQueryString.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss eine API-Abfragezeichenfolge enthalten.</value>
+    <comment>The filter '{0}', must have an API query string.</comment>
+  </data>
+  <data name="errors.PD20013.InvalidQueryString.message" xml:space="preserve">
+    <value>Der Filter '{0}' enthält keine gültige API-Abfragezeichenfolge.</value>
+    <comment>The filter '{0}', does not have a valid API query string.</comment>
+  </data>
+  <data name="errors.PD20014.FilterMustBeUnique.message" xml:space="preserve">
+    <value>Jeder Filter muss eine eindeutige Bezeichnung und eine API-Abfragezeichenfolge haben.</value>
+    <comment>Each filter must have a unique label and API query string.</comment>
+  </data>
+  <data name="errors.PD20015.MaxCustomerReportsReached.message" xml:space="preserve">
+    <value>Die maximale Anzahl von Berichten wurde erreicht. Bitte wenden Sie sich an Ihren Systemadministrator.</value>
+    <comment>The maximum number of reports has been reached. Please contact your system administrator.</comment>
+  </data>
+  <data name="errors.PD20016.FieldInvalidAttribute.message" xml:space="preserve">
+    <value>Das Attribut für das Feldalias '{0}' ist ungültig. Bitte kontaktieren Sie Ihren Systemadministrator.</value>
+    <comment>The attribute for field alias '{0}', is invalid. Please contact your system administrator.</comment>
+  </data>
+  <data name="errors.PD20017.MinDataNotRequiredForPersonScope.message" xml:space="preserve">
+    <value>Standardmäßig werden durch Berichte zurückgegebene Datensätze durch den Umfang des Operators, der den Bericht ausführt, eingeschränkt. Dies verhindert den Zugriff auf Datensätze, die normalerweise außerhalb des Datenbereichs liegen, den dieser Operator sehen kann. Der Umfang erfordert, dass für jedes ausgewählte Personenobjekt ein Gruppenobjekt zur Berichtdefinition hinzugefügt wird. Alternativ können Sie uneingeschränkten Zugriff auf Informationen ermöglichen, indem Sie auf der Registerkarte „Erweitert“ die Option „Berechtigungsumfang durchsetzen“ deaktivieren.</value>
+    <comment>By default, records returned by reports are limited by the scope of the operator executing the report. This prevents access to records that are typically outside of the range of data this operator can see. Scope requires a group object to be added to the report definition for every person object selected. Alternatively, you can provide unlimited access to information by de-selecting “Enforce Permission Scope” on the Advanced tab.</comment>
+  </data>
+  <data name="errors.PD20018.OperationIdReservedForDrafts.message" xml:space="preserve">
+    <value>Die angegebene Berichts-Operations-ID kann nicht ausgewählt werden, da sie zu einem reservierten Bereich für Entwurfsberichte gehört.</value>
+    <comment>The provided report operation ID cannot be selected as it belongs to a reserved range for draft reports.</comment>
+  </data>
+  <data name="errors.PD20019.DraftOperationIdCannotBeSuperOperation.message" xml:space="preserve">
+    <value>Die ausgewählte übergeordnete Operations-ID ist ungültig, da Entwurfsberichte nicht als Überoperationen verwendet werden können.</value>
+    <comment>The selected parent operation id is invalid, as draft reports cannot be used as super operations.</comment>
+  </data>
+  <data name="errors.PD20020.AttributeMustNotBeDummyField.message" xml:space="preserve">
+    <value>Das Attribut für das Feldalias '{0}' darf kein Dummy-Feld sein.</value>
+    <comment>The attribute for field alias '{0}' must not be a dummy field.</comment>
+  </data>
+  <data name="errors.PD20021.AttributeMustNotBeMetaField.message" xml:space="preserve">
+    <value>Das Attribut für das Feldalias '{0}' darf kein Metafeld sein.</value>
+    <comment>The attribute for field alias '{0}' must not be a meta field.</comment>
+  </data>
+  <data name="errors.PD20022.DefaultFiltersCannotBeUsedForFreeTextReports.message" xml:space="preserve">
+    <value>Der Filter '{0}' kann nicht als Standardfilter ausgewählt werden, da dieser Bericht Freitextsuchen mit Abfragezeichenfolgenwerten von 'q' unterstützt.</value>
+    <comment>The filter '{0}', cannot be selected as the default filter since this report supports free text searches with query string values of 'q'.</comment>
+  </data>
+  <data name="errors.PD20023.Max1DefaultFilter.message" xml:space="preserve">
+    <value>Es kann nur ein Filter als Standardfilter ausgewählt werden.</value>
+    <comment>Only one filter can be selected as the default filter.</comment>
+  </data>
+  <data name="errors.PD20024.EntityNotSupported.message" xml:space="preserve">
+    <value>Es gibt kein Objekt mit der ID '{0}', das von MyID unterstützt wird.</value>
+    <comment>There is no entity with ID '{0}' that is supported by MyID.</comment>
+  </data>
+  <data name="errors.PD20025.GroupByNotAllowedForMultiViewRevision.message" xml:space="preserve">
+    <value>Kann nach dem Filter '{0}' nicht gruppiert werden, da Filter nur in Aggregatberichten oder Berichten mit einer einzelnen Ansicht gruppiert werden können.</value>
+    <comment>Cannot group by the filter '{0}', as filters can only be grouped by in aggregate reports or reports using a single view.</comment>
+  </data>
+  <data name="errors.PD20026.MustHaveOneStartingEntityObject.message" xml:space="preserve">
+    <value>Die Revision muss ein Anfangsobjekt enthalten.</value>
+    <comment>The revision must have one starting entity object.</comment>
+  </data>
+  <data name="errors.PD20027.StartingObjectMustHaveJoinTypeNone.message" xml:space="preserve">
+    <value>Das Start-Entity-Objekt '{0}' muss einen Verbindungstyp von Keine haben.</value>
+    <comment>The starting entity object '{0}' must have a join type of None.</comment>
+  </data>
+  <data name="errors.PD20028.StartingObjectCannotHaveAdditionalJoinFilter.message" xml:space="preserve">
+    <value>Das startende Entity-Objekt '{0}' kann keinen zusätzlichen Join-Filter verwenden.</value>
+    <comment>The starting entity object '{0}' cannot use an additional join filter.</comment>
+  </data>
+  <data name="errors.PD20029.EntityObjectAliasesMustBeUnique.message" xml:space="preserve">
+    <value>Jedes ausgewählte Entitätsobjekt muss einen eindeutigen Alias haben.</value>
+    <comment>Each entity object selected must have a unique alias.</comment>
+  </data>
+  <data name="errors.PD20030.ReportMustHaveName.message" xml:space="preserve">
+    <value>Der neue Bericht muss einen Namen haben.</value>
+    <comment>The new report must have a name.</comment>
+  </data>
+  <data name="errors.PD20031.RevisionFieldAliasReserved.message" xml:space="preserve">
+    <value>Das Feld '{0}' verwendet einen reservierten Alias. Bitte wählen Sie einen anderen Alias.</value>
+    <comment>The field '{0}' uses an alias which is reserved. Please choose another alias.</comment>
+  </data>
+  <data name="errors.PD20032.RevisionFilterCannotUseDateRangeType.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss zwei Bezeichnungen und zwei Abfragezeichenfolgen haben, die durch das Zeichen '|' getrennt sind.</value>
+    <comment>The filter '{0}', must have two labels and two query strings separated by the '|' character.</comment>
+  </data>
+  <data name="errors.PD20033.ReportNameExists.message" xml:space="preserve">
+    <value>Dieser Bericht '{0}' kann nicht erstellt werden, da bereits eine Operation mit demselben Namen existiert.</value>
+    <comment>This report '{0}', cannot be created as an operation already exists with the same name.</comment>
+  </data>
+  <data name="errors.PD20034.OperationIdExists.message" xml:space="preserve">
+    <value>Die angegebene Bericht-Operations-ID kann nicht ausgewählt werden, da sie bereits existiert.</value>
+    <comment>The provided report operation ID cannot be selected as it already exists.</comment>
+  </data>
+  <data name="errors.PD20035.ReportNameViewAlreadyExists.message" xml:space="preserve">
+    <value>Der Bericht '{0}' kann mit dem angegebenen Namen nicht erstellt werden.</value>
+    <comment>The report '{0}', cannot be created with the provided name.</comment>
+  </data>
+  <data name="errors.PD20036.FilterMustHaveOperator.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss einen Operator ausgewählt haben.</value>
+    <comment>The filter '{0}', must have an operator selected.</comment>
+  </data>
+  <data name="errors.PD20037.DateRangeFilterInvalidOperator.message" xml:space="preserve">
+    <value>Der Datumsbereichsfilter '{0}' muss einen der Operatoren 'In' oder 'Not In' verwenden.</value>
+    <comment>The date range filter '{0}', must use one of the 'In' or 'Not In' operators.</comment>
+  </data>
+  <data name="errors.PD20038.GroupFilterInvalidOperator.message" xml:space="preserve">
+    <value>Der Gruppenfilter '{0}' muss den Operator 'Equals' verwenden.</value>
+    <comment>The group filter '{0}', must use the 'Equals' operator.</comment>
+  </data>
+  <data name="errors.PD20039.NonStaticFilterInvalidOperator.message" xml:space="preserve">
+    <value>Der Filter '{0}' darf keine der Operatoren 'Benutzerdefiniert', 'Ist Null', 'Ist Nicht Null', 'Existiert' oder 'Existiert Nicht' verwenden. Diese Operatoren können nur von statischen Filtern verwendet werden.</value>
+    <comment>The filter '{0}', cannot use any of the 'Custom', 'Is Null', 'Is Not Null', 'Exists' or 'Not Exists' operators. These operators can only be used by static filters.</comment>
+  </data>
+  <data name="errors.PD20040.EntityCannotBePrimary.message" xml:space="preserve">
+    <value>Das Objekt '{0}' wird als primäres Objekt nicht unterstützt.</value>
+    <comment>The object '{0}', is not supported as a primary object.</comment>
+  </data>
+  <data name="errors.PD20041.HavingNeedsGroupBy.message" xml:space="preserve">
+    <value>Die 'Having'-Klausel wird nur zusammen mit einer 'Group By'-Klausel im selben Filter verwendet.</value>
+    <comment>The 'Having' clause is only used alongside a 'Group By' clause present on the same filter.</comment>
+  </data>
+  <data name="errors.PD20042.HavingNeedsStaticFilter.message" xml:space="preserve">
+    <value>Die 'Having'-Klausel kann nur bei einem statischen Filter verwendet werden.</value>
+    <comment>The 'Having' clause can only be used on a static filter.</comment>
+  </data>
+  <data name="errors.PD20043.MultipleDefaultFilterValues.message" xml:space="preserve">
+    <value>Der Filter '{0}' hat mehrere Standardwerte ausgewählt.</value>
+    <comment>The filter '{0}' has multiple default values selected.</comment>
+  </data>
+  <data name="errors.PD20044.Max1GroupPickerFilter.message" xml:space="preserve">
+    <value>Es kann nur ein Filter mit dem Suchsteuerungstyp 'Gruppe' ausgewählt werden.</value>
+    <comment>Only one filter can be selected with the 'Group' search control type.</comment>
+  </data>
+  <data name="errors.PD20045.AttributeDoesNotBelongToEntity.message" xml:space="preserve">
+    <value>Das Attribut für das Feldalias '{0}' ist kein Attribut des Objektalias '{1}'.</value>
+    <comment>The attribute for the field alias '{0}' is not an attribute belonging to the object alias '{1}'.</comment>
+  </data>
+  <data name="errors.PD20046.ReportIsMalformed.message" xml:space="preserve">
+    <value>Dem ausgewählten Bericht fehlen Objekt-, Feld- oder Filterdaten.</value>
+    <comment>The selected report is missing object, field or filter data.</comment>
+  </data>
+  <data name="errors.PD20047.EntityRestrictedForReporting.message" xml:space="preserve">
+    <value>Die Entität mit der ID '{0}' ist für MI-Berichte eingeschränkt.</value>
+    <comment>The entity with ID '{0}', is restricted for MI reporting.</comment>
+  </data>
+  <data name="errors.PD20048.EntityCannotBeArchived.message" xml:space="preserve">
+    <value>Das Objekt '{0}' kann nicht archiviert werden.</value>
+    <comment>The object '{0}', cannot be archived.</comment>
+  </data>
+  <data name="errors.PD20049.EntitiesDoNotMatchJoin.message" xml:space="preserve">
+    <value>Die Verknüpfung mit Objekt '{0}' entspricht nicht der Serverdefinition für pdEntityJoinId: {1}.</value>
+    <comment>The join to object '{0}', does not match the server definition for pdEntityJoinId: {1}.</comment>
+  </data>
+  <data name="errors.PD20050.EncryptedFieldUsedInJoin.message" xml:space="preserve">
+    <value>Das Objekt '{0}' kann in der zusätzlichen Filterbedingung kein verschlüsseltes Feld verwenden.</value>
+    <comment>The object '{0}', cannot use an encrypted field in the additional filter condition.</comment>
+  </data>
+  <data name="errors.PD20051.TargetDeviceTargetUserFilterValidation.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss einen Datentyp vom Typ Text verwenden, wenn der Typ Zielbenutzer oder Zielgerät ist.</value>
+    <comment>The filter '{0}', must use a data type of text when the type is Target User or Target Device.</comment>
+  </data>
+  <data name="errors.PD20052.CurrentUserFilterValidation.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss als obligatorisch festgelegt werden, wenn der Typ "Aktueller Benutzer" ist.</value>
+    <comment>The filter '{0}', must be set to be Mandatory when the type is Current User.</comment>
+  </data>
+  <data name="errors.PD20053.TargetFilterReportsCannotBeDisplayedInMenus.message" xml:space="preserve">
+    <value>Dieser Bericht kann weder im Hauptmenü noch im Selbstbedienungsmenü angezeigt werden. Es wurde ein Zielbenutzer- oder Zielgerätfilter verwendet. Diese Filterarten sind für Berichte reserviert, die im Kontext eines Datensatzes ausgeführt werden.</value>
+    <comment>This report cannot be shown in either of the main and self service menus. A target user or target device filter has been used. These filter types are reserved for reports which are executed within the context of a record.</comment>
+  </data>
+  <data name="errors.PD20054.TargetFilterInvalidDataType.message" xml:space="preserve">
+    <value>Das zugrunde liegende Attribut für den Zielbenutzer/-gerät-Filter '{0}' und dessen Feld hat keinen Datentyp vom Typ 'Text'. Solche Filtertypen werden häufig verwendet, um ein bestimmtes Objekt anzusprechen. Versuchen Sie, das Attribut ObjectID für Ihr Personen-/Geräteobjekt zu verwenden.</value>
+    <comment>The underlying attribute for the target user/device filter '{0}' and its field, does not have a data type of 'Text'. These types of filters are often used to target a specific object, try using the ObjectID attribute for your people/device object.</comment>
+  </data>
+  <data name="errors.PD20055.FieldDoesNotSupportPicklistData.message" xml:space="preserve">
+    <value>Die Auswahllistenoptionen: 'Angezeigten Text der Auswahlliste verwenden' und 'Leere Einträge einschließen' sind für das Feld '{0}' nicht geeignet. Es basiert auf einem Attribut, das keine projektdefinierte Auswahlliste besitzt.</value>
+    <comment>The picklist options: 'Use Picklist Displayed Text' and 'Include Blank Entries' are not suitable for the field '{0}'. It is based on an attribute which doesn't have a project defined picklist.</comment>
+  </data>
+  <data name="errors.PD20056.MustSelectPicklistTypeForFilter.message" xml:space="preserve">
+    <value>Der Filter '{0}' muss den Steuerelementtyp Auswahlliste verwenden, um benutzerdefinierte Auswahllistenwerte zu unterstützen.</value>
+    <comment>The filter '{0}', must use the picklist control type in order to support custom picklist values.</comment>
+  </data>
+  <data name="errors.PD20057.ShowNullsWhenDisplayIsNotSet.message" xml:space="preserve">
+    <value>Das Feld '{0}' verwendet die Auswahlliste-Option 'Leere Einträge einschließen'. Es ist nur für Felder geeignet, die auf Attributen basieren, welche eine projektdefinierte Auswahlliste haben und bei denen 'Angezeigten Text verwenden' ausgewählt ist.</value>
+    <comment>The field '{0}' uses the picklist option 'Include Blank Entries'. It is only suitable for fields based on attributes which have a project defined picklist, and have 'Use Displayed Text' selected.</comment>
+  </data>
+  <data name="errors.PD20058.FilterQueryStringReserved.message" xml:space="preserve">
+    <value>Der Filter '{0}' verwendet den Abfragezeichenfolgenwert '{1}'. Dieser Wert ist bereits intern reserviert und kann nicht für Berichtsfilter verwendet werden.</value>
+    <comment>The filter '{0}' uses query string value '{1}'. This value is already internally reserved and cannot be used for report filters.</comment>
+  </data>
+  <data name="errors.PD20059.DataTypeValidationInteger.message" xml:space="preserve">
+    <value>Der Wert '{0}' ist keine gültige Ganzzahl.</value>
+    <comment>The value '{0}' is not a valid Integer.</comment>
+  </data>
+  <data name="errors.PD20060.OperationIdDoesNotExist.message" xml:space="preserve">
+    <value>Die Operations-ID '{0}' existiert nicht in MyID.</value>
+    <comment>The Operation Id '{0}' doesn't exist in MyID.</comment>
+  </data>
+  <data name="errors.PD20061.ReportNameMaxCharacters.message" xml:space="preserve">
+    <value>Der Berichtname darf nicht länger als '{0}' Zeichen sein.</value>
+    <comment>Report name must not exceed '{0}' characters.</comment>
+  </data>
+  <data name="errors.PD20062.HavingNeedsAtLeastOneGroupByFilter.message" xml:space="preserve">
+    <value>Die 'Having'-Klausel kann nur in Verbindung mit einer 'Group By'-Klausel im Bericht verwendet werden.</value>
+    <comment>The 'Having' clause can only used alongside the presence of a 'Group By' clause in the report.</comment>
+  </data>
+  <data name="errors.PD20063.StaticFiltersForAggregateFunctionFieldsMustBeHavings.message" xml:space="preserve">
+    <value>Das Feld '{0}' verwendet eine Aggregatfunktion und hat einen statischen Filter. Statische Filter für Felder, die Aggregatfunktionen verwenden, müssen die 'Having'-Klausel verwenden.</value>
+    <comment>The field '{0}' uses an aggregate function, and has a static filter. Static filters for fields using aggregate functions must use the 'Having' clause.</comment>
+  </data>
+  <data name="errors.PD20064.FieldMustHaveFilterToOrderBy.message" xml:space="preserve">
+    <value>Das Feld „{0}“ kann nicht sortierbar sein, da kein entsprechender nicht-statischer Filter vorhanden ist.</value>
+    <comment>The field ‘{0}’ cannot be orderable because it does not have a corresponding non-static filter.</comment>
+  </data>
+  <data name="errors.PD20065.ReportNameForbiddenFormat.message" xml:space="preserve">
+    <value>Der Berichtsname kann mit dem angegebenen Suffix nicht verwendet werden, da er ein reserviertes Format verwendet.</value>
+    <comment>The report name cannot be used with the provided suffix because it uses a reserved format.</comment>
+  </data>
+  <data name="errors.PD30000.NotFound.message" xml:space="preserve">
+    <value>Der referenzierte Artikel wurde nicht gefunden.</value>
+    <comment>The item referenced was not found.</comment>
+  </data>
+  <data name="errors.PD30001.RoleNotFound.message" xml:space="preserve">
+    <value>Die Rolle „{0}“ existiert nicht in MyID.</value>
+    <comment>The role '{0}' does not exist in MyID.</comment>
+  </data>
+  <data name="errors.PD40000.Forbidden.message" xml:space="preserve">
+    <value>Ihr aktuelles Authentifizierungsniveau kann auf diese Informationen nicht zugreifen. Die verwendeten Anmeldeinformationen, die Rollen, auf die diese Anmeldeinformationen zugreifen können, und der für diese Rollen verfügbare Umfang können Ihren Zugriff einschränken.</value>
+    <comment>Your current authentication level cannot access this information. The logon credential used, roles that logon credential can access and scope available to those roles may limit your access.</comment>
+  </data>
+  <data name="errors.PD40001.RestoreRevisionIsLatest.message" xml:space="preserve">
+    <value>Sie müssen neue Versionen dieses Berichts aus der neuesten Version erstellen.</value>
+    <comment>You must create new revisions of this report from the latest revision.</comment>
+  </data>
+  <data name="errors.PD40002.CreateRevisionNotLatest.message" xml:space="preserve">
+    <value>Sie müssen neue Versionen dieses Berichts aus der neuesten Version erstellen.</value>
+    <comment>You must create new revisions of this report from the latest revision.</comment>
+  </data>
+  <data name="errors.PD40003.RemoveRevisionLatestOrLive.message" xml:space="preserve">
+    <value>Sie können nur Entwurfs- oder archivierte Revisionen entfernen, die nicht die neueste Revision sind.</value>
+    <comment>You can only remove draft or archived revision which are not the latest revision.</comment>
+  </data>
+  <data name="errors.PD40004.PublishRevisionNotLatestOrLive.message" xml:space="preserve">
+    <value>Sie können nur eine Revision veröffentlichen, die die neueste Revision ist und nicht bereits die aktive Revision.</value>
+    <comment>You can only publish a revision which is the latest revision, and is not already the live revision.</comment>
+  </data>
+  <data name="errors.PD40005.AdvancedReportsDisabled.message" xml:space="preserve">
+    <value>Dieser Bericht verwendet erweiterte Funktionen, die vom Systemadministrator deaktiviert wurden.</value>
+    <comment>This report uses advanced functionality which has been disabled by the system administrator.</comment>
+  </data>
+  <data name="errors.PD40006.ProtectedReportModified.message" xml:space="preserve">
+    <value>Dies ist ein geschützter Bericht und Sie haben keine Berechtigung, ihn zu ändern.</value>
+    <comment>This is a protected report and you do not have permission to modify it.</comment>
+  </data>
+  <data name="errors.PD40007.ProtectedReportProtectedStatusChanged.message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, den geschützten Status dieses Berichts zu ändern.</value>
+    <comment>You do not have permission to change the protected status of this report.</comment>
+  </data>
+  <data name="errors.WS890901.MaintenanceModeRejection.message" xml:space="preserve">
+    <value>Das System ist aufgrund von Wartungsarbeiten nicht verfügbar. Bitte versuchen Sie es später erneut.</value>
+    <comment>The system is unavaililable due to Maintenance.  Please try again later.</comment>
+  </data>
+</root>

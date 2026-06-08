@@ -1,0 +1,2255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Custom dictionary entries generated by Project Designer -->
+  <data name="charts.no_data" xml:space="preserve">
+    <value>This report could not be loaded.</value>
+  </data>
+  <data name="close_button.close_text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="config_card_header.configuration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="config_card_header.close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="config_card_header.title" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="confirm_cancel_button.cancel_text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="confirm_cancel_button.confirm_text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="confirm_cancel_button.saving_text" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="context_menu.new_tab" xml:space="preserve">
+    <value>Open in a new tab</value>
+  </data>
+  <data name="context_menu.new_window" xml:space="preserve">
+    <value>Open in a new window</value>
+  </data>
+  <data name="image_capture_button.capture" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="image_capture_button.browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="image_capture_button.cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="input_with_click.clear_label" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="input_with_click.upload_label" xml:space="preserve">
+    <value>Upload file</value>
+  </data>
+  <data name="confirmation.header" xml:space="preserve">
+    <value>Confirmation required</value>
+  </data>
+  <data name="confirmation.no" xml:space="preserve">
+    <value>No</value>
+  </data>
+   <data name="confirmation.yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="data_form.operation_complete" xml:space="preserve">
+    <value>Operation complete</value>
+  </data>
+  <data name="data_form.operation_fail" xml:space="preserve">
+    <value>Operation unable to complete</value>
+  </data>
+  <data name="data_form.refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="data_form.save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="data_form.saving" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="data_form.back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="data_form.close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="data_form.more_actions" xml:space="preserve">
+    <value>More Actions</value>
+  </data>
+  <data name="data_form.ldap_diffs" xml:space="preserve">
+    <value>Differences found between MyID and Directory data on the fields marked below. Information shown from Directory.</value>
+  </data>
+  <data name="data_form.additional_form_content" xml:space="preserve">
+    <value>Additional information</value>
+  </data>
+  <data name="data_form.tabs" xml:space="preserve">
+    <value>Data form tabs</value>
+  </data>
+  <data name="fields_collection.diffs" xml:space="preserve">
+    <value>Difference found</value>
+  </data>
+  <data name="error_dialog.warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="error_dialog.error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="error_dialog.error_code" xml:space="preserve">
+    <value>Error number: %1</value>
+  </data>
+  <data name="error_dialog.error_details" xml:space="preserve">
+    <value>Further Details</value>
+  </data>
+  <data name="error_dialog.batch_continue_message" xml:space="preserve">
+    <value>An error has occurred processing the current request on this computer. Check the MyID Client Service is running. If the issue persists please contact an administrator. Do you want to continue?</value>
+  </data>
+  <data name="error_dialog.batch_continue_confirm" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="error_dialog.batch_continue_cancel" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="render_admin_groups.groups_not_set" xml:space="preserve">
+    <value>No administrative groups have been set for this user</value>
+  </data>
+  <data name="render_autocomplete.no_values" xml:space="preserve">
+    <value>No values available</value>
+  </data>
+  <data name="render_autocomplete.any_value" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="render_autocomplete.no_base_dns" xml:space="preserve">
+    <value>No Base DNs found</value>
+  </data>
+  <data name="render_autocomplete.no_value_chosen" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="render_autocomplete.loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="render_autocomplete.loading_base_dns" xml:space="preserve">
+    <value>Retrieving Base DNs...</value>
+  </data>
+  <data name="render_binary_link.error" xml:space="preserve">
+    <value>Requested image cannot be found.</value>
+  </data>
+  <data name="render_binary_link.loading" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="render_binary_link.view_click" xml:space="preserve">
+    <value>Click to view</value>
+  </data>
+  <data name="render_binary_link.view_document_click" xml:space="preserve">
+    <value>Click to view</value>
+  </data>
+  <data name="render_documentation_link.placeholder_text" xml:space="preserve">
+    <value>Click to view product documentation</value>
+  </data>
+  <data name="render_hands.capture_device" xml:space="preserve">
+    <value>Capture Device</value>
+  </data>
+  <data name="render_hands.capture_finger" xml:space="preserve">
+    <value>Capture Finger</value>
+  </data>
+  <data name="render_hands.capture_hand" xml:space="preserve">
+    <value>Capture Hand</value>
+  </data>
+  <data name="render_hands.legend_b" xml:space="preserve">
+    <value>%1 = Print and Roll Captured</value>
+  </data>
+  <data name="render_hands.legend_c" xml:space="preserve">
+    <value>%1 = To Be Captured</value>
+  </data>
+  <data name="render_hands.legend_n" xml:space="preserve">
+    <value>%1 = Not Captured</value>
+  </data>
+  <data name="render_hands.legend_p" xml:space="preserve">
+    <value>%1 = Print Captured</value>
+  </data>
+  <data name="render_hands.legend_r" xml:space="preserve">
+    <value>%1 = Roll Captured</value>
+  </data>
+  <data name="render_hands.legend_u" xml:space="preserve">
+    <value>%1 = Unprintable</value>
+  </data>
+  <data name="render_hands.legend_m" xml:space="preserve">
+    <value>%1 = Missing</value>
+  </data>
+  <data name="render_hands.ready_to_capture_hand" xml:space="preserve">
+    <value>Mark any bandaged or missing fingers, then start capture</value>
+  </data>
+  <data name="render_hands.ready_to_capture_finger" xml:space="preserve">
+    <value>Choose the fingers to scan, then start capture</value>
+  </data>
+  <data name="render_hands.ready_to_capture_fingerprint_ink" xml:space="preserve">
+    <value>Mark any missing fingers, then start capture</value>
+  </data>
+  <data name="render_hands.captured" xml:space="preserve">
+    <value>When you save, the status of fingerprints marked 'N - Not Captured' will not be changed.</value>
+  </data>
+  <data name="render_hands.confirm_poor_prints" xml:space="preserve">
+    <value>Tick the fingerprints listed below that are to be saved, otherwise they will be removed from the submission:</value>
+  </data>
+  <data name="render_hands.pending" xml:space="preserve">
+    <value>Fingerprints have been submitted for matching analysis</value>
+  </data>
+  <data name="render_hands.capture_mode" xml:space="preserve">
+    <value>Capture Mode</value>
+  </data>
+  <data name="render_hands.mode_0" xml:space="preserve">
+    <value>Operator selection</value>
+  </data>
+  <data name="render_hands.mode_1" xml:space="preserve">
+    <value>Left fingers-Right fingers-Thumbs</value>
+  </data>
+  <data name="render_hands.mode_2" xml:space="preserve">
+    <value>Left fingers-Thumb-Right fingers-Thumb</value>
+  </data>
+  <data name="render_hands.mode_3" xml:space="preserve">
+    <value>10 Single scans</value>
+  </data>
+  <data name="render_hands.mode_4" xml:space="preserve">
+    <value>Preferred PIV Pair</value>
+  </data>
+  <data name="render_hands.capture" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="render_hands.poor_prints_present" xml:space="preserve">
+    <value>The following captures are considered poor. These prints can be accepted, and any prints not deemed acceptable will be removed when submission takes place. Alternatively, the scan can be attempted again.</value>
+  </data>
+  <data name="render_hands.print_left" xml:space="preserve">
+    <value>Left hand 4-finger capture</value>
+  </data>
+  <data name="render_hands.print_lt" xml:space="preserve">
+    <value>Left thumb</value>
+  </data>
+  <data name="render_hands.print_li" xml:space="preserve">
+    <value>Left index</value>
+  </data>
+  <data name="render_hands.print_lm" xml:space="preserve">
+    <value>Left middle</value>
+  </data>
+  <data name="render_hands.print_lr" xml:space="preserve">
+    <value>Left ring</value>
+  </data>
+  <data name="render_hands.print_ll" xml:space="preserve">
+    <value>Left little</value>
+  </data>
+  <data name="render_hands.print_ltr" xml:space="preserve">
+    <value>Left thumb roll</value>
+  </data>
+  <data name="render_hands.print_lir" xml:space="preserve">
+    <value>Left index roll</value>
+  </data>
+  <data name="render_hands.print_lmr" xml:space="preserve">
+    <value>Left middle roll</value>
+  </data>
+  <data name="render_hands.print_lrr" xml:space="preserve">
+    <value>Left ring roll</value>
+  </data>
+  <data name="render_hands.print_llr" xml:space="preserve">
+    <value>Left little roll</value>
+  </data>
+  <data name="render_hands.print_right" xml:space="preserve">
+    <value>Right hand 4-finger capture</value>
+  </data>
+  <data name="render_hands.print_rt" xml:space="preserve">
+    <value>Right thumb</value>
+  </data>
+  <data name="render_hands.print_ri" xml:space="preserve">
+    <value>Right index</value>
+  </data>
+  <data name="render_hands.print_rm" xml:space="preserve">
+    <value>Right middle</value>
+  </data>
+  <data name="render_hands.print_rr" xml:space="preserve">
+    <value>Right ring</value>
+  </data>
+  <data name="render_hands.print_rl" xml:space="preserve">
+    <value>Right little</value>
+  </data>
+  <data name="render_hands.print_rtr" xml:space="preserve">
+    <value>Right thumb roll</value>
+  </data>
+  <data name="render_hands.print_rir" xml:space="preserve">
+    <value>Right index roll</value>
+  </data>
+  <data name="render_hands.print_rmr" xml:space="preserve">
+    <value>Right middle roll</value>
+  </data>
+  <data name="render_hands.print_rrr" xml:space="preserve">
+    <value>Right ring roll</value>
+  </data>
+  <data name="render_hands.print_rlr" xml:space="preserve">
+    <value>Right little roll</value>
+  </data>
+  <data name="render_hands.rescan" xml:space="preserve">
+    <value>Re-scan</value>
+  </data>  
+  <data name="render_hands.reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="render_hands.scanner_status" xml:space="preserve">
+    <value>Scanner status: %1</value>
+  </data>
+  <data name="render_hands.scanners_crossmatch_guardian" xml:space="preserve">
+    <value>HID Guardian</value>
+  </data>
+  <data name="render_hands.scanners_crossmatch_guardian_100" xml:space="preserve">
+    <value>HID Guardian 100</value>
+  </data>
+  <data name="render_hands.scanners_crossmatch_guardian_200" xml:space="preserve">
+    <value>HID Guardian 200</value>
+  </data>
+  <data name="render_hands.scanners_crossmatch_guardian_300" xml:space="preserve">
+    <value>HID Guardian 300</value>
+  </data>
+  <data name="render_hands.scanners_crossmatch_patrol" xml:space="preserve">
+    <value>HID Patrol</value>
+  </data>
+  <data name="render_hands.scanners_gb_dacty84c" xml:space="preserve">
+    <value>Thales Greenbit DactyScan84c</value>
+  </data>
+  <data name="render_hands.scanners_ib_fiveo" xml:space="preserve">
+    <value>Integrated Biometrics Five-O</value>
+  </data>
+  <data name="render_hands.scanners_ib_kojak" xml:space="preserve">
+    <value>Integrated Biometrics Kojak</value>
+  </data>
+  <data name="render_hands.scanners_jenetric_livetouch_quartro" xml:space="preserve">
+    <value>Jenetric LiveTouch Quattro</value>
+  </data>
+  <data name="render_hands.scanners_jenetric_livetouch_quattro" xml:space="preserve">
+    <value>Jenetric LiveTouch Quattro</value>
+  </data>
+  <data name="render_hands.scanners_thales_cs500f" xml:space="preserve">
+    <value>Thales CS500F</value>
+  </data>
+  <data name="render_hands.default_supported_device" xml:space="preserve">
+    <value>CROSSMATCH_GUARDIAN</value>
+  </data>
+  <data name="render_image.edit" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="render_image.broken_image" xml:space="preserve">
+    <value>Error: Broken Image</value>
+  </data>
+  <data name="render_iris.captured" xml:space="preserve">
+    <value>Iris image captured</value>
+  </data>
+  <data name="render_iris.not_captured" xml:space="preserve">
+    <value>Iris image not captured</value>
+  </data>
+  <data name="render_linked_entity.no_access" xml:space="preserve">
+    <value>Access denied to linked entity</value>
+  </data>
+  <data name="render_missing_component.error" xml:space="preserve">
+    <value>ERROR: field.component '%1' not recognised</value>
+  </data>
+  <data name="render_mui_input.auto_detect" xml:space="preserve">
+    <value>[Auto Detect]</value>
+  </data>
+  <data name="render_mui_select_box.no_values" xml:space="preserve">
+    <value>No values available</value>
+  </data>
+  <data name="render_mui_select_box.no_value_chosen" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="render_mui_select_box.any_value" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="render_mui_select_box.no_available_profiles" xml:space="preserve">
+    <value>No profiles available. Make sure that there are profiles that your roles can request and that the person's roles can receive, and that the person meets any data requirements specified by the profile.</value>
+  </data>
+  <data name="render_mui_select_box.no_delivery_mechanisms" xml:space="preserve">
+    <value>No delivery mechanisms are configured - error number: WS40026</value>
+  </data>
+  <data name="render_multi_select.no_values" xml:space="preserve">
+    <value>No values available</value>
+  </data>
+  <data name="render_multi_select.print_preview" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="render_multi_select.print_preview_image" xml:space="preserve">
+    <value>Layout preview image</value>
+  </data>
+  <data name="render_multi_select.show_preview" xml:space="preserve">
+    <value>%1 - Show layout preview</value>
+  </data>
+  <data name="render_multi_select.default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="render_multi_select.default_checkbox_label" xml:space="preserve">
+    <value>%1 - Default</value>
+  </data>
+  <data name="render_multi_select.failed_print_preview" xml:space="preserve">
+    <value>There has been an error loading the graphics for the selected layout.</value>
+  </data>
+  <data name="render_multi_select.failed_print_preview_instructions" xml:space="preserve">
+    <value>You cannot currently preview the layout, but you can still assign it to the credential profile.</value>
+  </data>
+  <data name="render_password.show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="render_password.hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="render_print_document.print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="render_print_document.use_default_printer" xml:space="preserve">
+    <value>Use default printer</value>
+  </data>
+  <data name="render_test_connection.testing" xml:space="preserve">
+    <value>Testing...</value>
+  </data>
+  <data name="render_test_connection.error_loading" xml:space="preserve">
+    <value>Connection test failed.</value>
+  </data>
+  <data name="render_status_mappings.instructions" xml:space="preserve">
+    <value>Provide the reason and any additional notes for carrying out this action. The reason you provide will affect subsequent actions that take place.</value>
+  </data>
+  <data name="render_status_mappings.notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="render_role_management.all_roles_permitted" xml:space="preserve">
+    <value>All roles are permitted if none are selected</value>
+  </data>
+  <data name="render_role_management.allowed_roles" xml:space="preserve">
+    <value>Allowed Roles</value>
+  </data>
+  <data name="render_role_management.default_roles" xml:space="preserve">
+    <value>Default Roles</value>
+  </data>
+  <data name="render_role_management.default_roles_from_parent" xml:space="preserve">
+    <value>Default roles from the selected parent group will be used if none are selected</value>
+  </data>
+  <data name="render_role_management.inherit_allowed_roles" xml:space="preserve">
+    <value>Inherit allowed roles from parent group</value>
+  </data>
+  <data name="render_role_management.inherit_default_roles" xml:space="preserve">
+    <value>Inherit default roles from allowed roles</value>
+  </data>
+  <data name="render_roles_helper.loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="render_roles_helper.error_loading" xml:space="preserve">
+    <value>The server could not be contacted whilst making a group update. Please try again.</value>
+  </data>
+  <data name="render_roles_helper.group_not_set" xml:space="preserve">
+    <value>A group needs to be selected before any roles can be set.</value>
+  </data>
+  <data name="render_roles_helper.roles_not_set" xml:space="preserve">
+    <value>No roles have been set for this user.</value>
+  </data>
+  <data name="render_roles_helper.roles_not_set_for_group" xml:space="preserve">
+    <value>All roles are permitted for this group because no explicit allowed roles have been configured.</value>
+  </data>
+  <data name="render_roles_helper.no_default_roles_set" xml:space="preserve">
+    <value>No default roles have been configured for this group.</value>
+  </data>
+  <data name="render_roles_helper.parent_group_not_set" xml:space="preserve">
+    <value>A parent group needs to be selected before any allowed or default roles can be set.</value>
+  </data>
+  <data name="render_roles_helper.default_roles" xml:space="preserve">
+    <value>The Organizational Unit of this person does not exist. A new group (%1) will be created automatically and default roles will be assigned to this person. Roles assigned can be modified after saving, using Edit Person.</value>
+  </data>
+  <data name="render_code.click_to_copy" xml:space="preserve">
+    <value>Click to copy</value>
+  </data>
+  <data name="render_date.cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="render_date.clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="render_date.date_format" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="render_date.date_time_format" xml:space="preserve">
+    <value>MM/dd/yyyy, hh:mm:ss a</value>
+  </data>
+  <data name="render_date.invalid_date" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="render_date.max_date_exceeded" xml:space="preserve">
+    <value>Date must not exceed %1</value>
+  </data>
+  <data name="render_date.min_date_exceeded" xml:space="preserve">
+    <value>Date must not precede %1</value>
+  </data>
+  <data name="render_date.invalid_past" xml:space="preserve">
+    <value>Date must not be in the past</value>
+  </data>
+  <data name="render_date.invalid_future" xml:space="preserve">
+    <value>Date must not be in the future</value>
+  </data>
+  <data name="render_date.ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+    <data name="render_soft_certificates.download" xml-space="preserve">
+  <value>Download</value>
+    </data>
+  <data name="render_soft_certificates.failed_to_issue" xml-space="preserve">
+    <value>The certificates failed to issue. Please retry.</value>
+  </data>
+  <data name="render_soft_certificates.issued_successfully" xml-space="preserve">
+    <value>Certificates issued successfully.</value>
+  </data>
+  <data name="render_soft_certificates.set_certificate_password" xml-space="preserve">
+    <value>Set Certificate Password</value>
+  </data>
+  <data name="render_soft_certificates.verify_certificate_password" xml-space="preserve">
+    <value>Verify Certificate Password</value>
+  </data>
+  <data name="render_soft_certificates.title" xml-space="preserve">
+    <value>Soft Certificates</value>
+  </data>
+  <data name="render_soft_certificates.different_passwords_error_tooltip" xml-space="preserve">
+    <value>Passwords need to match.</value>
+   </data>
+  <data name="selected_details.details" xml:space="preserve">
+    <value>%4%5 results - %2 displayed %3- %1 selected</value>
+  </data>
+  <data name="selected_details.more" xml:space="preserve">
+    <value>(scroll for more) </value>
+  </data>
+  <data name="selected_details.download_results" xml:space="preserve">
+    <value>Download results</value>
+  </data>
+  <data name="selected_details.ldap_details" xml:space="preserve">
+    <value>%2 displayed %3- %1 selected</value>
+  </data>
+  <data name="selected_details.no_count_details" xml:space="preserve">
+    <value>%2 displayed %3- %1 selected</value>
+  </data>
+  <data name="selected_details.no_view_details" xml:space="preserve">
+    <value>%4%5 results - %2 displayed %3</value>
+  </data>
+  <data name="selected_details.no_view_or_count_details" xml:space="preserve">
+    <value>%2 displayed %3</value>
+  </data>
+  <data name="selected_details.tools_button" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="text_dialog.issuing_soft_certificates" xml:space="preserve">
+    <value>MyID is currently issuing your soft certificates...</value>
+  </data>
+  <data name="text_dialog.launching_external_client" xml:space="preserve">
+    <value>Please wait for the MyID %1 to open...</value>
+  </data>
+  <data name="text_dialog.reauthenticate" xml:space="preserve">
+    <value>Please re-authenticate to the MyID Operator Client to continue...</value>
+  </data>
+  <data name="text_dialog.use_external_client" xml:space="preserve">
+    <value>Please use the MyID %1 to continue...</value>
+  </data>
+  <data name="timespan_handler.and_hour" xml:space="preserve">
+    <value> and %1 hour</value>
+  </data>
+  <data name="timespan_handler.and_hours" xml:space="preserve">
+    <value> and %1 hours</value>
+  </data>
+  <data name="timespan_handler.and_minute" xml:space="preserve">
+    <value>, %1 minute</value>
+  </data>
+  <data name="timespan_handler.and_minutes" xml:space="preserve">
+    <value>, %1 minutes</value>
+  </data>
+  <data name="timespan_handler.and_second" xml:space="preserve">
+    <value> and %1 second</value>
+  </data>
+  <data name="timespan_handler.and_seconds" xml:space="preserve">
+    <value> and %1 seconds</value>
+  </data>
+  <data name="timespan_handler.day" xml:space="preserve">
+    <value>%1 day</value>
+  </data>
+  <data name="timespan_handler.days" xml:space="preserve">
+    <value>%1 days</value>
+  </data>
+  <data name="timespan_handler.expires_1_unit" xml:space="preserve">
+    <value>Expires %1 from request</value>
+  </data>
+  <data name="timespan_handler.expires_2_units" xml:space="preserve">
+    <value>Expires %1%2 from request</value>
+  </data>
+  <data name="timespan_handler.expires_3_units" xml:space="preserve">
+    <value>Expires %1%2%3 from request</value>
+  </data>
+  <data name="timespan_handler.expires_4_units" xml:space="preserve">
+    <value>Expires %1%2%3%4 from request</value>
+  </data>
+  <data name="timespan_handler.hour" xml:space="preserve">
+    <value>%1 hour</value>
+  </data>
+  <data name="timespan_handler.hours" xml:space="preserve">
+    <value>%1 hours</value>
+  </data>
+  <data name="timespan_handler.minute" xml:space="preserve">
+    <value>%1 minute</value>
+  </data>
+  <data name="timespan_handler.minutes" xml:space="preserve">
+    <value>%1 minutes</value>
+  </data>
+  <data name="timespan_handler.no_value" xml:space="preserve">
+    <value>No expiry</value>
+  </data>
+  <data name="timespan_handler.second" xml:space="preserve">
+    <value>%1 second</value>
+  </data>
+  <data name="timespan_handler.seconds" xml:space="preserve">
+    <value>%1 seconds</value>
+  </data>
+  <data name="entity_navigation.details" xml:space="preserve">
+    <value>Record %1 of %2</value>
+  </data>
+  <data name="entity_navigation.prev" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="entity_navigation.next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="entity_navigation.return" xml:space="preserve">
+    <value>Return to results</value>
+  </data>
+  <data name="report_search.search_label" xml:space="preserve">
+    <value>What would you like to search for?</value>
+  </data>
+  <data name="group_dialog.select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="group_dialog.tab_label" xml:space="preserve">
+    <value>View options for group structure</value>
+  </data>
+  <data name="group_dialog.tree_tab" xml:space="preserve">
+    <value>Tree View</value>
+  </data>
+  <data name="group_dialog.list_tab" xml:space="preserve">
+    <value>List View</value>
+  </data>
+  <data name="group_dialog.selected_group" xml:space="preserve">
+    <value>Selected Group</value>
+  </data>
+  <data name="group_dialog.no_selected_group" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="group_dialog.source_directory" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="group_dialog.source_myid" xml:space="preserve">
+    <value>MyID</value>
+  </data>
+  <data name="group_info.desc" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="group_info.ou" xml:space="preserve">
+    <value>OU:</value>
+  </data>
+  <data name="group_info.source" xml:space="preserve">
+    <value>Source:</value>
+  </data>
+  <data name="group_info.none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="group_info.name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="tree_group_picker.loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="tree_group_picker.no_group_structure" xml:space="preserve">
+    <value>No group structure available</value>
+  </data>
+  <data name="tree_group_picker.error_loading" xml:space="preserve">
+    <value>Unable to load group structure</value>
+  </data>
+  <data name="tree_group_picker.info" xml:space="preserve">
+    <value>%1 Info</value>
+  </data>
+  <data name="tree_group_picker.name_description_switch" xml:space="preserve">
+    <value>Show group description</value>
+  </data>
+  <data name="link_group_picker.error_loading" xml:space="preserve">
+    <value>Unable to load groups</value>
+  </data>
+  <data name="link_group_picker.loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="link_group_picker.no_options" xml:space="preserve">
+    <value>No options available</value>
+  </data>
+  <data name="link_group_picker.pick_by_name" xml:space="preserve">
+    <value>By Name</value>
+  </data>
+  <data name="link_group_picker.pick_by_description" xml:space="preserve">
+    <value>By Description</value>
+  </data>
+  <data name="logon_priorities.instructions" xml:space="preserve">
+    <value>Select the priority order for logon mechanisms. This list only takes effect when using the Self Service App and will not override specific authentication requirements for credential collection, update or PIN reset. The logon mechanism must be enabled for its priority to be used.</value>
+  </data>
+  <data name="logon_priorities.windows_alert" xml:space="preserve">
+    <value>Windows Logon will have the highest priority if configured</value>
+  </data>
+  <data name="logon_priorities.cancel_dialog" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="logon_priorities.cred_profiles_alert" xml:space="preserve">
+    <value>If no priorities are configured the global logon mechanisms will be applied.</value>
+  </data>
+  <data name="logon_priorities.add_selected" xml:space="preserve">
+    <value>Add Selected</value>
+  </data>
+  <data name="logon_priorities.priority_aria" xml:space="preserve">
+    <value>Priority %1: %2</value>
+  </data>
+  <data name="logon_priorities.increase_priority" xml:space="preserve">
+    <value>Increase priority %1</value>
+  </data>
+  <data name="logon_priorities.decrease_priority" xml:space="preserve">
+    <value>Decrease priority %1</value>
+  </data>
+  <data name="admin_group_picker.header" xml:space="preserve">
+    <value>Additional administrative groups this person can manage</value>
+  </data>
+  <data name="admin_group_picker.add_group" xml:space="preserve">
+    <value>Add additional administrative group</value>
+  </data>
+  <data name="admin_group_picker.select_group" xml:space="preserve">
+    <value>Select additional administrative group</value>
+  </data>
+  <data name="admin_group_picker.remove_group" xml:space="preserve">
+    <value>Remove administrative group</value>
+  </data>
+  <data name="admin_group_picker.read_only" xml:space="preserve">
+    <value>Administrative group cannot be removed</value>
+  </data>
+  <data name="image_capture_control.camera" xml-space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="image_capture_control.cameras" xml-space="preserve">
+    <value>Cameras</value>
+  </data>
+  <data name="image_capture_control.loading" xml:space="preserve">
+    <value>Loading camera...</value>
+  </data>
+  <data name="image_capture_control.brightness" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="image_capture_control.contrast" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="image_capture_control.select_camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="image_capture_control.rotate" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="image_capture_dialog.capture" xml:space="preserve">
+    <value>Image Capture</value>
+  </data>
+  <data name="error.wrong_file_type.code" xml:space="preserve">
+    <value>OC10005</value>
+  </data>
+  <data name="error.wrong_file_type.text" xml:space="preserve">
+    <value>The file you have uploaded is not an image. Please upload an image.</value>
+  </data>
+  <data name="error.wrong_file_type.details" xml:space="preserve">
+    <value>You can choose from the following file types: JPEG (*.jpg, *.jpeg), Bitmap (*.bmp), Graphics Interchange Format (*.gif), Portable Network Graphics (*.png). If you select a file of the wrong type, MyID displays an error.</value>
+  </data>
+  <data name="error.wrong_file_type.solution" xml:space="preserve">
+    <value>See the Uploading an existing image file section in the MyID Operator Client guide.</value>
+  </data>
+  <data name="face_capture_dialog.title" xml:space="preserve">
+    <value>Confirm this information is correct. It is included in the facial biometric data and cannot be changed without repeating facial biometric enrolment.</value>
+  </data>
+  <data name="face_capture_dialog.hair_label" xml:space="preserve">
+    <value>Hair Color</value>
+  </data>
+  <data name="face_capture_dialog.eye_label" xml:space="preserve">
+    <value>Eye Color</value>
+  </data>
+  <data name="face_capture_dialog.gender_label" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="face_capture_dialog.unspecified" xml:space="preserve">
+    <value>Unspecified</value>
+  </data>
+  <data name="face_capture_dialog.bald" xml:space="preserve">
+    <value>Bald</value>
+  </data>
+  <data name="face_capture_dialog.black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="face_capture_dialog.blonde" xml:space="preserve">
+    <value>Blonde</value>
+  </data>
+  <data name="face_capture_dialog.blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="face_capture_dialog.brown" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="face_capture_dialog.gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="face_capture_dialog.green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="face_capture_dialog.orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="face_capture_dialog.pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="face_capture_dialog.red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="face_capture_dialog.sandy" xml:space="preserve">
+    <value>Sandy</value>
+  </data>
+  <data name="face_capture_dialog.white" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="face_capture_dialog.auburn" xml:space="preserve">
+    <value>Auburn</value>
+  </data>
+  <data name="face_capture_dialog.strawberry" xml:space="preserve">
+    <value>Strawberry</value>
+  </data>
+  <data name="face_capture_dialog.other" xml:space="preserve">
+    <value>Other / Unknown</value>
+  </data>
+  <data name="face_capture_dialog.hazel" xml:space="preserve">
+    <value>Hazel</value>
+  </data>
+  <data name="face_capture_dialog.maroon" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="face_capture_dialog.multicoloured" xml:space="preserve">
+    <value>Multicolored</value>
+  </data>
+  <data name="face_capture_dialog.female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="face_capture_dialog.male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="face_capture_dialog.facial_bio_data_changes_warning" xml:space="preserve">
+    <value>Changes to these fields will only be applied to the user's facial biometric data, and will not be reflected in the user record in MyID.</value>
+  </data>
+  <data name="sign_in.sign_in" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="sign_in.signing_in" xml:space="preserve">
+    <value>Signing in...</value>
+  </data>
+  <data name="main_app_bar.drawer_open" xml:space="preserve">
+    <value>Open drawer</value>
+  </data>
+  <data name="main_app_bar.drawer_close" xml:space="preserve">
+    <value>Close drawer</value>
+  </data>
+  <data name="main_app_bar.home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="main_app_bar.myid" xml:space="preserve">
+    <value>MyID</value>
+  </data>
+  <data name="main_app_bar.last_logged_on" xml:space="preserve">
+	<value>Last logged on: %1</value>
+  </data>
+  <data name="main_app_bar.restricted_access" xml:space="preserve">
+	<value>%1 (restricted access)</value>
+  </data>
+  <data name="main_app_bar.no_access" xml:space="preserve">
+	<value>Restricted Access (OC10001)</value>
+  </data>
+  <data name="error.no_api_connection.code" xml:space="preserve">
+    <value>OC10003</value>
+  </data>
+  <data name="error.no_api_connection.text" xml:space="preserve">
+    <value>There has been a problem on the server and it is not possible to continue.</value>
+  </data>
+  <data name="error.no_api_connection.details" xml:space="preserve">
+    <value>The API server is unreachable or has been configured incorrectly.</value>
+  </data>
+  <data name="error.no_api_connection.solution" xml:space="preserve">
+    <value>Confirm that the API server is reachable, and has been configured correctly. Check the URLs in the web service configuration files; they must use https and be valid URLs. See the rest.core web service configuration file and the web.oauth2 web service configuration file sections in the MyID Operator Client guide for details of the web service configuration files. The REST-based web services require HTTPS, and will not operate if this is not set up. For more information, see the REST-based web services section in the System Interrogation Utility guide.</value>
+  </data>
+  <data name="error.no_actions.code" xml:space="preserve">
+    <value>OC10001</value>
+  </data>
+  <data name="error.no_actions.text" xml:space="preserve">
+    <value>There are no actions available for your current logon method and the roles that you have been assigned.</value>
+  </data>
+  <data name="error.no_actions.details" xml:space="preserve">
+    <value>You have not been assigned any actions for use in the MyID Operator Client.</value>
+  </data>
+  <data name="error.no_actions.solution" xml:space="preserve">
+    <value>Ensure that the roles you have assigned provide MyID Operator Client actions. See the Roles and groups section in the MyID Operator Client guide.</value>
+  </data>
+  <data name="error.unsupported_browser.code" xml:space="preserve">
+    <value>OC10002</value>
+  </data>
+  <data name="error.unsupported_browser.text" xml:space="preserve">
+    <value>This web browser cannot be used. Please use an alternative web browser.</value>
+  </data>
+  <data name="error.unsupported_browser.details" xml:space="preserve">
+    <value>An unsupported browser has been detected. Due to the browser technology used, you cannot use Internet Explorer to access the MyID Operator Client.</value>
+  </data>
+  <data name="error.unsupported_browser.solution" xml:space="preserve">
+    <value>The MyID Operator Client is designed to work on a range of browsers running on Windows 10 or Windows 11, excluding Internet Explorer. You are recommended to use Google Chrome, Microsoft Edge (Chromium version) or Mozilla Firefox. See the Supported browsers section in the MyID Operator Client guide.</value>
+  </data>
+  <data name="main_page.site_name" xml:space="preserve">
+    <value>MyID</value>
+  </data>
+  <data name="main_page.document_title" xml:space="preserve">
+    <value>%1 | %2 %3</value>
+  </data>
+  <data name="main_page.warning" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="main_page.report_results" xml:space="preserve">
+    <value>report results</value>
+  </data>
+  <data name="my_account_actions.avatar" xml:space="preserve">
+    <value>Launch my actions</value>
+  </data>
+    <data name="my_account_actions.skip_to_content" xml:space="preserve">
+    <value>Skip to content</value>
+  </data>
+  <data name="my_account_actions.check_updates" xml:space="preserve">
+    <value>Check For Updates</value>
+  </data>
+  <data name="my_account_actions.sign_out" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="batch_confirmation.continue" xml:space="preserve">
+    <value>Do you want to continue?</value>
+  </data>
+  <data name="batch_confirmation.details" xml:space="preserve">
+    <value>Information entered on the previous screen will be applied to all records.</value>
+  </data>
+  <data name="batch_confirmation.mcs_generic_warning" xml:space="preserve">
+    <value>Please ensure that the MyID Client Service is running before starting this process.</value>
+  </data>
+  <data name="batch_confirmation.mcs_print_warning" xml:space="preserve">
+    <value>Please ensure that the MyID Client Service is running and that the printer is switched on and fully operational before starting this process.</value>
+  </data>
+  <data name="batch_confirmation.operation" xml:space="preserve">
+    <value>Operation: %1</value>
+  </data>
+  <data name="batch_confirmation.records" xml:space="preserve">
+    <value>Records selected: %1</value>
+  </data>
+  <data name="batch_confirmation.warning" xml:space="preserve">
+    <value>The information listed below will be applied to all selected records. Once the batch process has started it cannot be canceled.</value>
+  </data>
+  <data name="batch_operations.all_processed" xml:space="preserve">
+    <value>All requests processed.</value>
+  </data>
+  <data name="batch_operations.completed" xml:space="preserve">
+    <value>Completed: %3</value>
+  </data>
+  <data name="batch_operations.do_not_close" xml:space="preserve">
+    <value>Do not close the browser during this process. If closed, no further progress will be made.</value>
+  </data>
+  <data name="batch_operations.failed" xml:space="preserve">
+    <value>Failed: %4</value>
+  </data>
+  <data name="batch_operations.in_progress" xml:space="preserve">
+    <value>In progress: %5</value>
+  </data>
+  <data name="batch_operations.message" xml:space="preserve">
+	<value>Message</value>
+  </data>
+  <data name="batch_operations.title" xml:space="preserve">
+    <value>Batch processing: %6</value>
+  </data>
+  <data name="batch_operations.total" xml:space="preserve">
+    <value>Total: %1</value>
+  </data>
+  <data name="batch_operations.pending" xml:space="preserve">
+    <value>Pending: %2</value>
+  </data>
+  <data name="batch_operations.progress" xml:space="preserve">
+    <value>Processing request %1 of %2...</value>
+  </data>
+  <data name="batch_operations.view_results" xml:space="preserve">
+    <value>View Results</value>
+  </data>
+  <data name="batch_operations.processing_status" xml:space="preserve">
+    <value>Processing status</value>
+  </data>
+  <data name="batch_operations.screen_reader_batch_started" xml:space="preserve">
+    <value>Batch processing %6 has started. Total items in batch: %1. Please wait for batch to complete. In-progress results table can be navigated below.</value>
+  </data>
+  <data name="batch_operations.screen_reader_batch_complete" xml:space="preserve">
+    <value>Batch processing complete</value>
+  </data>
+  <data name="batch_response_columns.credential_profile" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="batch_response_columns.request_id" xml:space="preserve">
+    <value>Request ID</value>
+  </data>
+  <data name="batch_response_columns.status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="body_cell.launch_view" xml:space="preserve">
+    <value>View %1</value>
+  </data>
+  <data name="body_cell.yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="body_cell.no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="results_list.actions_column_header" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="results_list.add_record" xml:space="preserve">
+    <value>Add Record</value>
+  </data>
+  <data name="results_list.cancel_icon" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="results_list.directory_search" xml:space="preserve">
+    <value>Directory Search</value>
+  </data>
+  <data name="results_list.edit_icon" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="results_list.loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="results_list.loading_page" xml:space="preserve">
+    <value>Loading more records...</value>
+  </data>
+  <data name="results_list.failed" xml:space="preserve">
+    <value>Unable to retrieve results.</value>
+  </data>
+  <data name="results_list.no_previous_devices" xml:space="preserve">
+    <value>No results found. A previous device that has been reassigned to another person is not shown. Check the device history for further information.</value>
+  </data>
+  <data name="results_list.no_added_rows" xml:space="preserve">
+    <value>No records.</value> 
+  </data>
+  <data name="results_list.no_results" xml:space="preserve">
+    <value>No results found.</value>
+  </data>
+  <data name="results_list.not_supported" xml:space="preserve">
+    <value>Allowed values not supported if 'Not Required' is selected. Please clear the value.</value>
+  </data>
+  <data name="results_list.save_icon" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="results_list.select_all" xml:space="preserve">
+    <value>Select all displayed</value>
+  </data>
+  <data name="results_list.summary" xml:space="preserve">
+    <value>Multiple rows can be selected.</value>
+  </data>
+  <data name="roles_dialog.role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="roles_dialog.role_unavailable" xml:space="preserve">
+    <value>%1 (No longer available)</value>
+  </data>
+  <data name="roles_dialog.none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="roles_dialog.self" xml:space="preserve">
+    <value>Self</value>
+  </data>
+  <data name="roles_dialog.department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="roles_dialog.division" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="roles_dialog.all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="search_drawer_card_actions.type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="search_drawer_card_actions.search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="search_drawer_card_actions.report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="search_drawer_card_actions.more_actions" xml:space="preserve">
+	<value>Additional Actions</value>
+  </data>
+  <data name="search_drawer_card_header.open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="search_drawer_card_header.close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="search_drawer_helper.unrecognised_device" xml:space="preserve">
+    <value>Device not recognised by MyID</value>
+  </data>
+  <data name="search_drawer_options.additional_search" xml:space="preserve">
+    <value>Additional search criteria</value>
+  </data>
+  <data name="certificate_selection.policies_configured_successfully" xml:space="preserve">
+    <value>The selected certificate policies are configured for issuance.</value>
+  </data>
+  <data name="certificate_selection.legend" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="certificate_selection.archived" xml:space="preserve">
+    <value>Archived certificate policy</value>
+  </data>
+  <data name="certificate_selection.non_archived" xml:space="preserve">
+    <value>Non-archived certificate policy</value>
+  </data>
+  <data name="certificate_selection.x509attr_signing" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="certificate_selection.x509attr_default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="certificate_selection.x509attr_encryption" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="certificate_selection.inactive_certs_label" xml:space="preserve">
+    <value>Inactive Certificate Policies</value>
+  </data>
+  <data name="certificate_selection.inactive_policies_set" xml:space="preserve">
+    <value>Some inactive certificate policies have been configured. New certificates for these policies will not be issued using this credential profile.</value>
+  </data>
+  <data name="certificate_selection.historic" xml:space="preserve">
+    <value>Historic</value>
+  </data>
+  <data name="certificate_selection.action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="certificate_selection.container" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="certificate_selection.issue_new" xml:space="preserve">
+    <value>Issue new</value>
+  </data>
+  <data name="certificate_selection.historic_only" xml:space="preserve">
+    <value>Historic only</value>
+  </data>
+  <data name="certificate_selection.use_existing" xml:space="preserve">
+    <value>Use existing</value>
+  </data>
+  <data name="certificate_selection.container_label" xml:space="preserve">
+    <value>Select container</value>
+  </data>
+  <data name="certificate_selection.container_label_on_view" xml:space="preserve">
+    <value>No container selected</value>
+  </data>
+  <data name="certificate_selection.storage_method" xml:space="preserve">
+    <value>Storage Method</value>
+  </data>
+  <data name="certificate_selection.no_certs_available" xml:space="preserve">
+    <value>There are no certificate policies available for selection.</value>
+  </data>
+  <data name="certificate_selection.unsafe_configuration_warning" xml:space="preserve">
+    <value>Using the 'PIV Card Authentication Container' for a signing or encryption certificate is not a secure configuration.</value>
+  </data>
+  <data name="certificate_selection.myid_signing_keys_will_be_used" xml:space="preserve">
+    <value>MyID Signing Keys will be used if no certificate policy is selected for signing.</value>
+  </data> 
+  <data name="certificate_selection.myid_encryption_keys_will_be_used" xml:space="preserve">
+    <value>MyID Encryption Keys will be used if no certificate policy is selected for encryption.</value>
+  </data>
+  <data name="certificate_selection.myid_signing_or_encryption_keys_will_be_used" xml:space="preserve">
+    <value>MyID Signing and Encryption Keys will be used if no certificate policies are selected for signing or encryption.</value>
+  </data> 
+  <data name="error.mcs_not_available.code" xml:space="preserve">
+    <value>OC10006</value>
+  </data>
+  <data name="error.mcs_not_available.text" xml:space="preserve">
+    <value>MyID Client Service error</value>
+  </data>
+  <data name="error.mcs_not_available.details" xml:space="preserve">
+    <value>You have attempted to use a feature provided by the MyID Client Service App, but the app is not running.</value>
+  </data>
+  <data name="error.mcs_not_available.solution" xml:space="preserve">
+    <value>This may occur when accessing smart card, editing captured images, or other operations provided by the MyID Client Service App. Make sure the app is running. See the Installing the MyID Client Service section in the Installation and Configuration Guide for instructions on installing the MyID Client Service.</value>
+  </data>
+  <data name="error.failed_camera.code" xml:space="preserve">
+    <value>OC10007</value>
+  </data>
+  <data name="error.failed_camera.text" xml:space="preserve">
+    <value>A problem has occurred when connecting to the camera.</value>
+  </data>
+  <data name="error.failed_camera.details" xml:space="preserve">
+    <value>The MyID Image Capture component cannot make a connection to the camera. The camera might be in use or has a low maximum supported camera resolution.</value>
+  </data>
+  <data name="error.failed_camera.solution" xml:space="preserve">
+    <value>Confirm that the camera is operating correctly and can support a minimum resolution of 640x480. Confirm that the camera is not currently in use in another application, then start Image Capture again.</value>
+  </data>
+  <data name="error.insufficient_fields_to_return.code" xml:space="preserve">
+    <value>OC10014</value>
+  </data>
+  <data name="error.insufficient_fields_to_return.text" xml:space="preserve">
+    <value>This action cannot be performed. Please check the installed version of MyID Client Service, and try again.</value>
+  </data>
+  <data name="error.insufficient_fields_to_return.details" xml:space="preserve">
+    <value>The version of MyID Client Service that is currently installed does not support performing this action.</value>
+  </data>
+  <data name="error.insufficient_fields_to_return.solution" xml:space="preserve">
+    <value>Install a later version of MyID Client Service, and try again.</value>
+  </data>
+  <data name="error.mcs_not_installed.code" xml:space="preserve">
+    <value>OC10008</value>
+  </data>
+  <data name="error.mcs_not_installed.text" xml:space="preserve">
+    <value>Unable to launch MyID Desktop or the Self-Service App. Please check configuration and try again.</value>
+  </data>
+  <data name="error.mcs_not_installed.details" xml:space="preserve">
+    <value>MyID Desktop or the Self-Service App could not be found at the configured path. Check the MyID Client Service log in the Windows system tray for further details.</value>
+  </data>
+  <data name="error.mcs_not_installed.solution" xml:space="preserve">
+    <value>Confirm that the application is installed and available at the configured location. See the Setting the location of MyID Desktop or the Self-Service App section in the MyID Operator Client guide.</value>
+  </data>
+  <data name="error.mcs_failed_to_connect.code" xml:space="preserve">
+    <value>OC10009</value>
+  </data>
+  <data name="error.mcs_failed_to_connect.text" xml:space="preserve">
+    <value>Unable to connect to MyID Desktop or the Self-Service App. Please try again.</value>
+  </data>
+  <data name="error.mcs_failed_to_connect.details" xml:space="preserve">
+    <value>The MyID Client Service failed to start a client application due to a timeout error. Check the MyID Client Service log in the Windows system tray for further details.</value>
+  </data>
+  <data name="error.mcs_failed_to_connect.solution" xml:space="preserve">
+    <value>Try again. If this issue persists, confirm that MyID Desktop and the Self-Service App are able to start within the configured timeout setting. This issue has been seen on environments where there is no Internet connection. See the Configuring the timeout for launching external applications section in the MyID Operator Client guide.</value>
+  </data>
+  <data name="error.mcs_busy.code" xml:space="preserve">
+    <value>OC10010</value>
+  </data>
+  <data name="error.mcs_busy.text" xml:space="preserve">
+    <value>Unable to launch MyID Desktop or the Self-Service App. Please try again.</value>
+  </data>
+  <data name="error.mcs_busy.details" xml:space="preserve">
+    <value>MyID Desktop or the Self-Service App is running but is already servicing a request. Try again when the current request has been completed. Check the MyID Client Service log in the Windows system tray for further details.</value>
+  </data>
+  <data name="error.mcs_busy.solution" xml:space="preserve">
+    <value>Try again when the current request has been completed.</value>
+  </data>
+  <data name="error.mcs_unsupported_client.code" xml:space="preserve">
+    <value>OC10013</value>
+  </data>
+  <data name="error.mcs_unsupported_client.text" xml:space="preserve">
+    <value>Unable to launch MyID Desktop or the Self-Service App. Please check the installed version and try again.</value>
+  </data>
+  <data name="error.mcs_unsupported_client.details" xml:space="preserve">
+    <value>An incorrect version of MyID Desktop or the Self-Service App has been detected.</value>
+  </data>
+  <data name="error.mcs_unsupported_client.solution" xml:space="preserve">
+    <value>Confirm that the correct version of MyID Desktop or the Self-Service App is installed, and try again. You may have to upgrade your version of MyID Desktop or the Self-Service App to the latest version to support the feature you are trying to use. If you have more than one version of the client software installed, make sure that the MyID Client Service is configured with the location of the correct version. See the Setting the location of MyID Desktop or the Self-Service App section in the MyID Operator Client guide.</value>
+  </data>
+  <data name="error.operation_unavailable.code" xml:space="preserve">
+	<value>OC10011</value>
+  </data>
+  <data name="error.operation_unavailable.text" xml:space="preserve">
+	<value>The item is not available. This may be due to the item changing status, the link no longer being valid or you do not have permission to access this information.</value>
+  </data>
+  <data name="error.operation_unavailable.details" xml:space="preserve">
+	<value>The operation or entity provided in the URL link is not available. Confirm that the link provided is valid and you have permissions for the operation specified.</value>
+  </data>
+  <data name="error.operation_unavailable.solution" xml:space="preserve">
+	<value>Confirm that you have permissions to the link provided and try again.</value>
+  </data>
+  <data name="error.search_unavailable.code" xml:space="preserve">
+	<value>OC10012</value>
+  </data>
+  <data name="error.search_unavailable.text" xml:space="preserve">
+	<value>The item is not available. Check the link is valid and you have permission to access this information.</value>
+  </data>
+  <data name="error.search_unavailable.details" xml:space="preserve">
+	<value>The search provided in the URL link is not available. Confirm that the link provided is valid and you have permissions for the search specified.</value>
+  </data>
+  <data name="error.search_unavailable.solution" xml:space="preserve">
+	<value>Confirm that you have permissions to the link provided and try again.</value>
+  </data>
+  <data name="error.no_records.code" xml:space="preserve">
+    <value>OC10015</value>
+  </data>
+  <data name="error.no_records.text" xml:space="preserve">
+    <value>No records are selected.</value>
+  </data>
+  <data name="error.no_records.details" xml:space="preserve">
+    <value>At least one record must be selected in order to perform this operation.</value>
+  </data>
+  <data name="error.no_records.solution" xml:space="preserve">
+    <value>Select one or more records from a MyID Operator Client report before performing this operation.</value>
+  </data>
+  <data name="error.mcs_invalid_cert_request_manifest.code" xml:space="preserve">
+    <value>OC10019</value>
+  </data>
+  <data name="error.mcs_invalid_cert_request_manifest.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_invalid_cert_request_manifest.details" xml:space="preserve">
+    <value>The request manifest was provided in an unexpected format and could not be parsed.</value>
+  </data>
+  <data name="error.mcs_create_pkcs10_error.code" xml:space="preserve">
+    <value>OC10020</value>
+  </data>
+  <data name="error.mcs_create_pkcs10_error.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_create_pkcs10_error.details" xml:space="preserve">
+    <value>MyID Client Components (UMC) threw an exception in CreatePkcs10Ex.</value>
+  </data>
+  <data name="error.mcs_accept_pkcs7_error.code" xml:space="preserve">
+    <value>OC10021</value>
+  </data>
+  <data name="error.mcs_accept_pkcs7_error.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_accept_pkcs7_error.details" xml:space="preserve">
+    <value>MyID Client Components (UMC) threw an exception in AcceptPkcs7Ex2.</value>
+  </data>
+  <data name="error.mcs_cert_load_error.code" xml:space="preserve">
+    <value>OC10022</value>
+  </data>
+  <data name="error.mcs_cert_load_error.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_cert_load_error.details" xml:space="preserve">
+    <value>Failed to load an archived certificate.</value>
+  </data>
+  <data name="error.mcs_cert_store_error.code" xml:space="preserve">
+    <value>OC10023</value>
+  </data>
+  <data name="error.mcs_cert_store_error.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_cert_store_error.details" xml:space="preserve">
+    <value>Failed to add an archived certificate to the user store.</value>
+  </data>
+  <data name="error.mcs_file_extension_not_allowed.code" xml:space="preserve">
+    <value>OC10024</value>
+  </data>
+  <data name="error.mcs_file_extension_not_allowed.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_file_extension_not_allowed.details" xml:space="preserve">
+    <value>Request included an extension that is not explicitly permitted. Default allowed extensions are .pfx and .cer.</value>
+  </data>
+  <data name="error.mcs_autosave_not_allowed.code" xml:space="preserve">
+    <value>OC10025</value>
+  </data>
+  <data name="error.mcs_autosave_not_allowed.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_autosave_not_allowed.details" xml:space="preserve">
+    <value>Auto-save has been disabled in the client configuration file.</value>
+  </data>
+  <data name="error.mcs_failed_to_write.code" xml:space="preserve">
+    <value>OC10026</value>
+  </data>
+  <data name="error.mcs_failed_to_write.text" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services. This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.mcs_failed_to_write.details" xml:space="preserve">
+    <value>An exception occurred during a file-write operation.</value>
+  </data>
+  <data name="error.mcs_unknown_endpoint.code" xml:space="preserve">
+    <value>OC10027</value>
+  </data>
+  <data name="error.mcs_unknown_endpoint.text" xml:space="preserve">
+    <value>MyID Client Service error</value>
+  </data>
+  <data name="error.mcs_unknown_endpoint.details" xml:space="preserve">
+    <value>The version of MyID Client Service that is currently installed does not support performing this action.</value>
+  </data>
+  <data name="error.mcs_printer_unavailable.code" xml:space="preserve">
+    <value>OC10028</value>
+  </data>
+  <data name="error.mcs_printer_unavailable.text" xml:space="preserve">
+    <value>The printer is unavailable. Please check the printer is operational and not in use.</value>
+  </data>
+  <data name="error.mcs_printer_unavailable.details" xml:space="preserve">
+    <value>Check the printer for any messages.</value>
+  </data>
+  <data name="error.mcs_other_error.code" xml:space="preserve">
+    <value>OC10029</value>
+  </data>
+  <data name="error.mcs_other_error.text" xml:space="preserve">
+    <value>The printer reported the print operation has failed. Please see the printer for further details.</value>
+  </data>
+  <data name="error.mcs_other_error.details" xml:space="preserve">
+    <value>Check the printer for any messages.</value>
+  </data>
+  <data name="error.mcs_webview_not_installed.code" xml:space="preserve">
+    <value>OC10030</value>
+  </data>
+  <data name="error.mcs_webview_not_installed.text" xml:space="preserve">
+    <value>The MyID Client Service was unable to read the document.</value>
+  </data>
+  <data name="error.mcs_webview_not_installed.details" xml:space="preserve">
+    <value>Check that all pre-requisites are installed before attempting to print the document.</value>
+  </data>
+  <data name="error.mcs_webview_initialisation_failure.code" xml:space="preserve">
+    <value>OC10031</value>
+  </data>
+  <data name="error.mcs_webview_initialisation_failure.text" xml:space="preserve">
+    <value>The MyID Client Service was unable to read the document.</value>
+  </data>
+  <data name="error.mcs_webview_initialisation_failure.details" xml:space="preserve">
+    <value>Check that the MyID Client Service is not running with elevated permissions.</value>
+  </data>
+  <data name="error.mcs_persist_certs_error.code" xml:space="preserve">
+    <value>OC10032</value>
+  </data>
+  <data name="error.mcs_persist_certs_error.text" xml:space="preserve">
+    <value>A problem occurred when collecting the certificates. Please retry the operation.</value>
+  </data>
+  <data name="error.mcs_persist_certs_error.details" xml:space="preserve">
+    <value>A technical problem occurred when processing the certificate using MyID client services.This issue requires detailed troubleshooting by a system administrator. Please consult MyID documentation for more information.</value>
+  </data>
+  <data name="error.oauth2_logout_error.code" xml:space="preserve">
+    <value>OC10033</value>
+  </data>
+  <data name="error.oauth2_logout_error.text" xml:space="preserve">
+    <value>Error notifying the server of sign out. Your client has still been signed out.</value>
+  </data>
+  <data name="error.oauth2_logout_error.details" xml:space="preserve">
+    <value>A technical issued occurred when signing out. The session has been cleared on this computer but this issue should be reported to an administrator for further investigation if the problem persists.</value>
+  </data>
+  <data name="error.no_sub_type_provided.code" xml:space="preserve">
+    <value>OC10034</value>
+  </data>
+  <data name="error.no_sub_type_provided.text" xml:space="preserve">
+    <value>When performing this operation, a specific type must be selected beforehand. To do so, please use the sidebar menu.</value>
+  </data>
+  <data name="error.no_email_client_installed.code" xml:space="preserve">
+    <value>OC10035</value>
+  </data>
+  <data name="error.no_email_client_installed.text" xml:space="preserve">
+    <value>Unable to launch an email client. Please install one and retry this operation.</value>
+  </data>
+  <data name="rest_api.request_failure" xml:space="preserve">
+    <value>Failure during API request</value>
+  </data>
+  <data name="rest_api.error_details" xml:space="preserve">
+    <value>URL: %1, Status: %2, Text: %3</value>
+  </data>
+  <data name="rest_api.img_unavailable" xml:space="preserve">
+    <value>One or more images failed to load</value>
+  </data>
+  <data name="rest_api.record_unavailable" xml:space="preserve">
+    <value>Record not available.</value>
+  </data>
+  <data name="rest_api.operation_success" xml:space="preserve">
+    <value>Operation complete</value>
+  </data>
+  <data name="rest_api.removal_not_allowed" xml:space="preserve">
+    <value>Removal not allowed.</value>
+  </data>
+  <data name="rest_api.delete_success" xml:space="preserve">
+    <value>Delete complete</value>
+  </data>
+  <data name="rest_api.download_unavailable" xml:space="preserve">
+    <value>The attempt to download the resource failed</value>
+  </data>
+  <data name="rest_api.email_unavailable" xml:space="preserve">
+    <value>The attempt to email the resource failed</value>
+  </data>
+  <data name="rest_api.attempting_email" xml:space="preserve">
+    <value>Starting email client...</value>
+  </data>
+  <data name="error.no_connection.code" xml:space="preserve">
+    <value>OC10004</value>
+  </data>
+  <data name="error.no_connection.text" xml:space="preserve">
+    <value>The server could not be contacted. Please try again.</value>
+  </data>
+  <data name="error.no_connection.details" xml:space="preserve">
+    <value>Connection to the server unavailable. Either the client is not connected to the Internet, or the server is offline.</value>
+  </data>
+  <data name="error.no_connection.solution" xml:space="preserve">
+    <value>Confirm that the API server is reachable, and try again. Confirm that you have the correct server address specified; see the Specifying the server for the MyID Client Service section in the MyID Operator Client guide.</value>
+  </data>
+  <data name="error.not_logged_in.code" xml:space="preserve">
+	<value>OC10016</value>
+  </data>
+  <data name="error.not_logged_in.text" xml:space="preserve">
+	<value>Your login has expired. Please re-authenticate to the MyID Operator Client.</value>
+  </data>
+  <data name="error.not_logged_in.details" xml:space="preserve">
+	<value>Due to inactivity, you have been logged out of the MyID Operator Client.</value>
+  </data>
+  <data name="error.not_logged_in.solution" xml:space="preserve">
+	<value>Re-authenticate to the MyID Operator Client.</value>
+  </data>
+  <data name="error.other_user_authenticated.code" xml:space="preserve">
+	<value>OC10017</value>
+  </data>
+  <data name="error.other_user_authenticated.text" xml:space="preserve">
+	<value>You have re-authenticated to the MyID Operator Client with a different user. For security reasons, the operation has been canceled.</value>
+  </data>
+  <data name="error.other_user_authenticated.details" xml:space="preserve">
+	<value>A different user was used to re-authenticate to the MyID Operator Client. You have returned to the home page, and the previous operation has been canceled.</value>
+  </data>
+  <data name="error.other_user_authenticated.solution" xml:space="preserve">
+	<value>Use the same user and logon mechanism that was previously used to complete the intended operation.</value>
+  </data>
+  <data name="error.different_logon_mechanism.code" xml:space="preserve">
+	<value>OC10018</value>
+  </data>
+  <data name="error.different_logon_mechanism.text" xml:space="preserve">
+	<value>You have re-authenticated to the MyID Operator Client with a different logon mechanism. For security reasons, the operation has been canceled.</value>
+  </data>
+  <data name="error.different_logon_mechanism.details" xml:space="preserve">
+	<value>A different logon mechanism was used to re-authenticate to the MyID Operator Client. You have returned to the home page, and the previous operation has been canceled.</value>
+  </data>
+  <data name="error.different_logon_mechanism.solution" xml:space="preserve">
+	<value>Use the same logon mechanism that was previously used to complete the intended operation.</value>
+  </data>
+  <data name="validation_rules.required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="validation_rules.number_required" xml:space="preserve">
+    <value>Must be a number</value>
+  </data>
+  <data name="validation_rules.min_number_exceeded" xml:space="preserve">
+    <value>Must be greater than or equal to %1</value>
+  </data>
+  <data name="validation_rules.max_number_exceeded" xml:space="preserve">
+    <value>Must be less than or equal to %1</value>
+  </data>
+  <data name="validation_rules.invalid_roles" xml:space="preserve">
+    <value>User has invalid roles due to group restrictions</value>
+  </data>
+  <data name="validation_rules.error_updating_roles" xml:space="preserve">
+    <value>The server could not be contacted whilst making a group update</value>
+  </data>
+  <data name="validation_rules.directory_group_unmapped" xml:space="preserve">
+    <value>The user location in the directory could not be matched to an existing group</value>
+  </data>
+  <data name="validation_rules.status_mapping_required" xml:space="preserve">
+    <value>Reason required</value>
+  </data>
+  <data name="validation_rules.unable_to_parse_file" xml:space="preserve">
+    <value>Unable to convert file</value>
+  </data>
+  <data name="validation_rules.invalid_file_extension" xml:space="preserve">
+    <value>The selected file type isn't supported</value>
+  </data>
+  <data name="validation_rules.unable_to_print_document" xml:space="preserve">
+    <value>Unable to print document</value>
+  </data>
+  <data name="validation_rules.invalid_container" xml:space="preserve">
+    <value>Container '%1' may not be used by more than one certificate policy.</value>
+  </data>
+  <data name="validation_rules.cant_be_used_for_signing" xml:space="preserve">
+    <value>Container '%1' may not be used for signing.</value>
+  </data>
+  <data name="validation_rules.key_recovery_profile_with_certs_selected" xml:space="preserve">
+    <value>Certificate policies may not be selected for key recovery credential profiles.</value>
+  </data>
+  <data name="validation_rules.at_least_one_is_required" xml:space="preserve">
+    <value>At least one certificate policy must be selected for issuance.</value>
+  </data>
+  <data name="web_socket.connecting" xml:space="preserve">
+    <value>Connecting to smart card</value>
+  </data>
+  <data name="web_socket.launched" xml:space="preserve">
+    <value>dialog has been launched</value>
+  </data>
+  <data name="web_socket.read_card" xml:space="preserve">
+    <value>Read Card</value>
+  </data>
+  <data name="web_socket.capture_fingerprints" xml:space="preserve">
+    <value>Capture Fingerprints</value>
+  </data>
+  <data name="web_socket.capture_photo" xml:space="preserve">
+    <value>Your photo is being processed...</value>
+  </data>
+  <data name="web_socket.close_error" xml:space="preserve">
+    <value>Unexpected error when communicating with MyID Client Service. Confirm correct version is installed, and it supports the '%1' method</value>
+  </data>
+  <data name="web_socket.exited" xml:space="preserve">
+    <value>MCS exited with code %1.</value>
+  </data>
+  <data name="hands.right_thumb" xml:space="preserve">
+    <value>right thumb</value>
+  </data>
+  <data name="hands.right_index" xml:space="preserve">
+    <value>right index</value>
+  </data>
+  <data name="hands.right_middle" xml:space="preserve">
+    <value>right middle</value>
+  </data>
+  <data name="hands.right_ring" xml:space="preserve">
+    <value>right ring</value>
+  </data>
+  <data name="hands.right_little" xml:space="preserve">
+    <value>right little</value>
+  </data>
+  <data name="hands.left_thumb" xml:space="preserve">
+    <value>left thumb</value>
+  </data>
+  <data name="hands.left_index" xml:space="preserve">
+    <value>left index</value>
+  </data>
+  <data name="hands.left_middle" xml:space="preserve">
+    <value>left middle</value>
+  </data>
+  <data name="hands.left_ring" xml:space="preserve">
+    <value>left ring</value>
+  </data>
+  <data name="hands.left_little" xml:space="preserve">
+    <value>left little</value>
+  </data>
+  <data name="hands.capture_list" xml:space="preserve">
+    <value>Fingers captured are %1.</value>
+  </data>
+  <data name="hands.missing_list" xml:space="preserve">
+    <value>Fingers missing are %1.</value>
+  </data>
+  <data name="hands.unprintable_list" xml:space="preserve">
+    <value>Fingers missing are %1.</value>
+  </data>
+  <data name="hands.no_capture" xml:space="preserve">
+    <value>No fingerprints have been captured</value>
+  </data>
+  <data name="hands.capture_preview" xml:space="preserve">
+    <value>Capture preview</value>
+  </data>
+  <data name="hands.calibrate" xml:space="preserve">
+    <value>Calibrate</value>
+  </data>
+  <data name="hands.short_right_hand" xml:space="preserve">
+    <value>R Hand</value>
+  </data>
+  <data name="hands.short_right_thumb" xml:space="preserve">
+    <value>R Thumb Print</value>
+  </data>
+  <data name="hands.short_right_thumb_roll" xml:space="preserve">
+    <value>R Thumb Roll</value>
+  </data>
+  <data name="hands.short_right_index" xml:space="preserve">
+    <value>R Index Print</value>
+  </data>
+  <data name="hands.short_right_index_roll" xml:space="preserve">
+    <value>R Index Roll</value>
+  </data>
+  <data name="hands.short_right_middle" xml:space="preserve">
+    <value>R Middle Print</value>
+  </data>
+  <data name="hands.short_right_middle_roll" xml:space="preserve">
+    <value>R Middle Roll</value>
+  </data>
+  <data name="hands.short_right_ring" xml:space="preserve">
+    <value>R Ring Print</value>
+  </data>
+  <data name="hands.short_right_ring_roll" xml:space="preserve">
+    <value>R Ring Roll</value>
+  </data>
+  <data name="hands.short_right_little" xml:space="preserve">
+    <value>R Little Print</value>
+  </data>
+  <data name="hands.short_right_little_roll" xml:space="preserve">
+    <value>R Little Roll</value>
+  </data>
+  <data name="hands.short_left_hand" xml:space="preserve">
+    <value>L Hand</value>
+  </data>
+  <data name="hands.short_left_thumb" xml:space="preserve">
+    <value>L Thumb Print</value>
+  </data>
+  <data name="hands.short_left_thumb_roll" xml:space="preserve">
+    <value>L Thumb Roll</value>
+  </data>
+  <data name="hands.short_left_index" xml:space="preserve">
+    <value>L Index Print</value>
+  </data>
+  <data name="hands.short_left_index_roll" xml:space="preserve">
+    <value>L Index Roll</value>
+  </data>
+  <data name="hands.short_left_middle" xml:space="preserve">
+    <value>L Middle Print</value>
+  </data>
+  <data name="hands.short_left_middle_roll" xml:space="preserve">
+    <value>L Middle Roll</value>
+  </data>
+  <data name="hands.short_left_ring" xml:space="preserve">
+    <value>L Ring Print</value>
+  </data>
+  <data name="hands.short_left_ring_roll" xml:space="preserve">
+    <value>L Ring Roll</value>
+  </data>
+  <data name="hands.short_left_little" xml:space="preserve">
+    <value>L Little Print</value>
+  </data>
+  <data name="hands.short_left_little_roll" xml:space="preserve">
+    <value>L Little Roll</value>
+  </data>
+  <data name="hands.afiq_m" xml:space="preserve">
+    <value>Missing</value>
+  </data>
+  <data name="hands.afiq_u" xml:space="preserve">
+    <value>Bandaged</value>
+  </data>
+  <data name="hands.creating_websocket" xml:space="preserve">
+    <value>Creating websocket</value>
+  </data>
+  <data name="hands.creating_capture" xml:space="preserve">
+    <value>Creating captureComponent</value>
+  </data>
+  <data name="hands.creating_set" xml:space="preserve">
+    <value>Creating setComponent</value>
+  </data>
+  <data name="hands.loading_config" xml:space="preserve">
+    <value>Loading autocapture configuration</value>
+  </data>
+  <data name="hands.connecting" xml:space="preserve">
+    <value>Connecting to scanner</value>
+  </data>
+  <data name="hands.scanner_ready" xml:space="preserve">
+    <value>The scanner is ready</value>
+  </data>
+  <data name="hands.scanner_missing" xml:space="preserve">
+    <value>Unable to connect to scanner</value>
+  </data>
+  <data name="hands.failed_websocket" xml:space="preserve">
+    <value>Unable to connect to the local device web service</value>
+  </data>
+  <data name="hands.calibrating" xml:space="preserve">
+    <value>Calibrating the scanner - please wait.</value>
+  </data>
+  <data name="hands.error_calibrating" xml:space="preserve">
+    <value>Error calibrating: %1</value>
+  </data>
+  <data name="hands.in_progress" xml:space="preserve">
+    <value>Scan in progress</value>
+  </data>
+  <data name="hands.capturing" xml:space="preserve">
+    <value>Capture in progress</value>
+  </data>
+  <data name="hands.error_capturing" xml:space="preserve">
+    <value>Error during capture: %1</value>
+  </data>
+  <data name="hands.complete" xml:space="preserve">
+    <value>Capture completed</value>
+  </data>
+  <data name="hands.processing" xml:space="preserve">
+    <value>Processing the image</value>
+  </data>
+  <data name="hands.resetting" xml:space="preserve">
+    <value>Resetting...</value>
+  </data>
+  <data name="hands.remove_fingers" xml:space="preserve">
+    <value>Please remove your fingers from the scanner</value>
+  </data>
+  <data name="hands.confirm_capture" xml:space="preserve">
+    <value>Click Confirm to save captures, or Reset to start again</value>
+  </data>
+  <data name="hands.ready_to_capture_hand" xml:space="preserve">
+    <value>Mark any bandaged or missing fingers, then start capture</value>
+  </data>
+  <data name="hands.ready_to_capture_finger" xml:space="preserve">
+    <value>Choose the fingers to scan, then start capture</value>
+  </data>
+  <data name="hands.plain_left_four_fingers" xml:space="preserve">
+    <value>Please place the fingers of your LEFT HAND on the scanner</value>
+  </data>
+  <data name="hands.plain_right_four_fingers" xml:space="preserve">
+    <value>Please place the fingers of your RIGHT HAND on the scanner</value>
+  </data>
+  <data name="hands.plain_dual_thumbs" xml:space="preserve">
+    <value>Please place your THUMBS on the scanner</value>
+  </data>
+  <data name="hands.plain_left_thumb" xml:space="preserve">
+    <value>Please place your LEFT THUMB on the scanner</value>
+  </data>
+  <data name="hands.plain_left_index_finger" xml:space="preserve">
+    <value>Please place your LEFT INDEX FINGER on the scanner</value>
+  </data>
+  <data name="hands.plain_left_middle_finger" xml:space="preserve">
+    <value>Please place your LEFT MIDDLEFINGER on the scanner</value>
+  </data>
+  <data name="hands.plain_left_ring_finger" xml:space="preserve">
+    <value>Please place your LEFT RING FINGER on the scanner</value>
+  </data>
+  <data name="hands.plain_left_little_finger" xml:space="preserve">
+    <value>Please place your LEFT LITTLE FINGER on the scanner</value>
+  </data>
+  <data name="hands.plain_right_thumb" xml:space="preserve">
+    <value>Please place your RIGHT THUMB on the scanner</value>
+  </data>
+  <data name="hands.plain_right_index_finger" xml:space="preserve">
+    <value>Please place your RIGHT INDEX FINGER on the scanner</value>
+  </data>
+  <data name="hands.plain_right_middle_finger" xml:space="preserve">
+    <value>Please place your RIGHT MIDDLEFINGER on the scanner</value>
+  </data>
+  <data name="hands.plain_right_ring_finger" xml:space="preserve">
+    <value>Please place your RIGHT RING FINGER on the scanner</value>
+  </data>
+  <data name="hands.plain_right_little_finger" xml:space="preserve">
+    <value>Please place your RIGHT LITTLE FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_left_index_finger" xml:space="preserve">
+    <value>Please roll your LEFT INDEX FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_left_little_finger" xml:space="preserve">
+    <value>Please roll your LEFT LITTLE FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_left_middle_finger" xml:space="preserve">
+    <value>Please roll your LEFT MIDDLE FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_left_ring_finger" xml:space="preserve">
+    <value>Please roll your LEFT RING FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_left_thumb" xml:space="preserve">
+    <value>Please roll your LEFT THUMB on the scanner</value>
+  </data>
+  <data name="hands.rolled_right_index_finger" xml:space="preserve">
+    <value>Please roll your RIGHT INDEX FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_right_little_finger" xml:space="preserve">
+    <value>Please roll your RIGHT LITTLE FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_right_middle_finger" xml:space="preserve">
+    <value>Please roll your RIGHT MIDDLE FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_right_ring_finger" xml:space="preserve">
+    <value>Please roll your RIGHT RING FINGER on the scanner</value>
+  </data>
+  <data name="hands.rolled_right_thumb" xml:space="preserve">
+    <value>Please roll your RIGHT THUMB on the scanner</value>
+  </data>
+  <data name="hands.scanner_initialization_started" xml:space="preserve">
+    <value>Scanner initialization in progress</value>
+  </data>
+  <data name="hands.scanner_initialization_warning_occurred" xml:space="preserve">
+    <value>Scanner initialization warning</value>
+  </data>
+  <data name="hands.scanner_initialization_failed" xml:space="preserve">
+    <value>Scanner initialization failed</value>
+  </data>
+  <data name="hands.scanner_initialization_completed" xml:space="preserve">
+    <value>Scanner initialization completed</value>
+  </data>
+  <data name="hands.scanner_close_started" xml:space="preserve">
+    <value>Closing the scanner</value>
+  </data>
+  <data name="hands.scanner_close_warning_occurred" xml:space="preserve">
+    <value>Closing the scanner warning</value>
+  </data>
+  <data name="hands.scanner_close_failed" xml:space="preserve">
+    <value>Closing the scanner failed</value>
+  </data>
+  <data name="hands.scanner_close_completed" xml:space="preserve">
+    <value>The scanner has been closed</value>
+  </data>
+  <data name="hands.scanner_calibration_not_supported" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="hands.scanner_calibration_started" xml:space="preserve">
+    <value>Scanner calibration started</value>
+  </data>
+  <data name="hands.scanner_calibration_failed" xml:space="preserve">
+    <value>Scanner calibration failed</value>
+  </data>
+  <data name="hands.scanner_calibration_completed" xml:space="preserve">
+    <value>Scanner calibration completed</value>
+  </data>
+  <data name="hands.scanner_calibration_message" xml:space="preserve">
+    <value>Scanner calibration message</value>
+  </data>
+  <data name="hands.reset_started" xml:space="preserve">
+    <value>Scanner reset started</value>
+  </data>
+  <data name="hands.reset_warning_occurred" xml:space="preserve">
+    <value>Scanner reset warning</value>
+  </data>
+  <data name="hands.reset_failed" xml:space="preserve">
+    <value>Scanner reset failed</value>
+  </data>
+  <data name="hands.reset_completed" xml:space="preserve">
+    <value>Scanner reset completed</value>
+  </data>
+  <data name="hands.dirty" xml:space="preserve">
+    <value>The scanner is dirty - please clean it</value>
+  </data>
+  <data name="hands.disconnected" xml:space="preserve">
+    <value>The scanner has been disconnected - please reconnect it</value>
+  </data>
+  <data name="hands.capture_preview_started" xml:space="preserve">
+    <value>Scanning in progress</value>
+  </data>
+  <data name="hands.capture_aborted" xml:space="preserve">
+    <value>Scanning has been abandoned</value>
+  </data>
+  <data name="hands.capture_completed" xml:space="preserve">
+    <value>Fingerprint scan completed</value>
+  </data>
+  <data name="hands.softwareautocapture_started" xml:space="preserve">
+    <value>Autocapture started</value>
+  </data>
+  <data name="hands.softwareautocapture_capture_initiated" xml:space="preserve">
+    <value>Image captured - processing</value>
+  </data>
+  <data name="hands.softwareautocapture_too_few_fingers" xml:space="preserve">
+    <value>Too few fingers - check bandaged / missing</value>
+  </data>
+  <data name="hands.softwareautocapture_too_many_fingers" xml:space="preserve">
+    <value>Too many fingers - check bandaged / missing</value>
+  </data>
+  <data name="hands.softwareautocapture_no_fingers" xml:space="preserve">
+    <value>No fingers detected</value>
+  </data>
+  <data name="hands.softwareautocapture_incorrect_hand" xml:space="preserve">
+    <value>Wrong hand detected or bad angle on the scanner</value>
+  </data>
+  <data name="hands.softwareautocapture_finger_too_tall" xml:space="preserve">
+    <value>Fingerprint too tall</value>
+  </data>
+  <data name="hands.softwareautocapture_finger_too_short" xml:space="preserve">
+    <value>Fingerprint too short</value>
+  </data>
+  <data name="hands.softwareautocapture_finger_too_wide" xml:space="preserve">
+    <value>Fingerprint too wide</value>
+  </data>
+  <data name="hands.softwareautocapture_finger_too_narrow" xml:space="preserve">
+    <value>Fingerprint too narrow</value>
+  </data>
+  <data name="hands.softwareautocapture_insufficient_finger_quality" xml:space="preserve">
+    <value>Poor quality scan</value>
+  </data>
+  <data name="hands.softwareautocapture_finger_angle_too_large" xml:space="preserve">
+    <value>Finger angle too large</value>
+  </data>
+  <data name="hands.softwareautocapture_finger_touching_edge" xml:space="preserve">
+    <value>Finger touching the edge of the scanner</value>
+  </data>
+  <data name="hands.softwareautocapture_finger_movement_detected" xml:space="preserve">
+    <value>Finger movement detected</value>
+  </data>
+  <data name="hands.softwareautocapture_passing_frame_collected" xml:space="preserve">
+    <value>Passing the image</value>
+  </data>
+  <data name="hands.softwareautocapture_timeout_exceeded_capturing" xml:space="preserve">
+    <value>Capture timeout exceeded</value>
+  </data>
+  <data name="hands.softwareautocapture_timeout_exceeded_aborting" xml:space="preserve">
+    <value>Capture timeout exceeded - aborted the capture</value>
+  </data>
+  <data name="hands.sequencing_error" xml:space="preserve">
+    <value>Captured image either doesn't match earlier capture or matches different finger</value>
+  </data>
+  <data name="hands.unknown_error" xml:space="preserve">
+    <value>An unknown error has occurred. Please start again</value>
+  </data>
+  <data name="secondary_auth.message" xml:space="preserve">
+    <value>Authenticating...</value>
+  </data>
+  <data name="secondary_search.report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="secondary_search.search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="secondary_search.select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="landmarks.action_buttons" xml:space="preserve">
+    <value>Action buttons</value>
+  </data>
+  <data name="landmarks.additional_search" xml:space="preserve">
+    <value>Additional search criteria</value>
+  </data>
+  <data name="landmarks.data_form" xml:space="preserve">
+    <value>Data form</value>
+  </data>
+  <data name="landmarks.data_form_header" xml:space="preserve">
+    <value>Data form header</value>
+  </data>
+  <data name="landmarks.data_form_tabs" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="landmarks.menu_items" xml:space="preserve">
+    <value>Menu items</value>
+  </data>
+  <data name="landmarks.more_actions_menu" xml:space="preserve">
+    <value>More actions menu</value>
+  </data>
+  <data name="landmarks.more_operations_menu" xml:space="preserve">
+    <value>More operations</value>
+  </data>
+  <data name="landmarks.search_tabs" xml:space="preserve">
+    <value>Search tabs</value>
+  </data>
+  <data name="landmarks.title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="landmarks.results_list" xml:space="preserve">
+    <value>Results list</value>
+  </data>
+  <data name="landmarks.results_list_header" xml:space="preserve">
+    <value>Results list header</value>
+  </data>
+  <data name="landmarks.results_list_report" xml:space="preserve">
+    <value>Showing results for report '%1'</value>
+  </data>
+  <data name="landmarks.check_updates" xml:space="preserve">
+    <value>Check updates</value>
+  </data>
+  <data name="landmarks.configuration_menu" xml:space="preserve">
+    <value>Configuration menu</value>
+  </data>
+  <data name="landmarks.internal_links" xml:space="preserve">
+    <value>My account links</value>
+  </data>
+  <data name="landmarks.self_service_actions" xml:space="preserve">
+    <value>Self service actions</value>
+  </data>
+  <data name="landmarks.self_service_menu" xml:space="preserve">
+    <value>Self service menu</value>
+  </data>  
+  <data name="landmarks.sign_out" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="popup_menu.search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="popup_menu.unable_to_load" xml:space="preserve">
+    <value>Unable to load menu.</value>
+  </data>
+  <data name="popup_menu.no_items_found" xml:space="preserve">
+    <value>No items found.</value>
+  </data>
+  <data name="render_multi_select_input.no_roles" xml:space="preserve">
+    <value>No roles available</value>
+  </data>
+  <data name="render_multi_select_input.no_values" xml:space="preserve">
+    <value>No values available</value>
+  </data>
+  <data name="render_report_manager.delete_join" xml:space="preserve">
+    <value>Are you sure you want to delete the '%1' Object?</value>
+  </data>
+  <data name="render_report_manager.delete_primary" xml:space="preserve">
+    <value>As part of this deletion the primary object will also be deleted.</value>
+  </data>
+  <data name="render_report_manager.delete_other" xml:space="preserve">
+    <value> the following will also be deleted:</value>
+  </data>
+  <data name="render_report_manager.delete_child" xml:space="preserve">
+    <value>- Child objects.</value>
+  </data>
+  <data name="render_report_manager.delete_link_columns" xml:space="preserve">
+    <value>- Linked columns.</value>
+  </data>
+  <data name="render_report_manager.delete_link_filters" xml:space="preserve">
+    <value>- Linked filters.</value>
+  </data>
+  <data name="render_report_manager.delete_filter" xml:space="preserve">
+    <value>Are you sure you want to delete the '%1' filter?</value>
+  </data>
+  <data name="render_report_manager.delete_field" xml:space="preserve">
+    <value>Are you sure you want to delete the '%1' field?</value>
+  </data>
+  <data name="render_report_manager.delete_filter_also" xml:space="preserve">
+    <value>The associated filter will also be deleted.</value>
+  </data>
+  <data name="render_report_manager.alias_in_use" xml:space="preserve">
+    <value>The alias of '%1' is already in use</value>
+  </data>
+  <data name="render_report_manager.label_in_use" xml:space="preserve">
+    <value>The label of '%1' is already in use</value>
+  </data>
+  <data name="render_report_manager.qs_in_use" xml:space="preserve">
+    <value>The query string of '%1' is already in use</value>
+  </data>
+  <data name="render_report_manager.objects_header" xml:space="preserve">
+    <value>Objects</value>
+  </data>
+  <data name="render_report_manager.column_header" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="render_report_manager.filter_header" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="render_report_manager.objects_template" xml:space="preserve">
+    <value>'%1' Object Properties</value>
+  </data>
+  <data name="render_report_manager.column_template" xml:space="preserve">
+    <value>'%1' Column Properties</value>
+  </data>
+  <data name="render_report_manager.filter_template" xml:space="preserve">
+    <value>'%1' Filter Properties</value>
+  </data>
+  <data name="render_report_manager.related_objects" xml:space="preserve">
+    <value>%1 Related Objects</value>
+  </data>
+  <data name="render_report_manager.attributes" xml:space="preserve">
+    <value>%1 Attributes</value>
+  </data>
+  <data name="render_report_manager.select_starting" xml:space="preserve">
+    <value>Select starting object</value>
+  </data>
+  <data name="render_report_manager.starting_object" xml:space="preserve">
+    <value>Starting object</value>
+  </data>
+  <data name="render_report_manager.aria_labels.advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="render_report_manager.aria_labels.add_attribute" xml:space="preserve">
+    <value>Add Attribute</value>
+  </data>
+  <data name="render_report_manager.aria_labels.add_join" xml:space="preserve">
+    <value>Add Join</value>
+  </data>
+  <data name="render_report_manager.aria_labels.add_field" xml:space="preserve">
+    <value>Add Field</value>
+  </data>
+  <data name="render_report_manager.aria_labels.add_filter" xml:space="preserve">
+    <value>Add Filter</value>
+  </data>
+  <data name="render_report_manager.aria_labels.filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="render_report_manager.aria_labels.function" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="render_report_manager.aria_labels.hidden" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="render_report_manager.aria_labels.remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="validation_rules.report_manager_minimum_data" xml:space="preserve">
+    <value>Make sure at least one Object, Column, and Filter is defined. Select a starting object and then join to more objects or select attributes that you wish to display in the Report's results columns. Items listed in the Columns section can be used as search criteria by choosing to Filter by them.</value>
+  </data>
+  <data name="alerts.more_info" xml:space="preserve">
+    <value>More Information</value>
+  </data>
+  <!-- End of custom dictionary entries -->
+</root>

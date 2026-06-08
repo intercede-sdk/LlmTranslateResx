@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="499250.16" xml:space="preserve">
+    <value>Sicherheitsfragen</value>
+    <comment>Security Questions</comment>
+  </data>
+  <data name="499256.16" xml:space="preserve">
+    <value>Windows-Anmeldung</value>
+    <comment>Windows Logon</comment>
+  </data>
+  <data name="800548.16" xml:space="preserve">
+    <value>Ihre Karte wurde nicht ausgegeben und kann nicht zum Anmelden verwendet werden.</value>
+    <comment>Your card has not been issued and cannot be used to logon.</comment>
+  </data>
+  <data name="800549.16" xml:space="preserve">
+    <value>Ihre Karte ist deaktiviert und kann nicht zum Anmelden verwendet werden.</value>
+    <comment>Your card is disabled and cannot be used to logon.</comment>
+  </data>
+  <data name="881001.16" xml:space="preserve">
+    <value>Der von Ihnen bereitgestellte Fingerabdruck stimmt nicht mit denen überein, die während der Anmeldung erfasst wurden.\n\nBitte kontaktieren Sie Ihren Administrator.</value>
+    <comment>The fingerprint you have provided did not match those provided during enrollment.\n\nPlease contact your administrator.</comment>
+  </data>
+  <data name="9000501.16" xml:space="preserve">
+    <value>Geben Sie Ihren Benutzernamen ein</value>
+    <comment>Enter your username</comment>
+  </data>
+  <data name="9000512.16" xml:space="preserve">
+    <value>Beantworten Sie die folgende(n) Frage(n)</value>
+    <comment>Answer the following question(s)</comment>
+  </data>
+  <data name="9004059.16" xml:space="preserve">
+    <value>Beantworten Sie die folgenden Fragen</value>
+    <comment>Answer the following questions</comment>
+  </data>
+  <data name="9202329.16" xml:space="preserve">
+    <value>Benutzername:</value>
+    <comment>Username:</comment>
+  </data>
+  <data name="9202330.16" xml:space="preserve">
+    <value>Anmeldecode:</value>
+    <comment>Logon code:</comment>
+  </data>
+  <data name="10000007.16" xml:space="preserve">
+    <value>Abmelden</value>
+    <comment>Log off</comment>
+  </data>
+  <data name="10000008.16" xml:space="preserve">
+    <value>Das Schließen der Anwendung meldet Sie von MyID ab und Sie verlieren alle Fortschritte im aktuellen Vorgang.\nMöchten Sie fortfahren?</value>
+    <comment>Closing the application will log off from MyID and you will lose any progress in the current operation.\nWould you like to continue?</comment>
+  </data>
+  <data name="10000013.16" xml:space="preserve">
+    <value>Möchten Sie sich von MyID abmelden?\nDadurch gehen alle Fortschritte im aktuellen Vorgang verloren.</value>
+    <comment>Do you want to log off from MyID?\nYou will lose any progress in the current operation.</comment>
+  </data>
+  <data name="10000014.16" xml:space="preserve">
+    <value>Abmelden</value>
+    <comment>Log off</comment>
+  </data>
+  <data name="10000059.16" xml:space="preserve">
+    <value>Abmelden</value>
+    <comment>Log off</comment>
+  </data>
+  <data name="10000060.16" xml:space="preserve">
+    <value>Möchten Sie sich wirklich von MyID abmelden?</value>
+    <comment>Are you sure you would like to log off from MyID?</comment>
+  </data>
+  <data name="10000061.16" xml:space="preserve">
+    <value>Das Schließen der Anwendung meldet Sie von MyID ab.\nMöchten Sie fortfahren?</value>
+    <comment>Closing the application will log off from MyID.\nWould you like to continue?</comment>
+  </data>
+  <data name="10000117.16" xml:space="preserve">
+    <value>Startet eine neue Aktion</value>
+    <comment>Starts a new action</comment>
+  </data>
+  <data name="10000118.16" xml:space="preserve">
+    <value>_Abmelden</value>
+    <comment>_Log off</comment>
+  </data>
+  <data name="10000119.16" xml:space="preserve">
+    <value>Abmelden</value>
+    <comment>Log off</comment>
+  </data>
+  <data name="10000120.16" xml:space="preserve">
+    <value>Von MyID Desktop abmelden</value>
+    <comment>Log off from MyID Desktop</comment>
+  </data>
+  <data name="10000139.16" xml:space="preserve">
+    <value>{0} Einträge gefunden</value>
+    <comment>{0} Records Found</comment>
+  </data>
+  <data name="10000140.16" xml:space="preserve">
+    <value>Es existieren weitere Datensätze; bitte verfeinern Sie die Suche.</value>
+    <comment>More records exist; please refine search.</comment>
+  </data>
+  <data name="10000145.16" xml:space="preserve">
+    <value>{0} Datensatz gefunden</value>
+    <comment>{0} Record Found</comment>
+  </data>
+  <data name="99202502.16" xml:space="preserve">
+    <value>Willkommen</value>
+    <comment>Welcome</comment>
+  </data>
+  <data name="99202505.16" xml:space="preserve">
+    <value>Zuletzt angemeldet: {0} um {1}</value>
+    <comment>Last logged on: {0} @ {1} </comment>
+  </data>
+</root>

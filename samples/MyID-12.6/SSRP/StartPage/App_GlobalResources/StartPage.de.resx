@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ID0001" xml:space="preserve">
+    <value>Self-Service-Anfrageportal</value>
+    <comment>Self-Service Request Portal</comment>
+  </data>
+  <data name="ID0002" xml:space="preserve">
+    <value>MyID abgeleitete Anmeldeinformationen</value>
+    <comment>MyID Derived Credentials</comment>
+  </data>
+  <data name="ID0003" xml:space="preserve">
+    <value>Bitte legen Sie Ihre Karte ein und klicken Sie auf „Start“, dann wählen Sie Ihr Zertifikat im Pop-up-Dialog aus.</value>
+    <comment>Please insert your card and click "Begin", then select your certificate from the popup dialog</comment>
+  </data>
+  <data name="ID0004" xml:space="preserve">
+    <value>Beginnen</value>
+    <comment>Begin</comment>
+  </data>
+  <data name="ID0005" xml:space="preserve">
+    <value>Abgeleitete Anmeldeinformationen anfordern</value>
+    <comment>Request Derived Credentials</comment>
+  </data>
+  <data name="ID0006" xml:space="preserve">
+    <value>Bei Verwendung von Internet Explorer kann es vorkommen, dass die Aufforderung zur Eingabe des Zertifikats hinter diesem Browser erscheint.</value>
+    <comment>When using Internet Explorer, it is possible that the prompt for the certificate will appear behind this browser.</comment>
+  </data>
+  <data name="ID0007" xml:space="preserve">
+    <value>Hilfe bei der Auswahl des richtigen Zertifikats</value>
+    <comment>Help selecting the right certificate</comment>
+  </data>
+  <data name="ID0008" xml:space="preserve">
+    <value>Detaillierte Anweisungen zur Zertifikatsauswahl anzeigen</value>
+    <comment>Display detailed insructions about certificate selection</comment>
+  </data>
+  <data name="ID0009" xml:space="preserve">
+    <value>Schließen</value>
+    <comment>Close</comment>
+  </data>
+  <data name="ID0010" xml:space="preserve">
+    <value>Hilfe schließen</value>
+    <comment>Close the help</comment>
+  </data>
+  <data name="Chrome01" xml:space="preserve">
+    <value>Zertifikatsauswahl</value>
+    <comment>Certificate Selection</comment>
+  </data>
+  <data name="Chrome03" xml:space="preserve">
+    <value>Jedes von Ihnen ausgewählte Zertifikat, einschließlich der Auswahl von „Abbrechen“, um kein Zertifikat auszuwählen, wird vom Browser gespeichert, bis alle Browserfenster geschlossen sind. Um ein anderes Zertifikat auszuwählen, schließen Sie alle Browser und starten Sie den Vorgang neu.</value>
+    <comment>Any certificate you choose, including clicking "Cancel" to select no certificate, will be remembered by the browser until all copies of the browser are closed.  To select a different certificate, close all browsers and restart the process.</comment>
+  </data>
+  <data name="Chrome02" xml:space="preserve">
+    <value>Wichtig:</value>
+    <comment>Important:</comment>
+  </data>
+  <data name="Chrome04" xml:space="preserve">
+    <value>Wenn Sie auf die Schaltfläche „Starten“ klicken, fordert der Browser Sie auf, das Zertifikat auszuwählen, mit dem Sie sich identifizieren möchten. Standardmäßig wird das zuletzt auf Ihrem Computer installierte Zertifikat verwendet.</value>
+    <comment>When you click the "Begin" button, the browser will ask you to select which certificate you would like to use to identify yourself.  It will default to the certificate that was most recently installed on your computer.</comment>
+  </data>
+  <data name="Chrome05" xml:space="preserve">
+    <value>Die Zertifikatsabfrage sieht folgendermaßen aus:</value>
+    <comment>The certificate prompt will look like this:</comment>
+  </data>
+  <data name="Chrome06" xml:space="preserve">
+    <value>Diese Liste zeigt nur Zertifikate an, die nicht abgelaufen sind und für die browserbasierte Authentifizierung geeignet sind. Wenn Ihr Zertifikat nicht angezeigt wird, stellen Sie sicher, dass Ihre Smartcard eingelegt ist und Ihr Zertifikat gültig ist.</value>
+    <comment>This list will only show certificates that have not expired and are suitable for browser based authentication.  If your certificate is not present, make sure your smartcard is inserted and that your certificate is valid.</comment>
+  </data>
+  <data name="Chrome07" xml:space="preserve">
+    <value>Nach Auswahl eines Zertifikats, das sich auf einer Smartcard befindet, werden Sie nach einer PIN gefragt.</value>
+    <comment>After selecting a certificate that is on a smartcard, you will be presented for a PIN.</comment>
+  </data>
+  <data name="Chrome08" xml:space="preserve">
+    <value>Dieses Zertifikat bleibt in Verwendung, bis der Browser geschlossen wird. Das Entfernen der Smartcard wird dies nicht verhindern.</value>
+    <comment>This certificate will remain in use until the browser is closed.  Removing the smartcard will not prevent this.</comment>
+  </data>
+  <data name="Edge09" xml:space="preserve">
+    <value>Dieses Zertifikat bleibt bis zum Schließen des Browsers in Verwendung. Das Entfernen der Smartcard verhindert dies nicht.</value>
+    <comment>This certificate will remain in use until the browser is closed.  Removing the smartcard will not prevent this.</comment>
+  </data>
+  <data name="Edge08" xml:space="preserve">
+    <value>Nachdem Sie ein Zertifikat ausgewählt haben, das sich auf einer Smartcard befindet, werden Sie zur Eingabe einer PIN aufgefordert.</value>
+    <comment>After selecting a certificate that is on a smartcard, you will be presented for a PIN.</comment>
+  </data>
+  <data name="Edge07" xml:space="preserve">
+    <value>Diese Liste zeigt nur Zertifikate an, die nicht abgelaufen sind und für die browserbasierte Authentifizierung geeignet sind. Wenn Ihr Zertifikat nicht angezeigt wird, stellen Sie sicher, dass Ihre Smartcard eingelegt ist und Ihr Zertifikat gültig ist.</value>
+    <comment>This list will only show certificates that have not expired and are suitable for browser based authentication.  If your certificate is not present, make sure your smartcard is inserted and that your certificate is valid.</comment>
+  </data>
+  <data name="Edge06" xml:space="preserve">
+    <value>Wenn dies nicht das Zertifikat ist, das Sie verwenden möchten, klicken Sie auf das Label „Weitere Optionen“ und wählen Sie dann das gewünschte Zertifikat aus der Liste aus.</value>
+    <comment>If this is not the certificate you wish to use, click the "More Choices" label, then select the certificate you want to use from the list</comment>
+  </data>
+  <data name="Edge05" xml:space="preserve">
+    <value>Die Zertifikatsabfrage sieht folgendermaßen aus:</value>
+    <comment>The certificate prompt will look like this:</comment>
+  </data>
+  <data name="Edge04" xml:space="preserve">
+    <value>Wenn Sie auf die Schaltfläche „Beginnen“ klicken, wird der Browser Sie auffordern, das Zertifikat auszuwählen, mit dem Sie sich identifizieren möchten. Standardmäßig wird das Zertifikat verwendet, das zuletzt auf Ihrem Computer installiert wurde.</value>
+    <comment>When you click the "Begin" button, the browser will ask you to select which certificate you would like to use to identify yourself.  It will default to the certificate that was most recently installed on your computer.</comment>
+  </data>
+  <data name="Edge03" xml:space="preserve">
+    <value>Jedes von Ihnen gewählte Zertifikat, einschließlich des Klickens auf „Abbrechen“, um kein Zertifikat auszuwählen, wird vom Browser gespeichert, bis alle Browserfenster geschlossen sind. Um ein anderes Zertifikat auszuwählen, schließen Sie alle Browser und starten Sie den Vorgang erneut.</value>
+    <comment>Any certificate you choose, including clicking "Cancel" to select no certificate, will be remembered by the browser until all copies of the browser are closed.  To select a different certificate, close all browsers and restart the process.</comment>
+  </data>
+  <data name="Edge02" xml:space="preserve">
+    <value>Wichtig:</value>
+    <comment>Important:</comment>
+  </data>
+  <data name="Edge01" xml:space="preserve">
+    <value>Zertifikatsauswahl</value>
+    <comment>Certificate Selection</comment>
+  </data>
+  <data name="IE10" xml:space="preserve">
+    <value>Dieses Zertifikat bleibt in Gebrauch, bis der Browser geschlossen wird. Das Entfernen der Smartcard verhindert dies nicht.</value>
+    <comment>This certificate will remain in use until the browser is closed.  Removing the smartcard will not prevent this.</comment>
+  </data>
+  <data name="IE09" xml:space="preserve">
+    <value>Nachdem Sie ein Zertifikat auf einer Smartcard ausgewählt haben, werden Sie zur Eingabe einer PIN aufgefordert.</value>
+    <comment>After selecting a certificate that is on a smartcard, you will be presented for a PIN.</comment>
+  </data>
+  <data name="IE08" xml:space="preserve">
+    <value>Diese Liste zeigt nur Zertifikate an, die nicht abgelaufen sind und für die browserbasierte Authentifizierung geeignet sind. Wenn Ihr Zertifikat nicht angezeigt wird, vergewissern Sie sich, dass Ihre Smartcard eingelegt ist und Ihr Zertifikat gültig ist.</value>
+    <comment>This list will only show certificates that have not expired and are suitable for browser based authentication.  If your certificate is not present, make sure your smartcard is inserted and that your certificate is valid.</comment>
+  </data>
+  <data name="IE07" xml:space="preserve">
+    <value>Wenn dies nicht das Zertifikat ist, das Sie verwenden möchten, klicken Sie auf die Beschriftung „Weitere Optionen“ und wählen Sie dann das gewünschte Zertifikat aus der Liste aus.</value>
+    <comment>If this is not the certificate you wish to use, click the "More Choices" label, then select the certificate you want to use from the list</comment>
+  </data>
+  <data name="IE06" xml:space="preserve">
+    <value>Wenn dieser Dialog nicht erscheint und die Seite eingefroren zu sein scheint, kann es daran liegen, dass der Browser ihn verdeckt. Überprüfen Sie, ob sich der Dialog hinter dem Browserfenster befindet.</value>
+    <comment>If this dialog does not appear, and the site appears to have frozen, it may be because the browser is obscuring it.  Check for the dialog behind the browser window.</comment>
+  </data>
+  <data name="IE05" xml:space="preserve">
+    <value>Die Zertifikatsabfrage sieht folgendermaßen aus:</value>
+    <comment>The certificate prompt will look like this:</comment>
+  </data>
+  <data name="IE04" xml:space="preserve">
+    <value>Wenn Sie auf die Schaltfläche „Beginnen“ klicken, wird der Browser Sie auffordern, das Zertifikat auszuwählen, mit dem Sie sich identifizieren möchten. Standardmäßig wird das Zertifikat verwendet, das zuletzt auf Ihrem Computer installiert wurde.</value>
+    <comment>When you click the "Begin" button, the browser will ask you to select which certificate you would like to use to identify yourself.  It will default to the certificate that was most recently installed on your computer.</comment>
+  </data>
+  <data name="IE03" xml:space="preserve">
+    <value>Jede von Ihnen gewählte Zertifikat, einschließlich des Klicks auf "Abbrechen" zur Auswahl von keinem Zertifikat, wird vom Browser gespeichert, bis alle Browserfenster geschlossen sind. Um ein anderes Zertifikat auszuwählen, schließen Sie alle Browserfenster und starten Sie den Vorgang neu.</value>
+    <comment>Any certificate you choose, including clicking "Cancel" to select no certificate, will be remembered by the browser until all copies of the browser are closed.  To select a different certificate, close all browsers and restart the process.</comment>
+  </data>
+  <data name="IE02" xml:space="preserve">
+    <value>Wichtig:</value>
+    <comment>Important:</comment>
+  </data>
+  <data name="IE01" xml:space="preserve">
+    <value>Zertifikatsauswahl</value>
+    <comment>Certificate Selection</comment>
+  </data>
+  <data name="ID0011" xml:space="preserve">
+    <value>Authentifizierungsfehler</value>
+    <comment>Authentication Error</comment>
+  </data>
+  <data name="ID0012" xml:space="preserve">
+    <value>Zertifikat konnte nicht gefunden werden</value>
+    <comment>Could not find Certificate</comment>
+  </data>
+  <data name="ID0013" xml:space="preserve">
+    <value>Sie haben diese Seite möglicherweise durch Klicken auf „Abbrechen“ im Zertifikatsauswahldialog erreicht.</value>
+    <comment>You may have reached this page by clicking "Cancel" on the certificate selection dialog.</comment>
+  </data>
+  <data name="ID0014" xml:space="preserve">
+    <value>Um dies zu beheben, schließen Sie alle Instanzen dieses Browsers und wiederholen Sie dann den Vorgang.</value>
+    <comment>To resolve this, close all instances of this browser then repeat the process.</comment>
+  </data>
+  <data name="ID0015" xml:space="preserve">
+    <value>Wenn Sie nicht alle Ihre Browser schließen, wird diese Seite weiterhin angezeigt. (HTTP-Fehler: 403)</value>
+    <comment>If you do not close all your browsers, you will continue to see this page.  (HTTP Error: 403) </comment>
+  </data>
+  <data name="ID0018" xml:space="preserve">
+    <value>Sie können den Vorgang neu starten, indem Sie Ihre Smartcard einlegen und unten auf die Schaltfläche klicken (HTTP-Fehler: 404)</value>
+    <comment>You can restart the process by inserting your smartcard and clicking the button below (HTTP Error: 404)</comment>
+  </data>
+  <data name="ID0017" xml:space="preserve">
+    <value>Die von Ihnen gesuchte Ressource existiert nicht auf diesem Server</value>
+    <comment>The resource you are looking for does not exist on this server</comment>
+  </data>
+  <data name="ID0016" xml:space="preserve">
+    <value>Datei nicht gefunden</value>
+    <comment>File not found</comment>
+  </data>
+  <data name="SSRPUrl" xml:space="preserve">
+    <value>/SSRP</value>
+    <comment>/SSRP</comment>
+  </data>
+  <data name="StartPageUrl" xml:space="preserve">
+    <value>/Startseite</value>
+    <comment>/StartPage</comment>
+  </data>
+  <data name="ID0019" xml:space="preserve">
+    <value>Zertifikat kann nicht validiert werden</value>
+    <comment>Cannot Validate Certificate</comment>
+  </data>
+  <data name="ID0020" xml:space="preserve">
+    <value>Ihr Zertifikat wurde möglicherweise widerrufen oder das ausstellende System konnte nicht erreicht werden. Sie können diesen Vorgang nicht fortsetzen.</value>
+    <comment>Your certificate may have been revoked, or the issuing system could not be reached.  You cannot continue with this process.</comment>
+  </data>
+  <data name="ID0021" xml:space="preserve">
+    <value>Bitte wenden Sie sich an Ihren Administrator, um dieses Problem zu lösen. (HTTP-Fehler: 403.13)</value>
+    <comment>Please contact your Administrator to resolve this issue.  (HTTP Error: 403.13)</comment>
+  </data>
+  <data name="ID0022" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ID0023" xml:space="preserve">
+    <value>Die Seite, auf die Sie zugreifen möchten, ist mit SSL gesichert</value>
+    <comment>The page you are trying to access is secured with SSL</comment>
+  </data>
+  <data name="ID0024" xml:space="preserve">
+    <value>Die Seitenanfrage wurde über HTTP gestellt, aber der Server verlangt, dass Sie HTTPS verwenden.</value>
+    <comment>The page request was made using HTTP, but the server requires that you use HTTPS.</comment>
+  </data>
+  <data name="ID0025" xml:space="preserve">
+    <value>Das gewählte Zertifikat wird entweder nicht vertraut oder ist ungültig.</value>
+    <comment>The chosen certificate is either not trusted or invalid</comment>
+  </data>
+  <data name="ID0026" xml:space="preserve">
+    <value>Das Zertifikat, das Sie für diese Anfrage verwendet haben, wird vom Server nicht vertraut.</value>
+    <comment>The certificate you used for this request is not trusted by the server.</comment>
+  </data>
+  <data name="ID0027" xml:space="preserve">
+    <value>Bitte wenden Sie sich an Ihren Administrator, um dieses Problem zu beheben. (HTTP-Fehler: 403.16)</value>
+    <comment>Please contact your Administrator to resolve this issue.  (HTTP Error: 403.16)</comment>
+  </data>
+  <data name="ID0028" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ID0029" xml:space="preserve">
+    <value>Versuchen Sie, Ihre URL auf HTTPS umzustellen. (HTTP-Fehler: 403.4)</value>
+    <comment>Try changing your URL to use HTTPS.  (HTTP Error: 403.4)</comment>
+  </data>
+</root>

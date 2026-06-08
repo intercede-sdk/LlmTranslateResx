@@ -1,0 +1,2005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="form.viewaudit.FreeText-1.label" xml:space="preserve">
+    <value>Prüfungszusammenfassung</value>
+    <comment>Audit Summary</comment>
+  </data>
+  <data name="form.viewaudit.FreeText-8.label" xml:space="preserve">
+    <value>Operator Details</value>
+    <comment>Operator Details</comment>
+  </data>
+  <data name="forms.people.Edit Person (Directory).title" xml:space="preserve">
+    <value>Person bearbeiten (Verzeichnis)</value>
+    <comment>Edit Person (Directory)</comment>
+  </data>
+  <data name="forms.people.View Person (Directory).title" xml:space="preserve">
+    <value>Person anzeigen (Verzeichnis)</value>
+    <comment>View Person (Directory)</comment>
+  </data>
+  <data name="forms.requests.Request Mobile Issuance (View Auth Code).title" xml:space="preserve">
+    <value>Mobile-Ausgabe anfordern (Authentifizierungscode anzeigen)</value>
+    <comment>Request Mobile Issuance (View Auth Code)</comment>
+  </data>
+  <data name="forms.requests.Request Replacement Mobile (View Auth Code).title" xml:space="preserve">
+    <value>Ersatz-Handy anfordern (Authentifizierungscode anzeigen)</value>
+    <comment>Request Replacement Mobile (View Auth Code)</comment>
+  </data>
+  <data name="forms.stocktransfers.Fail Stock Transfer.title" xml:space="preserve">
+    <value>Lagerübertragung fehlgeschlagen</value>
+    <comment>Fail Stock Transfer</comment>
+  </data>
+  <data name="forms.stocktransfers.Transfer Stock From Here.title" xml:space="preserve">
+    <value>Lagerbestand von hier übertragen</value>
+    <comment>Transfer Stock From Here</comment>
+  </data>
+  <data name="forms.stocktransfers.Transfer Stock To Here.title" xml:space="preserve">
+    <value>Bestand hierher übertragen</value>
+    <comment>Transfer Stock To Here</comment>
+  </data>
+  <data name="forms.searchcriteria.displayname.includeSubgroups" xml:space="preserve">
+    <value>Untergruppen einschließen</value>
+    <comment>Include Subgroups</comment>
+  </data>
+  <data name="forms.searchcriteria.displayname.ldap.group.logonName" xml:space="preserve">
+    <value>Anmeldung</value>
+    <comment>Logon</comment>
+  </data>
+  <data name="forms.searchcriteria.displayname.ldap.group.name" xml:space="preserve">
+    <value>Gruppe</value>
+    <comment>Group</comment>
+  </data>
+  <data name="forms.searchcriteria.displayname.ldap.logonName" xml:space="preserve">
+    <value>Anmeldung</value>
+    <comment>Logon</comment>
+  </data>
+  <data name="forms.searchcriteria.displayname.ldap.name.first" xml:space="preserve">
+    <value>Vorname</value>
+    <comment>First Name</comment>
+  </data>
+  <data name="forms.searchcriteria.displayname.ldap.name.last" xml:space="preserve">
+    <value>Nachname</value>
+    <comment>Last Name</comment>
+  </data>
+  <data name="forms.searchcriteria.displayname.ldap.userPrincipalName" xml:space="preserve">
+    <value>Benutzerprinzipalname</value>
+    <comment>User Principal Name</comment>
+  </data>
+  <data name="forms.searchcriteria.tab.DB.label" xml:space="preserve">
+    <value>MyID</value>
+    <comment>MyID</comment>
+  </data>
+  <data name="forms.searchcriteria.tab.Default ADS.label" xml:space="preserve">
+    <value>Standard ADS</value>
+    <comment>Default ADS</comment>
+  </data>
+  <data name="forms.people.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (enthält)</value>
+    <comment>Name (contains)</comment>
+  </data>
+  <data name="forms.devices.searchcriteria.owner name (contains).label" xml:space="preserve">
+    <value>Besitzername (enthält)</value>
+    <comment>Owner Name (contains)</comment>
+  </data>
+  <data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (enthält)</value>
+    <comment>Name (contains)</comment>
+  </data>
+  <data name="forms.searchresults.audits.Label" xml:space="preserve">
+    <value>Feld</value>
+    <comment>Field</comment>
+  </data>
+  <data name="forms.searchresults.audits.Value" xml:space="preserve">
+    <value>Wert</value>
+    <comment>Value</comment>
+  </data>
+  <data name="forms.searchresults.audits.ID" xml:space="preserve">
+    <value>Ausweis</value>
+    <comment>ID</comment>
+  </data>
+  <data name="forms.searchresults.audits.ReadableMessage" xml:space="preserve">
+    <value>Zusammenfassung</value>
+    <comment>Summary</comment>
+  </data>
+  <data name="forms.searchresults.audits.Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>Status</comment>
+  </data>
+  <data name="forms.searchresults.audits.StartDateTime" xml:space="preserve">
+    <value>Anfangsdatum</value>
+    <comment>Start Date</comment>
+  </data>
+  <data name="forms.searchresults.audits.EndDateTime" xml:space="preserve">
+    <value>Enddatum</value>
+    <comment>End Date</comment>
+  </data>
+  <data name="forms.searchresults.audits.HasSigningData" xml:space="preserve">
+    <value>Unterzeichnet</value>
+    <comment>Signed</comment>
+  </data>
+  <data name="forms.searchresults.audits.UTCOperationDate" xml:space="preserve">
+    <value>Datum/Zeit</value>
+    <comment>Date/Time</comment>
+  </data>
+  <data name="forms.searchresults.audits.Description" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Description</comment>
+  </data>
+  <data name="forms.searchresults.auditsdelta.Label" xml:space="preserve">
+    <value>Feld</value>
+    <comment>Field</comment>
+  </data>
+  <data name="forms.searchresults.auditsdelta.Before" xml:space="preserve">
+    <value>Vorheriger Wert</value>
+    <comment>Previous Value</comment>
+  </data>
+  <data name="forms.searchresults.auditsdelta.After" xml:space="preserve">
+    <value>Neuer Wert</value>
+    <comment>New Value</comment>
+  </data>
+  <data name="forms.searchresults.certificates.policyDisplayName" xml:space="preserve">
+    <value>Zertifizierungsrichtlinie</value>
+    <comment>Certificate Policy</comment>
+  </data>
+  <data name="forms.searchresults.certificates.certIssuedDate" xml:space="preserve">
+    <value>Ausgabedatum</value>
+    <comment>Issued Date</comment>
+  </data>
+  <data name="forms.searchresults.certificates.certExpiryDate" xml:space="preserve">
+    <value>Ablaufdatum</value>
+    <comment>Expiry Date</comment>
+  </data>
+  <data name="forms.searchresults.certificates.status" xml:space="preserve">
+    <value>Status</value>
+    <comment>Status</comment>
+  </data>
+  <data name="forms.searchresults.certificates.userDn" xml:space="preserve">
+    <value>Benutzer-DN</value>
+    <comment>User DN</comment>
+  </data>
+  <data name="forms.searchresults.certificates.expired" xml:space="preserve">
+    <value>Abgelaufen</value>
+    <comment>Expired</comment>
+  </data>
+  <data name="forms.searchresults.devices.policy" xml:space="preserve">
+    <value>Zertifizierungsrichtlinie</value>
+    <comment>Certificate Policy</comment>
+  </data>
+  <data name="forms.searchresults.devices.certSerialNo" xml:space="preserve">
+    <value>Seriennummer</value>
+    <comment>Serial Number</comment>
+  </data>
+  <data name="forms.searchresults.devices.notAfter" xml:space="preserve">
+    <value>Läuft ab</value>
+    <comment>Expires</comment>
+  </data>
+  <data name="forms.searchresults.devices.status" xml:space="preserve">
+    <value>Status</value>
+    <comment>Status</comment>
+  </data>
+  <data name="forms.searchresults.devices.expired" xml:space="preserve">
+    <value>Abgelaufen</value>
+    <comment>Expired</comment>
+  </data>
+  <data name="forms.searchresults.directories.firstName" xml:space="preserve">
+    <value>Vorname</value>
+    <comment>First Name</comment>
+  </data>
+  <data name="forms.searchresults.directories.groupName" xml:space="preserve">
+    <value>Gruppe</value>
+    <comment>Group</comment>
+  </data>
+  <data name="forms.searchresults.directories.logonName" xml:space="preserve">
+    <value>Anmeldename</value>
+    <comment>Logon Name</comment>
+  </data>
+  <data name="forms.searchresults.directories.surname" xml:space="preserve">
+    <value>Nachname</value>
+    <comment>Last Name</comment>
+  </data>
+  <data name="forms.searchresults.directories.email" xml:space="preserve">
+    <value>E-Mail</value>
+    <comment>Email</comment>
+  </data>
+  <data name="forms.searchresults.directories.upn" xml:space="preserve">
+    <value>Benutzerprinzipalname</value>
+    <comment>User Principal Name</comment>
+  </data>
+  <data name="forms.searchresults.directories.dn" xml:space="preserve">
+    <value>Ausgezeichneter Name</value>
+    <comment>Distinguished Name</comment>
+  </data>
+  <data name="forms.searchresults.directories.userSID" xml:space="preserve">
+    <value>Benutzer-SID</value>
+    <comment>User SID</comment>
+  </data>
+  <data name="forms.searchresults.groups.desc" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Description</comment>
+  </data>
+  <data name="forms.searchresults.groups.name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Name</comment>
+  </data>
+  <data name="forms.searchresults.groups.ou" xml:space="preserve">
+    <value>AO</value>
+    <comment>OU</comment>
+  </data>
+  <data name="forms.searchresults.groups.parent" xml:space="preserve">
+    <value>Übergeordnete Gruppe</value>
+    <comment>Group Parent</comment>
+  </data>
+  <data name="forms.searchresults.peoplehistory.Id" xml:space="preserve">
+    <value>Prüfungs-ID</value>
+    <comment>Audit ID</comment>
+  </data>
+  <data name="forms.searchresults.peoplehistory.Name" xml:space="preserve">
+    <value>Vorgang</value>
+    <comment>Operation</comment>
+  </data>
+  <data name="forms.searchresults.peoplehistory.ReadableMessage" xml:space="preserve">
+    <value>Zusammenfassung</value>
+    <comment>Summary</comment>
+  </data>
+  <data name="forms.searchresults.peoplehistory.Status" xml:space="preserve">
+    <value>Prüfstatus</value>
+    <comment>Audit Status</comment>
+  </data>
+  <data name="forms.searchresults.peoplehistory.Timestamp" xml:space="preserve">
+    <value>Zeitstempel</value>
+    <comment>Timestamp</comment>
+  </data>
+  <data name="forms.searchresults.devicehistory.Id" xml:space="preserve">
+    <value>Audit-ID</value>
+    <comment>Audit ID</comment>
+  </data>
+  <data name="forms.searchresults.devicehistory.Name" xml:space="preserve">
+    <value>Vorgang</value>
+    <comment>Operation</comment>
+  </data>
+  <data name="forms.searchresults.devicehistory.ReadableMessage" xml:space="preserve">
+    <value>Zusammenfassung</value>
+    <comment>Summary</comment>
+  </data>
+  <data name="forms.searchresults.devicehistory.Status" xml:space="preserve">
+    <value>Prüfstatus</value>
+    <comment>Audit Status</comment>
+  </data>
+  <data name="forms.searchresults.devicehistory.Timestamp" xml:space="preserve">
+    <value>Zeitstempel</value>
+    <comment>Timestamp</comment>
+  </data>
+  <data name="forms.searchresults.requesthistory.Id" xml:space="preserve">
+    <value>Prüf-ID</value>
+    <comment>Audit ID</comment>
+  </data>
+  <data name="forms.searchresults.requesthistory.Name" xml:space="preserve">
+    <value>Vorgang</value>
+    <comment>Operation</comment>
+  </data>
+  <data name="forms.searchresults.requesthistory.ReadableMessage" xml:space="preserve">
+    <value>Zusammenfassung</value>
+    <comment>Summary</comment>
+  </data>
+  <data name="forms.searchresults.requesthistory.Status" xml:space="preserve">
+    <value>Prüfstatus</value>
+    <comment>Audit Status</comment>
+  </data>
+  <data name="forms.searchresults.requesthistory.Timestamp" xml:space="preserve">
+    <value>Zeitstempel</value>
+    <comment>Timestamp</comment>
+  </data>
+  <data name="forms.searchresults.reports.Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Name</comment>
+  </data>
+  <data name="forms.searchresults.reports.Desc" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Description</comment>
+  </data>
+  <data name="forms.searchresults.requests.policy" xml:space="preserve">
+    <value>Zertifikatsrichtlinie</value>
+    <comment>Certificate Policy</comment>
+  </data>
+  <data name="forms.searchresults.requests.certSerialNo" xml:space="preserve">
+    <value>Seriennummer</value>
+    <comment>Serial Number</comment>
+  </data>
+  <data name="forms.searchresults.requests.notAfter" xml:space="preserve">
+    <value>Läuft ab</value>
+    <comment>Expires</comment>
+  </data>
+  <data name="forms.searchresults.requests.status" xml:space="preserve">
+    <value>Status</value>
+    <comment>Status</comment>
+  </data>
+  <data name="forms.searchresults.requests.expired" xml:space="preserve">
+    <value>Abgelaufen</value>
+    <comment>Expired</comment>
+  </data>
+  <data name="forms.searchresults.reportrevisions.CreatorName" xml:space="preserve">
+    <value>Erstellt von</value>
+    <comment>Created By</comment>
+  </data>
+  <data name="forms.searchresults.reportrevisions.DateCreated" xml:space="preserve">
+    <value>Erstellt am</value>
+    <comment>Created On</comment>
+  </data>
+  <data name="forms.searchresults.reportrevisions.IsLive" xml:space="preserve">
+    <value>Live</value>
+    <comment>Live</comment>
+  </data>
+  <data name="forms.searchresults.reportrevisions.MajorVersion" xml:space="preserve">
+    <value>Hauptversion</value>
+    <comment>Major Version</comment>
+  </data>
+  <data name="forms.searchresults.reportrevisions.MinorVersion" xml:space="preserve">
+    <value>Nebenversion</value>
+    <comment>Minor Version</comment>
+  </data>
+  <data name="forms.searchresults.reportrevisions.RevisionNotes" xml:space="preserve">
+    <value>Notizen</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="forms.searchresults.reportrevisions.RevisionStatus" xml:space="preserve">
+    <value>Status</value>
+    <comment>Status</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked due to too many suspensions.description" xml:space="preserve">
+    <value>Nur für den Systemgebrauch, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked due to too many suspensions" xml:space="preserve">
+    <value>Widerrufen aufgrund zu vieler Sperrungen</value>
+    <comment>Revoked due to too many suspensions</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device issued disabled.description" xml:space="preserve">
+    <value>Gerät ausgegeben deaktiviert</value>
+    <comment>Device issued disabled</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device issued disabled" xml:space="preserve">
+    <value>Gerät ausgegeben deaktiviert</value>
+    <comment>Device issued disabled</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Other Device issued - cancel.description" xml:space="preserve">
+    <value>Nur für Systemzwecke, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Other Device issued - cancel" xml:space="preserve">
+    <value>Anderes Gerät ausgegeben - abbrechen</value>
+    <comment>Other Device issued - cancel</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Person disabled.description" xml:space="preserve">
+    <value>Die Person wurde deaktiviert.</value>
+    <comment>The person has been disabled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Person disabled" xml:space="preserve">
+    <value>Person deaktiviert</value>
+    <comment>Person disabled</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revocation (other).description" xml:space="preserve">
+    <value>Widerruf (andere)</value>
+    <comment>Revocation (other)</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revocation (other)" xml:space="preserve">
+    <value>Widerruf (sonstige)</value>
+    <comment>Revocation (other)</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Suspension (other).description" xml:space="preserve">
+    <value>Das Gerät wurde vorübergehend aus einem benutzerdefinierten Grund gesperrt.</value>
+    <comment>The device has been temporarily suspended for a user defined reason.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Suspension (other)" xml:space="preserve">
+    <value>Sperrung (andere)</value>
+    <comment>Suspension (other)</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked due to user removal from LDAP.description" xml:space="preserve">
+    <value>Nur für Systemzwecke, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked due to user removal from LDAP" xml:space="preserve">
+    <value>Wegen Benutzerentfernung aus LDAP widerrufen</value>
+    <comment>Revoked due to user removal from LDAP</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked/Suspended due to user disabled in LDAP.description" xml:space="preserve">
+    <value>Nur für Systemgebrauch, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked/Suspended due to user disabled in LDAP" xml:space="preserve">
+    <value>Widerrufen/Gesperrt aufgrund deaktiviertem Benutzer im LDAP</value>
+    <comment>Revoked/Suspended due to user disabled in LDAP</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked/Suspend due to timeout in issuance.description" xml:space="preserve">
+    <value>Nur für Systemgebrauch, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked/Suspend due to timeout in issuance" xml:space="preserve">
+    <value>Widerrufen/ausgesetzt aufgrund von Zeitüberschreitung bei der Ausstellung</value>
+    <comment>Revoked/Suspend due to timeout in issuance</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked/Suspend for timeout at deferred collection.description" xml:space="preserve">
+    <value>Nur für Systemzwecke, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Revoked/Suspend for timeout at deferred collection" xml:space="preserve">
+    <value>Für Zeitüberschreitung bei verzögerter Sammlung widerrufen/ausgesetzt</value>
+    <comment>Revoked/Suspend for timeout at deferred collection</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Other Device issued.description" xml:space="preserve">
+    <value>Nur für Systemzwecke, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Other Device issued" xml:space="preserve">
+    <value>Anderes Gerät ausgegeben</value>
+    <comment>Other Device issued</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Update requested by API.description" xml:space="preserve">
+    <value>Nur für Systemzwecke, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Update requested by API" xml:space="preserve">
+    <value>Aktualisierung vom API angefordert</value>
+    <comment>Update requested by API</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Automated shared certificate update.description" xml:space="preserve">
+    <value>Nur für Systemzwecke, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Automated shared certificate update" xml:space="preserve">
+    <value>Automatisiertes gemeinsames Zertifikatsupdate</value>
+    <comment>Automated shared certificate update</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Automated card update.description" xml:space="preserve">
+    <value>Nur für Systemzwecke, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Automated card update" xml:space="preserve">
+    <value>Automatisiertes Karten-Update</value>
+    <comment>Automated card update</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Unspecified or Automated Processes.description" xml:space="preserve">
+    <value>Nur für die Systemnutzung, nicht verwenden</value>
+    <comment>System use only, do not use</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Unspecified or Automated Processes" xml:space="preserve">
+    <value>Unbestimmte oder automatisierte Prozesse</value>
+    <comment>Unspecified or Automated Processes</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Lost.description" xml:space="preserve">
+    <value>Das Gerät wurde dauerhaft verloren.</value>
+    <comment>The device has been permanently lost</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Lost" xml:space="preserve">
+    <value>Verloren</value>
+    <comment>Lost</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device holder leaving or changing role.description" xml:space="preserve">
+    <value>Der Geräteinhaber hat seine aktuelle Rolle verlassen und sein Gerät sollte dauerhaft gesperrt werden.</value>
+    <comment>The device holder has left their current role and their device should be blocked permanently</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device holder leaving or changing role" xml:space="preserve">
+    <value>Geräteinhaber verlässt oder ändert Rolle</value>
+    <comment>Device holder leaving or changing role</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device holder details change.description" xml:space="preserve">
+    <value>Die Informationen über den Geräteinhaber wurden geändert und ein neues Gerät wird benötigt.</value>
+    <comment>Information about the device holder has been changed and a new device is needed</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device holder details change" xml:space="preserve">
+    <value>Änderung der Geräteinhaberdaten</value>
+    <comment>Device holder details change</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Pending Activation.description" xml:space="preserve">
+    <value>Das Gerät ist vorübergehend ausgesetzt und wartet auf die Aktivierung.</value>
+    <comment>The device is  temporary suspended pending activation.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Pending Activation" xml:space="preserve">
+    <value>Ausstehende Aktivierung</value>
+    <comment>Pending Activation</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Found Original.description" xml:space="preserve">
+    <value>Dieses temporäre Gerät wurde widerrufen, weil der Geräteinhaber sein ursprüngliches Gerät gefunden hat.</value>
+    <comment>This temporary device has been revoked because the device holder found their original device.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Found Original" xml:space="preserve">
+    <value>Original gefunden</value>
+    <comment>Found Original</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Original device Compromised.description" xml:space="preserve">
+    <value>Das ursprüngliche Gerät wurde kompromittiert, daher muss auch dieses Gerät als kompromittiert betrachtet werden.</value>
+    <comment>The original device has been compromised so this device must also be considered to have been compromised.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Original device Compromised" xml:space="preserve">
+    <value>Originalgerät kompromittiert</value>
+    <comment>Original device Compromised</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Request device Renewal.description" xml:space="preserve">
+    <value>Dieses Gerät wird ersetzt oder erneuert und ist im System nicht mehr aktiv, alle Zertifikate stehen für das Ersatzgerät zur Verfügung.</value>
+    <comment>This device is being replaced or refreshed and shall no longer be active on the system, all certificates will be available for the replacement device.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Request device Renewal" xml:space="preserve">
+    <value>Anforderung Geräteerneuerung</value>
+    <comment>Request device Renewal</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Damaged.description" xml:space="preserve">
+    <value>Das Gerät wurde unbrauchbar gemacht und sollte dauerhaft ersetzt werden.</value>
+    <comment>The device has been rendered inoperable and should be permanently replaced.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Damaged" xml:space="preserve">
+    <value>Beschädigt</value>
+    <comment>Damaged</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Batch Failed.description" xml:space="preserve">
+    <value>Das Gerät war Teil einer Charge, die fehlgeschlagen ist und muss dauerhaft storniert werden.</value>
+    <comment>The device was as part of a batch that failed and must be permanently cancelled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Batch Failed" xml:space="preserve">
+    <value>Stapel fehlgeschlagen</value>
+    <comment>Batch Failed</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Bureau Failure.description" xml:space="preserve">
+    <value>Im Amt ist ein Fehler aufgetreten und das Gerät muss dauerhaft storniert werden.</value>
+    <comment>There was a failure at the bureau and the device must be permanently cancelled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Bureau Failure" xml:space="preserve">
+    <value>Behördenfehler</value>
+    <comment>Bureau Failure</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Processing Failure.description" xml:space="preserve">
+    <value>Es gab eine Verarbeitungsfehlfunktion und das Gerät muss dauerhaft storniert werden.</value>
+    <comment>There was a processing failure and the device must be permanently cancelled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Processing Failure" xml:space="preserve">
+    <value>Verarbeitungsfehler</value>
+    <comment>Processing Failure</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device Replacement (Delayed Cancellation).description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.statusmappings.status.values.Device Replacement (Delayed Cancellation)" xml:space="preserve">
+    <value>Geräteersatz (verzögerte Stornierung)</value>
+    <comment>Device Replacement (Delayed Cancellation)</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Poor print quality.description" xml:space="preserve">
+    <value>Das Gerät wurde nach einem inakzeptablen Standard gedruckt und muss dauerhaft storniert werden.</value>
+    <comment>The device was printed to an unacceptable standard and must be permanently cancelled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Poor print quality" xml:space="preserve">
+    <value>Schlechte Druckqualität</value>
+    <comment>Poor print quality</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Printing misaligned.description" xml:space="preserve">
+    <value>Der Druck auf dem Gerät ist nicht richtig ausgerichtet und das Gerät muss dauerhaft außer Betrieb genommen werden.</value>
+    <comment>The printing on the device is not aligned properly and the device must be permanently cancelled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Printing misaligned" xml:space="preserve">
+    <value>Druckausrichtung fehlerhaft</value>
+    <comment>Printing misaligned</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Poor lamination quality.description" xml:space="preserve">
+    <value>Das Gerät wurde falsch laminiert und muss dauerhaft annulliert werden.</value>
+    <comment>The device was laminated incorrectly and must be permanently cancelled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Poor lamination quality" xml:space="preserve">
+    <value>Schlechte Laminierqualität</value>
+    <comment>Poor lamination quality</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Incorrect layout printed.description" xml:space="preserve">
+    <value>Das Gerät wurde mit dem falschen Layout gedruckt und muss dauerhaft storniert werden.</value>
+    <comment>The device was printed with the incorrect layout and must be permanently cancelled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Incorrect layout printed" xml:space="preserve">
+    <value>Falsches Layout gedruckt</value>
+    <comment>Incorrect layout printed</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Stolen.description" xml:space="preserve">
+    <value>Das Gerät wurde gestohlen und sollte ersetzt werden.</value>
+    <comment>The device has been stolen and should be replaced.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Stolen" xml:space="preserve">
+    <value>Gestohlen</value>
+    <comment>Stolen</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Cancel device and leave Certificates.description" xml:space="preserve">
+    <value>Das Gerät soll storniert werden, aber die Zertifikate bleiben aktiv.</value>
+    <comment>The device is to be cancel but the certificates are to remain active.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Cancel device and leave Certificates" xml:space="preserve">
+    <value>Gerät abbrechen und Zertifikate beibehalten</value>
+    <comment>Cancel device and leave Certificates</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Cancel Certificates and leave device.description" xml:space="preserve">
+    <value>Die Zertifikate sollen widerrufen werden, das Gerät soll jedoch aktiv bleiben.</value>
+    <comment>The certificates are to be cancelled but the device is to remain active.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Cancel Certificates and leave device" xml:space="preserve">
+    <value>Zertifikate widerrufen und Gerät verlassen</value>
+    <comment>Cancel Certificates and leave device</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Forgotten.description" xml:space="preserve">
+    <value>Das Gerät wurde verlegt und es wird ein temporärer Ersatz benötigt.</value>
+    <comment>The device has been misplaced and a temporary replacement is required.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Forgotten" xml:space="preserve">
+    <value>Vergessen</value>
+    <comment>Forgotten</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Derived Credential Original Revoked.description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.statusmappings.status.values.Derived Credential Original Revoked" xml:space="preserve">
+    <value>Abgeleitetes Anmeldekennwort Ursprünglich Widerrufen</value>
+    <comment>Derived Credential Original Revoked</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Permanently Blocked.description" xml:space="preserve">
+    <value>Das Gerät sollte nicht mehr verwendet werden.</value>
+    <comment>The device should no longer be used.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Permanently Blocked" xml:space="preserve">
+    <value>Dauerhaft blockiert</value>
+    <comment>Permanently Blocked</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Compromised.description" xml:space="preserve">
+    <value>Das Gerät wurde kompromittiert. Ein Ersatz ist erforderlich.</value>
+    <comment>The device has been compromised.  A replacement is required.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Compromised" xml:space="preserve">
+    <value>Kompromittiert</value>
+    <comment>Compromised</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Derived Credential Notification Listener.description" xml:space="preserve">
+    <value>Widerruft abgeleitete Anmeldeinformationen bei Benachrichtigung über den Widerruf der ursprünglichen Anmeldeinformationen.</value>
+    <comment>Cancels Derived Credentials on notification of the original credential being revoked.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Derived Credential Notification Listener" xml:space="preserve">
+    <value>Benachrichtigungslistener für abgeleitete Anmeldeinformationen</value>
+    <comment>Derived Credential Notification Listener</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device holder on leave..description" xml:space="preserve">
+    <value>Der Geräteinhaber ist vorübergehend abwesend und das Gerät sollte nicht mehr funktionieren, bis es wieder aktiviert wird.</value>
+    <comment>The device holder is away temporarily and the device should no longer work until it is re-enabled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Device holder on leave." xml:space="preserve">
+    <value>Gerätehalter im Urlaub</value>
+    <comment>Device holder on leave</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Compromised - Reissue Shared Certificates.description" xml:space="preserve">
+    <value>Ein Gerät wurde kompromittiert, alle mit anderen Geräten geteilten Zertifikate werden neu ausgestellt.</value>
+    <comment>A device has been compromised any certificates shared with other devices will be reissued.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Compromised - Reissue Shared Certificates" xml:space="preserve">
+    <value>Kompromittiert - Gemeinsame Zertifikate neu ausstellen</value>
+    <comment>Compromised - Reissue Shared Certificates</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Credential Profile Update (no revocation).description" xml:space="preserve">
+    <value>Es gab ein Update des Berechtigungsprofils, aber keine Zertifikate werden widerrufen.</value>
+    <comment>There has been an update to the credential profile, but no certificates will be revoked</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Credential Profile Update (no revocation)" xml:space="preserve">
+    <value>Aktualisierung des Berechtigungsprofils (keine Sperrung)</value>
+    <comment>Credential Profile Update (no revocation)</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Credential Profile Update (full revocation).description" xml:space="preserve">
+    <value>Es gab eine Aktualisierung des Berechtigungsprofils und alle Zertifikate werden widerrufen.</value>
+    <comment>There has been an update to the credential profile and all certificates will be revoked.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Credential Profile Update (full revocation)" xml:space="preserve">
+    <value>Aktualisierung des Berechtigungsprofils (vollständiger Widerruf)</value>
+    <comment>Credential Profile Update (full revocation)</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Details Change - re-issue archived certificates.description" xml:space="preserve">
+    <value>Die Benutzerdaten wurden geändert und alle Zertifikate müssen neu ausgestellt werden. Nicht archivierte Zertifikate werden nicht widerrufen.</value>
+    <comment>The user's details have been changed and all certificates must be re-issued. Non-archived certificates will not be revoked.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Details Change - re-issue archived certificates" xml:space="preserve">
+    <value>Details ändern - archivierte Zertifikate neu ausstellen</value>
+    <comment>Details Change - re-issue archived certificates</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Mobile Issued.description" xml:space="preserve">
+    <value>Mobil ausgegeben, Zertifikatspaket stornieren.</value>
+    <comment>Mobile issued, cancel Certificate Package.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Mobile Issued" xml:space="preserve">
+    <value>Mobil ausgegeben</value>
+    <comment>Mobile Issued</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Reissue credentials.description" xml:space="preserve">
+    <value>Anmeldeinformationen werden neu ausgestellt</value>
+    <comment>Credentials are being re-issued</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Reissue credentials" xml:space="preserve">
+    <value>Anmeldeinformationen neu ausstellen</value>
+    <comment>Reissue credentials</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.8 Hour access.description" xml:space="preserve">
+    <value>8 Stunden Zugang</value>
+    <comment>8 Hour access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.8 Hour access" xml:space="preserve">
+    <value>8 Stunden Zugang</value>
+    <comment>8 Hour access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.24 Hour access.description" xml:space="preserve">
+    <value>24-Stunden-Zugang</value>
+    <comment>24 Hour access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.24 Hour access" xml:space="preserve">
+    <value>24-Stunden-Zugang</value>
+    <comment>24 Hour access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.2 Day access.description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.statusmappings.status.values.2 Day access" xml:space="preserve">
+    <value>2 Tage Zugang</value>
+    <comment>2 Day access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.1 Week access.description" xml:space="preserve">
+    <value>1 Woche Zugriff</value>
+    <comment>1 Week access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.1 Week access" xml:space="preserve">
+    <value>1 Woche Zugang</value>
+    <comment>1 Week access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Pending Investigation.description" xml:space="preserve">
+    <value>Das Gerät wird untersucht und sollte vorübergehend gesperrt werden. Das Gerät sollte nicht mehr funktionieren, bis es wieder aktiviert wird.</value>
+    <comment>The device is being investigated and should be suspended temporarily.  The device should no longer work until it is re-enabled.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Pending Investigation" xml:space="preserve">
+    <value>Ausstehende Untersuchung</value>
+    <comment>Pending Investigation</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Cancel temporary card during replacement.description" xml:space="preserve">
+    <value>Temporäre Karte während des Austauschs stornieren, Zertifikate werden widerrufen und Gerät deaktiviert</value>
+    <comment>Cancel temporary card during replacement, certificates are revoked and device cancelled</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Cancel temporary card during replacement" xml:space="preserve">
+    <value>Temporäre Karte während des Austauschs stornieren</value>
+    <comment>Cancel temporary card during replacement</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Unrestricted access.description" xml:space="preserve">
+    <value>Uneingeschränkter Zugriff</value>
+    <comment>Unrestricted access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Unrestricted access" xml:space="preserve">
+    <value>Uneingeschränkter Zugriff</value>
+    <comment>Unrestricted access</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Reissue mobile.description" xml:space="preserve">
+    <value>Teilweise ausgestellte mobile Berechtigung neu ausgeben</value>
+    <comment>Reissue a partially issued mobile credential</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Reissue mobile" xml:space="preserve">
+    <value>Mobile neu ausstellen</value>
+    <comment>Reissue mobile</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.User details have changed.description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.statusmappings.status.values.User details have changed" xml:space="preserve">
+    <value>Benutzerdaten wurden geändert</value>
+    <comment>User details have changed</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.There is a problem with the device.description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.statusmappings.status.values.There is a problem with the device" xml:space="preserve">
+    <value>Es gibt ein Problem mit dem Gerät</value>
+    <comment>There is a problem with the device</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.New credential profile needs to be applied.description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.statusmappings.status.values.New credential profile needs to be applied" xml:space="preserve">
+    <value>Neues Berechtigungsprofil muss angewendet werden</value>
+    <comment>New credential profile needs to be applied</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.New certificates need to be added to the device.description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.statusmappings.status.values.New certificates need to be added to the device" xml:space="preserve">
+    <value>Neue Zertifikate müssen dem Gerät hinzugefügt werden</value>
+    <comment>New certificates need to be added to the device</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Non-payment of services.description" xml:space="preserve">
+    <value>Das Gerät sollte dauerhaft deaktiviert werden.</value>
+    <comment>The device should be disabled permanently.</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Non-payment of services" xml:space="preserve">
+    <value>Nichtzahlung von Dienstleistungen</value>
+    <comment>Non-payment of services</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Lost in Transit (Dispose)" xml:space="preserve">
+    <value>Verloren auf dem Transportweg (Entsorgen)</value>
+    <comment>Lost in Transit (Dispose)</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Stock Returned / Not Dispatched" xml:space="preserve">
+    <value>Zurückgelegter Lagerbestand / Nicht versandt</value>
+    <comment>Stock Returned / Not Dispatched</comment>
+  </data>
+  <data name="forms.statusmappings.status.values.Not Received - Pending Investigation" xml:space="preserve">
+    <value>Nicht erhalten - Untersuchung ausstehend</value>
+    <comment>Not Received - Pending Investigation</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Active" xml:space="preserve">
+    <value>Aktiv</value>
+    <comment>Active</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Assigned" xml:space="preserve">
+    <value>Zugewiesen</value>
+    <comment>Assigned</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.AtBureau" xml:space="preserve">
+    <value>Im Büro</value>
+    <comment>At Bureau</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Collected" xml:space="preserve">
+    <value>Gesammelt</value>
+    <comment>Collected</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Deleted" xml:space="preserve">
+    <value>Gelöscht</value>
+    <comment>Deleted</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Disposed" xml:space="preserve">
+    <value>Entsorgt</value>
+    <comment>Disposed</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Erased" xml:space="preserve">
+    <value>Gelöscht</value>
+    <comment>Erased</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Legacy" xml:space="preserve">
+    <value>Altsystem</value>
+    <comment>Legacy</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Lost" xml:space="preserve">
+    <value>Verloren</value>
+    <comment>Lost</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.None" xml:space="preserve">
+    <value>Keine</value>
+    <comment>None</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Not Disposed" xml:space="preserve">
+    <value>Nicht gesammelt</value>
+    <comment>Not Collected</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.PendingActivation" xml:space="preserve">
+    <value>Ausstehende Aktivierung</value>
+    <comment>Pending Activation</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.PendingDeliveryConfirmation" xml:space="preserve">
+    <value>Ausstehende Lieferbestätigung</value>
+    <comment>Pending Delivery Confirmation</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.PendingPersonalisation" xml:space="preserve">
+    <value>Ausstehende Personalisierung</value>
+    <comment>Pending Personalization</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Terminated" xml:space="preserve">
+    <value>Beendet</value>
+    <comment>Terminated</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Unassigned" xml:space="preserve">
+    <value>Nicht zugewiesen</value>
+    <comment>Unassigned</comment>
+  </data>
+  <data name="forms.requests.status.values.AutoDisabled" xml:space="preserve">
+    <value>Zielbenutzer deaktiviert</value>
+    <comment>Target User Disabled</comment>
+  </data>
+  <data name="forms.requests.status.values.Await Bureau" xml:space="preserve">
+    <value>Warte auf Antwort vom Büro</value>
+    <comment>Awaiting Response From Bureau</comment>
+  </data>
+  <data name="forms.requests.status.values.Awaiting Activation" xml:space="preserve">
+    <value>Warten auf Aktivierung</value>
+    <comment>Awaiting Activation</comment>
+  </data>
+  <data name="forms.requests.status.values.Awaiting Cancellation" xml:space="preserve">
+    <value>Warte auf Stornierung</value>
+    <comment>Awaiting Cancellation</comment>
+  </data>
+  <data name="forms.requests.status.values.Awaiting Delivery" xml:space="preserve">
+    <value>Warten auf Lieferung</value>
+    <comment>Awaiting Delivery</comment>
+  </data>
+  <data name="forms.requests.status.values.Awaiting Encoding" xml:space="preserve">
+    <value>Warte auf Codierung</value>
+    <comment>Awaiting Encoding</comment>
+  </data>
+  <data name="forms.requests.status.values.Awaiting Enrolment" xml:space="preserve">
+    <value>Wartet auf Anmeldung</value>
+    <comment>Awaiting Enrolment</comment>
+  </data>
+  <data name="forms.requests.status.values.Awaiting Issue" xml:space="preserve">
+    <value>Wartet auf Ausgabe</value>
+    <comment>Awaiting Issue</comment>
+  </data>
+  <data name="forms.requests.status.values.Awaiting Validation" xml:space="preserve">
+    <value>Wartet auf Validierung</value>
+    <comment>Awaiting Validation</comment>
+  </data>
+  <data name="forms.requests.status.values.Cancelled" xml:space="preserve">
+    <value>Abgebrochen</value>
+    <comment>Cancelled</comment>
+  </data>
+  <data name="forms.requests.status.values.Completed" xml:space="preserve">
+    <value>Abgeschlossen</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="forms.requests.status.values.Completed With Errors" xml:space="preserve">
+    <value>Mit Fehlern abgeschlossen</value>
+    <comment>Completed With Errors</comment>
+  </data>
+  <data name="forms.requests.status.values.Created" xml:space="preserve">
+    <value>Erstellt</value>
+    <comment>Created</comment>
+  </data>
+  <data name="forms.requests.status.values.Failed" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+    <comment>Failed</comment>
+  </data>
+  <data name="forms.requests.status.values.In Progress" xml:space="preserve">
+    <value>In Bearbeitung</value>
+    <comment>In Progress</comment>
+  </data>
+  <data name="forms.requests.status.values.In Transit" xml:space="preserve">
+    <value>Unterwegs</value>
+    <comment>In Transit</comment>
+  </data>
+  <data name="forms.requests.status.values.Suspended" xml:space="preserve">
+    <value>Ausgesetzt</value>
+    <comment>Suspended</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IssueCard" xml:space="preserve">
+    <value>Karte ausstellen Aufgabe</value>
+    <comment>Issue card task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.CancelCard" xml:space="preserve">
+    <value>Aufgabe für Karte abbrechen</value>
+    <comment>Cancel card task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.UpdateCard" xml:space="preserve">
+    <value>Update anwenden</value>
+    <comment>Apply update</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RequestSoftCertificate" xml:space="preserve">
+    <value>Fordern Sie ein Soft-(Browser-)Zertifikat für einen Benutzer an</value>
+    <comment>Request a soft (browser) certificate for a user</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IssueReplacementCard" xml:space="preserve">
+    <value>Aufgabe Ersatzkarte ausstellen</value>
+    <comment>Issue replacement card task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.ReplaceSoftCertificates" xml:space="preserve">
+    <value>Ersetzen Sie eine Sammlung von Softwarezertifikaten</value>
+    <comment>Replace a collection of software certificates</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RecoverCertMobile" xml:space="preserve">
+    <value>Mobilausgabe</value>
+    <comment>Issue mobile</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.AdditionalCertRecovery" xml:space="preserve">
+    <value>Zusätzliche Identitäten Zertifikatswiederherstellung</value>
+    <comment>Additional identities certificate recovery</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.AdditionalCertUpdate" xml:space="preserve">
+    <value>Zusätzliche Identitäten-Zertifikatsaktualisierung</value>
+    <comment>Additional identities certificate update</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.AdditionalCertRemoval" xml:space="preserve">
+    <value>Entfernung zusätzlicher Identitätszertifikate</value>
+    <comment>Additional identities certificate removal</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.ReprovisionCard" xml:space="preserve">
+    <value>Karte neu bereitstellen Aufgabe</value>
+    <comment>Reprovision card task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IssueFido" xml:space="preserve">
+    <value>Fido-Gerät ausgeben</value>
+    <comment>Issue Fido device</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.DelayedDeviceRevocation" xml:space="preserve">
+    <value>Verzögerte Gerätewiderrufung</value>
+    <comment>Delayed device revocation</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RecoverCertificates" xml:space="preserve">
+    <value>Zertifikatswiederherstellung</value>
+    <comment>Certificate Recovery</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RecoverCertificatesExisting" xml:space="preserve">
+    <value>Zertifikat-Wiederherstellung auf bestehendem Gerät</value>
+    <comment>Certificate Recovery to Existing Device</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RecoverCertificatesSoftware" xml:space="preserve">
+    <value>Zertifikatswiederherstellung auf Software</value>
+    <comment>Certificate Recovery to Software</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.ActivateDevice" xml:space="preserve">
+    <value>Ausgegebenes Gerät aktivieren</value>
+    <comment>Activate issued device</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.Adjudication" xml:space="preserve">
+    <value>Identitätsentscheidung</value>
+    <comment>Identity adjudication</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.BadgeDisposalProc" xml:space="preserve">
+    <value>Ausgabeprozess für Ausweise</value>
+    <comment>Badge disposal processor</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.BioSamplePromotion" xml:space="preserve">
+    <value>Verarbeiter für Bio-Proben-Förderung</value>
+    <comment>Bio sample promotion processor</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.BureauBatch" xml:space="preserve">
+    <value>Stapel von Artikeln</value>
+    <comment>Batch of items</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.BureauRequest" xml:space="preserve">
+    <value>Anforderung von Chargen</value>
+    <comment>Request of batches</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.CancelExpiredCards" xml:space="preserve">
+    <value>Abgelaufene Karten automatisch stornieren</value>
+    <comment>Automatically cancel expired cards</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.CancelMachineIdentity" xml:space="preserve">
+    <value>Eine Geräteidentitätsaufgabe abbrechen</value>
+    <comment>Cancel a device identity task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.CancelUnactiveCardsCerts" xml:space="preserve">
+    <value>Unaktivierte Geräte automatisch stornieren oder widerrufen</value>
+    <comment>Automatically cancel or revoke unactivated devices</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.CardRenewal" xml:space="preserve">
+    <value>Geräteverlängerungs-E-Mails senden</value>
+    <comment>Send device renewal emails</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.CertsMaintenanceProcess" xml:space="preserve">
+    <value>Zertifikatswartungsprozess</value>
+    <comment>Certificate maintenance process</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.CLImportTokens" xml:space="preserve">
+    <value>Kontaktlose Karten aus einer Datei importieren</value>
+    <comment>Import contactless cards from a file</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.DataPurge" xml:space="preserve">
+    <value>Datenlöschung</value>
+    <comment>Data Purge</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.DerivedCredentialCheck" xml:space="preserve">
+    <value>Überprüfung der abgeleiteten Anmeldeinformationen</value>
+    <comment>Derived credential check</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.DisableExpiredUsers" xml:space="preserve">
+    <value>Deaktivieren Sie den Prozessor für abgelaufene Benutzer</value>
+    <comment>Disable expired users processor</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.DocumentPurge" xml:space="preserve">
+    <value>Dokumente automatisch löschen</value>
+    <comment>Automatically purge documents</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.EMVImportTokens" xml:space="preserve">
+    <value>EMV-Token importieren</value>
+    <comment>Import EMV tokens</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.ExpiredMachineIdentity" xml:space="preserve">
+    <value>Abgelaufene Geräte-Identitätsaufgabe</value>
+    <comment>Expired device identity task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.ExternalNotification" xml:space="preserve">
+    <value>Externe Benachrichtigung</value>
+    <comment>External notification</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.GenericImportDevices" xml:space="preserve">
+    <value>Generische Geräte aus CSV-Datei importieren</value>
+    <comment>Import generic devices from CSV file</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.HIDImportDevice" xml:space="preserve">
+    <value>HID-Importgerät</value>
+    <comment>HID import device</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IdemiaImportDevice" xml:space="preserve">
+    <value>IDEMIA HID Importgerät</value>
+    <comment>IDEMIA HID import device</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IssueIdentityDocument" xml:space="preserve">
+    <value>Ausweisdokument ausstellen</value>
+    <comment>Issue Identity Document</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IssueMachineIdentity" xml:space="preserve">
+    <value>Ein Gerätidentitätsauftrag erteilen</value>
+    <comment>Issue a device identity task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IssueMobileSoftCert" xml:space="preserve">
+    <value>Mobile Soft-Zertifikat ausstellen Aufgabe</value>
+    <comment>Issue mobile soft cert task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.IssueToken" xml:space="preserve">
+    <value>Token ausstellen Aufgabe</value>
+    <comment>Issue token task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.JobBatch" xml:space="preserve">
+    <value>Batch-Verarbeitung von Amtsjobs</value>
+    <comment>Batch up bureau jobs</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.JobMaintenanceProcessor" xml:space="preserve">
+    <value>Job-Wartungsprozess</value>
+    <comment>Job maintenance process</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.LockPin" xml:space="preserve">
+    <value>Planen Sie eine Sperrung des Kartenbenutzer-PINs</value>
+    <comment>Schedule a card user pin lock</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.MakeMobileSetupCert" xml:space="preserve">
+    <value>MobileSetup-Zertifikat erstellen</value>
+    <comment>Make MobileSetup certificate</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.NGIRapBackProcessor" xml:space="preserve">
+    <value>NGI RapBack Entscheidungsverarbeitungsprozessor</value>
+    <comment>NGI RapBack adjudication processor</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.OATHImportTokens" xml:space="preserve">
+    <value>OATH-Token importieren</value>
+    <comment>Import OATH tokens</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.OrphanedImages" xml:space="preserve">
+    <value>Verwaiste Bilder Auftragsverarbeiter</value>
+    <comment>Orphaned images job processor</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.PKIAuthCheck" xml:space="preserve">
+    <value>PKI-Authentifizierungsprüfung</value>
+    <comment>PKI authentication check</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.PreRecoverCertificates" xml:space="preserve">
+    <value>Zertifikate vorab wiederherstellen</value>
+    <comment>Pre recover certificates</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.PrintPINMailer" xml:space="preserve">
+    <value>PIN-Mailer-Dokument drucken</value>
+    <comment>Print PIN Mailer Document</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RelationshipManagement" xml:space="preserve">
+    <value>Benutzerbeziehungsverwaltung Prozessor</value>
+    <comment>User relationship management processor</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.ResetUnlockCode" xml:space="preserve">
+    <value>Ändern Sie einen Kartenentsperrcode</value>
+    <comment>Change a card unlock code</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RestrictInactiveAccounts" xml:space="preserve">
+    <value>Beschränkt Konten, die inaktiv sind</value>
+    <comment>Restricts accounts that are inactive</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.RSImportTokens" xml:space="preserve">
+    <value>RSA-Token aus einer XML-Datei importieren</value>
+    <comment>Import RSA tokens from an XML file</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.StoredProcProcessor" xml:space="preserve">
+    <value>Eine SQL Stored Procedure ausführen</value>
+    <comment>Run an SQL Stored Procedure</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.TPMProcess" xml:space="preserve">
+    <value>Erstellt oder löscht ein VSC auf einem Client-Rechner</value>
+    <comment>Creates or deletes a VSC on a client machine</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.UnlockCard" xml:space="preserve">
+    <value>Karte entsperren Aufgabe</value>
+    <comment>Unlock card task</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.UpdateApplets" xml:space="preserve">
+    <value>Applet-Aktualisierung anwenden</value>
+    <comment>Apply applet update</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.UploadDataFile" xml:space="preserve">
+    <value>Daten im ANSI-Format importieren</value>
+    <comment>Import data in ANSI format</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.UserPurge" xml:space="preserve">
+    <value>Benutzer löschen, die bestimmte Kriterien erfüllen</value>
+    <comment>Purge users that meet a certain criteria</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.VASCOImportTokens" xml:space="preserve">
+    <value>VASCO-Token aus DPX-Datei importieren</value>
+    <comment>Import VASCO tokens from DPX file</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.VettingDateProc" xml:space="preserve">
+    <value>Prüfdatenprozessor</value>
+    <comment>Vetting Date processor</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.VSImportTokens" xml:space="preserve">
+    <value>Verisign-Token aus einer TAR-Datei importieren</value>
+    <comment>Import Verisign tokens from a TAR file</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.XMLExport" xml:space="preserve">
+    <value>Daten in Datei exportieren</value>
+    <comment>Export data to file</comment>
+  </data>
+  <data name="forms.tasktypes.name.values.XMLImport" xml:space="preserve">
+    <value>Daten aus Datei importieren</value>
+    <comment>Import data from file</comment>
+  </data>
+  <data name="forms.searchresults.authcodes.Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Name</comment>
+  </data>
+  <data name="forms.searchresults.authcodes.Duration" xml:space="preserve">
+    <value>Dauer</value>
+    <comment>Duration</comment>
+  </data>
+  <data name="forms.deliveryMechanism.210.label" xml:space="preserve">
+    <value>Aktivierungscode-E-Mail</value>
+    <comment>Activation Code Email</comment>
+  </data>
+  <data name="forms.deliveryMechanism.210.description" xml:space="preserve">
+    <value>Senden Sie einen Authentifizierungscode per E-Mail an diesen Benutzer zur Geräteaktivierung</value>
+    <comment>Send an authentication code via email to this user for device activation</comment>
+  </data>
+  <data name="forms.deliveryMechanism.211.label" xml:space="preserve">
+    <value>Aktivierungscode SMS</value>
+    <comment>Activation Code SMS</comment>
+  </data>
+  <data name="forms.deliveryMechanism.211.description" xml:space="preserve">
+    <value>Senden Sie einen Authentifizierungscode per SMS an diesen Benutzer zur Geräteaktivierung.</value>
+    <comment>Send an authentication code via SMS to this user for device activation</comment>
+  </data>
+  <data name="forms.deliveryMechanism.212.label" xml:space="preserve">
+    <value>Authentifizierungscode E-Mail</value>
+    <comment>Authentication Code Email</comment>
+  </data>
+  <data name="forms.deliveryMechanism.212.description" xml:space="preserve">
+    <value>Senden Sie einen Authentifizierungscode per E-Mail an diesen Benutzer</value>
+    <comment>Send an authentication code via email to this user</comment>
+  </data>
+  <data name="forms.deliveryMechanism.213.label" xml:space="preserve">
+    <value>Authentifizierungscode SMS</value>
+    <comment>Authentication Code SMS</comment>
+  </data>
+  <data name="forms.deliveryMechanism.213.description" xml:space="preserve">
+    <value>Senden Sie einen Authentifizierungscode per SMS an diesen Benutzer</value>
+    <comment>Send an authentication code via SMS to this user</comment>
+  </data>
+  <data name="forms.deliveryMechanism.214.label" xml:space="preserve">
+    <value>Entsperrcode-E-Mail</value>
+    <comment>Unlock Code Email</comment>
+  </data>
+  <data name="forms.deliveryMechanism.214.description" xml:space="preserve">
+    <value>Senden Sie einen Authentifizierungscode per E-Mail an diesen Benutzer zur Geräte-PIN-Entsperrung</value>
+    <comment>Send an authentication code via email to this user for device PIN Unlock</comment>
+  </data>
+  <data name="forms.deliveryMechanism.215.label" xml:space="preserve">
+    <value>Entsperrcode SMS</value>
+    <comment>Unlock Code SMS</comment>
+  </data>
+  <data name="forms.deliveryMechanism.215.description" xml:space="preserve">
+    <value>Senden Sie diesem Benutzer einen Authentifizierungscode per SMS zur Geräte-PIN-Entsperrung</value>
+    <comment>Send an authentication code via SMS to this user for device PIN Unlock</comment>
+  </data>
+  <data name="forms.deliveryMechanism.216.label" xml:space="preserve">
+    <value>Sammlungscode E-Mail</value>
+    <comment>Collection Code Email</comment>
+  </data>
+  <data name="forms.deliveryMechanism.216.description" xml:space="preserve">
+    <value>Senden Sie diesem Benutzer per E-Mail einen Authentifizierungscode, um die Ersuchen abholen</value>
+    <comment>Send an authentication code via email to this user for collecting the request</comment>
+  </data>
+  <data name="forms.deliveryMechanism.217.label" xml:space="preserve">
+    <value>Sammlungscode SMS</value>
+    <comment>Collection Code SMS</comment>
+  </data>
+  <data name="forms.deliveryMechanism.217.description" xml:space="preserve">
+    <value>Senden Sie diesem Benutzer per SMS einen Authentifizierungscode, um die Ersuchen abholen</value>
+    <comment>Send an authentication code via SMS to this user for collecting the request</comment>
+  </data>
+  <data name="forms.certificatePolicies.searchcriteria.active" xml:space="preserve">
+    <value>Ist die Zertifikatsrichtlinie aktiv</value>
+    <comment>Is the certificate policy active</comment>
+  </data>
+  <data name="forms.certificatePolicies.searchcriteria.allowIdentityMapping" xml:space="preserve">
+    <value>Erlaube, dass dieses Zertifikatprofil als zusätzliche Identität ausgestellt wird</value>
+    <comment>Allow this certificate profile to be issued as an additional identity</comment>
+  </data>
+  <data name="warnings.OneActiveCredentialProfileRequestPerPerson.description" xml:space="preserve">
+    <value>{0}. Achtung: Für diese Berechtigungsprofil-Anfrage existiert bereits eine Anfrage für diese Person. Wenn die neue Anfrage erstellt wird, wird die aktuelle Anfrage storniert.</value>
+    <comment>{0}. Caution: a request for this credential profile already exists for this person. When the new request is created, the current request will be cancelled.</comment>
+  </data>
+  <data name="warnings.OneActiveDeviceAndCredentialProfileRequestPerPerson.description" xml:space="preserve">
+    <value>{0}. Achtung: Für diese Berechtigungsprofil gibt es bereits eine Anforderung für diese Person und ein widersprüchliches Gerät ist ihr zugewiesen. Wenn Sie fortfahren, wird die aktuelle Anforderung abgebrochen, und wenn die neue Anforderung ausgestellt wird, wird das aktuelle Gerät widerrufen.</value>
+    <comment>{0}. Caution: a request for this credential profile already exists for this person and a conflicting device is assigned to them. If you continue the current request will be cancelled, and when the new request is issued the current device will be revoked.</comment>
+  </data>
+  <data name="warnings.OneActiveDevicePerPerson.description" xml:space="preserve">
+    <value>{0}. Vorsicht: Einer Person wurde bereits ein Gerät zugewiesen, das mit dieser Anfrage in Konflikt steht. Wenn die neue Anfrage ausgegeben wird, wird das aktuelle Gerät widerrufen.</value>
+    <comment>{0}. Caution: a device has already been assigned to this person which will conflict with this request. When the new request is issued, the current device will be revoked.</comment>
+  </data>
+  <data name="forms.searchresults.securityphrases.Memorable Phrase" xml:space="preserve">
+    <value>Merksatz</value>
+    <comment>Memorable Phrase</comment>
+  </data>
+  <data name="forms.searchresults.securityphrases.Answer" xml:space="preserve">
+    <value>Antwort</value>
+    <comment>Answer</comment>
+  </data>
+  <data name="forms.searchresults.securityphrases.Confirm Answer" xml:space="preserve">
+    <value>Antwort bestätigen</value>
+    <comment>Confirm Answer</comment>
+  </data>
+  <data name="forms.securityPhrases.1" xml:space="preserve">
+    <value>Passwort:</value>
+    <comment>Password:</comment>
+  </data>
+  <data name="forms.securityPhrases.2" xml:space="preserve">
+    <value>Mädchenname der Mutter?</value>
+    <comment>Mother's maiden name?</comment>
+  </data>
+  <data name="forms.securityPhrases.3" xml:space="preserve">
+    <value>Sozialversicherungsnummer?</value>
+    <comment>Social Security Number?</comment>
+  </data>
+  <data name="forms.securityPhrases.4" xml:space="preserve">
+    <value>Lieblingsessen?</value>
+    <comment>Favorite food?</comment>
+  </data>
+  <data name="forms.securityPhrases.5" xml:space="preserve">
+    <value>Kfz-Kennzeichen?</value>
+    <comment>Car registration number?</comment>
+  </data>
+  <data name="forms.securityPhrases.6" xml:space="preserve">
+    <value>Name des Haustiers?</value>
+    <comment>Name of pet?</comment>
+  </data>
+  <data name="forms.securityPhrases.7" xml:space="preserve">
+    <value>Erste besuchte Schule?</value>
+    <comment>First school attended?</comment>
+  </data>
+  <data name="forms.securityPhrases.8" xml:space="preserve">
+    <value>Eine alte Telefonnummer?</value>
+    <comment>An old phone number?</comment>
+  </data>
+  <data name="forms.securityPhrases.9" xml:space="preserve">
+    <value>Ein denkwürdiges Datum?</value>
+    <comment>A memorable date?</comment>
+  </data>
+  <data name="forms.securityPhrases.10" xml:space="preserve">
+    <value>Ein unvergesslicher Ort?</value>
+    <comment>A memorable place?</comment>
+  </data>
+  <data name="forms.securityPhrases.11" xml:space="preserve">
+    <value>Ein denkwürdiges Ereignis?</value>
+    <comment>A memorable event?</comment>
+  </data>
+  <data name="forms.securityPhrases.12" xml:space="preserve">
+    <value>Eine berühmte Person?</value>
+    <comment>A famous person?</comment>
+  </data>
+  <data name="forms.securityPhrases.13" xml:space="preserve">
+    <value>Geburtsort?</value>
+    <comment>Place of birth?</comment>
+  </data>
+  <data name="forms.securityPhrases.14" xml:space="preserve">
+    <value>Ein Land?</value>
+    <comment>A country?</comment>
+  </data>
+  <data name="forms.securityPhrases.15" xml:space="preserve">
+    <value>Ein Fluss?</value>
+    <comment>A river?</comment>
+  </data>
+  <data name="forms.securityPhrases.16" xml:space="preserve">
+    <value>Ein Film?</value>
+    <comment>A movie?</comment>
+  </data>
+  <data name="forms.securityPhrases.17" xml:space="preserve">
+    <value>Ein Lied?</value>
+    <comment>A song?</comment>
+  </data>
+  <data name="forms.securityPhrases.18" xml:space="preserve">
+    <value>Ein Buch?</value>
+    <comment>A book?</comment>
+  </data>
+  <data name="forms.securityPhrases.19" xml:space="preserve">
+    <value>Ein Sport?</value>
+    <comment>A sport?</comment>
+  </data>
+  <data name="forms.securityPhrases.20" xml:space="preserve">
+    <value>Eine Postleitzahl?</value>
+    <comment>A postcode?</comment>
+  </data>
+  <data name="forms.securityPhrases.21" xml:space="preserve">
+    <value>Ein Tier?</value>
+    <comment>An animal?</comment>
+  </data>
+  <data name="forms.securityPhrases.22" xml:space="preserve">
+    <value>Erster Fahrzeugtyp?</value>
+    <comment>First car type?</comment>
+  </data>
+  <data name="forms.reportrevisions.reportOpId.addReport.label" xml:space="preserve">
+    <value>Bericht Betriebs-ID-Überschreibung</value>
+    <comment>Report Operation Id Override</comment>
+  </data>
+  <data name="forms.reportrevisions.reportOpId.addReport.tooltip" xml:space="preserve">
+    <value>Berichtsbetriebs-ID-Überschreibung</value>
+    <comment>Report Operation Id Override</comment>
+  </data>
+  <data name="forms.notifications.viewnotification.title" xml:space="preserve">
+    <value>Benachrichtigung anzeigen</value>
+    <comment>View Notification</comment>
+  </data>
+  <data name="forms.notifications.viewnotification.notification.label" xml:space="preserve">
+    <value>Benachrichtigung</value>
+    <comment>Notification</comment>
+  </data>
+  <data name="forms.notifications.source.label" xml:space="preserve">
+    <value>Quelle</value>
+    <comment>Source</comment>
+  </data>
+  <data name="forms.notifications.source.tooltip" xml:space="preserve">
+    <value>Quelle</value>
+    <comment>Source</comment>
+  </data>
+  <data name="forms.notifications.jobId.label" xml:space="preserve">
+    <value>Job-ID</value>
+    <comment>Job ID</comment>
+  </data>
+  <data name="forms.notifications.jobId.tooltip" xml:space="preserve">
+    <value>Auftrags-ID</value>
+    <comment>Job ID</comment>
+  </data>
+  <data name="forms.notifications.notificationType.label" xml:space="preserve">
+    <value>Benachrichtigungstyp</value>
+    <comment>Notification Type</comment>
+  </data>
+  <data name="forms.notifications.notificationType.tooltip" xml:space="preserve">
+    <value>Benachrichtigungstyp</value>
+    <comment>Notification Type</comment>
+  </data>
+  <data name="forms.notifications.result.label" xml:space="preserve">
+    <value>Ergebnis</value>
+    <comment>Result</comment>
+  </data>
+  <data name="forms.notifications.result.tooltip" xml:space="preserve">
+    <value>Ergebnis</value>
+    <comment>Result</comment>
+  </data>
+  <data name="forms.notifications.name.label" xml:space="preserve">
+    <value>Benachrichtigungsname</value>
+    <comment>Notification Name</comment>
+  </data>
+  <data name="forms.notifications.name.tooltip" xml:space="preserve">
+    <value>Benachrichtigungsname</value>
+    <comment>Notification Name</comment>
+  </data>
+  <data name="forms.notifications.logonName.label" xml:space="preserve">
+    <value>Anmeldename</value>
+    <comment>Logon Name</comment>
+  </data>
+  <data name="forms.notifications.logonName.tooltip" xml:space="preserve">
+    <value>Anmeldename</value>
+    <comment>Logon Name</comment>
+  </data>
+  <data name="forms.notifications.serialNumber.label" xml:space="preserve">
+    <value>Seriennummer</value>
+    <comment>Serial Number</comment>
+  </data>
+  <data name="forms.notifications.serialNumber.tooltip" xml:space="preserve">
+    <value>Seriennummer</value>
+    <comment>Serial Number</comment>
+  </data>
+  <data name="forms.notifications.requested.label" xml:space="preserve">
+    <value>Angefragt</value>
+    <comment>Requested</comment>
+  </data>
+  <data name="forms.notifications.requested.tooltip" xml:space="preserve">
+    <value>Angefordert</value>
+    <comment>Requested</comment>
+  </data>
+  <data name="forms.notifications.attemptNext.label" xml:space="preserve">
+    <value>Nächster Versuch</value>
+    <comment>Next Attempt</comment>
+  </data>
+  <data name="forms.notifications.attemptNext.tooltip" xml:space="preserve">
+    <value>Nächster Versuch</value>
+    <comment>Next Attempt</comment>
+  </data>
+  <data name="forms.notifications.sent.label" xml:space="preserve">
+    <value>Gesendet</value>
+    <comment>Sent</comment>
+  </data>
+  <data name="forms.notifications.sent.tooltip" xml:space="preserve">
+    <value>Gesendet</value>
+    <comment>Sent</comment>
+  </data>
+  <data name="form.confirmation-resendnotification.explanation.label" xml:space="preserve">
+    <value>Durch Bestätigung dieser Aktion wird diese Benachrichtigung erneut gesendet.</value>
+    <comment>Confirming this action will resend this notification.</comment>
+  </data>
+  <data name="form.confirmation-cancelnotification.explanation.label" xml:space="preserve">
+    <value>Durch die Bestätigung dieser Aktion wird diese Benachrichtigung abgebrochen.</value>
+    <comment>Confirming this action will cancel this notification.</comment>
+  </data>
+  <data name="forms.logonpriorities.viewlogonpriority.title" xml:space="preserve">
+    <value>Anmeldeprioritäten anzeigen</value>
+    <comment>View Logon Priorities</comment>
+  </data>
+  <data name="forms.logonpriorities.viewlogonpriority.logonpriority.label" xml:space="preserve">
+    <value>Anmeldeprioritäten</value>
+    <comment>Logon Priorities</comment>
+  </data>
+  <data name="forms.logonpriorities.editlogonpriority.title" xml:space="preserve">
+    <value>Anmeldereihenfolge bearbeiten</value>
+    <comment>Edit Logon Priorities</comment>
+  </data>
+  <data name="forms.logonpriorities.editlogonpriority.logonpriority.label" xml:space="preserve">
+    <value>Anmeldeprioritäten</value>
+    <comment>Logon Priorities</comment>
+  </data>
+  <data name="forms.logonpriorities.logonpriorities.label" xml:space="preserve">
+    <value>Anmeldeprioritäten</value>
+    <comment>Logon Priorities</comment>
+  </data>
+  <data name="forms.logonpriorities.logonpriorities.tooltip" xml:space="preserve">
+    <value>Anmeldeprioritäten</value>
+    <comment>Logon Priorities</comment>
+  </data>
+  <data name="forms.logonproviders.viewlogonmechanism.title" xml:space="preserve">
+    <value>Anmeldeverfahren anzeigen</value>
+    <comment>View Logon Mechanism</comment>
+  </data>
+  <data name="forms.logonproviders.editlogonmechanism.title" xml:space="preserve">
+    <value>Anmeldemechanismus bearbeiten</value>
+    <comment>Edit Logon Mechanism</comment>
+  </data>
+  <data name="forms.logonproviders.viewlogonmechanism.logonmechanism.label" xml:space="preserve">
+    <value>Anmeldeverfahren</value>
+    <comment>Logon Mechanism</comment>
+  </data>
+  <data name="forms.logonproviders.editlogonmechanism.logonmechanism.label" xml:space="preserve">
+    <value>Anmeldemechanismus</value>
+    <comment>Logon Mechanism</comment>
+  </data>
+  <data name="forms.logonproviders.name.label" xml:space="preserve">
+    <value>Anmelde-Mechanismusname</value>
+    <comment>Logon Mechanism Name</comment>
+  </data>
+  <data name="forms.logonproviders.enabled.label" xml:space="preserve">
+    <value>Aktiviert</value>
+    <comment>Enabled</comment>
+  </data>
+  <data name="forms.logonproviders.enabled.tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="forms.searchresults.messageTemplatesSubstitutions.SubstitutionToken" xml:space="preserve">
+    <value>Ersetzungstoken</value>
+    <comment>Substitution Token</comment>
+  </data>
+  <data name="forms.searchresults.messageTemplatesSubstitutions.Purpose" xml:space="preserve">
+    <value>Zweck</value>
+    <comment>Purpose</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Disabled" xml:space="preserve">
+    <value>Deaktiviert</value>
+    <comment>Disabled</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Enabled" xml:space="preserve">
+    <value>Aktiviert</value>
+    <comment>Enabled</comment>
+  </data>
+  <data name="forms.devices.processStatus.values.Reassigned" xml:space="preserve">
+    <value>Neu zugewiesen</value>
+    <comment>Reassigned</comment>
+  </data>
+  <data name="forms.enabled.values.Yes" xml:space="preserve">
+    <value>Ja</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="forms.enabled.values.No" xml:space="preserve">
+    <value>Nein</value>
+    <comment>No</comment>
+  </data>
+  <data name="forms.searchresults.licences.category" xml:space="preserve">
+    <value>Kategorie</value>
+    <comment>Category</comment>
+  </data>
+  <data name="forms.searchresults.licences.count" xml:space="preserve">
+    <value>Anzahl</value>
+    <comment>Count</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileRole.Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Name</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileRole.Description" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Description</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileRole.CanReceive" xml:space="preserve">
+    <value>Kann empfangen</value>
+    <comment>Can Receive</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileRole.CanRequest" xml:space="preserve">
+    <value>Kann anfordern</value>
+    <comment>Can Request</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileRole.CanValidate" xml:space="preserve">
+    <value>Kann validieren</value>
+    <comment>Can Validate</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileRole.CanCollect" xml:space="preserve">
+    <value>Kann abholen</value>
+    <comment>Can Collect</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileRole.CanUnlock" xml:space="preserve">
+    <value>Kann entsperren</value>
+    <comment>Can Unlock</comment>
+  </data>
+  <data name="forms.searchresults.credentialprofilerequisiteuserdata.Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Name</comment>
+  </data>
+  <data name="forms.searchresults.credentialprofilerequisiteuserdata.Required" xml:space="preserve">
+    <value>Erforderlich?</value>
+    <comment>Required?</comment>
+  </data>
+  <data name="forms.searchresults.credentialprofilerequisiteuserdata.Required.values.0" xml:space="preserve">
+    <value>Nicht erforderlich</value>
+    <comment>Not Required</comment>
+  </data>
+  <data name="forms.searchresults.credentialprofilerequisiteuserdata.Required.values.1" xml:space="preserve">
+    <value>Erforderlich für Anfrage</value>
+    <comment>Required for Request</comment>
+  </data>
+  <data name="forms.searchresults.credentialprofilerequisiteuserdata.Required.values.2" xml:space="preserve">
+    <value>Erforderlich für Validierung / Erfassung</value>
+    <comment>Required for Validate / Collect</comment>
+  </data>
+  <data name="forms.searchresults.credentialprofilerequisiteuserdata.AllowedValues" xml:space="preserve">
+    <value>Erlaubter Wert(e) (Optional)</value>
+    <comment>Allowed Value(s) (Optional)</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileApplet.Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Name</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileApplet.Description" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Description</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileApplet.Version" xml:space="preserve">
+    <value>Version</value>
+    <comment>Version</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileApplet.IssuedDate" xml:space="preserve">
+    <value>Ausgabedatum</value>
+    <comment>Issued Date</comment>
+  </data>
+  <data name="forms.searchresults.credentialProfileApplet.Selected" xml:space="preserve">
+    <value>Ausgewählt?</value>
+    <comment>Selected?</comment>
+  </data>
+  <data name="forms.cardprofiles.deviceContent.cardFormat.mobileDocument.label" xml:space="preserve">
+    <value>Dokumentenformat</value>
+    <comment>Document Format</comment>
+  </data>
+  <data name="forms.cardprofiles.deviceContent.cardFormat.mobileDocument.tooltip" xml:space="preserve">
+    <value>Dokumentenformat</value>
+    <comment>Document Format</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.Contact" xml:space="preserve">
+    <value>Kontaktchip</value>
+    <comment>Contact Chip</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.Contactless" xml:space="preserve">
+    <value>Kontaktloser Chip</value>
+    <comment>Contactless Chip</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.dualInterface" xml:space="preserve">
+    <value>Duale Schnittstelle</value>
+    <comment>Dual Interface</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.physical" xml:space="preserve">
+    <value>Physische gedruckte Karte</value>
+    <comment>Physical Printed Card</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.mvsc" xml:space="preserve">
+    <value>Microsoft Virtuelle Smartcard</value>
+    <comment>Microsoft Virtual Smart Card</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.whfb" xml:space="preserve">
+    <value>Windows Hello für Unternehmen</value>
+    <comment>Windows Hello for Business</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.fido" xml:space="preserve">
+    <value>FIDO Authentifikator</value>
+    <comment>FIDO Authenticator</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.fidoPki" xml:space="preserve">
+    <value>Kontakt und FIDO</value>
+    <comment>Contact and FIDO</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.identityAgent" xml:space="preserve">
+    <value>Identitätsagent</value>
+    <comment>Identity Agent</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.mobileDocument" xml:space="preserve">
+    <value>Mobiler Identitätsausweis</value>
+    <comment>Mobile Identity Document</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.printedDocument" xml:space="preserve">
+    <value>Gedrucktes Identitätsdokument</value>
+    <comment>Printed Identity Document</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.softCert" xml:space="preserve">
+    <value>Softwarezertifikat</value>
+    <comment>Software Certificate</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.deviceIdentity" xml:space="preserve">
+    <value>Geräteidentität</value>
+    <comment>Device Identity</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.externallyIssued" xml:space="preserve">
+    <value>Extern ausgestellt</value>
+    <comment>Externally Issued</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.cryptasVSC-contact" xml:space="preserve">
+    <value>Kontakt CRYPTAS Virtuelle Smartcard</value>
+    <comment>Contact CRYPTAS Virtual Smart Card</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.cryptasVSC-softCert" xml:space="preserve">
+    <value>Softwarezertifikat CRYPTAS Virtuelle Smartcard</value>
+    <comment>Software Certificate CRYPTAS Virtual Smart Card</comment>
+  </data>
+  <data name="forms.cardprofiles.type.values.undefined" xml:space="preserve">
+    <value>Nicht definiert</value>
+    <comment>Undefined</comment>
+  </data>
+  <data name="forms.values.None" xml:space="preserve">
+    <value>Keine</value>
+    <comment>None</comment>
+  </data>
+  <data name="licences.devicecategories.general" xml:space="preserve">
+    <value>Allgemein (Standardlizenzen)</value>
+    <comment>General (Standard Licenses)</comment>
+  </data>
+  <data name="licences.devicecategories.Card" xml:space="preserve">
+    <value>Karte</value>
+    <comment>Card</comment>
+  </data>
+  <data name="licences.devicecategories.Mobile" xml:space="preserve">
+    <value>Mobil</value>
+    <comment>Mobile</comment>
+  </data>
+  <data name="licences.devicecategories.machine" xml:space="preserve">
+    <value>Maschine</value>
+    <comment>Machine</comment>
+  </data>
+  <data name="licences.devicecategories.fido" xml:space="preserve">
+    <value>FIDO</value>
+    <comment>FIDO</comment>
+  </data>
+  <data name="licences.devicecategories.Unmanaged" xml:space="preserve">
+    <value>Nicht verwaltet</value>
+    <comment>Unmanaged</comment>
+  </data>
+  <data name="licences.devicecategories.SoftCert" xml:space="preserve">
+    <value>Softwarezertifikate</value>
+    <comment>Software Certificates</comment>
+  </data>
+  <data name="licences.devicecategories.ContactlessCard" xml:space="preserve">
+    <value>Kontaktlose Karten</value>
+    <comment>Contactless Cards</comment>
+  </data>
+  <data name="licences.devicecategories.Document" xml:space="preserve">
+    <value>Mobile Ausweisdokumente</value>
+    <comment>Mobile Identity Documents</comment>
+  </data>
+  <data name="licences.devicecategories.Printed" xml:space="preserve">
+    <value>Gedruckte Ausweisdokumente</value>
+    <comment>Printed Identity Documents</comment>
+  </data>
+  <data name="licences.devicecategories.Physical" xml:space="preserve">
+    <value>Physische gedruckte Karte</value>
+    <comment>Physical Printed Card</comment>
+  </data>
+  <data name="licences.licencesummary.ValidLicence" xml:space="preserve">
+    <value>Gültige Lizenz</value>
+    <comment>Valid License</comment>
+  </data>
+  <data name="licences.licencesummary.InitialLicence" xml:space="preserve">
+    <value>Erstlizenz</value>
+    <comment>Initial License</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.allowedCharacters" xml:space="preserve">
+    <value>Der bereitgestellte Ausdruck enthält ein oder mehrere verbotene Zeichen.</value>
+    <comment>The provided phrase uses one or more forbidden characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.minLength" xml:space="preserve">
+    <value>Der angegebene Satz erfüllt nicht die erforderliche Mindestlänge.</value>
+    <comment>The provided phrase does not meet the minimum required length.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.sequentialCharacters" xml:space="preserve">
+    <value>Der angegebene Ausdruck überschreitet die maximal zulässige Anzahl aufeinanderfolgender Zeichen.</value>
+    <comment>The provided phrase exceeds the maximum number of sequential characters allowed.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.repeatableCharacters" xml:space="preserve">
+    <value>Der angegebene Ausdruck überschreitet die maximal zulässige Anzahl an wiederholbaren Zeichen.</value>
+    <comment>The provided phrase exceeds the maximum number of repeatable characters allowed.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.emptyPhrase" xml:space="preserve">
+    <value>Sie müssen einen Satz angeben.</value>
+    <comment>You must provide a phrase.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.maxLength" xml:space="preserve">
+    <value>Der bereitgestellte Ausdruck überschreitet die maximal zulässige Länge.</value>
+    <comment>The provided phrase exceeds maximum allowed length.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.uppercase" xml:space="preserve">
+    <value>Der bereitgestellte Satz muss mindestens einen Großbuchstaben enthalten.</value>
+    <comment>The provided phrase must contain at least one uppercase character.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.noUppercase" xml:space="preserve">
+    <value>der bereitgestellte ausdruck darf keine großbuchstaben enthalten.</value>
+    <comment>The provided phrase must not contain uppercase characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.lowercase" xml:space="preserve">
+    <value>Der angegebene Ausdruck muss mindestens einen Kleinbuchstaben enthalten.</value>
+    <comment>The provided phrase must contain at least one lowercase character.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.noLowercase" xml:space="preserve">
+    <value>DER ANGEGEBENE SATZ DARF KEINE KLEINBUCHSTABEN ENTHALTEN.</value>
+    <comment>The provided phrase must not contain lowercase characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.number" xml:space="preserve">
+    <value>Der bereitgestellte Satz muss mindestens eine Zahl enthalten.</value>
+    <comment>The provided phrase must contain at least one number.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.noNumber" xml:space="preserve">
+    <value>Der bereitgestellte Ausdruck darf keine Zahlen enthalten.</value>
+    <comment>The provided phrase must not contain numbers.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.symbol" xml:space="preserve">
+    <value>Die angegebene Phrase muss mindestens ein Sonderzeichen enthalten.</value>
+    <comment>The provided phrase must contain at least one special character.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.error.noSymbol" xml:space="preserve">
+    <value>Der bereitgestellte Ausdruck darf keine Sonderzeichen enthalten.</value>
+    <comment>The provided phrase must not contain special characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.caseSensitive" xml:space="preserve">
+    <value>Diese Antworten sind groß- und kleinschreibungsempfindlich.</value>
+    <comment>These answers are case sensitive.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.caseInsensitive" xml:space="preserve">
+    <value>Diese Antworten sind nicht groß- und kleinschreibungsabhängig.</value>
+    <comment>These answers are case insensitive.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.whitespaceRemoved" xml:space="preserve">
+    <value>Alle Leerzeichen werden aus Ihren Antworten entfernt.</value>
+    <comment>Any whitespace will be removed from your answers.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.lengthRange" xml:space="preserve">
+    <value>Muss zwischen {0} und {1} Zeichen lang sein.</value>
+    <comment>Must be between {0} and {1} characters in length.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.atLeastLength" xml:space="preserve">
+    <value>Muss mindestens {0} Zeichen lang sein.</value>
+    <comment>Must be at least {0} characters in length.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.atMostLength" xml:space="preserve">
+    <value>Darf nicht länger als {0} Zeichen sein.</value>
+    <comment>Must not exceed {0} characters in length.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustContainUpper" xml:space="preserve">
+    <value>Muss mindestens 1 Großbuchstaben enthalten.</value>
+    <comment>Must contain at least 1 uppercase character.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustNotContainUpper" xml:space="preserve">
+    <value>darf keine großbuchstaben enthalten.</value>
+    <comment>Must not contain any uppercase characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustContainLower" xml:space="preserve">
+    <value>Muss mindestens 1 Kleinbuchstaben enthalten.</value>
+    <comment>Must contain at least 1 lowercase character.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustNotContainLower" xml:space="preserve">
+    <value>Darf keine Kleinbuchstaben enthalten.</value>
+    <comment>Must not contain any lowercase characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustContainNumber" xml:space="preserve">
+    <value>Muss mindestens 1 Zahl enthalten.</value>
+    <comment>Must contain at least 1 number.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustNotContainNumber" xml:space="preserve">
+    <value>Darf keine Zahlen enthalten.</value>
+    <comment>Must not contain any numbers.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustContainSymbol" xml:space="preserve">
+    <value>Muss mindestens 1 Sonderzeichen enthalten ( -!$%^&amp;*()_+|~=`{}[]:";'&lt;&gt;?,./@#\ und Leerzeichen ).</value>
+    <comment>Must contain at least 1 special character ( -!$%^&amp;*()_+|~=`{}[]:";'&lt;&gt;?,./@#\ and space ).</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.mustNotContainSymbol" xml:space="preserve">
+    <value>Darf keine Sonderzeichen enthalten.</value>
+    <comment>Must not contain any special characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.maxRepeatedCharacters" xml:space="preserve">
+    <value>Darf höchstens {0} wiederholte Zeichen enthalten.</value>
+    <comment>Can only contain a maximum of {0} repeated characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.maxSequentialCharacters" xml:space="preserve">
+    <value>Darf höchstens {0} aufeinanderfolgende Zeichen enthalten.</value>
+    <comment>Can only contain a maximum of {0} sequential characters.</comment>
+  </data>
+  <data name="forms.securityPhrases.validation.rule.text.allowedCharacters" xml:space="preserve">
+    <value>Darf nur die folgenden Zeichen enthalten: {0}</value>
+    <comment>Can only contain the following characters: {0}</comment>
+  </data>
+  <data name="forms.requisiteUserData.validation.error.fieldTooLong" xml:space="preserve">
+    <value>Der zulässige Wert/die zulässigen Werte für dieses Feld dürfen nicht mehr als 255 Zeichen enthalten.</value>
+    <comment>The allowed value(s) for this field must contain no more than 255 characters.</comment>
+  </data>
+  <data name="forms.requisiteUserData.validation.error.incorrectDNFormat" xml:space="preserve">
+    <value>Der zulässige Wert für dieses Feld ist kein korrekt formatiertes Distinguished Name.</value>
+    <comment>The allowed value for this field is not a correctly formatted Distinguished Name.</comment>
+  </data>
+  <data name="forms.requisiteUserData.validation.error.containsInvalidCharacters" xml:space="preserve">
+    <value>Die erlaubten Werte für dieses Feld dürfen nur alphanumerische Zeichen oder bestimmte Zeichen ( @-.' und Leerzeichen ) enthalten.</value>
+    <comment>The allowed value(s) for this field must only include alphanumeric or certain characters ( @-.' and space ).</comment>
+  </data>
+</root>
