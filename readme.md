@@ -1,7 +1,8 @@
 ﻿# LlmTranslateResx
 
-A tool for translating .resx format resource files containing translation strings into another language
-This calls out to an LLM (that you need to provide) in order to do the translation
+A tool for translating .resx format resource files containing translation strings into another language.
+
+This calls out to an LLM (that you need to provide) in order to do the translation.
 
 ## Usage
 
@@ -80,7 +81,7 @@ It is advisable to test a single file first to ensure you are happy with the res
 ### Translating all resx files in a directory
 
 A script LlmTranslateFilesInDirectory.ps1 is provided that will iterate all resx files in a directory, enabling a single command to translate all resx files.
-If you want to reuse previous translation files if available, create a subfolder called "previous" and put the previous file in that folder.
+If you have previously translated files using this tool for this target language, you should reuse translations from the previous run — this speeds up translation by only retranslating new or changed strings and ensures consistency. To do so, create a subfolder called `previous` and place the previously translated files there before running the script.
 
 Usage:
 The following example creates filename-de.resx files containing German translations of all resx files in the input directory, connecting to the LLM identified in the arguments:
@@ -123,7 +124,7 @@ To specify a custom web server root or destination:
 
 Copy the `Translate` folder to the machine where `LlmTranslateResx.exe` is available (the Translation PC).
 
-If you want to reuse translations from a previous run, place the previously translated files in a `previous` subfolder within each component folder inside `Translate` (e.g. `Translate\rest.core\Dictionaries\previous\Base.de.resx`).
+If you have previously translated files for this target language, you should reuse them to speed up translation and ensure consistency. Place the previously translated files in a `previous` subfolder within each component folder inside `Translate` (e.g. `Translate\rest.core\Dictionaries\previous\Base.de.resx`) before running the script.
 
 **Step 3 — Translate (run on the Translation PC)**
 
@@ -222,3 +223,4 @@ See [samples/readme.md](samples/readme.md) for installation instructions and gui
 
 - It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "content filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards. The content moderation policy in Azure can be set to "Low"
 - Real-time progress is not shown in LlmTranslateFilesInDirectory.ps1 or LlmTranslateWebServerFiles.ps1; the text output from LlmTranslateResx is delayed due to interaction when PowerShell calls an executable.
+- LLM translations are non-deterministic and will not necessarily produce the same result on each run. Using the `--previousFile` option helps maintain consistency across runs by reusing translations for strings that have not changed.
