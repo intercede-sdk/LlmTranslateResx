@@ -1,8 +1,19 @@
 ﻿# LlmTranslateResx
 
+[![Latest release](https://img.shields.io/github/v/release/intercede-sdk/LlmTranslateResx)](https://github.com/intercede-sdk/LlmTranslateResx/releases/latest)
+
 A tool for translating .resx format resource files containing translation strings into another language.
 
 This calls out to an LLM (that you need to provide) in order to do the translation.
+
+## Download
+
+The latest build is always available from the [latest release page](https://github.com/intercede-sdk/LlmTranslateResx/releases/latest).
+
+These links always resolve to the most recent release, so they do not need updating when a new version is published:
+
+- Latest release page: `https://github.com/intercede-sdk/LlmTranslateResx/releases/latest`
+- Direct download of a named asset: `https://github.com/intercede-sdk/LlmTranslateResx/releases/latest/download/<asset-file-name>` (replace `<asset-file-name>` with the asset attached to the release).
 
 ## Usage
 
