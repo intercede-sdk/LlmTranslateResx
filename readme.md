@@ -221,6 +221,7 @@ See [samples/readme.md](samples/readme.md) for installation instructions and gui
 
 ## Known Issues
 
+- The `SSP/MyIDDataSource/Language` and `SSP/MyIDProcessDriver/Language` folders contain identical translation files. Only one folder needs to be translated; the resulting translated files should then be copied to the other folder. `LlmTranslateWebServerFiles.ps1` handles this automatically by translating only `MyIDDataSource/Language` and copying the results to `MyIDProcessDriver/Language`.
 - It has been observed on Azure provisioned OpenAI that some strings can wrongly and unexpectedly trigger the Azure OpenAI "content filter". In failure cases (such as this), the problem entries are reported in the program output and the original source string is used. You may manually correct these afterwards. The content moderation policy in Azure can be set to "Low"
 - Real-time progress is not shown in LlmTranslateFilesInDirectory.ps1 or LlmTranslateWebServerFiles.ps1; the text output from LlmTranslateResx is delayed due to interaction when PowerShell calls an executable.
 - LLM translations are non-deterministic and will not necessarily produce the same result on each run. Using the `--previousFile` option helps maintain consistency across runs by reusing translations for strings that have not changed.

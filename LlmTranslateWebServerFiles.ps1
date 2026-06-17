@@ -19,8 +19,9 @@ $targetFolders = @("rest.core", "rest.provision", "SSP", "SSRP", "web.oauth2")
 $targetFolders | ForEach-Object { Join-Path $webServerRoot $_ } | Where-Object { Test-Path $_ } | ForEach-Object {
     Get-ChildItem -Path $_ -Recurse -File
 } | Where-Object {
-	$_.Name -match '(?i)en-US\.resx$' -or
-	($_.Name -like '*.resx' -and $_.Name -notmatch '(?i)\.[a-z]{2,3}(-[a-zA-Z]{2,4})?\.resx$')
+	($_.Name -match '(?i)en-US\.resx$' -or
+	($_.Name -like '*.resx' -and $_.Name -notmatch '(?i)\.[a-z]{2,3}(-[a-zA-Z]{2,4})?\.resx$')) -and
+	$_.FullName -notlike "*\SSP\MyIDProcessDriver\Language\*"
 } | ForEach-Object {
 	$file = $_
 	$dir = $file.DirectoryName
@@ -46,6 +47,19 @@ $targetFolders | ForEach-Object { Join-Path $webServerRoot $_ } | Where-Object {
 	}
 
 	& "cmd" "/c" "LlmTranslateResx.exe" "--input" $inputPath "--output" $outputPath @additionalArgs @ArgsToPass
+}
+
+# MyIDDataSource and MyIDProcessDriver have identical translation files; copy translations across rather than translating twice.
+$myIDDataSourceLang = Join-Path $webServerRoot "SSP\MyIDDataSource\Language"
+$myIDProcessDriverLang = Join-Path $webServerRoot "SSP\MyIDProcessDriver\Language"
+if ((Test-Path $myIDDataSourceLang) -and (Test-Path $myIDProcessDriverLang)) {
+    Get-ChildItem -Path $myIDDataSourceLang -File | Where-Object {
+        $_.Name -like "*.$outputLanguageCode.resx"
+    } | ForEach-Object {
+        $destPath = Join-Path $myIDProcessDriverLang $_.Name
+        Write-Host "Copying $($_.FullName) to $destPath"
+        Copy-Item -Path $_.FullName -Destination $destPath -Force
+    }
 }
 
 Write-Host "All files processed"
