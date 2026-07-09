@@ -37,6 +37,14 @@ Translate\
 
 `LlmTranslateWebServerFiles.ps1` automatically picks up files in `previous\` subfolders.
 
+To create this `previous` folder structure automatically, run `CopyPreviousTranslationsFromSample.ps1`, pointing it at the closest previous version's sample folder and your prepared `Translate` folder:
+
+```
+.\CopyPreviousTranslationsFromSample.ps1 -sampleFolder .\samples\MyID-12.18 -destination .\Translate
+```
+
+By default this copies every German (`de`) sample translation into the matching `previous\` subfolder. Add `-onlyWhereSourceExists` to create previous files only where a matching source file exists in the destination, or use `-outputLanguageCode` to select a different language.
+
 ### Using with LlmTranslateFilesInDirectory.ps1
 
 Copy the sample translated files for the closest previous version into a `previous` subfolder within the directory you are translating, then run `LlmTranslateFilesInDirectory.ps1` as normal.
