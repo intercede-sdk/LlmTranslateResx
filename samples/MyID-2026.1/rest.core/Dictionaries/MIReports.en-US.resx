@@ -1,0 +1,4857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="forms.reports.people.label" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="forms.reports.people.description" xml:space="preserve">
+    <value>People in operators scope</value>
+  </data>
+  <data name="links.people.search.100102.desc" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="forms.operation.id.values.100102" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="searchHeadings.100102.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.100102.firstName.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchHeadings.100102.surname.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchHeadings.100102.groupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchHeadings.100102.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="searchHeadings.100102.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="forms.people.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.100102.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.100102.firstName.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchCriteria.100102.surname.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchCriteria.100102.EmployeeID.label" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="searchCriteria.100102.Email.label" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="searchCriteria.100102.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="searchCriteria.100102.SAMAccountName.label" xml:space="preserve">
+    <value>SAM Account Name</value>
+  </data>
+  <data name="searchCriteria.100102.UserPrincipalName.label" xml:space="preserve">
+    <value>User Principal Name</value>
+  </data>
+  <data name="searchCriteria.100102.ApplicationID.label" xml:space="preserve">
+    <value>Application ID</value>
+  </data>
+  <data name="searchCriteria.100102.UserSIDPresent.label" xml:space="preserve">
+    <value>User SID Present</value>
+  </data>
+  <data name="searchCriteria.100102.UserSIDPresent.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100102.UserSIDPresent.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100102.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.100102.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100102.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100102.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100102.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100102.groupName2.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.100102.groupName.label" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="searchCriteria.100102.AccessToOperations.label" xml:space="preserve">
+    <value>Access To Operations</value>
+  </data>
+  <data name="forms.people.restricted.values.notmonitored" xml:space="preserve">
+    <value>Not Monitored</value>
+  </data>
+  <data name="forms.people.restricted.values.Not Monitored" xml:space="preserve">
+    <value>Not Monitored</value>
+  </data>
+  <data name="forms.people.restricted.values.restricted" xml:space="preserve">
+    <value>Restricted</value>
+  </data>
+  <data name="forms.people.restricted.values.unrestricted" xml:space="preserve">
+    <value>Unrestricted</value>
+  </data>
+  <data name="searchCriteria.100102.ExternalReferenceID1.label" xml:space="preserve">
+    <value>External Reference ID 1</value>
+  </data>
+  <data name="searchCriteria.100102.ExternalReferenceID2.label" xml:space="preserve">
+    <value>External Reference ID 2</value>
+  </data>
+  <data name="searchCriteria.100102.ExternalReferenceID3.label" xml:space="preserve">
+    <value>External Reference ID 3</value>
+  </data>
+  <data name="forms.reports.devices.label" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="forms.reports.devices.description" xml:space="preserve">
+    <value>Devices in operators scope</value>
+  </data>
+  <data name="links.devices.search.100202.desc" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="forms.operation.id.values.100202" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="searchHeadings.100202.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.100202.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.100202.DeviceVersion.label" xml:space="preserve">
+    <value>Device Version</value>
+  </data>
+  <data name="searchHeadings.100202.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchHeadings.100202.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchHeadings.100202.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.100202.enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.100202.validFrom.label" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="searchHeadings.100202.validUntil.label" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="searchHeadings.100202.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="forms.devices.searchcriteria.owner name (contains).label" xml:space="preserve">
+    <value>Owner Name (contains)</value>
+  </data>
+  <data name="searchCriteria.100202.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.100202.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.100202.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.100202.DeviceVersion.label" xml:space="preserve">
+    <value>Device Version</value>
+  </data>
+  <data name="searchCriteria.100202.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchCriteria.100202.NumericEnabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.100202.NumericEnabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100202.NumericEnabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100202.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.100202.Chip.label" xml:space="preserve">
+    <value>Chip</value>
+  </data>
+  <data name="searchCriteria.100202.validFrom.label.gt" xml:space="preserve">
+    <value>Valid After</value>
+  </data>
+  <data name="searchCriteria.100202.validFrom.label.lt" xml:space="preserve">
+    <value>Valid Before</value>
+  </data>
+  <data name="searchCriteria.100202.validUntil.label.gt" xml:space="preserve">
+    <value>Expires After</value>
+  </data>
+  <data name="searchCriteria.100202.validUntil.label.lt" xml:space="preserve">
+    <value>Expires Before</value>
+  </data>
+  <data name="searchCriteria.100202.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.100202.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="searchCriteria.100202.enabled.label" xml:space="preserve">
+    <value>Enabled (text)</value>
+  </data>
+  <data name="searchCriteria.100202.enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100202.enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100202.enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100202.enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100202.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchCriteria.100202.MifareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="forms.reports.requests.label" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="forms.reports.requests.description" xml:space="preserve">
+    <value>Credential lifecycle requests</value>
+  </data>
+  <data name="links.requests.search.100406.desc" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="forms.operation.id.values.100406" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="searchHeadings.100406.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.100406.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.100406.taskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.100406.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.100406.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.100406.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.100406.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.100406.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.100406.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.100406.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.100406.searchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.100406.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.100406.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.SoftCert" xml:space="preserve">
+    <value>Software Certificate</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.100406.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.100406.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.100406.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.100406.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.100406.ValidationDate.label.gt" xml:space="preserve">
+    <value>Validated After</value>
+  </data>
+  <data name="searchCriteria.100406.ValidationDate.label.lt" xml:space="preserve">
+    <value>Validated Before</value>
+  </data>
+  <data name="searchCriteria.100406.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.100406.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="searchCriteria.100406.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchCriteria.100406.taskType.label" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="forms.reports.groups.label" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="forms.reports.groups.description" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="links.groups.search.100502.desc" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="forms.operation.id.values.100502" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="searchHeadings.100502.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.100502.Parent.label" xml:space="preserve">
+    <value>Parent Group</value>
+  </data>
+  <data name="searchHeadings.100502.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.100502.OrgUnit.label" xml:space="preserve">
+    <value>Organizational Unit</value>
+  </data>
+  <data name="searchHeadings.100502.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.100502.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.100502.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.100502.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.100502.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100502.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100502.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100502.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100502.Parent.label" xml:space="preserve">
+    <value>Parent Group</value>
+  </data>
+  <data name="forms.reports.people within groups.label" xml:space="preserve">
+    <value>People Within Groups</value>
+  </data>
+  <data name="forms.reports.people within groups.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.people.searchContextual.100514.desc" xml:space="preserve">
+    <value>People Within Groups</value>
+  </data>
+  <data name="forms.operation.id.values.100514" xml:space="preserve">
+    <value>People Within Groups</value>
+  </data>
+  <data name="searchHeadings.100514.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.100514.FirstName.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchHeadings.100514.LastName.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchHeadings.100514.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.100514.currentObjectID.label" xml:space="preserve">
+    <value>ObjectID</value>
+  </data>
+  <data name="forms.reports.directories.label" xml:space="preserve">
+    <value>Directories</value>
+  </data>
+  <data name="forms.reports.directories.description" xml:space="preserve">
+    <value>Directories</value>
+  </data>
+  <data name="links.directories.search.100617.desc" xml:space="preserve">
+    <value>Directories</value>
+  </data>
+  <data name="forms.operation.id.values.100617" xml:space="preserve">
+    <value>Directories</value>
+  </data>
+  <data name="searchHeadings.100617.DirectoryName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.100617.DirectoryDescription.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.100617.ServerLocation.label" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="searchHeadings.100617.DirectoryType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.100617.ExternalSystemName.label" xml:space="preserve">
+    <value>External System</value>
+  </data>
+  <data name="searchHeadings.100617.ExternalSystemEnabled.label" xml:space="preserve">
+    <value>External System Enabled</value>
+  </data>
+  <data name="searchCriteria.100617.DirectoryName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.100617.DirectoryDescription.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.100617.DirectoryType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.100617.DirectoryType.values.LDAP" xml:space="preserve">
+    <value>LDAP</value>
+  </data>
+  <data name="searchCriteria.100617.DirectoryType.values.REST" xml:space="preserve">
+    <value>REST</value>
+  </data>
+  <data name="forms.reports.locations.label" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="forms.reports.locations.description" xml:space="preserve">
+    <value>Stock Locations</value>
+  </data>
+  <data name="links.locations.search.100702.desc" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="forms.operation.id.values.100702" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="searchHeadings.100702.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.100702.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.100702.LKind.label" xml:space="preserve">
+    <value>Kind</value>
+  </data>
+  <data name="searchCriteria.100702.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.100702.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.100702.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100702.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100702.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100702.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100702.LKind.label" xml:space="preserve">
+    <value>Kind</value>
+  </data>
+  <data name="searchCriteria.100702.LKind.values.Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="forms.reports.stock limits.label" xml:space="preserve">
+    <value>Stock Limits</value>
+  </data>
+  <data name="forms.reports.stock limits.description" xml:space="preserve">
+    <value>Stock Limits</value>
+  </data>
+  <data name="links.stocklimits.search.100802.desc" xml:space="preserve">
+    <value>Stock Limits</value>
+  </data>
+  <data name="forms.operation.id.values.100802" xml:space="preserve">
+    <value>Stock Limits</value>
+  </data>
+  <data name="searchHeadings.100802.LocationName.label" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="searchHeadings.100802.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="searchHeadings.100802.MinimumQuantity.label" xml:space="preserve">
+    <value>Minimum Quantity</value>
+  </data>
+  <data name="searchHeadings.100802.ReorderQuantity.label" xml:space="preserve">
+    <value>Reorder Quantity</value>
+  </data>
+  <data name="searchCriteria.100802.LocationName.label" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="searchCriteria.100802.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="forms.reports.credential profiles.label" xml:space="preserve">
+    <value>Credential Profiles</value>
+  </data>
+  <data name="forms.reports.credential profiles.description" xml:space="preserve">
+    <value>Credential Profiles</value>
+  </data>
+  <data name="links.cardprofiles.search.100902.desc" xml:space="preserve">
+    <value>Credential Profiles</value>
+  </data>
+  <data name="forms.operation.id.values.100902" xml:space="preserve">
+    <value>Credential Profiles</value>
+  </data>
+  <data name="searchHeadings.100902.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.100902.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.100902.ProfileType.label" xml:space="preserve">
+    <value>Profile Type</value>
+  </data>
+  <data name="searchHeadings.100902.CreatedDate.label" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="searchHeadings.100902.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="searchHeadings.100902.LatestVersion.label" xml:space="preserve">
+    <value>Latest Version</value>
+  </data>
+  <data name="searchCriteria.100902.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.100902.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.100902.ProfileType.label" xml:space="preserve">
+    <value>Profile Type</value>
+  </data>
+  <data name="searchCriteria.100902.CurrentVersion.label" xml:space="preserve">
+    <value>Current Version</value>
+  </data>
+  <data name="searchCriteria.100902.CurrentVersion.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.100902.CurrentVersion.values.^Yes" xml:space="preserve">
+    <value>^Yes</value>
+  </data>
+  <data name="searchCriteria.100902.Archived.label" xml:space="preserve">
+    <value>Archived</value>
+  </data>
+  <data name="searchCriteria.100902.Archived.values.^No" xml:space="preserve">
+    <value>^No</value>
+  </data>
+  <data name="searchCriteria.100902.Archived.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.100902.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="forms.reports.certificates.label" xml:space="preserve">
+    <value>Certificates</value>
+  </data>
+  <data name="forms.reports.certificates.description" xml:space="preserve">
+    <value>Search Certificates in operators scope</value>
+  </data>
+  <data name="links.certificates.search.101110.desc" xml:space="preserve">
+    <value>Certificates</value>
+  </data>
+  <data name="forms.operation.id.values.101110" xml:space="preserve">
+    <value>Certificates</value>
+  </data>
+  <data name="searchHeadings.101110.CertID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.101110.IssuedTo.label" xml:space="preserve">
+    <value>Issued To</value>
+  </data>
+  <data name="searchHeadings.101110.DisplayName.label" xml:space="preserve">
+    <value>Certificate Policy Display Name</value>
+  </data>
+  <data name="searchHeadings.101110.CertificatePolicy.label" xml:space="preserve">
+    <value>Certificate Policy Name</value>
+  </data>
+  <data name="searchHeadings.101110.CertificateSN.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.101110.DateIssued.label" xml:space="preserve">
+    <value>Date Issued</value>
+  </data>
+  <data name="searchHeadings.101110.ExpiryDate.label" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="searchHeadings.101110.CertificateStatus.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.101110.UserDN.label" xml:space="preserve">
+    <value>User DN</value>
+  </data>
+  <data name="searchHeadings.101110.CAName.label" xml:space="preserve">
+    <value>Certificate Authority</value>
+  </data>
+  <data name="searchHeadings.101110.expired.label" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="searchHeadings.101110.Imported.label" xml:space="preserve">
+    <value>Imported</value>
+  </data>
+  <data name="searchCriteria.101110.IssuedTo.label" xml:space="preserve">
+    <value>Issued To</value>
+  </data>
+  <data name="searchCriteria.101110.CertificatePolicy.label" xml:space="preserve">
+    <value>Certificate Policy</value>
+  </data>
+  <data name="searchCriteria.101110.DisplayName.label" xml:space="preserve">
+    <value>Certificate Policy Display Name</value>
+  </data>
+  <data name="searchCriteria.101110.CAName.label" xml:space="preserve">
+    <value>Certificate Authority</value>
+  </data>
+  <data name="searchCriteria.101110.CertificateStatus.label" xml:space="preserve">
+    <value>Certificate Status</value>
+  </data>
+  <data name="searchCriteria.101110.CertificateSN.label" xml:space="preserve">
+    <value>Certificate Serial Number</value>
+  </data>
+  <data name="searchCriteria.101110.DateIssued.label.gt" xml:space="preserve">
+    <value>Issued After</value>
+  </data>
+  <data name="searchCriteria.101110.DateIssued.label.lt" xml:space="preserve">
+    <value>Issued Before</value>
+  </data>
+  <data name="searchCriteria.101110.ExpiryDate.label.gt" xml:space="preserve">
+    <value>Expiry Date After</value>
+  </data>
+  <data name="searchCriteria.101110.ExpiryDate.label.lt" xml:space="preserve">
+    <value>Expiry Date Before</value>
+  </data>
+  <data name="searchCriteria.101110.maxDaysToExpiryDate.label" xml:space="preserve">
+    <value>Maximum Days To Expiry</value>
+  </data>
+  <data name="searchCriteria.101110.UserDN.label" xml:space="preserve">
+    <value>User DN</value>
+  </data>
+  <data name="searchCriteria.101110.CertID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.101110.CertUserSIDPresent.label" xml:space="preserve">
+    <value>User SID Present</value>
+  </data>
+  <data name="searchCriteria.101110.CertUserSIDPresent.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.101110.CertUserSIDPresent.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.101110.CertUserSID.label" xml:space="preserve">
+    <value>User SID</value>
+  </data>
+  <data name="searchCriteria.101110.Imported.label" xml:space="preserve">
+    <value>Imported</value>
+  </data>
+  <data name="searchCriteria.101110.Imported.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.101110.Imported.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.101110.SubKeyIdentifier.label" xml:space="preserve">
+    <value>Subject Key Identifier</value>
+  </data>
+  <data name="searchCriteria.101110.SubKeyIdentifier.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.101110.SubKeyIdentifier.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="forms.reports.stock transfers.label" xml:space="preserve">
+    <value>Stock Transfers</value>
+  </data>
+  <data name="forms.reports.stock transfers.description" xml:space="preserve">
+    <value>Stock Transfers</value>
+  </data>
+  <data name="links.stocktransfers.search.101202.desc" xml:space="preserve">
+    <value>Stock Transfers</value>
+  </data>
+  <data name="forms.operation.id.values.101202" xml:space="preserve">
+    <value>Stock Transfers</value>
+  </data>
+  <data name="searchHeadings.101202.OriginName.label" xml:space="preserve">
+    <value>From Location</value>
+  </data>
+  <data name="searchHeadings.101202.DestinationName.label" xml:space="preserve">
+    <value>To Location</value>
+  </data>
+  <data name="searchHeadings.101202.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="searchHeadings.101202.Quantity.label" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="searchHeadings.101202.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.101202.DateCreated.label" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="searchHeadings.101202.DateUpdated.label" xml:space="preserve">
+    <value>Date Updated</value>
+  </data>
+  <data name="searchCriteria.101202.OriginName.label" xml:space="preserve">
+    <value>From Location</value>
+  </data>
+  <data name="searchCriteria.101202.DestinationName.label" xml:space="preserve">
+    <value>To Location</value>
+  </data>
+  <data name="searchCriteria.101202.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="searchCriteria.101202.Quantity.label" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="searchCriteria.101202.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.101202.DateCreated.label.gt" xml:space="preserve">
+    <value>Date Created After</value>
+  </data>
+  <data name="searchCriteria.101202.DateCreated.label.lt" xml:space="preserve">
+    <value>Date Created Before</value>
+  </data>
+  <data name="searchCriteria.101202.DateUpdated.label.gt" xml:space="preserve">
+    <value>Date Updated After</value>
+  </data>
+  <data name="searchCriteria.101202.DateUpdated.label.lt" xml:space="preserve">
+    <value>Date Updated Before</value>
+  </data>
+  <data name="forms.reports.all certificate policies.label" xml:space="preserve">
+    <value>All Certificate Policies</value>
+  </data>
+  <data name="forms.reports.all certificate policies.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.certpolicies.search.101402.desc" xml:space="preserve">
+    <value>All Certificate Policies</value>
+  </data>
+  <data name="forms.operation.id.values.101402" xml:space="preserve">
+    <value>All Certificate Policies</value>
+  </data>
+  <data name="searchHeadings.101402.DisplayName.label" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="searchHeadings.101402.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.101402.caType.label" xml:space="preserve">
+    <value>Certificate Authority Type</value>
+  </data>
+  <data name="searchHeadings.101402.caName.label" xml:space="preserve">
+    <value>Certificate Authority Name</value>
+  </data>
+  <data name="searchHeadings.101402.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.101402.name.label" xml:space="preserve">
+    <value>Friendly Name</value>
+  </data>
+  <data name="searchCriteria.101402.DisplayName.label" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="searchCriteria.101402.caType.label" xml:space="preserve">
+    <value>Certificate Authority Type</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.DigiCertONE" xml:space="preserve">
+    <value>DigiCert ONE</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.EJBCA" xml:space="preserve">
+    <value>EJBCA</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.EntrustJASTK" xml:space="preserve">
+    <value>Entrust JASTK</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.EntrustJTK" xml:space="preserve">
+    <value>Entrust JTK</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.EntrustRest" xml:space="preserve">
+    <value>Entrust Rest</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.GenericCA" xml:space="preserve">
+    <value>Generic CA</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.Microsoft Enrollment" xml:space="preserve">
+    <value>Microsoft Enrollment</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.Microsoft Enterprise" xml:space="preserve">
+    <value>Microsoft Enterprise</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.SymantecMPKI8" xml:space="preserve">
+    <value>SymantecMPKI8</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.UniCERTUPI" xml:space="preserve">
+    <value>UniCERT</value>
+  </data>
+  <data name="searchCriteria.101402.caType.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="searchCriteria.101402.caName.label" xml:space="preserve">
+    <value>Certificate Authority Name</value>
+  </data>
+  <data name="searchCriteria.101402.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.101402.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.101402.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.101402.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.101402.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.101402.AllowIdentityMapping.label" xml:space="preserve">
+    <value>Allow Identity Mapping</value>
+  </data>
+  <data name="searchCriteria.101402.AllowIdentityMapping.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.101402.AllowIdentityMapping.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="forms.reports.settings.label" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="forms.reports.settings.description" xml:space="preserve">
+    <value>Configuration settings</value>
+  </data>
+  <data name="links.settings.search.102402.desc" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="forms.operation.id.values.102402" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="searchHeadings.102402.ConfigurationFlagName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.102402.ConfigurationFlagCategory.label" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="searchHeadings.102402.ConfigurationFlagSection.label" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="searchHeadings.102402.ConfigurationFlagValue.label" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagCategory.label" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagCategory.values.operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagCategory.values.security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.label" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.authcode" xml:space="preserve">
+    <value>Auth Code</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Auth Code" xml:space="preserve">
+    <value>Auth Code</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Background" xml:space="preserve">
+    <value>Identity Checks</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Identity Checks" xml:space="preserve">
+    <value>Identity Checks</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.biometric" xml:space="preserve">
+    <value>Biometrics</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Biometrics" xml:space="preserve">
+    <value>Biometrics</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.bureau" xml:space="preserve">
+    <value>Bureau and Job</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Bureau and Job" xml:space="preserve">
+    <value>Bureau and Job</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.certificates" xml:space="preserve">
+    <value>Certificates</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.devices" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.devicesecurity" xml:space="preserve">
+    <value>Device Security</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Device Security" xml:space="preserve">
+    <value>Device Security</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.general" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.iapolicy" xml:space="preserve">
+    <value>Identity Agent Policy</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Identity Agent Policy" xml:space="preserve">
+    <value>Identity Agent Policy</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.import-export" xml:space="preserve">
+    <value>Import and Export</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Import and Export" xml:space="preserve">
+    <value>Import and Export</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.issuance processes" xml:space="preserve">
+    <value>Issuance Processes</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.ldap" xml:space="preserve">
+    <value>LDAP</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.logon" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.pins" xml:space="preserve">
+    <value>PINs</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.self" xml:space="preserve">
+    <value>Self-Service</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.Self-Service" xml:space="preserve">
+    <value>Self-Service</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="searchCriteria.102402.ConfigurationFlagSection.values.video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="forms.reports.operations.label" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="forms.reports.operations.description" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="links.operations.search.102502.desc" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="forms.operation.id.values.102502" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="searchHeadings.102502.OperationName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.102502.OperationID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.102502.OperationTypes.label" xml:space="preserve">
+    <value>Applies To</value>
+  </data>
+  <data name="searchHeadings.102502.IsReport.label" xml:space="preserve">
+    <value>Is Report</value>
+  </data>
+  <data name="searchCriteria.102502.OperationName.label" xml:space="preserve">
+    <value>Name (ID)</value>
+  </data>
+  <data name="searchCriteria.102502.IsReport.label" xml:space="preserve">
+    <value>Is Report</value>
+  </data>
+  <data name="searchCriteria.102502.IsReport.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.102502.IsReport.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="forms.reports.device security.label" xml:space="preserve">
+    <value>Device Security</value>
+  </data>
+  <data name="forms.reports.device security.description" xml:space="preserve">
+    <value>Device security settings</value>
+  </data>
+  <data name="links.devicetypes.search.105002.desc" xml:space="preserve">
+    <value>Device Security</value>
+  </data>
+  <data name="forms.operation.id.values.105002" xml:space="preserve">
+    <value>Device Security</value>
+  </data>
+  <data name="searchHeadings.105002.Name.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.105002.GPKey.label" xml:space="preserve">
+    <value>Require Customer GlobalPlatform Key</value>
+  </data>
+  <data name="searchHeadings.105002.PIV9BKey.label" xml:space="preserve">
+    <value>Require Customer PIV9B Key</value>
+  </data>
+  <data name="searchCriteria.105002.Name.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.105002.GPKey.label" xml:space="preserve">
+    <value>Require Customer GlobalPlatform Key</value>
+  </data>
+  <data name="searchCriteria.105002.GPKey.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.105002.GPKey.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.105002.GPKey.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.105002.GPKey.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.105002.PIV9BKey.label" xml:space="preserve">
+    <value>Require Customer PIV9B Key</value>
+  </data>
+  <data name="searchCriteria.105002.PIV9BKey.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.105002.PIV9BKey.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.105002.PIV9BKey.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.105002.PIV9BKey.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="forms.reports.manage reports.label" xml:space="preserve">
+    <value>Manage Reports</value>
+  </data>
+  <data name="forms.reports.manage reports.description" xml:space="preserve">
+    <value>Manage Reports</value>
+  </data>
+  <data name="links.reportrevisions.search.105302.desc" xml:space="preserve">
+    <value>Manage Reports</value>
+  </data>
+  <data name="forms.operation.id.values.105302" xml:space="preserve">
+    <value>Manage Reports</value>
+  </data>
+  <data name="searchHeadings.105302.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.105302.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.105302.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.105302.Entity.label" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="searchHeadings.105302.MajorVersion.label" xml:space="preserve">
+    <value>Major Version</value>
+  </data>
+  <data name="searchHeadings.105302.MinorVersion.label" xml:space="preserve">
+    <value>Minor Version</value>
+  </data>
+  <data name="searchCriteria.105302.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.105302.Entity.label" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="searchCriteria.105302.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.105302.Status.values.Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="searchCriteria.105302.Status.values.Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="searchCriteria.105302.Status.values.Archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="searchCriteria.105302.MajorVersion.label" xml:space="preserve">
+    <value>Major Version</value>
+  </data>
+  <data name="searchCriteria.105302.MinorVersion.label" xml:space="preserve">
+    <value>Minor Version</value>
+  </data>
+  <data name="forms.reports.external systems.label" xml:space="preserve">
+    <value>External Systems</value>
+  </data>
+  <data name="forms.reports.external systems.description" xml:space="preserve">
+    <value>External Systems</value>
+  </data>
+  <data name="links.externalsystems.search.105502.desc" xml:space="preserve">
+    <value>External Systems</value>
+  </data>
+  <data name="forms.operation.id.values.105502" xml:space="preserve">
+    <value>External Systems</value>
+  </data>
+  <data name="searchHeadings.105502.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.105502.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.105502.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.105502.ListenerType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.105502.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.105502.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.105502.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.105502.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.105502.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.105502.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.105502.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.AdjudicationIDENT" xml:space="preserve">
+    <value>AdjudicationIDENT</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.AdjudicationNGI" xml:space="preserve">
+    <value>AdjudicationNGI</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.AdjudicationNGIRapBack" xml:space="preserve">
+    <value>AdjudicationNGIRapBack</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.AdjudicationOPM" xml:space="preserve">
+    <value>AdjudicationOPM</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.Astra" xml:space="preserve">
+    <value>Astra</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.BlackBerry" xml:space="preserve">
+    <value>BlackBerry</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.CardSuitability" xml:space="preserve">
+    <value>CardSuitability</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.FidoService" xml:space="preserve">
+    <value>FidoService</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.Intune" xml:space="preserve">
+    <value>Intune</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.RestService" xml:space="preserve">
+    <value>RestService</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.SecureVault" xml:space="preserve">
+    <value>SecureVault</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.SMTPServer" xml:space="preserve">
+    <value>SMTP Server</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.SMTP Server" xml:space="preserve">
+    <value>SMTP Server</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.UserSync" xml:space="preserve">
+    <value>UserSync</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.UUIDService" xml:space="preserve">
+    <value>UUIDService</value>
+  </data>
+  <data name="searchCriteria.105502.ListenerType.values.WorkspaceOne" xml:space="preserve">
+    <value>WorkspaceOne</value>
+  </data>
+  <data name="forms.reports.all notifications.label" xml:space="preserve">
+    <value>All Notifications</value>
+  </data>
+  <data name="forms.reports.all notifications.description" xml:space="preserve">
+    <value>Retrieve notifications in the operator's scope</value>
+  </data>
+  <data name="links.notifications.search.106002.desc" xml:space="preserve">
+    <value>All Notifications</value>
+  </data>
+  <data name="forms.operation.id.values.106002" xml:space="preserve">
+    <value>All Notifications</value>
+  </data>
+  <data name="searchHeadings.106002.Source.label" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="searchHeadings.106002.JobID.label" xml:space="preserve">
+    <value>Job ID</value>
+  </data>
+  <data name="searchHeadings.106002.NotificationType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.106002.Result.label" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="searchHeadings.106002.NotificationName.label" xml:space="preserve">
+    <value>Notification Name</value>
+  </data>
+  <data name="searchHeadings.106002.Logon.label" xml:space="preserve">
+    <value>Logon Name</value>
+  </data>
+  <data name="searchHeadings.106002.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.106002.DateRequested.label" xml:space="preserve">
+    <value>Date Requested</value>
+  </data>
+  <data name="searchHeadings.106002.AttemptAfter.label" xml:space="preserve">
+    <value>Next Attempt</value>
+  </data>
+  <data name="searchHeadings.106002.Sent.label" xml:space="preserve">
+    <value>Date Sent</value>
+  </data>
+  <data name="searchCriteria.106002.JobID.label" xml:space="preserve">
+    <value>Job ID</value>
+  </data>
+  <data name="searchCriteria.106002.NotificationType.label" xml:space="preserve">
+    <value>Notification Type</value>
+  </data>
+  <data name="searchCriteria.106002.NotificationName.label" xml:space="preserve">
+    <value>Notification Name</value>
+  </data>
+  <data name="searchCriteria.106002.Source.label" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="searchCriteria.106002.Source.values.NotificationsCompleted" xml:space="preserve">
+    <value>NotificationsCompleted</value>
+  </data>
+  <data name="searchCriteria.106002.Source.values.NotificationsInProgress" xml:space="preserve">
+    <value>NotificationsInProgress</value>
+  </data>
+  <data name="searchCriteria.106002.Logon.label" xml:space="preserve">
+    <value>Logon Name</value>
+  </data>
+  <data name="searchCriteria.106002.FirstName.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchCriteria.106002.LastName.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchCriteria.106002.SerialNumber.label" xml:space="preserve">
+    <value>Card Serial Number</value>
+  </data>
+  <data name="searchCriteria.106002.DateRequested.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.106002.DateRequested.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="forms.reports.logon mechanisms.label" xml:space="preserve">
+    <value>Logon Mechanisms</value>
+  </data>
+  <data name="forms.reports.logon mechanisms.description" xml:space="preserve">
+    <value>Logon Mechanisms</value>
+  </data>
+  <data name="links.logonproviders.search.106102.desc" xml:space="preserve">
+    <value>Logon Mechanisms</value>
+  </data>
+  <data name="forms.operation.id.values.106102" xml:space="preserve">
+    <value>Logon Mechanisms</value>
+  </data>
+  <data name="searchHeadings.106102.LogonProviderName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.106102.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.106102.LogonProviderName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="forms.reports.all keys.label" xml:space="preserve">
+    <value>All Keys</value>
+  </data>
+  <data name="forms.reports.all keys.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.keys.search.106702.desc" xml:space="preserve">
+    <value>All Keys</value>
+  </data>
+  <data name="forms.operation.id.values.106702" xml:space="preserve">
+    <value>All Keys</value>
+  </data>
+  <data name="searchHeadings.106702.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.106702.KeyType.label" xml:space="preserve">
+    <value>Key Type</value>
+  </data>
+  <data name="searchHeadings.106702.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.106702.KeyPurpose.label" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="searchHeadings.106702.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="searchCriteria.106702.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.106702.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.106702.KeyPurpose.label" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="searchCriteria.106702.KeyType.label" xml:space="preserve">
+    <value>Key Type</value>
+  </data>
+  <data name="searchCriteria.106702.KeyType.values.customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="searchCriteria.106702.KeyType.values.factory" xml:space="preserve">
+    <value>Factory</value>
+  </data>
+  <data name="searchCriteria.106702.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="forms.reports.message templates.label" xml:space="preserve">
+    <value>Message Templates</value>
+  </data>
+  <data name="forms.reports.message templates.description" xml:space="preserve">
+    <value>Message Templates</value>
+  </data>
+  <data name="links.emailtemplates.search.106902.desc" xml:space="preserve">
+    <value>Message Templates</value>
+  </data>
+  <data name="forms.operation.id.values.106902" xml:space="preserve">
+    <value>Message Templates</value>
+  </data>
+  <data name="searchHeadings.106902.NumericID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.106902.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.106902.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.106902.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.106902.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.106902.NumericID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.106902.Subject.label" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="searchCriteria.106902.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.106902.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.106902.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.106902.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.106902.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.106902.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.106902.Transport.label" xml:space="preserve">
+    <value>Transport</value>
+  </data>
+  <data name="searchCriteria.106902.Transport.values.email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="searchCriteria.106902.Transport.values.sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="searchCriteria.106902.Signed.label" xml:space="preserve">
+    <value>Signed</value>
+  </data>
+  <data name="searchCriteria.106902.Signed.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.106902.Signed.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.106902.Signed.values.-1" xml:space="preserve">
+    <value>Not Allowed</value>
+  </data>
+  <data name="forms.reports.certificate authorities.label" xml:space="preserve">
+    <value>Certificate Authorities</value>
+  </data>
+  <data name="forms.reports.certificate authorities.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.certauthorities.search.107002.desc" xml:space="preserve">
+    <value>Certificate Authorities</value>
+  </data>
+  <data name="forms.operation.id.values.107002" xml:space="preserve">
+    <value>Certificate Authorities</value>
+  </data>
+  <data name="searchHeadings.107002.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.107002.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.107002.CAType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.107002.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.107002.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.107002.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.DigiCertONE" xml:space="preserve">
+    <value>DigiCert ONE</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.EJBCA" xml:space="preserve">
+    <value>EJBCA</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.EntrustJASTK" xml:space="preserve">
+    <value>Entrust JASTK</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.EntrustJTK" xml:space="preserve">
+    <value>Entrust JTK</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.EntrustRest" xml:space="preserve">
+    <value>Entrust Rest</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.GenericCA" xml:space="preserve">
+    <value>Generic CA</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.Microsoft Enrollment" xml:space="preserve">
+    <value>Microsoft Enrollment</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.Microsoft Enterprise" xml:space="preserve">
+    <value>Microsoft Enterprise</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.SymantecMPKI8" xml:space="preserve">
+    <value>SymantecMPKI8</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.UniCERTUPI" xml:space="preserve">
+    <value>UniCERT</value>
+  </data>
+  <data name="searchCriteria.107002.CAType.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="searchCriteria.107002.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.107002.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.107002.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.107002.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.107002.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="forms.reports.bureau stock.label" xml:space="preserve">
+    <value>Bureau Stock</value>
+  </data>
+  <data name="forms.reports.bureau stock.description" xml:space="preserve">
+    <value>Bureau Stock</value>
+  </data>
+  <data name="links.credentialstock.search.107206.desc" xml:space="preserve">
+    <value>Bureau Stock</value>
+  </data>
+  <data name="forms.operation.id.values.107206" xml:space="preserve">
+    <value>Bureau Stock</value>
+  </data>
+  <data name="searchHeadings.107206.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.107206.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.107206.Reference.label" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="searchHeadings.107206.DeviceTypeName.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.107206.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.107206.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.107206.DeviceTypeName.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.107206.Reference.label" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="forms.reports.roles summary.label" xml:space="preserve">
+    <value>Roles Summary</value>
+  </data>
+  <data name="forms.reports.roles summary.description" xml:space="preserve">
+    <value>Roles Summary</value>
+  </data>
+  <data name="links.userprofiles.search.107302.desc" xml:space="preserve">
+    <value>Roles Summary</value>
+  </data>
+  <data name="forms.operation.id.values.107302" xml:space="preserve">
+    <value>Roles Summary</value>
+  </data>
+  <data name="searchHeadings.107302.UserProfileID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.107302.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.107302.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.107302.Linked.label" xml:space="preserve">
+    <value>Directory Managed</value>
+  </data>
+  <data name="searchHeadings.107302.LogonProviderNames.label" xml:space="preserve">
+    <value>Logon Mechanisms</value>
+  </data>
+  <data name="searchHeadings.107302.ManagerNames.label" xml:space="preserve">
+    <value>Manager Restrictions</value>
+  </data>
+  <data name="searchCriteria.107302.UserProfileID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.107302.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.107302.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.107302.Linked.label" xml:space="preserve">
+    <value>Directory Managed</value>
+  </data>
+  <data name="searchCriteria.107302.Linked.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.107302.Linked.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.107302.Linked.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.107302.Linked.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.107302.LogonProviderNames.label" xml:space="preserve">
+    <value>Logon Mechanisms</value>
+  </data>
+  <data name="searchCriteria.107302.ManagerNames.label" xml:space="preserve">
+    <value>Manager Restrictions</value>
+  </data>
+  <data name="forms.reports.picklists.label" xml:space="preserve">
+    <value>Picklists</value>
+  </data>
+  <data name="forms.reports.picklists.description" xml:space="preserve">
+    <value>Picklists</value>
+  </data>
+  <data name="links.picklists.search.107802.desc" xml:space="preserve">
+    <value>Picklists</value>
+  </data>
+  <data name="forms.operation.id.values.107802" xml:space="preserve">
+    <value>Picklists</value>
+  </data>
+  <data name="searchHeadings.107802.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchHeadings.107802.FullLabel.label" xml:space="preserve">
+    <value>Full Label</value>
+  </data>
+  <data name="searchHeadings.107802.ControllingField.label" xml:space="preserve">
+    <value>Controlling Field</value>
+  </data>
+  <data name="searchHeadings.107802.Editable.label" xml:space="preserve">
+    <value>Editable</value>
+  </data>
+  <data name="searchCriteria.107802.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.107802.FullLabel.label" xml:space="preserve">
+    <value>Full Label</value>
+  </data>
+  <data name="searchCriteria.107802.ControllingField.label" xml:space="preserve">
+    <value>Controlling Field</value>
+  </data>
+  <data name="searchCriteria.107802.Editable.label" xml:space="preserve">
+    <value>Editable</value>
+  </data>
+  <data name="searchCriteria.107802.Editable.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.107802.Editable.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="forms.reports.system events.label" xml:space="preserve">
+    <value>System Events</value>
+  </data>
+  <data name="forms.reports.system events.description" xml:space="preserve">
+    <value>System Events</value>
+  </data>
+  <data name="links.logevents.search.109102.desc" xml:space="preserve">
+    <value>System Events</value>
+  </data>
+  <data name="forms.operation.id.values.109102" xml:space="preserve">
+    <value>System Events</value>
+  </data>
+  <data name="searchHeadings.109102.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.109102.DatabaseTime.label" xml:space="preserve">
+    <value>Database Time (UTC)</value>
+  </data>
+  <data name="searchHeadings.109102.OriginatingComputer.label" xml:space="preserve">
+    <value>Originating Computer</value>
+  </data>
+  <data name="searchHeadings.109102.ModuleName.label" xml:space="preserve">
+    <value>Module Name</value>
+  </data>
+  <data name="searchHeadings.109102.Type.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.109102.Message.label" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="forms.logEvent.searchcriteria.logonName (contains).label" xml:space="preserve">
+    <value>Message Text 1</value>
+  </data>
+  <data name="forms.logEvent.searchcriteria.serialNumber (contains).label" xml:space="preserve">
+    <value>Message Text 2</value>
+  </data>
+  <data name="forms.logEvent.searchcriteria.deviceTypeName (contains).label" xml:space="preserve">
+    <value>Message Text 3</value>
+  </data>
+  <data name="searchCriteria.109102.DatabaseTime.label.gt" xml:space="preserve">
+    <value>From First</value>
+  </data>
+  <data name="searchCriteria.109102.DatabaseTime.label.lt" xml:space="preserve">
+    <value>To Last</value>
+  </data>
+  <data name="searchCriteria.109102.ModuleDescription.label" xml:space="preserve">
+    <value>Module Description</value>
+  </data>
+  <data name="searchCriteria.109102.Type.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.109102.OriginatingComputer.label" xml:space="preserve">
+    <value>Originating Computer</value>
+  </data>
+  <data name="forms.reports.assigned devices.label" xml:space="preserve">
+    <value>Assigned Devices</value>
+  </data>
+  <data name="forms.reports.assigned devices.description" xml:space="preserve">
+    <value>Assigned devices in operators scope</value>
+  </data>
+  <data name="links.devices.search.290001.desc" xml:space="preserve">
+    <value>Assigned Devices</value>
+  </data>
+  <data name="forms.operation.id.values.290001" xml:space="preserve">
+    <value>Assigned Devices</value>
+  </data>
+  <data name="searchHeadings.290001.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchHeadings.290001.CredentialProfile.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290001.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290001.DeviceVersion.label" xml:space="preserve">
+    <value>Device Version</value>
+  </data>
+  <data name="searchHeadings.290001.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchHeadings.290001.validFrom.label" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="searchHeadings.290001.Expires.label" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="searchHeadings.290001.enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.290001.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="forms.devices.searchcriteria.owner name (contains).label" xml:space="preserve">
+    <value>Owner Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290001.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290001.CredentialProfile.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290001.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290001.DeviceVersion.label" xml:space="preserve">
+    <value>Device Version</value>
+  </data>
+  <data name="searchCriteria.290001.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchCriteria.290001.NumericEnabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.290001.NumericEnabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290001.NumericEnabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290001.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.290001.Expires.label.gt" xml:space="preserve">
+    <value>Expires After</value>
+  </data>
+  <data name="searchCriteria.290001.Expires.label.lt" xml:space="preserve">
+    <value>Expires Before</value>
+  </data>
+  <data name="searchCriteria.290001.validFrom.label.gt" xml:space="preserve">
+    <value>Valid After</value>
+  </data>
+  <data name="searchCriteria.290001.validFrom.label.lt" xml:space="preserve">
+    <value>Valid Before</value>
+  </data>
+  <data name="searchCriteria.290001.Chip.label" xml:space="preserve">
+    <value>Chip</value>
+  </data>
+  <data name="searchCriteria.290001.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290001.enabled.label" xml:space="preserve">
+    <value>Enabled (text)</value>
+  </data>
+  <data name="searchCriteria.290001.enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290001.enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290001.enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290001.enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290001.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchCriteria.290001.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="searchCriteria.290001.MifareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="forms.reports.unassigned devices.label" xml:space="preserve">
+    <value>Unassigned Devices</value>
+  </data>
+  <data name="forms.reports.unassigned devices.description" xml:space="preserve">
+    <value>Devices that are not assigned to a person</value>
+  </data>
+  <data name="links.devices.search.290005.desc" xml:space="preserve">
+    <value>Unassigned Devices</value>
+  </data>
+  <data name="forms.operation.id.values.290005" xml:space="preserve">
+    <value>Unassigned Devices</value>
+  </data>
+  <data name="searchHeadings.290005.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290005.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290005.PreviouslyAssigned.label" xml:space="preserve">
+    <value>Previously Assigned</value>
+  </data>
+  <data name="searchHeadings.290005.StatusMapping.label" xml:space="preserve">
+    <value>Revocation Reason</value>
+  </data>
+  <data name="searchHeadings.290005.ImportLabel.label" xml:space="preserve">
+    <value>Import Label</value>
+  </data>
+  <data name="searchCriteria.290005.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.290005.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290005.StatusMapping.label" xml:space="preserve">
+    <value>Revocation Reason</value>
+  </data>
+  <data name="searchCriteria.290005.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290005.ImportLabel.label" xml:space="preserve">
+    <value>Import Label</value>
+  </data>
+  <data name="searchCriteria.290005.AssignedToTransfer.label" xml:space="preserve">
+    <value>Is Assigned to Transfer</value>
+  </data>
+  <data name="searchCriteria.290005.AssignedToTransfer.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290005.AssignedToTransfer.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290005.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="searchCriteria.290005.MifareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="forms.reports.assign device search.label" xml:space="preserve">
+    <value>Assign Device Search</value>
+  </data>
+  <data name="forms.reports.assign device search.description" xml:space="preserve">
+    <value>Devices that are available to be assigned to a person</value>
+  </data>
+  <data name="links.devices.search.290006.desc" xml:space="preserve">
+    <value>Assign Device Search</value>
+  </data>
+  <data name="forms.operation.id.values.290006" xml:space="preserve">
+    <value>Assign Device Search</value>
+  </data>
+  <data name="searchHeadings.290006.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290006.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290006.Chip.label" xml:space="preserve">
+    <value>Chip</value>
+  </data>
+  <data name="searchHeadings.290006.Assigned.label" xml:space="preserve">
+    <value>Assigned</value>
+  </data>
+  <data name="searchHeadings.290006.DeviceVersion.label" xml:space="preserve">
+    <value>Device Version</value>
+  </data>
+  <data name="searchHeadings.290006.PROXSerialNumber.label" xml:space="preserve">
+    <value>PROX Serial Number</value>
+  </data>
+  <data name="searchHeadings.290006.MiFareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="searchCriteria.290006.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.290006.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290006.PROXSerialNumber.label" xml:space="preserve">
+    <value>PROX Serial Number</value>
+  </data>
+  <data name="searchCriteria.290006.Assigned.label" xml:space="preserve">
+    <value>Assigned</value>
+  </data>
+  <data name="searchCriteria.290006.Assigned.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290006.Assigned.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290006.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290006.MiFareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="forms.reports.mobile devices.label" xml:space="preserve">
+    <value>Mobile Devices</value>
+  </data>
+  <data name="forms.reports.mobile devices.description" xml:space="preserve">
+    <value>Mobile devices in operators scope</value>
+  </data>
+  <data name="links.devices.search.290008.desc" xml:space="preserve">
+    <value>Mobile Devices</value>
+  </data>
+  <data name="forms.operation.id.values.290008" xml:space="preserve">
+    <value>Mobile Devices</value>
+  </data>
+  <data name="searchHeadings.290008.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchHeadings.290008.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchHeadings.290008.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290008.enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.290008.validFrom.label" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="searchHeadings.290008.validUntil.label" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="searchHeadings.290008.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="searchHeadings.290008.UniqueID.label" xml:space="preserve">
+    <value>Mobile ID</value>
+  </data>
+  <data name="searchHeadings.290008.Model.label" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="searchHeadings.290008.OS.label" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="forms.devices.searchcriteria.owner name (contains).label" xml:space="preserve">
+    <value>Owner Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290008.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290008.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290008.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchCriteria.290008.NumericEnabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.290008.NumericEnabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290008.NumericEnabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290008.validFrom.label.gt" xml:space="preserve">
+    <value>Valid After</value>
+  </data>
+  <data name="searchCriteria.290008.validFrom.label.lt" xml:space="preserve">
+    <value>Valid Before</value>
+  </data>
+  <data name="searchCriteria.290008.validUntil.label.gt" xml:space="preserve">
+    <value>Expires After</value>
+  </data>
+  <data name="searchCriteria.290008.validUntil.label.lt" xml:space="preserve">
+    <value>Expires Before</value>
+  </data>
+  <data name="searchCriteria.290008.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290008.UniqueID.label" xml:space="preserve">
+    <value>Mobile ID</value>
+  </data>
+  <data name="searchCriteria.290008.Model.label" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="searchCriteria.290008.OS.label" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="searchCriteria.290008.AppName.label" xml:space="preserve">
+    <value>App Name</value>
+  </data>
+  <data name="searchCriteria.290008.enabled.label" xml:space="preserve">
+    <value>Enabled (text)</value>
+  </data>
+  <data name="searchCriteria.290008.enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290008.enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290008.enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290008.enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290008.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="forms.reports.available device stock.label" xml:space="preserve">
+    <value>Available Device Stock</value>
+  </data>
+  <data name="forms.reports.available device stock.description" xml:space="preserve">
+    <value>Unallocated Devices</value>
+  </data>
+  <data name="links.devices.search.290009.desc" xml:space="preserve">
+    <value>Available Device Stock</value>
+  </data>
+  <data name="forms.operation.id.values.290009" xml:space="preserve">
+    <value>Available Device Stock</value>
+  </data>
+  <data name="searchHeadings.290009.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290009.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290009.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="searchHeadings.290009.ImportLabel.label" xml:space="preserve">
+    <value>Import Label</value>
+  </data>
+  <data name="searchHeadings.290009.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="searchHeadings.290009.LocationName.label" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="searchCriteria.290009.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290009.ImportLabel.label" xml:space="preserve">
+    <value>Import Label</value>
+  </data>
+  <data name="searchCriteria.290009.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="searchCriteria.290009.LocationName.label" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="searchCriteria.290009.StartSN.label" xml:space="preserve">
+    <value>From Serial Number</value>
+  </data>
+  <data name="searchCriteria.290009.EndSN.label" xml:space="preserve">
+    <value>To Serial Number</value>
+  </data>
+  <data name="forms.reports.stock per location.label" xml:space="preserve">
+    <value>Stock Per Location</value>
+  </data>
+  <data name="forms.reports.stock per location.description" xml:space="preserve">
+    <value>Stock Per Location</value>
+  </data>
+  <data name="links.reports.search.290010.desc" xml:space="preserve">
+    <value>Stock Per Location</value>
+  </data>
+  <data name="forms.operation.id.values.290010" xml:space="preserve">
+    <value>Stock Per Location</value>
+  </data>
+  <data name="searchHeadings.290010.Name.label" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="searchHeadings.290010.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="searchHeadings.290010.UnallocatedDevices.label" xml:space="preserve">
+    <value>Unallocated Devices</value>
+  </data>
+  <data name="searchHeadings.290010.MinimumQuantity.label" xml:space="preserve">
+    <value>Minimum Quantity</value>
+  </data>
+  <data name="searchHeadings.290010.ReorderQuantity.label" xml:space="preserve">
+    <value>Reorder Quantity</value>
+  </data>
+  <data name="searchHeadings.290010.StockLimitStockCode.label" xml:space="preserve">
+    <value>Stock Limit Stock Code</value>
+  </data>
+  <data name="searchHeadings.290010.UserAccountID2.label" xml:space="preserve">
+    <value>UserAccountID</value>
+  </data>
+  <data name="searchHeadings.290010.StockTransferID.label" xml:space="preserve">
+    <value>Stock Transfer ID</value>
+  </data>
+  <data name="searchCriteria.290010.Name.label" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="searchCriteria.290010.StockCode.label" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="forms.reports.additional identities (aid).label" xml:space="preserve">
+    <value>Additional Identities (AID)</value>
+  </data>
+  <data name="forms.reports.additional identities (aid).description" xml:space="preserve">
+    <value>Additional Identities (AID)</value>
+  </data>
+  <data name="links.additionalidentities.search.290013.desc" xml:space="preserve">
+    <value>Additional Identities (AID)</value>
+  </data>
+  <data name="forms.operation.id.values.290013" xml:space="preserve">
+    <value>Additional Identities (AID)</value>
+  </data>
+  <data name="searchHeadings.290013.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.290013.AIDUPN.label" xml:space="preserve">
+    <value>AID UPN</value>
+  </data>
+  <data name="searchHeadings.290013.AIDEmail.label" xml:space="preserve">
+    <value>AID Email</value>
+  </data>
+  <data name="searchHeadings.290013.Template.label" xml:space="preserve">
+    <value>Certificate Policy</value>
+  </data>
+  <data name="searchHeadings.290013.AIDDN.label" xml:space="preserve">
+    <value>AID DN</value>
+  </data>
+  <data name="searchHeadings.290013.AIDUserSID.label" xml:space="preserve">
+    <value>AID User SID</value>
+  </data>
+  <data name="searchCriteria.290013.groupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290013.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290013.Forename.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchCriteria.290013.Surname.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchCriteria.290013.FullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchCriteria.290013.AIDUPN.label" xml:space="preserve">
+    <value>AID UPN</value>
+  </data>
+  <data name="searchCriteria.290013.AIDEmail.label" xml:space="preserve">
+    <value>AID Email</value>
+  </data>
+  <data name="searchCriteria.290013.Template.label" xml:space="preserve">
+    <value>Certificate Policy</value>
+  </data>
+  <data name="searchCriteria.290013.AIDSIDPresent.label" xml:space="preserve">
+    <value>AID SID Present</value>
+  </data>
+  <data name="searchCriteria.290013.AIDSIDPresent.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290013.AIDSIDPresent.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290013.AIDDN.label" xml:space="preserve">
+    <value>AID DN</value>
+  </data>
+  <data name="searchCriteria.290013.AIDUserSID.label" xml:space="preserve">
+    <value>AID User SID</value>
+  </data>
+  <data name="forms.reports.device import requests.label" xml:space="preserve">
+    <value>Device Import Requests</value>
+  </data>
+  <data name="forms.reports.device import requests.description" xml:space="preserve">
+    <value>Device Import Requests</value>
+  </data>
+  <data name="links.requests.search.290014.desc" xml:space="preserve">
+    <value>Device Import Requests</value>
+  </data>
+  <data name="forms.operation.id.values.290014" xml:space="preserve">
+    <value>Device Import Requests</value>
+  </data>
+  <data name="searchHeadings.290014.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290014.initiator.label" xml:space="preserve">
+    <value>Initiator</value>
+  </data>
+  <data name="searchHeadings.290014.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290014.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290014.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.290014.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290014.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290014.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.290014.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290014.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290014.initiator.label" xml:space="preserve">
+    <value>Initiator</value>
+  </data>
+  <data name="forms.reports.unrestricted audit report.label" xml:space="preserve">
+    <value>Unrestricted Audit Report</value>
+  </data>
+  <data name="forms.reports.unrestricted audit report.description" xml:space="preserve">
+    <value>Full access to audit records</value>
+  </data>
+  <data name="links.audits.search.290015.desc" xml:space="preserve">
+    <value>Unrestricted Audit Report</value>
+  </data>
+  <data name="forms.operation.id.values.290015" xml:space="preserve">
+    <value>Unrestricted Audit Report</value>
+  </data>
+  <data name="searchHeadings.290015.AuditStatus.label" xml:space="preserve">
+    <value>Audit Status</value>
+  </data>
+  <data name="searchHeadings.290015.UTCStartDateTime.label" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="searchHeadings.290015.UTCEndDateTime.label" xml:space="preserve">
+    <value>End Timestamp</value>
+  </data>
+  <data name="searchHeadings.290015.OperationName.label" xml:space="preserve">
+    <value>Operation Name</value>
+  </data>
+  <data name="searchHeadings.290015.OperationID.label" xml:space="preserve">
+    <value>Operation ID</value>
+  </data>
+  <data name="searchHeadings.290015.Operator.label" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="searchHeadings.290015.PersonLogonName.label" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="searchHeadings.290015.Message.label" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="searchHeadings.290015.AuditType.label" xml:space="preserve">
+    <value>Audit Type</value>
+  </data>
+  <data name="forms.audit.searchcriteria.operator (contains).label" xml:space="preserve">
+    <value>Operator (contains)</value>
+  </data>
+  <data name="forms.audit.searchcriteria.target (contains).label" xml:space="preserve">
+    <value>Person (contains)</value>
+  </data>
+  <data name="searchCriteria.290015.UTCStartDateTime.label.gt" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="searchCriteria.290015.UTCStartDateTime.label.lt" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="searchCriteria.290015.OperationName.label" xml:space="preserve">
+    <value>Operation Name (ID)</value>
+  </data>
+  <data name="searchCriteria.290015.Operator.label" xml:space="preserve">
+    <value>Operator (Logon Name) (historic)</value>
+  </data>
+  <data name="searchCriteria.290015.PersonLogonName.label" xml:space="preserve">
+    <value>Person (Logon Name) (historic)</value>
+  </data>
+  <data name="searchCriteria.290015.AuditStatus.label" xml:space="preserve">
+    <value>Audit Status</value>
+  </data>
+  <data name="searchCriteria.290015.AuditStatus.values.Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="searchCriteria.290015.AuditStatus.values.Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="searchCriteria.290015.AuditStatus.values.Failure" xml:space="preserve">
+    <value>Failure</value>
+  </data>
+  <data name="searchCriteria.290015.AuditStatus.values.Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="searchCriteria.290015.AuditStatus.values.Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="searchCriteria.290015.AuditStatus.values.Started" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="searchCriteria.290015.AuditType.label" xml:space="preserve">
+    <value>Audit Type</value>
+  </data>
+  <data name="searchCriteria.290015.AuditID.label" xml:space="preserve">
+    <value>Audit ID</value>
+  </data>
+  <data name="searchCriteria.290015.ClientIdentifier.label" xml:space="preserve">
+    <value>Client Identifier</value>
+  </data>
+  <data name="searchCriteria.290015.IPAddress.label" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="forms.reports.archived requests.label" xml:space="preserve">
+    <value>Archived Requests</value>
+  </data>
+  <data name="forms.reports.archived requests.description" xml:space="preserve">
+    <value>Credential lifecycle requests (archived)</value>
+  </data>
+  <data name="links.reports.search.290016.desc" xml:space="preserve">
+    <value>Archived Requests</value>
+  </data>
+  <data name="forms.operation.id.values.290016" xml:space="preserve">
+    <value>Archived Requests</value>
+  </data>
+  <data name="searchHeadings.290016.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290016.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290016.taskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.290016.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290016.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290016.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290016.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchHeadings.290016.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290016.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290016.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.290016.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.290016.ValidationDate.label" xml:space="preserve">
+    <value>Validation Date</value>
+  </data>
+  <data name="searchHeadings.290016.searchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.290016.Auditable.label" xml:space="preserve">
+    <value>Auditable</value>
+  </data>
+  <data name="searchCriteria.290016.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290016.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290016.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290016.searchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.290016.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290016.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290016.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.290016.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290016.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290016.ValidationDate.label.gt" xml:space="preserve">
+    <value>Validated After</value>
+  </data>
+  <data name="searchCriteria.290016.ValidationDate.label.lt" xml:space="preserve">
+    <value>Validated Before</value>
+  </data>
+  <data name="searchCriteria.290016.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290016.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="forms.reports.all requests.label" xml:space="preserve">
+    <value>All Requests</value>
+  </data>
+  <data name="forms.reports.all requests.description" xml:space="preserve">
+    <value>All Requests</value>
+  </data>
+  <data name="links.reports.search.290017.desc" xml:space="preserve">
+    <value>All Requests</value>
+  </data>
+  <data name="forms.operation.id.values.290017" xml:space="preserve">
+    <value>All Requests</value>
+  </data>
+  <data name="searchHeadings.290017.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290017.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290017.taskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.290017.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290017.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290017.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290017.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchHeadings.290017.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290017.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290017.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.290017.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.290017.ValidationDate.label" xml:space="preserve">
+    <value>Validation Date</value>
+  </data>
+  <data name="searchHeadings.290017.searchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.290017.Auditable.label" xml:space="preserve">
+    <value>Auditable</value>
+  </data>
+  <data name="searchCriteria.290017.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290017.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290017.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290017.searchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.290017.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290017.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290017.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.290017.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290017.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290017.ValidationDate.label.gt" xml:space="preserve">
+    <value>Validated After</value>
+  </data>
+  <data name="searchCriteria.290017.ValidationDate.label.lt" xml:space="preserve">
+    <value>Validated Before</value>
+  </data>
+  <data name="searchCriteria.290017.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290017.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="forms.reports.device disposal.label" xml:space="preserve">
+    <value>Device Disposal</value>
+  </data>
+  <data name="forms.reports.device disposal.description" xml:space="preserve">
+    <value>Device Disposal</value>
+  </data>
+  <data name="links.devices.search.290020.desc" xml:space="preserve">
+    <value>Device Disposal</value>
+  </data>
+  <data name="forms.operation.id.values.290020" xml:space="preserve">
+    <value>Device Disposal</value>
+  </data>
+  <data name="searchHeadings.290020.DeviceID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290020.Logon.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchHeadings.290020.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290020.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290020.validUntil.label" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="searchHeadings.290020.Status.label" xml:space="preserve">
+    <value>Disposal Status</value>
+  </data>
+  <data name="searchHeadings.290020.StatusMapping.label" xml:space="preserve">
+    <value>Revocation Reason</value>
+  </data>
+  <data name="searchCriteria.290020.Status.label" xml:space="preserve">
+    <value>Disposal Status</value>
+  </data>
+  <data name="searchCriteria.290020.StatusMapping.label" xml:space="preserve">
+    <value>Revocation Reason</value>
+  </data>
+  <data name="searchCriteria.290020.Logon.label" xml:space="preserve">
+    <value>Owner Logon Name</value>
+  </data>
+  <data name="searchCriteria.290020.Name.label" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="searchCriteria.290020.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.290020.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290020.validUntil.label.gt" xml:space="preserve">
+    <value>Expires After</value>
+  </data>
+  <data name="searchCriteria.290020.validUntil.label.lt" xml:space="preserve">
+    <value>Expires Before</value>
+  </data>
+  <data name="searchCriteria.290020.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="searchCriteria.290020.MifareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="forms.reports.issued devices by category.label" xml:space="preserve">
+    <value>Issued devices by Category</value>
+  </data>
+  <data name="forms.reports.issued devices by category.description" xml:space="preserve">
+    <value>Issued devices by Category</value>
+  </data>
+  <data name="links.reports.search.290022.desc" xml:space="preserve">
+    <value>Issued devices by Category</value>
+  </data>
+  <data name="forms.operation.id.values.290022" xml:space="preserve">
+    <value>Issued devices by Category</value>
+  </data>
+  <data name="searchHeadings.290022.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="searchHeadings.290022.DeviceTypeName.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290022.Count.label" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="searchHeadings.290022.Signature.label" xml:space="preserve">
+    <value>Consumes device licences</value>
+  </data>
+  <data name="searchCriteria.290022.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="forms.reports.awaiting delivery.label" xml:space="preserve">
+    <value>Awaiting Delivery</value>
+  </data>
+  <data name="forms.reports.awaiting delivery.description" xml:space="preserve">
+    <value>Awaiting Delivery</value>
+  </data>
+  <data name="links.devices.search.290023.desc" xml:space="preserve">
+    <value>Awaiting Delivery</value>
+  </data>
+  <data name="forms.operation.id.values.290023" xml:space="preserve">
+    <value>Awaiting Delivery</value>
+  </data>
+  <data name="searchHeadings.290023.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290023.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290023.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290023.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchHeadings.290023.jobStatus.label" xml:space="preserve">
+    <value>Job Status</value>
+  </data>
+  <data name="searchHeadings.290023.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290023.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="forms.devices.searchcriteria.owner name (contains).label" xml:space="preserve">
+    <value>Owner Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290023.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290023.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290023.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290023.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchCriteria.290023.NumericEnabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.290023.NumericEnabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290023.NumericEnabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290023.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.290023.Chip.label" xml:space="preserve">
+    <value>Chip</value>
+  </data>
+  <data name="searchCriteria.290023.validFrom.label.gt" xml:space="preserve">
+    <value>Valid After</value>
+  </data>
+  <data name="searchCriteria.290023.validFrom.label.lt" xml:space="preserve">
+    <value>Valid Before</value>
+  </data>
+  <data name="searchCriteria.290023.validUntil.label.gt" xml:space="preserve">
+    <value>Expires After</value>
+  </data>
+  <data name="searchCriteria.290023.validUntil.label.lt" xml:space="preserve">
+    <value>Expires Before</value>
+  </data>
+  <data name="searchCriteria.290023.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290023.MifareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="searchCriteria.290023.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="forms.reports.assigned devices by group.label" xml:space="preserve">
+    <value>Assigned Devices by Group</value>
+  </data>
+  <data name="forms.reports.assigned devices by group.description" xml:space="preserve">
+    <value>Assigned Devices by Group</value>
+  </data>
+  <data name="links.reports.search.290024.desc" xml:space="preserve">
+    <value>Assigned Devices by Group</value>
+  </data>
+  <data name="forms.operation.id.values.290024" xml:space="preserve">
+    <value>Assigned Devices by Group</value>
+  </data>
+  <data name="searchHeadings.290024.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchHeadings.290024.ParentGroupName.label" xml:space="preserve">
+    <value>Parent Group</value>
+  </data>
+  <data name="searchHeadings.290024.ExpiryDate.label" xml:space="preserve">
+    <value>Group Device Assignment End Date</value>
+  </data>
+  <data name="searchHeadings.290024.DeviceLimit.label" xml:space="preserve">
+    <value>Group Max No. of Assigned Devices</value>
+  </data>
+  <data name="searchHeadings.290024.CardProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290024.AssignedDevices.label" xml:space="preserve">
+    <value>Assigned Devices</value>
+  </data>
+  <data name="searchCriteria.290024.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290024.CardProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="forms.reports.requests for review.label" xml:space="preserve">
+    <value>Requests for Review</value>
+  </data>
+  <data name="forms.reports.requests for review.description" xml:space="preserve">
+    <value>Requests for Review</value>
+  </data>
+  <data name="links.requests.search.290025.desc" xml:space="preserve">
+    <value>Requests for Review</value>
+  </data>
+  <data name="forms.operation.id.values.290025" xml:space="preserve">
+    <value>Requests for Review</value>
+  </data>
+  <data name="searchHeadings.290025.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290025.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290025.taskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.290025.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290025.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290025.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290025.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290025.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290025.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290025.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290025.searchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.290025.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290025.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.290025.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290025.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290025.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290025.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="searchCriteria.290025.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchCriteria.290025.taskType.label" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="forms.reports.print pin mailer.label" xml:space="preserve">
+    <value>Print PIN Mailer</value>
+  </data>
+  <data name="forms.reports.print pin mailer.description" xml:space="preserve">
+    <value>Print PIN Mailer</value>
+  </data>
+  <data name="links.requests.search.290026.desc" xml:space="preserve">
+    <value>Print PIN Mailer</value>
+  </data>
+  <data name="forms.operation.id.values.290026" xml:space="preserve">
+    <value>Print PIN Mailer</value>
+  </data>
+  <data name="searchHeadings.290026.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290026.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290026.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290026.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290026.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290026.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290026.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290026.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290026.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290026.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290026.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="forms.reports.reprint pin mailer.label" xml:space="preserve">
+    <value>Reprint PIN Mailer</value>
+  </data>
+  <data name="forms.reports.reprint pin mailer.description" xml:space="preserve">
+    <value>Reprint PIN Mailer</value>
+  </data>
+  <data name="links.requests.search.290027.desc" xml:space="preserve">
+    <value>Reprint PIN Mailer</value>
+  </data>
+  <data name="forms.operation.id.values.290027" xml:space="preserve">
+    <value>Reprint PIN Mailer</value>
+  </data>
+  <data name="searchHeadings.290027.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290027.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290027.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290027.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290027.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290027.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290027.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290027.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290027.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290027.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290027.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290027.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="forms.reports.person status summary.label" xml:space="preserve">
+    <value>Person Status Summary</value>
+  </data>
+  <data name="forms.reports.person status summary.description" xml:space="preserve">
+    <value>Count of devices and jobs by person</value>
+  </data>
+  <data name="links.people.search.290028.desc" xml:space="preserve">
+    <value>Person Status Summary</value>
+  </data>
+  <data name="forms.operation.id.values.290028" xml:space="preserve">
+    <value>Person Status Summary</value>
+  </data>
+  <data name="searchHeadings.290028.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.290028.FullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290028.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.290028.groupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchHeadings.290028.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="searchHeadings.290028.NumDevices.label" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="searchHeadings.290028.Open.label" xml:space="preserve">
+    <value>Open Requests</value>
+  </data>
+  <data name="searchHeadings.290028.Completed.label" xml:space="preserve">
+    <value>Completed Requests</value>
+  </data>
+  <data name="searchHeadings.290028.Failed.label" xml:space="preserve">
+    <value>Failed Requests</value>
+  </data>
+  <data name="forms.people.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290028.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290028.firstName.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchCriteria.290028.surname.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchCriteria.290028.EmployeeID.label" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="searchCriteria.290028.Email.label" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="searchCriteria.290028.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="searchCriteria.290028.SAMAccountName.label" xml:space="preserve">
+    <value>SAM Account Name</value>
+  </data>
+  <data name="searchCriteria.290028.UserPrincipalName.label" xml:space="preserve">
+    <value>User Principal Name</value>
+  </data>
+  <data name="searchCriteria.290028.ApplicationID.label" xml:space="preserve">
+    <value>Application ID</value>
+  </data>
+  <data name="searchCriteria.290028.UserSIDPresent.label" xml:space="preserve">
+    <value>User SID Present</value>
+  </data>
+  <data name="searchCriteria.290028.UserSIDPresent.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290028.UserSIDPresent.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290028.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.290028.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290028.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290028.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290028.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290028.groupName2.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290028.groupName.label" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="forms.reports.request fulfillment.label" xml:space="preserve">
+    <value>Request Fulfillment</value>
+  </data>
+  <data name="forms.reports.request fulfillment.description" xml:space="preserve">
+    <value>Credential lifecycle requests with device and group information</value>
+  </data>
+  <data name="links.requests.search.290029.desc" xml:space="preserve">
+    <value>Request Fulfillment</value>
+  </data>
+  <data name="forms.operation.id.values.290029" xml:space="preserve">
+    <value>Request Fulfillment</value>
+  </data>
+  <data name="searchHeadings.290029.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290029.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290029.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchHeadings.290029.taskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchHeadings.290029.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290029.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290029.initiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290029.ActionDate.label" xml:space="preserve">
+    <value>Action Date</value>
+  </data>
+  <data name="searchHeadings.290029.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290029.SerialNumber.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290029.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290029.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290029.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290029.searchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.290029.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290029.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.SoftCert" xml:space="preserve">
+    <value>Software Certificate</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.requests.deviceKind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290029.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290029.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.290029.initiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290029.initiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290029.ValidationDate.label.gt" xml:space="preserve">
+    <value>Validated After</value>
+  </data>
+  <data name="searchCriteria.290029.ValidationDate.label.lt" xml:space="preserve">
+    <value>Validated Before</value>
+  </data>
+  <data name="searchCriteria.290029.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290029.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="searchCriteria.290029.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchCriteria.290029.taskType.label" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="forms.reports.people with restricted access to operations.label" xml:space="preserve">
+    <value>People with Restricted Access to Operations</value>
+  </data>
+  <data name="forms.reports.people with restricted access to operations.description" xml:space="preserve">
+    <value>People with Restricted Access to Operations</value>
+  </data>
+  <data name="links.people.search.290030.desc" xml:space="preserve">
+    <value>People with Restricted Access to Operations</value>
+  </data>
+  <data name="forms.operation.id.values.290030" xml:space="preserve">
+    <value>People with Restricted Access to Operations</value>
+  </data>
+  <data name="searchHeadings.290030.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.290030.firstName.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchHeadings.290030.surname.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchHeadings.290030.groupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchHeadings.290030.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="searchHeadings.290030.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="forms.people.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290030.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290030.firstName.label" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="searchCriteria.290030.surname.label" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="searchCriteria.290030.EmployeeID.label" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="searchCriteria.290030.Email.label" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="searchCriteria.290030.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="searchCriteria.290030.SAMAccountName.label" xml:space="preserve">
+    <value>SAM Account Name</value>
+  </data>
+  <data name="searchCriteria.290030.UserPrincipalName.label" xml:space="preserve">
+    <value>User Principal Name</value>
+  </data>
+  <data name="searchCriteria.290030.ApplicationID.label" xml:space="preserve">
+    <value>Application ID</value>
+  </data>
+  <data name="searchCriteria.290030.UserSIDPresent.label" xml:space="preserve">
+    <value>User SID Present</value>
+  </data>
+  <data name="searchCriteria.290030.UserSIDPresent.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290030.UserSIDPresent.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290030.Enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.290030.Enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290030.Enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290030.Enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290030.Enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290030.groupName2.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290030.groupName.label" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="forms.reports.my devices.label" xml:space="preserve">
+    <value>My Devices</value>
+  </data>
+  <data name="forms.reports.my devices.description" xml:space="preserve">
+    <value>My Devices</value>
+  </data>
+  <data name="links.devices.search.290031.desc" xml:space="preserve">
+    <value>My Devices</value>
+  </data>
+  <data name="forms.operation.id.values.290031" xml:space="preserve">
+    <value>My Devices</value>
+  </data>
+  <data name="searchHeadings.290031.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290031.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290031.DeviceVersion.label" xml:space="preserve">
+    <value>Device Version</value>
+  </data>
+  <data name="searchHeadings.290031.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchHeadings.290031.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290031.enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.290031.validFrom.label" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="searchHeadings.290031.validUntil.label" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="searchHeadings.290031.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="searchCriteria.290031.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290031.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290031.DeviceVersion.label" xml:space="preserve">
+    <value>Device Version</value>
+  </data>
+  <data name="searchCriteria.290031.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchCriteria.290031.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.290031.Chip.label" xml:space="preserve">
+    <value>Chip</value>
+  </data>
+  <data name="searchCriteria.290031.validFrom.label.gt" xml:space="preserve">
+    <value>Valid After</value>
+  </data>
+  <data name="searchCriteria.290031.validFrom.label.lt" xml:space="preserve">
+    <value>Valid Before</value>
+  </data>
+  <data name="searchCriteria.290031.validUntil.label.gt" xml:space="preserve">
+    <value>Expires After</value>
+  </data>
+  <data name="searchCriteria.290031.validUntil.label.lt" xml:space="preserve">
+    <value>Expires Before</value>
+  </data>
+  <data name="searchCriteria.290031.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="forms.devices.kind.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="forms.devices.kind.values.ContactlessCard" xml:space="preserve">
+    <value>Contactless Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="forms.devices.kind.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="forms.devices.kind.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="forms.devices.kind.values.Mobile" xml:space="preserve">
+    <value>Mobile PKI</value>
+  </data>
+  <data name="forms.devices.kind.values.Physical" xml:space="preserve">
+    <value>Physical Printed Card</value>
+  </data>
+  <data name="forms.devices.kind.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="forms.devices.kind.values.SoftCert" xml:space="preserve">
+    <value>Soft Certificate</value>
+  </data>
+  <data name="forms.devices.kind.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="forms.devices.kind.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290031.HIDSerialNumber.label" xml:space="preserve">
+    <value>HID Serial Number</value>
+  </data>
+  <data name="searchCriteria.290031.MifareSerialNumber.label" xml:space="preserve">
+    <value>Mifare Serial Number</value>
+  </data>
+  <data name="forms.reports.devices to recover.label" xml:space="preserve">
+    <value>Devices To Recover</value>
+  </data>
+  <data name="forms.reports.devices to recover.description" xml:space="preserve">
+    <value>Devices that are available to be recovered</value>
+  </data>
+  <data name="links.devices.searchContextual.290032.desc" xml:space="preserve">
+    <value>Devices To Recover</value>
+  </data>
+  <data name="forms.operation.id.values.290032" xml:space="preserve">
+    <value>Devices To Recover</value>
+  </data>
+  <data name="searchHeadings.290032.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290032.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290032.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290032.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchHeadings.290032.validFrom.label" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="searchHeadings.290032.validUntil.label" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="searchHeadings.290032.enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.290032.sn.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchCriteria.290032.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290032.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="forms.reports.certificates to recover.label" xml:space="preserve">
+    <value>Certificates To Recover</value>
+  </data>
+  <data name="forms.reports.certificates to recover.description" xml:space="preserve">
+    <value>Certificates that are available to be recovered</value>
+  </data>
+  <data name="links.certificates.searchContextual.290033.desc" xml:space="preserve">
+    <value>Certificates To Recover</value>
+  </data>
+  <data name="forms.operation.id.values.290033" xml:space="preserve">
+    <value>Certificates To Recover</value>
+  </data>
+  <data name="searchHeadings.290033.FriendlyName.label" xml:space="preserve">
+    <value>Certificate Policy</value>
+  </data>
+  <data name="searchHeadings.290033.DateIssued.label" xml:space="preserve">
+    <value>Date Issued</value>
+  </data>
+  <data name="searchHeadings.290033.ExpiryDate.label" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="searchHeadings.290033.UserDN.label" xml:space="preserve">
+    <value>User DN</value>
+  </data>
+  <data name="searchHeadings.290033.RecoveryStorage.label" xml:space="preserve">
+    <value>Storage Policy</value>
+  </data>
+  <data name="searchHeadings.290033.CertificateSN.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290033.CAPath.label" xml:space="preserve">
+    <value>Certificate Authority</value>
+  </data>
+  <data name="forms.reports.third party key recovery requests.label" xml:space="preserve">
+    <value>Third Party Key Recovery Requests</value>
+  </data>
+  <data name="forms.reports.third party key recovery requests.description" xml:space="preserve">
+    <value>Credential recovery requests for a third party</value>
+  </data>
+  <data name="links.requests.search.290034.desc" xml:space="preserve">
+    <value>Third Party Key Recovery Requests</value>
+  </data>
+  <data name="forms.operation.id.values.290034" xml:space="preserve">
+    <value>Third Party Key Recovery Requests</value>
+  </data>
+  <data name="searchHeadings.290034.JobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290034.FullName.label" xml:space="preserve">
+    <value>Recipient</value>
+  </data>
+  <data name="searchHeadings.290034.ContentOwnerFullName.label" xml:space="preserve">
+    <value>Certificate Owner</value>
+  </data>
+  <data name="searchHeadings.290034.CredProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290034.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290034.InitiationDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290034.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchHeadings.290034.TaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290034.CredProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290034.Name.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290034.FullName.label" xml:space="preserve">
+    <value>Recipient Full Name</value>
+  </data>
+  <data name="searchCriteria.290034.Logon.label" xml:space="preserve">
+    <value>Recipient Logon</value>
+  </data>
+  <data name="searchCriteria.290034.ContentOwnerFullName.label" xml:space="preserve">
+    <value>Certificate Owner Full Name</value>
+  </data>
+  <data name="searchCriteria.290034.ContentOwnerLogon.label" xml:space="preserve">
+    <value>Certificate Owner Logon</value>
+  </data>
+  <data name="searchCriteria.290034.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290034.SearchTaskType.label" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.label" xml:space="preserve">
+    <value>Device Category</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.Document" xml:space="preserve">
+    <value>Mobile Identity Document</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.fido" xml:space="preserve">
+    <value>FIDO</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.mfa" xml:space="preserve">
+    <value>MFA</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.Printed" xml:space="preserve">
+    <value>Printed Identity Document</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.SoftCert" xml:space="preserve">
+    <value>Software Certificate</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceCategory.values.VSC" xml:space="preserve">
+    <value>Virtual Smart Card</value>
+  </data>
+  <data name="searchCriteria.290034.JobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290034.Label.label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="searchCriteria.290034.InitiationDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290034.InitiationDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290034.ValidationDate.label.gt" xml:space="preserve">
+    <value>Validated After</value>
+  </data>
+  <data name="searchCriteria.290034.ValidationDate.label.lt" xml:space="preserve">
+    <value>Validated Before</value>
+  </data>
+  <data name="searchCriteria.290034.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290034.SerialNumber.label" xml:space="preserve">
+    <value>Device Serial Number</value>
+  </data>
+  <data name="forms.reports.certificates to recover to device.label" xml:space="preserve">
+    <value>Certificates To Recover To Device</value>
+  </data>
+  <data name="forms.reports.certificates to recover to device.description" xml:space="preserve">
+    <value>Certificates To Recover To Device</value>
+  </data>
+  <data name="links.certificates.searchContextual.290035.desc" xml:space="preserve">
+    <value>Certificates To Recover To Device</value>
+  </data>
+  <data name="forms.operation.id.values.290035" xml:space="preserve">
+    <value>Certificates To Recover To Device</value>
+  </data>
+  <data name="searchHeadings.290035.FriendlyName.label" xml:space="preserve">
+    <value>Certificate Policy</value>
+  </data>
+  <data name="searchHeadings.290035.DateIssued.label" xml:space="preserve">
+    <value>Date Issued</value>
+  </data>
+  <data name="searchHeadings.290035.ExpiryDate.label" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="searchHeadings.290035.UserDN.label" xml:space="preserve">
+    <value>User DN</value>
+  </data>
+  <data name="searchHeadings.290035.RecoveryStorage.label" xml:space="preserve">
+    <value>Storage Policy</value>
+  </data>
+  <data name="searchHeadings.290035.RecoveryStorage.label" xml:space="preserve">
+    <value>Storage Policy</value>
+  </data>
+  <data name="searchHeadings.290035.CertificateSN.label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="searchHeadings.290035.CAPath.label" xml:space="preserve">
+    <value>Certificate Authority</value>
+  </data>
+  <data name="searchHeadings.290035.OnDevice.label" xml:space="preserve">
+    <value>Currently On Device</value>
+  </data>
+  <data name="searchHeadings.290035.KeyArchived.label" xml:space="preserve">
+    <value>Key Archived</value>
+  </data>
+  <data name="searchHeadings.290035.DeviceObjectID.label" xml:space="preserve">
+    <value>DeviceObjectID</value>
+  </data>
+  <data name="forms.reports.passkeys.label" xml:space="preserve">
+    <value>Passkeys</value>
+  </data>
+  <data name="forms.reports.passkeys.description" xml:space="preserve">
+    <value>Passkeys</value>
+  </data>
+  <data name="links.devices.search.290036.desc" xml:space="preserve">
+    <value>Passkeys</value>
+  </data>
+  <data name="forms.operation.id.values.290036" xml:space="preserve">
+    <value>Passkeys</value>
+  </data>
+  <data name="searchHeadings.290036.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="searchHeadings.290036.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290036.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290036.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchHeadings.290036.Name.label" xml:space="preserve">
+    <value>Authentication Server</value>
+  </data>
+  <data name="searchHeadings.290036.enabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchHeadings.290036.validFrom.label" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="searchHeadings.290036.validUntil.label" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="forms.devices.searchcriteria.owner name (contains).label" xml:space="preserve">
+    <value>Owner Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290036.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290036.credProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290036.Name.label" xml:space="preserve">
+    <value>Authentication Server</value>
+  </data>
+  <data name="searchCriteria.290036.dt.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290036.processStatus.label" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="searchCriteria.290036.NumericEnabled.label" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="searchCriteria.290036.NumericEnabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290036.NumericEnabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290036.validFrom.label.gt" xml:space="preserve">
+    <value>Valid After</value>
+  </data>
+  <data name="searchCriteria.290036.validFrom.label.lt" xml:space="preserve">
+    <value>Valid Before</value>
+  </data>
+  <data name="searchCriteria.290036.validUntil.label.gt" xml:space="preserve">
+    <value>Expires After</value>
+  </data>
+  <data name="searchCriteria.290036.validUntil.label.lt" xml:space="preserve">
+    <value>Expires Before</value>
+  </data>
+  <data name="searchCriteria.290036.enabled.label" xml:space="preserve">
+    <value>Enabled (text)</value>
+  </data>
+  <data name="searchCriteria.290036.enabled.values.0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290036.enabled.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290036.enabled.values.1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290036.enabled.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290036.owner.label" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="forms.reports.securevault usage.label" xml:space="preserve">
+    <value>SecureVault Usage</value>
+  </data>
+  <data name="forms.reports.securevault usage.description" xml:space="preserve">
+    <value>SecureVault Usage</value>
+  </data>
+  <data name="links.reports.search.290037.desc" xml:space="preserve">
+    <value>SecureVault Usage</value>
+  </data>
+  <data name="forms.operation.id.values.290037" xml:space="preserve">
+    <value>SecureVault Usage</value>
+  </data>
+  <data name="searchHeadings.290037.KeyArchiveName.label" xml:space="preserve">
+    <value>Vault Name</value>
+  </data>
+  <data name="searchHeadings.290037.Keys.label" xml:space="preserve">
+    <value>Keys</value>
+  </data>
+  <data name="forms.reports.securevault biometric usage.label" xml:space="preserve">
+    <value>SecureVault Biometric Usage</value>
+  </data>
+  <data name="forms.reports.securevault biometric usage.description" xml:space="preserve">
+    <value>SecureVault Biometric Usage</value>
+  </data>
+  <data name="links.reports.search.290038.desc" xml:space="preserve">
+    <value>SecureVault Biometric Usage</value>
+  </data>
+  <data name="forms.operation.id.values.290038" xml:space="preserve">
+    <value>SecureVault Biometric Usage</value>
+  </data>
+  <data name="searchHeadings.290038.ExternalArchiveReference.label" xml:space="preserve">
+    <value>External Archive Reference</value>
+  </data>
+  <data name="searchHeadings.290038.ExternalArchiveReference1.label" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="forms.reports.key recovery recipient.label" xml:space="preserve">
+    <value>Key Recovery Recipient</value>
+  </data>
+  <data name="forms.reports.key recovery recipient.description" xml:space="preserve">
+    <value>Choose the person to assign the key recovery request to.</value>
+  </data>
+  <data name="links.people.searchContextual.290039.desc" xml:space="preserve">
+    <value>Key Recovery Recipient</value>
+  </data>
+  <data name="forms.operation.id.values.290039" xml:space="preserve">
+    <value>Key Recovery Recipient</value>
+  </data>
+  <data name="searchHeadings.290039.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.290039.fullName.label" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="searchHeadings.290039.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="forms.people.searchcriteria.name (contains).label" xml:space="preserve">
+    <value>Name (contains)</value>
+  </data>
+  <data name="searchCriteria.290039.groupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290039.logonName.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290039.Email.label" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="searchCriteria.290039.Role.label" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="forms.reports.current workflow activity.label" xml:space="preserve">
+    <value>Current Workflow Activity</value>
+  </data>
+  <data name="forms.reports.current workflow activity.description" xml:space="preserve">
+    <value>Current Workflow Activity</value>
+  </data>
+  <data name="links.audits.search.290041.desc" xml:space="preserve">
+    <value>Current Workflow Activity</value>
+  </data>
+  <data name="forms.operation.id.values.290041" xml:space="preserve">
+    <value>Current Workflow Activity</value>
+  </data>
+  <data name="searchHeadings.290041.UTCStartDateTime.label" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="searchHeadings.290041.UTCEndDateTime.label" xml:space="preserve">
+    <value>End Timestamp</value>
+  </data>
+  <data name="searchHeadings.290041.Operation.label" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="searchHeadings.290041.Operator.label" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="searchHeadings.290041.PersonLogonName.label" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="searchHeadings.290041.Message.label" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="searchHeadings.290041.AuditType.label" xml:space="preserve">
+    <value>Audit Type</value>
+  </data>
+  <data name="searchCriteria.290041.Operation.label" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="searchCriteria.290041.AuditType.label" xml:space="preserve">
+    <value>Audit Type</value>
+  </data>
+  <data name="forms.reports.people with multiple same type credentials.label" xml:space="preserve">
+    <value>People with Multiple Same Type Credentials</value>
+  </data>
+  <data name="forms.reports.people with multiple same type credentials.description" xml:space="preserve">
+    <value>People with multiple credentials of the same type</value>
+  </data>
+  <data name="links.people.search.290042.desc" xml:space="preserve">
+    <value>People with Multiple Same Type Credentials</value>
+  </data>
+  <data name="forms.operation.id.values.290042" xml:space="preserve">
+    <value>People with Multiple Same Type Credentials</value>
+  </data>
+  <data name="searchHeadings.290042.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchHeadings.290042.GroupName.label" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="searchHeadings.290042.DeviceCount.label" xml:space="preserve">
+    <value>Count of devices</value>
+  </data>
+  <data name="searchHeadings.290042.CredProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchHeadings.290042.CountHidden.label" xml:space="preserve">
+    <value>CountHidden</value>
+  </data>
+  <data name="searchCriteria.290042.Logon.label" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="searchCriteria.290042.GroupName.label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="searchCriteria.290042.CredProfileName.label" xml:space="preserve">
+    <value>Credential Profile</value>
+  </data>
+  <data name="searchCriteria.290042.CountHidden.label" xml:space="preserve">
+    <value>Minimum number of devices</value>
+  </data>
+  <data name="forms.reports.active certificate policies.label" xml:space="preserve">
+    <value>Active Certificate Policies</value>
+  </data>
+  <data name="forms.reports.active certificate policies.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.certpolicies.search.290044.desc" xml:space="preserve">
+    <value>Active Certificate Policies</value>
+  </data>
+  <data name="forms.operation.id.values.290044" xml:space="preserve">
+    <value>Active Certificate Policies</value>
+  </data>
+  <data name="searchHeadings.290044.DisplayName.label" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="searchHeadings.290044.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.290044.CAType.label" xml:space="preserve">
+    <value>Certificate Authority Type</value>
+  </data>
+  <data name="searchHeadings.290044.CAName.label" xml:space="preserve">
+    <value>Certificate Authority Name</value>
+  </data>
+  <data name="searchCriteria.290044.DisplayName.label" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.label" xml:space="preserve">
+    <value>Certificate Authority Type</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.DigiCertONE" xml:space="preserve">
+    <value>DigiCert ONE</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.DigiCert ONE" xml:space="preserve">
+    <value>DigiCert ONE</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.EJBCA" xml:space="preserve">
+    <value>EJBCA</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.EntrustJASTK" xml:space="preserve">
+    <value>Entrust JASTK</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.Entrust JASTK" xml:space="preserve">
+    <value>Entrust JASTK</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.EntrustJTK" xml:space="preserve">
+    <value>Entrust JTK</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.Entrust JTK" xml:space="preserve">
+    <value>Entrust JTK</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.EntrustRest" xml:space="preserve">
+    <value>Entrust Rest</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.Entrust Rest" xml:space="preserve">
+    <value>Entrust Rest</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.GenericCA" xml:space="preserve">
+    <value>Generic CA</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.Generic CA" xml:space="preserve">
+    <value>Generic CA</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.Microsoft Enrollment" xml:space="preserve">
+    <value>Microsoft Enrollment</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.Microsoft Enterprise" xml:space="preserve">
+    <value>Microsoft Enterprise</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.SymantecMPKI8" xml:space="preserve">
+    <value>SymantecMPKI8</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.UniCERTUPI" xml:space="preserve">
+    <value>UniCERT</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.UniCERT" xml:space="preserve">
+    <value>UniCERT</value>
+  </data>
+  <data name="searchCriteria.290044.CAType.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="searchCriteria.290044.CAName.label" xml:space="preserve">
+    <value>Certificate Authority Name</value>
+  </data>
+  <data name="forms.reports.manage jobs.label" xml:space="preserve">
+    <value>Manage Jobs</value>
+  </data>
+  <data name="forms.reports.manage jobs.description" xml:space="preserve">
+    <value>Manage Jobs</value>
+  </data>
+  <data name="links.requests.search.290045.desc" xml:space="preserve">
+    <value>Manage Jobs</value>
+  </data>
+  <data name="forms.operation.id.values.290045" xml:space="preserve">
+    <value>Manage Jobs</value>
+  </data>
+  <data name="searchHeadings.290045.jobNumber.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290045.TargetFullName.label" xml:space="preserve">
+    <value>Job For</value>
+  </data>
+  <data name="searchHeadings.290045.InitiatorFullName.label" xml:space="preserve">
+    <value>Requested By</value>
+  </data>
+  <data name="searchHeadings.290045.RequestDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290045.ValidatorFullName.label" xml:space="preserve">
+    <value>Validator</value>
+  </data>
+  <data name="searchHeadings.290045.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290045.TaskTypeDescription.label" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="searchCriteria.290045.jobNumber.label" xml:space="preserve">
+    <value>Job ID</value>
+  </data>
+  <data name="searchCriteria.290045.TargetLogon.label" xml:space="preserve">
+    <value>Job For Logon Name</value>
+  </data>
+  <data name="searchCriteria.290045.TargetGroupName.label" xml:space="preserve">
+    <value>Job For User Group</value>
+  </data>
+  <data name="searchCriteria.290045.InitiatorLogon.label" xml:space="preserve">
+    <value>Requested By Logon Name</value>
+  </data>
+  <data name="searchCriteria.290045.RequestDate.label.gt" xml:space="preserve">
+    <value>Requested Date From</value>
+  </data>
+  <data name="searchCriteria.290045.RequestDate.label.lt" xml:space="preserve">
+    <value>Requested Date To</value>
+  </data>
+  <data name="searchCriteria.290045.searchTaskType.label" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="searchCriteria.290045.Status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290045.Label.label" xml:space="preserve">
+    <value>Batch Label</value>
+  </data>
+  <data name="searchCriteria.290045.ValidatorLogon.label" xml:space="preserve">
+    <value>Validator Logon Name</value>
+  </data>
+  <data name="searchCriteria.290045.ValidationDate.label.gt" xml:space="preserve">
+    <value>Validation Date From</value>
+  </data>
+  <data name="searchCriteria.290045.ValidationDate.label.lt" xml:space="preserve">
+    <value>Validation Date To</value>
+  </data>
+  <data name="searchCriteria.290045.TargetForename.label" xml:space="preserve">
+    <value>Job For First Name</value>
+  </data>
+  <data name="searchCriteria.290045.TargetSurname.label" xml:space="preserve">
+    <value>Job For Last Name</value>
+  </data>
+  <data name="searchCriteria.290045.ActionLogon.label" xml:space="preserve">
+    <value>Actioned By Logon Name</value>
+  </data>
+  <data name="searchCriteria.290045.ActionDate.label.gt" xml:space="preserve">
+    <value>Action Date From</value>
+  </data>
+  <data name="searchCriteria.290045.ActionDate.label.lt" xml:space="preserve">
+    <value>Action Date To</value>
+  </data>
+  <data name="searchCriteria.290045.RenewalDate.label.gt" xml:space="preserve">
+    <value>Renewal Date From</value>
+  </data>
+  <data name="searchCriteria.290045.RenewalDate.label.lt" xml:space="preserve">
+    <value>Renewal Date To</value>
+  </data>
+  <data name="searchCriteria.290045.SuspendedDate.label.gt" xml:space="preserve">
+    <value>Suspended Date From</value>
+  </data>
+  <data name="searchCriteria.290045.SuspendedDate.label.lt" xml:space="preserve">
+    <value>Suspended Date To</value>
+  </data>
+  <data name="forms.reports.all operations.label" xml:space="preserve">
+    <value>All Operations</value>
+  </data>
+  <data name="forms.reports.all operations.description" xml:space="preserve">
+    <value>Standard and Advanced Operations</value>
+  </data>
+  <data name="links.operations.search.290046.desc" xml:space="preserve">
+    <value>All Operations</value>
+  </data>
+  <data name="forms.operation.id.values.290046" xml:space="preserve">
+    <value>All Operations</value>
+  </data>
+  <data name="searchHeadings.290046.OperationName.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.290046.OperationID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290046.OperationTypes.label" xml:space="preserve">
+    <value>Applies To</value>
+  </data>
+  <data name="searchHeadings.290046.IsReport.label" xml:space="preserve">
+    <value>Is Report</value>
+  </data>
+  <data name="searchHeadings.290046.IsAdvanced.label" xml:space="preserve">
+    <value>Is Advanced</value>
+  </data>
+  <data name="searchCriteria.290046.OperationName.label" xml:space="preserve">
+    <value>Name (ID)</value>
+  </data>
+  <data name="searchCriteria.290046.IsReport.label" xml:space="preserve">
+    <value>Is Report</value>
+  </data>
+  <data name="searchCriteria.290046.IsReport.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290046.IsReport.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290046.IsAdvanced.label" xml:space="preserve">
+    <value>Is Advanced</value>
+  </data>
+  <data name="searchCriteria.290046.IsAdvanced.values.0" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290046.IsAdvanced.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="searchCriteria.290046.IsAdvanced.values.1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="searchCriteria.290046.IsAdvanced.values.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="forms.reports.select superseding policy.label" xml:space="preserve">
+    <value>Select Superseding Policy</value>
+  </data>
+  <data name="forms.reports.select superseding policy.description" xml:space="preserve">
+    <value>Select Superseding Policy</value>
+  </data>
+  <data name="links.certpolicies.searchContextual.290047.desc" xml:space="preserve">
+    <value>Select Superseding Policy</value>
+  </data>
+  <data name="forms.operation.id.values.290047" xml:space="preserve">
+    <value>Select Superseding Policy</value>
+  </data>
+  <data name="searchHeadings.290047.DisplayName.label" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="searchHeadings.290047.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.290047.CAType.label" xml:space="preserve">
+    <value>Certificate Authority Type</value>
+  </data>
+  <data name="searchHeadings.290047.CAName.label" xml:space="preserve">
+    <value>Certificate Authority Name</value>
+  </data>
+  <data name="searchCriteria.290047.DisplayName.label" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.label" xml:space="preserve">
+    <value>Certificate Authority Type</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.DigiCertONE" xml:space="preserve">
+    <value>DigiCert ONE</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.DigiCert ONE" xml:space="preserve">
+    <value>DigiCert ONE</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.EJBCA" xml:space="preserve">
+    <value>EJBCA</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.EntrustJASTK" xml:space="preserve">
+    <value>Entrust JASTK</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.Entrust JASTK" xml:space="preserve">
+    <value>Entrust JASTK</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.EntrustJTK" xml:space="preserve">
+    <value>Entrust JTK</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.Entrust JTK" xml:space="preserve">
+    <value>Entrust JTK</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.EntrustRest" xml:space="preserve">
+    <value>Entrust Rest</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.Entrust Rest" xml:space="preserve">
+    <value>Entrust Rest</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.GenericCA" xml:space="preserve">
+    <value>Generic CA</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.Generic CA" xml:space="preserve">
+    <value>Generic CA</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.Microsoft Enrollment" xml:space="preserve">
+    <value>Microsoft Enrollment</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.Microsoft Enterprise" xml:space="preserve">
+    <value>Microsoft Enterprise</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.SymantecMPKI8" xml:space="preserve">
+    <value>SymantecMPKI8</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.UniCERTUPI" xml:space="preserve">
+    <value>UniCERT</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.UniCERT" xml:space="preserve">
+    <value>UniCERT</value>
+  </data>
+  <data name="searchCriteria.290047.CAType.values.Unmanaged" xml:space="preserve">
+    <value>Unmanaged</value>
+  </data>
+  <data name="searchCriteria.290047.CAName.label" xml:space="preserve">
+    <value>Certificate Authority Name</value>
+  </data>
+  <data name="forms.reports.factory globalplatform keys.label" xml:space="preserve">
+    <value>Factory GlobalPlatform Keys</value>
+  </data>
+  <data name="forms.reports.factory globalplatform keys.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.keys.search.290048.desc" xml:space="preserve">
+    <value>Factory GlobalPlatform Keys</value>
+  </data>
+  <data name="forms.operation.id.values.290048" xml:space="preserve">
+    <value>Factory GlobalPlatform Keys</value>
+  </data>
+  <data name="searchHeadings.290048.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchHeadings.290048.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.290048.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290048.Name.label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="searchCriteria.290048.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.290048.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="forms.reports.customer globalplatform keys.label" xml:space="preserve">
+    <value>Customer GlobalPlatform Keys</value>
+  </data>
+  <data name="forms.reports.customer globalplatform keys.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.keys.search.290049.desc" xml:space="preserve">
+    <value>Customer GlobalPlatform Keys</value>
+  </data>
+  <data name="forms.operation.id.values.290049" xml:space="preserve">
+    <value>Customer GlobalPlatform Keys</value>
+  </data>
+  <data name="searchHeadings.290049.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.290049.KeyEncryptionAlgorithm.label" xml:space="preserve">
+    <value>Algorithm</value>
+  </data>
+  <data name="searchHeadings.290049.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="searchCriteria.290049.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.290049.KeyEncryptionAlgorithm.label" xml:space="preserve">
+    <value>Algorithm</value>
+  </data>
+  <data name="searchCriteria.290049.KeyEncryptionAlgorithm.values.2DES" xml:space="preserve">
+    <value>2DES</value>
+  </data>
+  <data name="searchCriteria.290049.KeyEncryptionAlgorithm.values.AES128" xml:space="preserve">
+    <value>AES128</value>
+  </data>
+  <data name="searchCriteria.290049.KeyEncryptionAlgorithm.values.AES192" xml:space="preserve">
+    <value>AES192</value>
+  </data>
+  <data name="searchCriteria.290049.KeyEncryptionAlgorithm.values.AES256" xml:space="preserve">
+    <value>AES256</value>
+  </data>
+  <data name="searchCriteria.290049.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="forms.reports.piv 9b keys.label" xml:space="preserve">
+    <value>PIV 9B Keys</value>
+  </data>
+  <data name="forms.reports.piv 9b keys.description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="links.keys.search.290050.desc" xml:space="preserve">
+    <value>PIV 9B Keys</value>
+  </data>
+  <data name="forms.operation.id.values.290050" xml:space="preserve">
+    <value>PIV 9B Keys</value>
+  </data>
+  <data name="searchHeadings.290050.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchHeadings.290050.KeyType.label" xml:space="preserve">
+    <value>Key Type</value>
+  </data>
+  <data name="searchHeadings.290050.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.290050.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="searchCriteria.290050.DeviceType.label" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="searchCriteria.290050.KeyType.label" xml:space="preserve">
+    <value>Key Type</value>
+  </data>
+  <data name="searchCriteria.290050.KeyType.values.customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="searchCriteria.290050.KeyType.values.factory" xml:space="preserve">
+    <value>Factory</value>
+  </data>
+  <data name="searchCriteria.290050.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.290050.Version.label" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="forms.reports.lifecycle operations &amp; reasons.label" xml:space="preserve">
+    <value>Lifecycle Operations &amp; Reasons</value>
+  </data>
+  <data name="forms.reports.lifecycle operations &amp; reasons.description" xml:space="preserve">
+    <value>Lists reasons available to each operation</value>
+  </data>
+  <data name="links.reports.search.290051.desc" xml:space="preserve">
+    <value>Lifecycle Operations &amp; Reasons</value>
+  </data>
+  <data name="forms.operation.id.values.290051" xml:space="preserve">
+    <value>Lifecycle Operations &amp; Reasons</value>
+  </data>
+  <data name="searchHeadings.290051.OperationName.label" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="searchHeadings.290051.OperationID.label" xml:space="preserve">
+    <value>Operation ID</value>
+  </data>
+  <data name="searchHeadings.290051.Reasons.label" xml:space="preserve">
+    <value>Reason(s)</value>
+  </data>
+  <data name="searchHeadings.290051.StatusMappingID.label" xml:space="preserve">
+    <value>StatusMappingID</value>
+  </data>
+  <data name="searchCriteria.290051.OperationName.label" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="searchCriteria.290051.OperationID.label" xml:space="preserve">
+    <value>Operation ID</value>
+  </data>
+  <data name="searchCriteria.290051.Reasons.label" xml:space="preserve">
+    <value>Reason(s)</value>
+  </data>
+  <data name="forms.reports.bureau requests.label" xml:space="preserve">
+    <value>Bureau Requests</value>
+  </data>
+  <data name="forms.reports.bureau requests.description" xml:space="preserve">
+    <value>Bureau Requests</value>
+  </data>
+  <data name="links.requests.search.290052.desc" xml:space="preserve">
+    <value>Bureau Requests</value>
+  </data>
+  <data name="forms.operation.id.values.290052" xml:space="preserve">
+    <value>Bureau Requests</value>
+  </data>
+  <data name="searchHeadings.290052.JobID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290052.Identifier.label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="searchHeadings.290052.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.290052.RequestDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290052.BureauJobProgress.label" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="searchHeadings.290052.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290052.EmptyBatch.label" xml:space="preserve">
+    <value>Empty Batch</value>
+  </data>
+  <data name="searchCriteria.290052.JobID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290052.Identifier.label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="searchCriteria.290052.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.290052.RequestDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290052.RequestDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290052.BureauJobProgress.label" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="searchCriteria.290052.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290052.EmptyBatch.label" xml:space="preserve">
+    <value>Empty Batch</value>
+  </data>
+  <data name="searchCriteria.290052.EmptyBatch.values.^No" xml:space="preserve">
+    <value>^No</value>
+  </data>
+  <data name="searchCriteria.290052.EmptyBatch.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="forms.reports.bureau batches.label" xml:space="preserve">
+    <value>Bureau Batches</value>
+  </data>
+  <data name="forms.reports.bureau batches.description" xml:space="preserve">
+    <value>Bureau Batches</value>
+  </data>
+  <data name="links.requests.search.290053.desc" xml:space="preserve">
+    <value>Bureau Batches</value>
+  </data>
+  <data name="forms.operation.id.values.290053" xml:space="preserve">
+    <value>Bureau Batches</value>
+  </data>
+  <data name="searchHeadings.290053.JobID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290053.Identifier.label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="searchHeadings.290053.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchHeadings.290053.RequestDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290053.BureauJobProgress.label" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="searchHeadings.290053.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290053.EmptyBatch.label" xml:space="preserve">
+    <value>Empty Batch</value>
+  </data>
+  <data name="searchCriteria.290053.JobID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290053.Identifier.label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="searchCriteria.290053.Description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="searchCriteria.290053.RequestDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290053.RequestDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290053.BureauJobProgress.label" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="searchCriteria.290053.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290053.EmptyBatch.label" xml:space="preserve">
+    <value>Empty Batch</value>
+  </data>
+  <data name="searchCriteria.290053.EmptyBatch.values.^No" xml:space="preserve">
+    <value>^No</value>
+  </data>
+  <data name="searchCriteria.290053.EmptyBatch.values.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="forms.reports.bureau issuance requests.label" xml:space="preserve">
+    <value>Bureau Issuance Requests</value>
+  </data>
+  <data name="forms.reports.bureau issuance requests.description" xml:space="preserve">
+    <value>Bureau Issuance Requests</value>
+  </data>
+  <data name="links.requests.search.290054.desc" xml:space="preserve">
+    <value>Bureau Issuance Requests</value>
+  </data>
+  <data name="forms.operation.id.values.290054" xml:space="preserve">
+    <value>Bureau Issuance Requests</value>
+  </data>
+  <data name="searchHeadings.290054.JobID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchHeadings.290054.BureauIndex.label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="searchHeadings.290054.TargetFullName.label" xml:space="preserve">
+    <value>Job For</value>
+  </data>
+  <data name="searchHeadings.290054.InitiatorFullName.label" xml:space="preserve">
+    <value>Requested By</value>
+  </data>
+  <data name="searchHeadings.290054.RequestDate.label" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="searchHeadings.290054.BureauJobProgress.label" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="searchHeadings.290054.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchHeadings.290054.taskType.label" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="searchCriteria.290054.JobID.label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="searchCriteria.290054.BureauIndex.label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="searchCriteria.290054.TargetFullName.label" xml:space="preserve">
+    <value>Job For</value>
+  </data>
+  <data name="searchCriteria.290054.InitiatorFullName.label" xml:space="preserve">
+    <value>Requested By</value>
+  </data>
+  <data name="searchCriteria.290054.RequestDate.label.gt" xml:space="preserve">
+    <value>Requested After</value>
+  </data>
+  <data name="searchCriteria.290054.RequestDate.label.lt" xml:space="preserve">
+    <value>Requested Before</value>
+  </data>
+  <data name="searchCriteria.290054.BureauJobProgress.label" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="searchCriteria.290054.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="searchCriteria.290054.taskType.label" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+</root>

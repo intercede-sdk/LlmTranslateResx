@@ -1,0 +1,2276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="forms.operations.entity.id.values." xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="forms.operations.entity.id.values.0" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="forms.operations.entity.id.values.1" xml:space="preserve">
+		<value>People</value>
+	</data>
+	<data name="forms.operations.entity.id.values.2" xml:space="preserve">
+		<value>Groups</value>
+	</data>
+	<data name="forms.operations.entity.id.values.3" xml:space="preserve">
+		<value>Devices</value>
+	</data>
+	<data name="forms.operations.entity.id.values.4" xml:space="preserve">
+		<value>Requests</value>
+	</data>
+	<data name="forms.operations.entity.id.values.5" xml:space="preserve">
+		<value>Certificates</value>
+	</data>
+	<data name="forms.operations.entity.id.values.6" xml:space="preserve">
+		<value>Audits</value>
+	</data>
+	<data name="forms.operations.entity.id.values.7" xml:space="preserve">
+		<value>Actions</value>
+	</data>
+	<data name="forms.operations.entity.id.values.8" xml:space="preserve">
+		<value>Certificate Policies</value>
+	</data>
+	<data name="forms.operations.entity.id.values.9" xml:space="preserve">
+		<value>Credential Profiles</value>
+	</data>
+	<data name="forms.operations.entity.id.values.10" xml:space="preserve">
+		<value>Carriers</value>
+	</data>
+	<data name="forms.operations.entity.id.values.19" xml:space="preserve">
+		<value>Licences</value>
+	</data>
+	<data name="forms.operations.entity.id.values.21" xml:space="preserve">
+		<value>Task Types</value>
+	</data>
+	<data name="forms.operations.entity.id.values.22" xml:space="preserve">
+		<value>Status Mappings</value>
+	</data>
+	<data name="forms.operations.entity.id.values.23" xml:space="preserve">
+		<value>Certificate Statuses</value>
+	</data>
+	<data name="forms.operations.entity.id.values.24" xml:space="preserve">
+		<value>Settings</value>
+	</data>
+	<data name="forms.operations.entity.id.values.25" xml:space="preserve">
+		<value>Operations</value>
+	</data>
+	<data name="forms.operations.entity.id.values.26" xml:space="preserve">
+		<value>Adjudications</value>
+	</data>
+	<data name="forms.operations.entity.id.values.27" xml:space="preserve">
+		<value>Controls</value>
+	</data>
+	<data name="forms.operations.entity.id.values.28" xml:space="preserve">
+		<value>Sessions</value>
+	</data>
+	<data name="forms.operations.entity.id.values.29" xml:space="preserve">
+		<value>Reports</value>
+	</data>
+	<data name="forms.operations.entity.id.values.30" xml:space="preserve">
+		<value>Notifications in Progress</value>
+	</data>
+	<data name="forms.operations.entity.id.values.31" xml:space="preserve">
+		<value>Notifications Completed</value>
+	</data>
+	<data name="forms.operations.entity.id.values.32" xml:space="preserve">
+		<value>Log Events</value>
+	</data>
+	<data name="forms.operations.entity.id.values.33" xml:space="preserve">
+		<value>Biometric Samples</value>
+	</data>
+	<data name="forms.operations.entity.id.values.34" xml:space="preserve">
+		<value>Installations</value>
+	</data>
+	<data name="forms.operations.entity.id.values.35" xml:space="preserve">
+		<value>Report Definitions</value>
+	</data>
+	<data name="forms.operations.entity.id.values.37" xml:space="preserve">
+		<value>Authentications</value>
+	</data>
+	<data name="forms.operations.entity.id.values.38" xml:space="preserve">
+		<value>Contactless Information</value>
+	</data>
+	<data name="forms.operations.entity.id.values.39" xml:space="preserve">
+		<value>Workflows</value>
+	</data>
+	<data name="forms.operations.entity.id.values.40" xml:space="preserve">
+		<value>Cryptas VSC</value>
+	</data>
+	<data name="forms.operations.entity.id.values.41" xml:space="preserve">
+		<value>Self-Service Workflows</value>
+	</data>
+	<data name="forms.operations.entity.id.values.43" xml:space="preserve">
+		<value>User Roles</value>
+	</data>
+	<data name="forms.operations.entity.id.values.44" xml:space="preserve">
+		<value>Locations</value>
+	</data>
+	<data name="forms.operations.entity.id.values.45" xml:space="preserve">
+		<value>Stock Limits</value>
+	</data>
+	<data name="forms.operations.entity.id.values.46" xml:space="preserve">
+		<value>Stock Transfers</value>
+	</data>
+	<data name="forms.operations.entity.id.values.47" xml:space="preserve">
+		<value>Relationships</value>
+	</data>
+	<data name="forms.operations.entity.id.values.48" xml:space="preserve">
+		<value>Additional Identities</value>
+	</data>
+	<data name="forms.operations.entity.id.values.49" xml:space="preserve">
+		<value>Certificate Instances</value>
+	</data>
+	<data name="forms.operations.entity.id.values.50" xml:space="preserve">
+		<value>Device Types</value>
+	</data>
+	<data name="forms.operations.entity.id.values.51" xml:space="preserve">
+		<value>Device Containers</value>
+	</data>
+	<data name="forms.operations.entity.id.values.52" xml:space="preserve">
+		<value>Logon Mechanisms</value>
+	</data>
+	<data name="forms.operations.entity.id.values.53" xml:space="preserve">
+		<value>Report Revisions</value>
+	</data>
+	<data name="forms.operations.entity.id.values.55" xml:space="preserve">
+		<value>External Systems</value>
+	</data>
+	<data name="forms.operations.entity.id.values.58" xml:space="preserve">
+		<value>Key Archive Mechanisms</value>
+	</data>
+	<data name="forms.operations.entity.id.values.59" xml:space="preserve">
+		<value>Binaries</value>
+	</data>
+	<data name="forms.operations.entity.id.values.60" xml:space="preserve">
+		<value>All Notifications</value>
+	</data>
+	<data name="forms.operations.entity.id.values.61" xml:space="preserve">
+		<value>Logon Providers</value>
+	</data>
+	<data name="forms.operations.entity.id.values.62" xml:space="preserve">
+		<value>Logon Priorities</value>
+	</data>
+	<data name="forms.operations.entity.id.values.63" xml:space="preserve">
+		<value>Card Layouts</value>
+	</data>
+	<data name="forms.operations.entity.id.values.64" xml:space="preserve">
+		<value>Card Formats</value>
+	</data>
+	<data name="forms.operations.entity.id.values.65" xml:space="preserve">
+		<value>Containers</value>
+	</data>
+	<data name="forms.operations.entity.id.values.66" xml:space="preserve">
+		<value>Notification Schemes</value>
+	</data>
+	<data name="forms.operations.entity.id.values.67" xml:space="preserve">
+		<value>Keys</value>
+	</data>
+	<data name="forms.operations.entity.id.values.68" xml:space="preserve">
+		<value>Applets</value>
+	</data>
+	<data name="forms.operations.entity.id.values.69" xml:space="preserve">
+		<value>Message Templates</value>
+	</data>
+	<data name="forms.operations.entity.id.values.70" xml:space="preserve">
+		<value>Certificate Authorities</value>
+	</data>
+	<data name="forms.operations.entity.id.values.71" xml:space="preserve">
+		<value>Security Phrases</value>
+	</data>
+	<data name="forms.operations.entity.id.values.72" xml:space="preserve">
+		<value>Bureau Stock</value>
+	</data>
+	<data name="forms.operations.entity.id.values.73" xml:space="preserve">
+		<value>Roles</value>
+	</data>
+	<data name="forms.operations.entity.id.values.74" xml:space="preserve">
+		<value>Permissions</value>
+	</data>
+	<data name="forms.operations.entity.id.values.75" xml:space="preserve">
+		<value>System Status</value>
+	</data>
+	<data name="forms.operations.entity.id.values.77" xml:space="preserve">
+		<value>Allowed Statuses</value>
+	</data>
+	<data name="forms.operations.entity.id.values.78" xml:space="preserve">
+		<value>Picklists</value>
+	</data>
+	<data name="forms.operations.entity.id.values.101" xml:space="preserve">
+		<value>Directory People</value>
+	</data>
+	<data name="forms.operations.entity.id.values.102" xml:space="preserve">
+		<value>Directory Groups</value>
+	</data>
+	<data name="forms.operations.entity.id.values.103" xml:space="preserve">
+		<value>Directories</value>
+	</data>
+	<data name="forms.operations.entity.id.values.999" xml:space="preserve">
+		<value>SSA</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.-1" xml:space="preserve">
+		<value>Deprecated</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.0" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.1" xml:space="preserve">
+		<value>People</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.2" xml:space="preserve">
+		<value>Devices</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.3" xml:space="preserve">
+		<value>Groups</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.4" xml:space="preserve">
+		<value>Requests</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.5" xml:space="preserve">
+		<value>Credential Lifecycle</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.6" xml:space="preserve">
+		<value>Connected Devices</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.7" xml:space="preserve">
+		<value>Mobile</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.8" xml:space="preserve">
+		<value>Inventory</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.9" xml:space="preserve">
+		<value>Configuration</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.10" xml:space="preserve">
+		<value>Reports</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.11" xml:space="preserve">
+		<value>Relationships</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.12" xml:space="preserve">
+		<value>PIV</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.13" xml:space="preserve">
+		<value>Self Service</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.14" xml:space="preserve">
+		<value>Adjudications</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.15" xml:space="preserve">
+		<value>Audit</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.16" xml:space="preserve">
+		<value>System Operations</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.17" xml:space="preserve">
+		<value>Certificates</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.18" xml:space="preserve">
+		<value>Certificate Recovery</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.19" xml:space="preserve">
+		<value>Directories</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.20" xml:space="preserve">
+		<value>Mailing Documents</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.21" xml:space="preserve">
+		<value>Notifications</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.22" xml:space="preserve">
+		<value>Report Editor</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.23" xml:space="preserve">
+		<value>Card Layouts</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.24" xml:space="preserve">
+		<value>Credential Profiles</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.25" xml:space="preserve">
+		<value>Certificate Policies</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.26" xml:space="preserve">
+		<value>Licensing</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.27" xml:space="preserve">
+		<value>Settings</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.28" xml:space="preserve">
+		<value>Roles Editor</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.29" xml:space="preserve">
+		<value>Certificate Authorities</value>
+	</data>
+	<data name="forms.operations.rolesGrouping.id.values.30" xml:space="preserve">
+		<value>External Systems</value>
+	</data>
+	<data name="form.viewaudit.FreeText-1.label" xml:space="preserve">
+		<value>Audit Summary</value>
+	</data>
+	<data name="form.viewaudit.FreeText-8.label" xml:space="preserve">
+		<value>Operator Details</value>
+	</data>
+	<data name="forms.people.Edit Person (Directory).title" xml:space="preserve">
+		<value>Edit Person (Directory)</value>
+		<comment>Alternate form title when editing a person that is in the directory but not in MyID database</comment>
+	</data>
+	<data name="forms.people.View Person (Directory).title" xml:space="preserve">
+		<value>View Person (Directory)</value>
+		<comment>Alternate form title when viewing a person that is in the directory but not in MyID database</comment>
+	</data>
+	<data name="forms.requests.Request Mobile Issuance (View Auth Code).title" xml:space="preserve">
+		<value>Request Mobile Issuance (View Auth Code)</value>
+	</data>
+	<data name="forms.requests.Request Replacement Mobile (View Auth Code).title" xml:space="preserve">
+		<value>Request Replacement Mobile (View Auth Code)</value>
+	</data>
+	<data name="forms.stocktransfers.Fail Stock Transfer.title" xml:space="preserve">
+		<value>Fail Stock Transfer</value>
+	</data>
+	<data name="forms.stocktransfers.Transfer Stock From Here.title" xml:space="preserve">
+		<value>Transfer Stock From Here</value>
+	</data>
+	<data name="forms.stocktransfers.Transfer Stock To Here.title" xml:space="preserve">
+		<value>Transfer Stock To Here</value>
+	</data>
+	<data name="forms.searchcriteria.displayname.includeSubgroups" xml:space="preserve">
+		<value>Include Subgroups</value>
+	</data>
+	<data name="forms.searchcriteria.displayname.ldap.group.logonName" xml:space="preserve">
+		<value>Logon</value>
+	</data>
+	<data name="forms.searchcriteria.displayname.ldap.group.name" xml:space="preserve">
+		<value>Group</value>
+	</data>
+	<data name="forms.searchcriteria.displayname.ldap.logonName" xml:space="preserve">
+		<value>Logon</value>
+	</data>
+	<data name="forms.searchcriteria.displayname.ldap.name.first" xml:space="preserve">
+		<value>First Name</value>
+	</data>
+	<data name="forms.searchcriteria.displayname.ldap.name.last" xml:space="preserve">
+		<value>Last Name</value>
+	</data>
+	<data name="forms.searchcriteria.displayname.ldap.userPrincipalName" xml:space="preserve">
+		<value>User Principal Name</value>
+	</data>
+	<data name="forms.searchcriteria.tab.DB.label" xml:space="preserve">
+		<value>MyID</value>
+	</data>
+	<data name="forms.searchcriteria.tab.Default ADS.label" xml:space="preserve">
+		<value>Default ADS</value>
+	</data>
+	<data name="forms.people.searchcriteria.name (contains).label" xml:space="preserve">
+		<value>Name (contains)</value>
+	</data>
+	<data name="forms.devices.searchcriteria.owner name (contains).label" xml:space="preserve">
+		<value>Owner Name (contains)</value>
+	</data>
+	<data name="forms.requests.searchcriteria.name (contains).label" xml:space="preserve">
+		<value>Name (contains)</value>
+	</data>
+	<data name="forms.searchresults.audits.Label" xml:space="preserve">
+		<value>Field</value>
+	</data>
+	<data name="forms.searchresults.audits.Value" xml:space="preserve">
+		<value>Value</value>
+	</data>
+	<data name="forms.searchresults.audits.ID" xml:space="preserve">
+		<value>ID</value>
+	</data>
+	<data name="forms.searchresults.audits.ReadableMessage" xml:space="preserve">
+		<value>Summary</value>
+	</data>
+	<data name="forms.searchresults.audits.Status" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="forms.searchresults.audits.StartDateTime" xml:space="preserve">
+		<value>Start Date</value>
+	</data>
+	<data name="forms.searchresults.audits.EndDateTime" xml:space="preserve">
+		<value>End Date</value>
+	</data>
+	<data name="forms.searchresults.audits.HasSigningData" xml:space="preserve">
+		<value>Signed</value>
+	</data>
+	<data name="forms.searchresults.audits.UTCOperationDate" xml:space="preserve">
+		<value>Date/Time</value>
+	</data>
+	<data name="forms.searchresults.audits.Description" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.auditsdelta.Label" xml:space="preserve">
+		<value>Field</value>
+	</data>
+	<data name="forms.searchresults.auditsdelta.Before" xml:space="preserve">
+		<value>Previous Value</value>
+	</data>
+	<data name="forms.searchresults.auditsdelta.After" xml:space="preserve">
+		<value>New Value</value>
+	</data>
+	<data name="forms.searchresults.certificates.policyDisplayName" xml:space="preserve">
+		<value>Certificate Policy</value>
+	</data>
+	<data name="forms.searchresults.certificates.certIssuedDate" xml:space="preserve">
+		<value>Issued Date</value>
+	</data>
+	<data name="forms.searchresults.certificates.certExpiryDate" xml:space="preserve">
+		<value>Expiry Date</value>
+	</data>
+	<data name="forms.searchresults.certificates.status" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="forms.searchresults.certificates.userDn" xml:space="preserve">
+		<value>User DN</value>
+	</data>
+	<data name="forms.searchresults.certificates.expired" xml:space="preserve">
+		<value>Expired</value>
+	</data>
+	<data name="forms.searchresults.certificateauthorities.name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.certificateauthorities.description" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.certificateauthorities.enabled" xml:space="preserve">
+		<value>Allow Issuance</value>
+	</data>
+	<data name="forms.searchresults.certificateauthorities.reverseDn" xml:space="preserve">
+		<value>Reverse DN</value>
+	</data>
+	<data name="forms.searchresults.certificateauthorities.archivedKeys" xml:space="preserve">
+		<value>Archived Keys</value>
+	</data>
+	<data name="forms.searchresults.certificateauthorities.superseded" xml:space="preserve">
+		<value>Superseded</value>
+	</data>
+	<data name="forms.searchresults.devices.policy" xml:space="preserve">
+		<value>Certificate Policy</value>
+	</data>
+	<data name="forms.searchresults.devices.certSerialNo" xml:space="preserve">
+		<value>Serial Number</value>
+	</data>
+	<data name="forms.searchresults.devices.notAfter" xml:space="preserve">
+		<value>Expires</value>
+	</data>
+	<data name="forms.searchresults.devices.status" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="forms.searchresults.devices.expired" xml:space="preserve">
+		<value>Expired</value>
+	</data>
+	<data name="forms.searchresults.directories.firstName" xml:space="preserve">
+		<value>First Name</value>
+	</data>
+	<data name="forms.searchresults.directories.groupName" xml:space="preserve">
+		<value>Group</value>
+	</data>
+	<data name="forms.searchresults.directories.logonName" xml:space="preserve">
+		<value>Logon Name</value>
+	</data>
+	<data name="forms.searchresults.directories.surname" xml:space="preserve">
+		<value>Last Name</value>
+	</data>
+	<data name="forms.searchresults.directories.email" xml:space="preserve">
+		<value>Email</value>
+	</data>
+	<data name="forms.searchresults.directories.upn" xml:space="preserve">
+		<value>User Principal Name</value>
+	</data>
+	<data name="forms.searchresults.directories.dn" xml:space="preserve">
+		<value>Distinguished Name</value>
+	</data>
+	<data name="forms.searchresults.directories.userSID" xml:space="preserve">
+		<value>User SID</value>
+	</data>
+	<data name="forms.searchresults.groups.desc" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.groups.name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.groups.ou" xml:space="preserve">
+		<value>OU</value>
+	</data>
+	<data name="forms.searchresults.groups.parent" xml:space="preserve">
+		<value>Group Parent</value>
+	</data>
+	<data name="forms.searchresults.peoplehistory.Id" xml:space="preserve">
+		<value>Audit ID</value>
+	</data>
+	<data name="forms.searchresults.peoplehistory.Name" xml:space="preserve">
+		<value>Operation</value>
+	</data>
+	<data name="forms.searchresults.peoplehistory.ReadableMessage" xml:space="preserve">
+		<value>Summary</value>
+	</data>
+	<data name="forms.searchresults.peoplehistory.Status" xml:space="preserve">
+		<value>Audit Status</value>
+	</data>
+	<data name="forms.searchresults.peoplehistory.Timestamp" xml:space="preserve">
+		<value>Timestamp</value>
+	</data>
+	<data name="forms.searchresults.devicehistory.Id" xml:space="preserve">
+		<value>Audit ID</value>
+	</data>
+	<data name="forms.searchresults.devicehistory.Name" xml:space="preserve">
+		<value>Operation</value>
+	</data>
+	<data name="forms.searchresults.devicehistory.ReadableMessage" xml:space="preserve">
+		<value>Summary</value>
+	</data>
+	<data name="forms.searchresults.devicehistory.Status" xml:space="preserve">
+		<value>Audit Status</value>
+	</data>
+	<data name="forms.searchresults.devicehistory.Timestamp" xml:space="preserve">
+		<value>Timestamp</value>
+	</data>
+	<data name="forms.searchresults.requesthistory.Id" xml:space="preserve">
+		<value>Audit ID</value>
+	</data>
+	<data name="forms.searchresults.requesthistory.Name" xml:space="preserve">
+		<value>Operation</value>
+	</data>
+	<data name="forms.searchresults.requesthistory.ReadableMessage" xml:space="preserve">
+		<value>Summary</value>
+	</data>
+	<data name="forms.searchresults.requesthistory.Status" xml:space="preserve">
+		<value>Audit Status</value>
+	</data>
+	<data name="forms.searchresults.requesthistory.Timestamp" xml:space="preserve">
+		<value>Timestamp</value>
+	</data>
+	<data name="forms.searchresults.reports.Name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.reports.Desc" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.requests.policy" xml:space="preserve">
+		<value>Certificate Policy</value>
+	</data>
+	<data name="forms.searchresults.requests.certSerialNo" xml:space="preserve">
+		<value>Serial Number</value>
+	</data>
+	<data name="forms.searchresults.requests.notAfter" xml:space="preserve">
+		<value>Expires</value>
+	</data>
+	<data name="forms.searchresults.requests.status" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="forms.searchresults.requests.expired" xml:space="preserve">
+		<value>Expired</value>
+	</data>
+	<data name="forms.searchresults.reportrevisions.CreatorName" xml:space="preserve">
+		<value>Created By</value>
+	</data>
+	<data name="forms.searchresults.reportrevisions.DateCreated" xml:space="preserve">
+		<value>Created On</value>
+	</data>
+	<data name="forms.searchresults.reportrevisions.IsLive" xml:space="preserve">
+		<value>Live</value>
+	</data>
+	<data name="forms.searchresults.reportrevisions.MajorVersion" xml:space="preserve">
+		<value>Major Version</value>
+	</data>
+	<data name="forms.searchresults.reportrevisions.MinorVersion" xml:space="preserve">
+		<value>Minor Version</value>
+	</data>
+	<data name="forms.searchresults.reportrevisions.RevisionNotes" xml:space="preserve">
+		<value>Notes</value>
+	</data>
+	<data name="forms.searchresults.reportrevisions.RevisionStatus" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked due to too many suspensions.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked due to too many suspensions" xml:space="preserve">
+		<value>Revoked due to too many suspensions</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device issued disabled.description" xml:space="preserve">
+		<value>Device issued disabled</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device issued disabled" xml:space="preserve">
+		<value>Device issued disabled</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Other Device issued - cancel.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Other Device issued - cancel" xml:space="preserve">
+		<value>Other Device issued - cancel</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Person disabled.description" xml:space="preserve">
+		<value>The person has been disabled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Person disabled" xml:space="preserve">
+		<value>Person disabled</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revocation (other).description" xml:space="preserve">
+		<value>Revocation (other)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revocation (other)" xml:space="preserve">
+		<value>Revocation (other)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Suspension (other).description" xml:space="preserve">
+		<value>The device has been temporarily suspended for a user defined reason.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Suspension (other)" xml:space="preserve">
+		<value>Suspension (other)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Suspension (other) (Revoke Certificate Operation)" xml:space="preserve">
+		<value>Suspension (other) (Revoke Certificate Operation)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked due to user removal from LDAP.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked due to user removal from LDAP" xml:space="preserve">
+		<value>Revoked due to user removal from LDAP</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked/Suspended due to user disabled in LDAP.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked/Suspended due to user disabled in LDAP" xml:space="preserve">
+		<value>Revoked/Suspended due to user disabled in LDAP</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked/Suspend due to timeout in issuance.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked/Suspend due to timeout in issuance" xml:space="preserve">
+		<value>Revoked/Suspend due to timeout in issuance</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked/Suspend for timeout at deferred collection.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Revoked/Suspend for timeout at deferred collection" xml:space="preserve">
+		<value>Revoked/Suspend for timeout at deferred collection</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Other Device issued.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Other Device issued" xml:space="preserve">
+		<value>Other Device issued</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Update requested by API.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Update requested by API" xml:space="preserve">
+		<value>Update requested by API</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Automated shared certificate update.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Automated shared certificate update" xml:space="preserve">
+		<value>Automated shared certificate update</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Automated card update.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Automated card update" xml:space="preserve">
+		<value>Automated card update</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Unspecified or Automated Processes.description" xml:space="preserve">
+		<value>System use only, do not use</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Unspecified or Automated Processes" xml:space="preserve">
+		<value>Unspecified or Automated Processes</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Lost.description" xml:space="preserve">
+		<value>The device has been permanently lost</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Lost" xml:space="preserve">
+		<value>Lost</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device holder leaving or changing role.description" xml:space="preserve">
+		<value>The device holder has left their current role and their device should be blocked permanently</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device holder leaving or changing role" xml:space="preserve">
+		<value>Device holder leaving or changing role</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device holder details change.description" xml:space="preserve">
+		<value>Information about the device holder has been changed and a new device is needed</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device holder details change" xml:space="preserve">
+		<value>Device holder details change</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Pending Activation.description" xml:space="preserve">
+		<value>The device is  temporary suspended pending activation.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Pending Activation" xml:space="preserve">
+		<value>Pending Activation</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Found Original.description" xml:space="preserve">
+		<value>This temporary device has been revoked because the device holder found their original device.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Found Original" xml:space="preserve">
+		<value>Found Original</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Original device Compromised.description" xml:space="preserve">
+		<value>The original device has been compromised so this device must also be considered to have been compromised.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Original device Compromised" xml:space="preserve">
+		<value>Original device Compromised</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Request device Renewal.description" xml:space="preserve">
+		<value>This device is being replaced or refreshed and shall no longer be active on the system, all certificates will be available for the replacement device.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Request device Renewal" xml:space="preserve">
+		<value>Request device Renewal</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Damaged.description" xml:space="preserve">
+		<value>The device has been rendered inoperable and should be permanently replaced.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Damaged" xml:space="preserve">
+		<value>Damaged</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Batch Failed.description" xml:space="preserve">
+		<value>The device was as part of a batch that failed and must be permanently cancelled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Batch Failed" xml:space="preserve">
+		<value>Batch Failed</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Bureau Failure.description" xml:space="preserve">
+		<value>There was a failure at the bureau and the device must be permanently cancelled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Bureau Failure" xml:space="preserve">
+		<value>Bureau Failure</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Processing Failure.description" xml:space="preserve">
+		<value>There was a processing failure and the device must be permanently cancelled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Processing Failure" xml:space="preserve">
+		<value>Processing Failure</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device Replacement (Delayed Cancellation).description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="forms.statusmappings.status.values.Device Replacement (Delayed Cancellation)" xml:space="preserve">
+		<value>Device Replacement (Delayed Cancellation)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Poor print quality.description" xml:space="preserve">
+		<value>The device was printed to an unacceptable standard and must be permanently cancelled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Poor print quality" xml:space="preserve">
+		<value>Poor print quality</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Printing misaligned.description" xml:space="preserve">
+		<value>The printing on the device is not aligned properly and the device must be permanently cancelled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Printing misaligned" xml:space="preserve">
+		<value>Printing misaligned</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Poor lamination quality.description" xml:space="preserve">
+		<value>The device was laminated incorrectly and must be permanently cancelled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Poor lamination quality" xml:space="preserve">
+		<value>Poor lamination quality</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Incorrect layout printed.description" xml:space="preserve">
+		<value>The device was printed with the incorrect layout and must be permanently cancelled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Incorrect layout printed" xml:space="preserve">
+		<value>Incorrect layout printed</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Stolen.description" xml:space="preserve">
+		<value>The device has been stolen and should be replaced.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Stolen" xml:space="preserve">
+		<value>Stolen</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Cancel device and leave Certificates.description" xml:space="preserve">
+		<value>The device is to be cancel but the certificates are to remain active.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Cancel device and leave Certificates" xml:space="preserve">
+		<value>Cancel device and leave Certificates</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Cancel Certificates and leave device.description" xml:space="preserve">
+		<value>The certificates are to be cancelled but the device is to remain active.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Cancel Certificates and leave device" xml:space="preserve">
+		<value>Cancel Certificates and leave device</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Forgotten.description" xml:space="preserve">
+		<value>The device has been misplaced and a temporary replacement is required.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Forgotten" xml:space="preserve">
+		<value>Forgotten</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Derived Credential Original Revoked.description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="forms.statusmappings.status.values.Derived Credential Original Revoked" xml:space="preserve">
+		<value>Derived Credential Original Revoked</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Permanently Blocked.description" xml:space="preserve">
+		<value>The device should no longer be used.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Permanently Blocked" xml:space="preserve">
+		<value>Permanently Blocked</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Compromised.description" xml:space="preserve">
+		<value>The device has been compromised.  A replacement is required.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Compromised" xml:space="preserve">
+		<value>Compromised</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Derived Credential Notification Listener.description" xml:space="preserve">
+		<value>Cancels Derived Credentials on notification of the original credential being revoked.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Derived Credential Notification Listener" xml:space="preserve">
+		<value>Derived Credential Notification Listener</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device holder on leave..description" xml:space="preserve">
+		<value>The device holder is away temporarily and the device should no longer work until it is re-enabled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Device holder on leave." xml:space="preserve">
+		<value>Device holder on leave</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Compromised - Reissue Shared Certificates.description" xml:space="preserve">
+		<value>A device has been compromised any certificates shared with other devices will be reissued.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Compromised - Reissue Shared Certificates" xml:space="preserve">
+		<value>Compromised - Reissue Shared Certificates</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Credential Profile Update (no revocation).description" xml:space="preserve">
+		<value>There has been an update to the credential profile, but no certificates will be revoked</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Credential Profile Update (no revocation)" xml:space="preserve">
+		<value>Credential Profile Update (no revocation)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Credential Profile Update (full revocation).description" xml:space="preserve">
+		<value>There has been an update to the credential profile and all certificates will be revoked.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Credential Profile Update (full revocation)" xml:space="preserve">
+		<value>Credential Profile Update (full revocation)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Details Change - re-issue archived certificates.description" xml:space="preserve">
+		<value>The user's details have been changed and all certificates must be re-issued. Non-archived certificates will not be revoked.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Details Change - re-issue archived certificates" xml:space="preserve">
+		<value>Details Change - re-issue archived certificates</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Mobile Issued.description" xml:space="preserve">
+		<value>Mobile issued, cancel Certificate Package.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Mobile Issued" xml:space="preserve">
+		<value>Mobile Issued</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Reissue credentials.description" xml:space="preserve">
+		<value>Credentials are being re-issued</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Reissue credentials" xml:space="preserve">
+		<value>Reissue credentials</value>
+	</data>
+	<data name="forms.statusmappings.status.values.8 Hour access.description" xml:space="preserve">
+		<value>8 Hour access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.8 Hour access" xml:space="preserve">
+		<value>8 Hour access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.24 Hour access.description" xml:space="preserve">
+		<value>24 Hour access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.24 Hour access" xml:space="preserve">
+		<value>24 Hour access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.2 Day access.description" xml:space="preserve">
+		<value>2 Day access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.2 Day access" xml:space="preserve">
+		<value>2 Day access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.1 Week access.description" xml:space="preserve">
+		<value>1 Week access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.1 Week access" xml:space="preserve">
+		<value>1 Week access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Pending Investigation.description" xml:space="preserve">
+		<value>The device is being investigated and should be suspended temporarily.  The device should no longer work until it is re-enabled.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Pending Investigation" xml:space="preserve">
+		<value>Pending Investigation</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Pending Investigation (Revoke Certificate Operation)" xml:space="preserve">
+		<value>Pending Investigation (Revoke Certificate Operation)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Cancel temporary card during replacement.description" xml:space="preserve">
+		<value>Cancel temporary card during replacement, certificates are revoked and device cancelled</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Cancel temporary card during replacement" xml:space="preserve">
+		<value>Cancel temporary card during replacement</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Unrestricted access.description" xml:space="preserve">
+		<value>Unrestricted access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Unrestricted access" xml:space="preserve">
+		<value>Unrestricted access</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Reissue mobile.description" xml:space="preserve">
+		<value>Reissue a partially issued mobile credential</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Reissue mobile" xml:space="preserve">
+		<value>Reissue mobile</value>
+	</data>
+	<data name="forms.statusmappings.status.values.User details have changed.description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="forms.statusmappings.status.values.User details have changed" xml:space="preserve">
+		<value>User details have changed</value>
+	</data>
+	<data name="forms.statusmappings.status.values.There is a problem with the device.description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="forms.statusmappings.status.values.There is a problem with the device" xml:space="preserve">
+		<value>There is a problem with the device</value>
+	</data>
+	<data name="forms.statusmappings.status.values.New credential profile needs to be applied.description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="forms.statusmappings.status.values.New credential profile needs to be applied" xml:space="preserve">
+		<value>New credential profile needs to be applied</value>
+	</data>
+	<data name="forms.statusmappings.status.values.New certificates need to be added to the device.description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="forms.statusmappings.status.values.New certificates need to be added to the device" xml:space="preserve">
+		<value>New certificates need to be added to the device</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Non-payment of services.description" xml:space="preserve">
+		<value>The device should be disabled permanently.</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Non-payment of services" xml:space="preserve">
+		<value>Non-payment of services</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Lost in Transit (Dispose)" xml:space="preserve">
+		<value>Lost in Transit (Dispose)</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Stock Returned / Not Dispatched" xml:space="preserve">
+		<value>Stock Returned / Not Dispatched</value>
+	</data>
+	<data name="forms.statusmappings.status.values.Not Received - Pending Investigation" xml:space="preserve">
+		<value>Not Received - Pending Investigation</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Active" xml:space="preserve">
+		<value>Active</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Assigned" xml:space="preserve">
+		<value>Assigned</value>
+	</data>
+	<data name="forms.devices.processStatus.values.AtBureau" xml:space="preserve">
+		<value>AtBureau</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Collected" xml:space="preserve">
+		<value>Collected</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Deleted" xml:space="preserve">
+		<value>Deleted</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Disposed" xml:space="preserve">
+		<value>Disposed</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Erased" xml:space="preserve">
+		<value>Erased</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Legacy" xml:space="preserve">
+		<value>Legacy</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Lost" xml:space="preserve">
+		<value>Lost</value>
+	</data>
+	<data name="forms.devices.processStatus.values.None" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Not Disposed" xml:space="preserve">
+		<value>Not Collected</value>
+	</data>
+	<data name="forms.devices.processStatus.values.PendingActivation" xml:space="preserve">
+		<value>Pending Activation</value>
+	</data>
+	<data name="forms.devices.processStatus.values.PendingDeliveryConfirmation" xml:space="preserve">
+		<value>Pending  Delivery Confirmation</value>
+	</data>
+	<data name="forms.devices.processStatus.values.PendingPersonalisation" xml:space="preserve">
+		<value>Pending Personalisation</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Terminated" xml:space="preserve">
+		<value>Terminated</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Unassigned" xml:space="preserve">
+		<value>Unassigned</value>
+	</data>
+	<data name="forms.requests.status.values.AutoDisabled" xml:space="preserve">
+		<value>Target User Disabled</value>
+	</data>
+	<data name="forms.requests.status.values.Await Bureau" xml:space="preserve">
+		<value>Awaiting Response From Bureau</value>
+	</data>
+	<data name="forms.requests.status.values.Awaiting Activation" xml:space="preserve">
+		<value>Awaiting Activation</value>
+	</data>
+	<data name="forms.requests.status.values.Awaiting Cancellation" xml:space="preserve">
+		<value>Awaiting Cancellation</value>
+	</data>
+	<data name="forms.requests.status.values.Awaiting Delivery" xml:space="preserve">
+		<value>Awaiting Delivery</value>
+	</data>
+	<data name="forms.requests.status.values.Awaiting Encoding" xml:space="preserve">
+		<value>Awaiting Encoding</value>
+	</data>
+	<data name="forms.requests.status.values.Awaiting Enrolment" xml:space="preserve">
+		<value>Awaiting Enrolment</value>
+	</data>
+	<data name="forms.requests.status.values.Awaiting Issue" xml:space="preserve">
+		<value>Awaiting Issue</value>
+	</data>
+	<data name="forms.requests.status.values.Awaiting Validation" xml:space="preserve">
+		<value>Awaiting Validation</value>
+	</data>
+	<data name="forms.requests.status.values.Cancelled" xml:space="preserve">
+		<value>Cancelled</value>
+	</data>
+	<data name="forms.requests.status.values.Completed" xml:space="preserve">
+		<value>Completed</value>
+	</data>
+	<data name="forms.requests.status.values.Completed With Errors" xml:space="preserve">
+		<value>Completed With Errors</value>
+	</data>
+	<data name="forms.requests.status.values.Created" xml:space="preserve">
+		<value>Created</value>
+	</data>
+	<data name="forms.requests.status.values.Failed" xml:space="preserve">
+		<value>Failed</value>
+	</data>
+	<data name="forms.requests.status.values.In Progress" xml:space="preserve">
+		<value>In Progress</value>
+	</data>
+	<data name="forms.requests.status.values.In Transit" xml:space="preserve">
+		<value>In Transit</value>
+	</data>
+	<data name="forms.requests.status.values.Suspended" xml:space="preserve">
+		<value>Suspended</value>
+	</data>
+	<data name="forms.requests.bureau.progress.values.AwaitJobBatch" xml:space="preserve">
+		<value>Awaiting bureau request job</value>
+	</data>	
+	<data name="forms.requests.bureau.progress.values.Custom" xml:space="preserve">
+		<value>Custom stage</value>
+	</data>	
+	<data name="forms.requests.bureau.progress.values.EmptyBatch" xml:space="preserve">
+		<value>Dummy request</value>
+	</data>	
+	<data name="forms.requests.bureau.progress.values.ReceiveCertificateRequest" xml:space="preserve">
+		<value>Awaiting Certificates</value>
+	</data>	
+	<data name="forms.requests.bureau.progress.values.ReceiveManifest" xml:space="preserve">
+		<value>Bureau Manifest received</value>
+	</data>	
+	<data name="forms.requests.bureau.progress.values.SendCertificate" xml:space="preserve">
+		<value>Certificates Ready</value>
+	</data>	
+	<data name="forms.requests.bureau.progress.values.SendForCard" xml:space="preserve">
+		<value>Awaiting submission to bureau</value>
+	</data>	
+	<data name="forms.tasktypes.name.values.IssueCard" xml:space="preserve">
+		<value>Issue card task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.CancelCard" xml:space="preserve">
+		<value>Cancel card task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.UpdateCard" xml:space="preserve">
+		<value>Apply update</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RequestSoftCertificate" xml:space="preserve">
+		<value>Request a soft (browser) certificate for a user</value>
+	</data>
+	<data name="forms.tasktypes.name.values.IssueReplacementCard" xml:space="preserve">
+		<value>Issue replacement card task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.ReplaceSoftCertificates" xml:space="preserve">
+		<value>Replace a collection of software certificates</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RecoverCertMobile" xml:space="preserve">
+		<value>Issue mobile</value>
+	</data>
+	<data name="forms.tasktypes.name.values.AdditionalCertRecovery" xml:space="preserve">
+		<value>Additional identities certificate recovery</value>
+	</data>
+	<data name="forms.tasktypes.name.values.AdditionalCertUpdate" xml:space="preserve">
+		<value>Additional identities certificate update</value>
+	</data>
+	<data name="forms.tasktypes.name.values.AdditionalCertRemoval" xml:space="preserve">
+		<value>Additional identities certificate removal</value>
+	</data>
+	<data name="forms.tasktypes.name.values.ReprovisionCard" xml:space="preserve">
+		<value>Reprovision card task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.IssueFido" xml:space="preserve">
+		<value>Issue Fido device</value>
+	</data>
+	<data name="forms.tasktypes.name.values.DelayedDeviceRevocation" xml:space="preserve">
+		<value>Delayed device revocation</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RecoverCertificates" xml:space="preserve">
+		<value>Certificate Recovery</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RecoverCertificatesExisting" xml:space="preserve">
+		<value>Certificate Recovery to Existing Device</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RecoverCertificatesSoftware" xml:space="preserve">
+		<value>Certificate Recovery to Software</value>
+	</data>
+	<data name="forms.tasktypes.name.values.ActivateDevice" xml:space="preserve">
+		<value>Activate issued device</value>
+	</data>
+	<data name="forms.tasktypes.name.values.Adjudication" xml:space="preserve">
+		<value>Identity adjudication</value>
+	</data>
+	<data name="forms.tasktypes.name.values.BadgeDisposalProc" xml:space="preserve">
+		<value>Badge disposal processor</value>
+	</data>
+	<data name="forms.tasktypes.name.values.BioSamplePromotion" xml:space="preserve">
+		<value>Bio sample promotion processor</value>
+	</data>
+	<data name="forms.tasktypes.name.values.BureauBatch" xml:space="preserve">
+		<value>Batch of items</value>
+	</data>
+	<data name="forms.tasktypes.name.values.BureauRequest" xml:space="preserve">
+		<value>Request of batches</value>
+	</data>
+	<data name="forms.tasktypes.name.values.CancelExpiredCards" xml:space="preserve">
+		<value>Automatically cancel expired cards</value>
+	</data>
+	<data name="forms.tasktypes.name.values.CancelMachineIdentity" xml:space="preserve">
+		<value>Cancel a device identity task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.CancelUnactiveCardsCerts" xml:space="preserve">
+		<value>Automatically cancel or revoke unactivated devices</value>
+	</data>
+	<data name="forms.tasktypes.name.values.CardRenewal" xml:space="preserve">
+		<value>Send device renewal emails</value>
+	</data>
+	<data name="forms.tasktypes.name.values.CertsMaintenanceProcess" xml:space="preserve">
+		<value>Certificate maintenance process</value>
+	</data>
+	<data name="forms.tasktypes.name.values.CLImportTokens" xml:space="preserve">
+		<value>Import contactless cards from a file</value>
+	</data>
+	<data name="forms.tasktypes.name.values.DataPurge" xml:space="preserve">
+		<value>Data Purge</value>
+	</data>
+	<data name="forms.tasktypes.name.values.DerivedCredentialCheck" xml:space="preserve">
+		<value>Derived credential check</value>
+	</data>
+	<data name="forms.tasktypes.name.values.DisableExpiredUsers" xml:space="preserve">
+		<value>Disable expired users processor</value>
+	</data>
+	<data name="forms.tasktypes.name.values.DocumentPurge" xml:space="preserve">
+		<value>Automatically purge documents</value>
+	</data>
+	<data name="forms.tasktypes.name.values.EMVImportTokens" xml:space="preserve">
+		<value>Import EMV tokens</value>
+	</data>
+	<data name="forms.tasktypes.name.values.ExpiredMachineIdentity" xml:space="preserve">
+		<value>Expired device identity task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.ExternalNotification" xml:space="preserve">
+		<value>External notification</value>
+	</data>
+	<data name="forms.tasktypes.name.values.GenericImportDevices" xml:space="preserve">
+		<value>Import generic devices from CSV file</value>
+	</data>
+	<data name="forms.tasktypes.name.values.HIDImportDevice" xml:space="preserve">
+		<value>HID import device</value>
+	</data>
+	<data name="forms.tasktypes.name.values.IdemiaImportDevice" xml:space="preserve">
+		<value>IDEMIA HID import device</value>
+	</data>
+	<data name="forms.tasktypes.name.values.IssueIdentityDocument" xml:space="preserve">
+		<value>Issue Identity Document</value>
+	</data>
+	<data name="forms.tasktypes.name.values.IssueMachineIdentity" xml:space="preserve">
+		<value>Issue a device identity task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.IssueMobileSoftCert" xml:space="preserve">
+		<value>Issue mobile soft cert task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.IssueToken" xml:space="preserve">
+		<value>Issue token task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.JobBatch" xml:space="preserve">
+		<value>Batch up bureau jobs</value>
+	</data>
+	<data name="forms.tasktypes.name.values.JobMaintenanceProcessor" xml:space="preserve">
+		<value>Job maintenance process</value>
+	</data>
+	<data name="forms.tasktypes.name.values.LockPin" xml:space="preserve">
+		<value>Schedule a card user pin lock</value>
+	</data>
+	<data name="forms.tasktypes.name.values.MakeMobileSetupCert" xml:space="preserve">
+		<value>Make MobileSetup certificate</value>
+	</data>
+	<data name="forms.tasktypes.name.values.NGIRapBackProcessor" xml:space="preserve">
+		<value>NGI RapBack adjudication processor</value>
+	</data>
+	<data name="forms.tasktypes.name.values.OATHImportTokens" xml:space="preserve">
+		<value>Import OATH tokens</value>
+	</data>
+	<data name="forms.tasktypes.name.values.OrphanedImages" xml:space="preserve">
+		<value>Orphaned images job processor</value>
+	</data>
+	<data name="forms.tasktypes.name.values.PKIAuthCheck" xml:space="preserve">
+		<value>PKI authentication check</value>
+	</data>
+	<data name="forms.tasktypes.name.values.PreRecoverCertificates" xml:space="preserve">
+		<value>Pre recover certificates</value>
+	</data>
+	<data name="forms.tasktypes.name.values.PrintPINMailer" xml:space="preserve">
+		<value>Print PIN Mailer Document</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RelationshipManagement" xml:space="preserve">
+		<value>User relationship management processor</value>
+	</data>
+	<data name="forms.tasktypes.name.values.ResetUnlockCode" xml:space="preserve">
+		<value>Change a card unlock code</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RestrictInactiveAccounts" xml:space="preserve">
+		<value>Restricts accounts that are inactive</value>
+	</data>
+	<data name="forms.tasktypes.name.values.RSImportTokens" xml:space="preserve">
+		<value>Import RSA tokens from an XML file</value>
+	</data>
+	<data name="forms.tasktypes.name.values.StoredProcProcessor" xml:space="preserve">
+		<value>Run an SQL Stored Procedure</value>
+	</data>
+	<data name="forms.tasktypes.name.values.TPMProcess" xml:space="preserve">
+		<value>Creates or deletes a VSC on a client machine</value>
+	</data>
+	<data name="forms.tasktypes.name.values.UnlockCard" xml:space="preserve">
+		<value>Unlock card task</value>
+	</data>
+	<data name="forms.tasktypes.name.values.UpdateApplets" xml:space="preserve">
+		<value>Apply applet update</value>
+	</data>
+	<data name="forms.tasktypes.name.values.UploadDataFile" xml:space="preserve">
+		<value>Import data in ANSI format</value>
+	</data>
+	<data name="forms.tasktypes.name.values.UserPurge" xml:space="preserve">
+		<value>Purge users that meet a certain criteria</value>
+	</data>
+	<data name="forms.tasktypes.name.values.VASCOImportTokens" xml:space="preserve">
+		<value>Import VASCO tokens from DPX file</value>
+	</data>
+	<data name="forms.tasktypes.name.values.VettingDateProc" xml:space="preserve">
+		<value>Vetting Date processor</value>
+	</data>
+	<data name="forms.tasktypes.name.values.VSImportTokens" xml:space="preserve">
+		<value>Import Verisign tokens from a TAR file</value>
+	</data>
+	<data name="forms.tasktypes.name.values.XMLExport" xml:space="preserve">
+		<value>Export data to file</value>
+	</data>
+	<data name="forms.tasktypes.name.values.XMLImport" xml:space="preserve">
+		<value>Import data from file</value>
+	</data>
+	<data name="forms.searchresults.authcodes.Name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.authcodes.Duration" xml:space="preserve">
+		<value>Duration</value>
+	</data>
+	<data name="forms.deliveryMechanism.210.label" xml:space="preserve">
+		<value>Activation Code Email</value>
+	</data>
+	<data name="forms.deliveryMechanism.210.description" xml:space="preserve">
+		<value>Send an authentication code via email to this user for device activation</value>
+	</data>
+	<data name="forms.deliveryMechanism.211.label" xml:space="preserve">
+		<value>Activation Code SMS</value>
+	</data>
+	<data name="forms.deliveryMechanism.211.description" xml:space="preserve">
+		<value>Send an authentication code via SMS to this user for device activation</value>
+	</data>
+	<data name="forms.deliveryMechanism.212.label" xml:space="preserve">
+		<value>Authentication Code Email</value>
+	</data>
+	<data name="forms.deliveryMechanism.212.description" xml:space="preserve">
+		<value>Send an authentication code via email to this user</value>
+	</data>
+	<data name="forms.deliveryMechanism.213.label" xml:space="preserve">
+		<value>Authentication Code SMS</value>
+	</data>
+	<data name="forms.deliveryMechanism.213.description" xml:space="preserve">
+		<value>Send an authentication code via SMS to this user</value>
+	</data>
+	<data name="forms.deliveryMechanism.214.label" xml:space="preserve">
+		<value>Unlock Code Email</value>
+	</data>
+	<data name="forms.deliveryMechanism.214.description" xml:space="preserve">
+		<value>Send an authentication code via email to this user for device PIN Unlock</value>
+	</data>
+	<data name="forms.deliveryMechanism.215.label" xml:space="preserve">
+		<value>Unlock Code SMS</value>
+	</data>
+	<data name="forms.deliveryMechanism.215.description" xml:space="preserve">
+		<value>Send an authentication code via SMS to this user for device PIN Unlock</value>
+	</data>
+	<data name="forms.deliveryMechanism.216.label" xml:space="preserve">
+		<value>Collection Code Email</value>
+	</data>
+	<data name="forms.deliveryMechanism.216.description" xml:space="preserve">
+		<value>Send an authentication code via email to this user for collecting the request</value>
+	</data>
+	<data name="forms.deliveryMechanism.217.label" xml:space="preserve">
+		<value>Collection Code SMS</value>
+	</data>
+	<data name="forms.deliveryMechanism.217.description" xml:space="preserve">
+		<value>Send an authentication code via SMS to this user for collecting the request</value>
+	</data>
+	<data name="forms.certificatePolicies.searchcriteria.active" xml:space="preserve">
+		<value>Is the certificate policy active</value>
+	</data>
+	<data name="forms.certificatePolicies.searchcriteria.allowIdentityMapping" xml:space="preserve">
+		<value>Allow this certificate profile to be issued as an additional identity</value>
+	</data>
+	<data name="warnings.OneActiveCredentialProfileRequestPerPerson.description" xml:space="preserve">
+		<value>{0}. Caution: a request for this credential profile already exists for this person. When the new request is created, the current request will be cancelled.</value>
+	</data>
+	<data name="warnings.OneActiveDeviceAndCredentialProfileRequestPerPerson.description" xml:space="preserve">
+		<value>{0}. Caution: a request for this credential profile already exists for this person and a conflicting device is assigned to them. If you continue the current request will be cancelled, and when the new request is issued the current device will be revoked.</value>
+	</data>
+	<data name="warnings.OneActiveDevicePerPerson.description" xml:space="preserve">
+		<value>{0}. Caution: a device has already been assigned to this person which will conflict with this request. When the new request is issued, the current device will be revoked.</value>
+	</data>
+	<data name="forms.searchresults.securityphrases.Memorable Phrase" xml:space="preserve">
+		<value>Memorable Phrase</value>
+	</data>
+	<data name="forms.searchresults.securityphrases.Answer" xml:space="preserve">
+		<value>Answer</value>
+	</data>
+	<data name="forms.searchresults.securityphrases.Confirm Answer" xml:space="preserve">
+		<value>Confirm Answer</value>
+	</data>
+	<data name="forms.securityPhrases.1" xml:space="preserve">
+		<value>Password:</value>
+	</data>
+	<data name="forms.securityPhrases.2" xml:space="preserve">
+		<value>Mother's maiden name?</value>
+	</data>
+	<data name="forms.securityPhrases.3" xml:space="preserve">
+		<value>Social Security Number?</value>
+	</data>
+	<data name="forms.securityPhrases.4" xml:space="preserve">
+		<value>Favorite food?</value>
+	</data>
+	<data name="forms.securityPhrases.5" xml:space="preserve">
+		<value>Car registration number?</value>
+	</data>
+	<data name="forms.securityPhrases.6" xml:space="preserve">
+		<value>Name of pet?</value>
+	</data>
+	<data name="forms.securityPhrases.7" xml:space="preserve">
+		<value>First school attended?</value>
+	</data>
+	<data name="forms.securityPhrases.8" xml:space="preserve">
+		<value>An old phone number?</value>
+	</data>
+	<data name="forms.securityPhrases.9" xml:space="preserve">
+		<value>A memorable date?</value>
+	</data>
+	<data name="forms.securityPhrases.10" xml:space="preserve">
+		<value>A memorable place?</value>
+	</data>
+	<data name="forms.securityPhrases.11" xml:space="preserve">
+		<value>A memorable event?</value>
+	</data>
+	<data name="forms.securityPhrases.12" xml:space="preserve">
+		<value>A famous person?</value>
+	</data>
+	<data name="forms.securityPhrases.13" xml:space="preserve">
+		<value>Place of birth?</value>
+	</data>
+	<data name="forms.securityPhrases.14" xml:space="preserve">
+		<value>A country?</value>
+	</data>
+	<data name="forms.securityPhrases.15" xml:space="preserve">
+		<value>A river?</value>
+	</data>
+	<data name="forms.securityPhrases.16" xml:space="preserve">
+		<value>A movie?</value>
+	</data>
+	<data name="forms.securityPhrases.17" xml:space="preserve">
+		<value>A song?</value>
+	</data>
+	<data name="forms.securityPhrases.18" xml:space="preserve">
+		<value>A book?</value>
+	</data>
+	<data name="forms.securityPhrases.19" xml:space="preserve">
+		<value>A sport?</value>
+	</data>
+	<data name="forms.securityPhrases.20" xml:space="preserve">
+		<value>A postcode?</value>
+	</data>
+	<data name="forms.securityPhrases.21" xml:space="preserve">
+		<value>An animal?</value>
+	</data>
+	<data name="forms.securityPhrases.22" xml:space="preserve">
+		<value>First car type?</value>
+	</data>
+	<data name="forms.reportrevisions.reportOpId.addReport.label" xml:space="preserve">
+		<value>Report Operation Id Override</value>
+	</data>
+	<data name="forms.reportrevisions.reportOpId.addReport.tooltip" xml:space="preserve">
+		<value>Report Operation Id Override</value>
+	</data>
+	<data name="forms.externalsystems.viewexternalsystem.title" xml:space="preserve">
+		<value>View External System</value>
+	</data>
+	<data name="forms.notifications.viewnotification.title" xml:space="preserve">
+		<value>View Notification</value>
+	</data>
+	<data name="forms.notifications.viewnotification.notification.label" xml:space="preserve">
+		<value>Notification</value>
+	</data>
+	<data name="forms.notifications.source.label" xml:space="preserve">
+		<value>Source</value>
+	</data>
+	<data name="forms.notifications.source.tooltip" xml:space="preserve">
+		<value>Source</value>
+	</data>
+	<data name="forms.notifications.jobId.label" xml:space="preserve">
+		<value>Job ID</value>
+	</data>
+	<data name="forms.notifications.jobId.tooltip" xml:space="preserve">
+		<value>Job ID</value>
+	</data>
+	<data name="forms.notifications.notificationType.label" xml:space="preserve">
+		<value>Notification Type</value>
+	</data>
+	<data name="forms.notifications.notificationType.tooltip" xml:space="preserve">
+		<value>Notification Type</value>
+	</data>
+	<data name="forms.notifications.result.label" xml:space="preserve">
+		<value>Result</value>
+	</data>
+	<data name="forms.notifications.result.tooltip" xml:space="preserve">
+		<value>Result</value>
+	</data>
+	<data name="forms.notifications.name.label" xml:space="preserve">
+		<value>Notification Name</value>
+	</data>
+	<data name="forms.notifications.name.tooltip" xml:space="preserve">
+		<value>Notification Name</value>
+	</data>
+	<data name="forms.notifications.logonName.label" xml:space="preserve">
+		<value>Logon Name</value>
+	</data>
+	<data name="forms.notifications.logonName.tooltip" xml:space="preserve">
+		<value>Logon Name</value>
+	</data>
+	<data name="forms.notifications.serialNumber.label" xml:space="preserve">
+		<value>Serial Number</value>
+	</data>
+	<data name="forms.notifications.serialNumber.tooltip" xml:space="preserve">
+		<value>Serial Number</value>
+	</data>
+	<data name="forms.notifications.requested.label" xml:space="preserve">
+		<value>Requested</value>
+	</data>
+	<data name="forms.notifications.requested.tooltip" xml:space="preserve">
+		<value>Requested</value>
+	</data>
+	<data name="forms.notifications.attemptNext.label" xml:space="preserve">
+		<value>Next Attempt</value>
+	</data>
+	<data name="forms.notifications.attemptNext.tooltip" xml:space="preserve">
+		<value>Next Attempt</value>
+	</data>
+	<data name="forms.notifications.sent.label" xml:space="preserve">
+		<value>Sent</value>
+	</data>
+	<data name="forms.notifications.sent.tooltip" xml:space="preserve">
+		<value>Sent</value>
+	</data>
+	<data name="form.confirmation-resendnotification.explanation.label" xml:space="preserve">
+		<value>Confirming this action will resend this notification.</value>
+	</data>
+	<data name="form.confirmation-cancelnotification.explanation.label" xml:space="preserve">
+		<value>Confirming this action will cancel this notification.</value>
+	</data>
+	<data name="forms.logonpriorities.viewlogonpriority.title" xml:space="preserve">
+		<value>View Logon Priorities</value>
+	</data>
+	<data name="forms.logonpriorities.viewlogonpriority.logonpriority.label" xml:space="preserve">
+		<value>Logon Priorities</value>
+	</data>
+	<data name="forms.logonpriorities.editlogonpriority.title" xml:space="preserve">
+		<value>Edit Logon Priorities</value>
+	</data>
+	<data name="forms.logonpriorities.editlogonpriority.logonpriority.label" xml:space="preserve">
+		<value>Logon Priorities</value>
+	</data>
+	<data name="forms.logonpriorities.logonpriorities.label" xml:space="preserve">
+		<value>Logon Priorities</value>
+	</data>
+	<data name="forms.logonpriorities.logonpriorities.tooltip" xml:space="preserve">
+		<value>Logon Priorities</value>
+	</data>
+	<data name="forms.logonproviders.viewlogonmechanism.title" xml:space="preserve">
+		<value>View Logon Mechanism</value>
+	</data>
+	<data name="forms.logonproviders.editlogonmechanism.title" xml:space="preserve">
+		<value>Edit Logon Mechanism</value>
+	</data>
+	<data name="forms.logonproviders.viewlogonmechanism.logonmechanism.label" xml:space="preserve">
+		<value>Logon Mechanism</value>
+	</data>
+	<data name="forms.logonproviders.editlogonmechanism.logonmechanism.label" xml:space="preserve">
+		<value>Logon Mechanism</value>
+	</data>
+	<data name="forms.logonproviders.name.label" xml:space="preserve">
+		<value>Logon Mechanism Name</value>
+	</data>
+	<data name="forms.logonproviders.enabled.label" xml:space="preserve">
+		<value>Enabled</value>
+	</data>
+	<data name="forms.logonproviders.enabled.tooltip" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="forms.searchresults.messageTemplatesSubstitutions.SubstitutionToken" xml:space="preserve">
+		<value>Substitution Token</value>
+	</data>
+	<data name="forms.searchresults.messageTemplatesSubstitutions.Purpose" xml:space="preserve">
+		<value>Purpose</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Active" xml:space="preserve">
+		<value>Active</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Assigned" xml:space="preserve">
+		<value>Assigned</value>
+	</data>
+	<data name="forms.devices.processStatus.values.AtBureau" xml:space="preserve">
+		<value>At Bureau</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Collected" xml:space="preserve">
+		<value>Collected</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Deleted" xml:space="preserve">
+		<value>Deleted</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Disabled" xml:space="preserve">
+		<value>Disabled</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Disposed" xml:space="preserve">
+		<value>Disposed</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Enabled" xml:space="preserve">
+		<value>Enabled</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Erased" xml:space="preserve">
+		<value>Erased</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Legacy" xml:space="preserve">
+		<value>Legacy</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Lost" xml:space="preserve">
+		<value>Lost</value>
+	</data>
+	<data name="forms.devices.processStatus.values.None" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Not Disposed" xml:space="preserve">
+		<value>Not Collected</value>
+	</data>
+	<data name="forms.devices.processStatus.values.PendingActivation" xml:space="preserve">
+		<value>Pending Activation</value>
+	</data>
+	<data name="forms.devices.processStatus.values.PendingDeliveryConfirmation" xml:space="preserve">
+		<value>Pending Delivery Confirmation</value>
+	</data>
+	<data name="forms.devices.processStatus.values.PendingPersonalisation" xml:space="preserve">
+		<value>Pending Personalization</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Reassigned" xml:space="preserve">
+		<value>Reassigned</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Terminated" xml:space="preserve">
+		<value>Terminated</value>
+	</data>
+	<data name="forms.devices.processStatus.values.Unassigned" xml:space="preserve">
+		<value>Unassigned</value>
+	</data>
+	<data name="forms.enabled.values.Yes" xml:space="preserve">
+		<value>Yes</value>
+	</data>
+	<data name="forms.enabled.values.No" xml:space="preserve">
+		<value>No</value>
+	</data>
+	<data name="forms.searchresults.licences.category" xml:space="preserve">
+		<value>Category</value>
+	</data>
+	<data name="forms.searchresults.licences.count" xml:space="preserve">
+		<value>Count</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileRole.Name">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileRole.Description">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileRole.CanReceive">
+		<value>Can Receive</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileRole.CanRequest">
+		<value>Can Request</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileRole.CanValidate">
+		<value>Can Validate</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileRole.CanCollect">
+		<value>Can Collect</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileRole.CanUnlock">
+		<value>Can Unlock</value>
+	</data>
+	<data name="forms.searchresults.credentialprofilerequisiteuserdata.Name">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.credentialprofilerequisiteuserdata.Required">
+		<value>Required?</value>
+	</data>
+	<data name="forms.searchresults.credentialprofilerequisiteuserdata.Required.values.0">
+		<value>Not Required</value>
+	</data>
+	<data name="forms.searchresults.credentialprofilerequisiteuserdata.Required.values.1">
+		<value>Required for Request</value>
+	</data>
+	<data name="forms.searchresults.credentialprofilerequisiteuserdata.Required.values.2">
+		<value>Required for Validate / Collect</value>
+	</data>
+	<data name="forms.searchresults.credentialprofilerequisiteuserdata.AllowedValues">
+		<value>Allowed Value(s) (Optional)</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileApplet.Name">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileApplet.Description">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileApplet.Version">
+		<value>Version</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileApplet.IssuedDate">
+		<value>Issued Date</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileApplet.Selected">
+		<value>Selected?</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileReason.ID">
+		<value>ID</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileReason.Name">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileReason.Description">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileReason.Allowed">
+		<value>Allowed</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileDisposalStatus.Name">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileDisposalStatus.Description">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileDisposalStatus.Issuable">
+		<value>Can be reissued</value>
+	</data>
+	<data name="forms.searchresults.credentialProfileDisposalStatus.Allowed">
+		<value>Allowed</value>
+	</data>
+	<data name="forms.cardprofiles.deviceContent.cardFormat.mobileDocument.label" xml:space="preserve">
+		<value>Document Format</value>
+	</data>
+	<data name="forms.cardprofiles.deviceContent.cardFormat.mobileDocument.tooltip" xml:space="preserve">
+		<value>Document Format</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.Contact" xml:space="preserve">
+		<value>Contact Chip</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.Contactless" xml:space="preserve">
+		<value>Contactless Chip</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.dualInterface" xml:space="preserve">
+		<value>Dual Interface</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.physical" xml:space="preserve">
+		<value>Physical Printed Card</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.mvsc" xml:space="preserve">
+		<value>Microsoft Virtual Smart Card</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.whfb" xml:space="preserve">
+		<value>Windows Hello for Business</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.fido" xml:space="preserve">
+		<value>FIDO Authenticator</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.fidoPki" xml:space="preserve">
+		<value>Contact and FIDO</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.identityAgent" xml:space="preserve">
+		<value>Identity Agent</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.mobileDocument" xml:space="preserve">
+		<value>Mobile Identity Document</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.printedDocument" xml:space="preserve">
+		<value>Printed Identity Document</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.softCert" xml:space="preserve">
+		<value>Software Certificate</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.deviceIdentity" xml:space="preserve">
+		<value>Device Identity</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.externallyIssued" xml:space="preserve">
+		<value>Externally Issued</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.cryptasVSC-contact" xml:space="preserve">
+		<value>Contact CRYPTAS Virtual Smart Card</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.cryptasVSC-softCert" xml:space="preserve">
+		<value>Software Certificate CRYPTAS Virtual Smart Card</value>
+	</data>
+	<data name="forms.cardprofiles.type.values.undefined" xml:space="preserve">
+		<value>Undefined</value>
+	</data>
+	<data name="forms.values.None" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="licences.devicecategories.general" xml:space="preserve">
+		<value>General (Standard Licenses)</value>
+	</data>
+	<data name="licences.devicecategories.Card" xml:space="preserve">
+		<value>Card</value>
+	</data>
+	<data name="licences.devicecategories.Mobile" xml:space="preserve">
+		<value>Mobile</value>
+	</data>
+	<data name="licences.devicecategories.machine" xml:space="preserve">
+		<value>Machine</value>
+	</data>
+	<data name="licences.devicecategories.fido" xml:space="preserve">
+		<value>FIDO</value>
+	</data>
+	<data name="licences.devicecategories.Unmanaged" xml:space="preserve">
+		<value>Unmanaged</value>
+	</data>
+	<data name="licences.devicecategories.SoftCert" xml:space="preserve">
+		<value>Software Certificates</value>
+	</data>
+	<data name="licences.devicecategories.ContactlessCard" xml:space="preserve">
+		<value>Contactless Cards</value>
+	</data>
+	<data name="licences.devicecategories.Document" xml:space="preserve">
+		<value>Mobile Identity Documents</value>
+	</data>
+	<data name="licences.devicecategories.Printed" xml:space="preserve">
+		<value>Printed Identity Documents</value>
+	</data>
+	<data name="licences.devicecategories.Physical" xml:space="preserve">
+		<value>Physical Printed Card</value>
+	</data>
+	<data name="licences.licencesummary.ValidLicence" xml:space="preserve">
+		<value>Valid License</value>
+	</data>
+	<data name="licences.licencesummary.InitialLicence" xml:space="preserve">
+		<value>Initial License</value>
+	</data>
+	<data name="forms.searchresults.requestbureaubatches.JobId" xml:space="preserve">
+		<value>ID</value>
+	</data>	
+	<data name="forms.searchresults.requestbureaubatches.BureauIndex" xml:space="preserve">
+		<value>Identifier</value>
+	</data>	
+	<data name="forms.searchresults.requestbureaubatches.JobDescription" xml:space="preserve">
+		<value>Description</value>
+	</data>	
+	<data name="forms.searchresults.requestbureaubatches.Progress" xml:space="preserve">
+		<value>Progress</value>
+	</data>	
+	<data name="forms.searchresults.requestbureaubatches.Status" xml:space="preserve">
+		<value>Status</value>
+	</data>	
+	<data name="forms.searchresults.requestbureaubatches.RequestDate" xml:space="preserve">
+		<value>Request Date</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.JobId" xml:space="preserve">
+		<value>ID</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.BureauIndex" xml:space="preserve">
+		<value>Identifier</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.JobFor" xml:space="preserve">
+		<value>For</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.RequestedBy" xml:space="preserve">
+		<value>Requested By</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.Progress" xml:space="preserve">
+		<value>Progress</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.Status" xml:space="preserve">
+		<value>Status</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.TaskType" xml:space="preserve">
+		<value>Task Type</value>
+	</data>	
+	<data name="forms.searchresults.requestbureauissuancerequests.RequestDate" xml:space="preserve">
+		<value>Request Date</value>
+	</data>	
+  <data name="forms.securityPhrases.validation.error.allowedCharacters" xml:space="preserve">
+		<value>The provided phrase uses one or more forbidden characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.minLength" xml:space="preserve">
+		<value>The provided phrase does not meet the minimum required length.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.sequentialCharacters" xml:space="preserve">
+		<value>The provided phrase exceeds the maximum number of sequential characters allowed.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.repeatableCharacters" xml:space="preserve">
+		<value>The provided phrase exceeds the maximum number of repeatable characters allowed.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.emptyPhrase" xml:space="preserve">
+		<value>You must provide a phrase.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.maxLength" xml:space="preserve">
+		<value>The provided phrase exceeds maximum allowed length.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.uppercase" xml:space="preserve">
+		<value>The provided phrase must contain at least one uppercase character.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.noUppercase" xml:space="preserve">
+		<value>The provided phrase must not contain uppercase characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.lowercase" xml:space="preserve">
+		<value>The provided phrase must contain at least one lowercase character.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.noLowercase" xml:space="preserve">
+		<value>The provided phrase must not contain lowercase characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.number" xml:space="preserve">
+		<value>The provided phrase must contain at least one number.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.noNumber" xml:space="preserve">
+		<value>The provided phrase must not contain numbers.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.symbol" xml:space="preserve">
+		<value>The provided phrase must contain at least one special character.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.error.noSymbol" xml:space="preserve">
+		<value>The provided phrase must not contain special characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.caseSensitive" xml:space="preserve">
+		<value>These answers are case sensitive.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.caseInsensitive" xml:space="preserve">
+		<value>These answers are case insensitive.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.whitespaceRemoved" xml:space="preserve">
+		<value>Any whitespace will be removed from your answers.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.lengthRange" xml:space="preserve">
+		<value>Must be between {0} and {1} characters in length.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.atLeastLength" xml:space="preserve">
+		<value>Must be at least {0} characters in length.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.atMostLength" xml:space="preserve">
+		<value>Must not exceed {0} characters in length.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustContainUpper" xml:space="preserve">
+		<value>Must contain at least 1 uppercase character.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustNotContainUpper" xml:space="preserve">
+		<value>Must not contain any uppercase characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustContainLower" xml:space="preserve">
+		<value>Must contain at least 1 lowercase character.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustNotContainLower" xml:space="preserve">
+		<value>Must not contain any lowercase characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustContainNumber" xml:space="preserve">
+		<value>Must contain at least 1 number.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustNotContainNumber" xml:space="preserve">
+		<value>Must not contain any numbers.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustContainSymbol" xml:space="preserve">
+		<value><![CDATA[Must contain at least 1 special character ( -!$%^&*()_+|~=`{}[]:";'<>?,./@#\ and space ).]]></value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.mustNotContainSymbol" xml:space="preserve">
+		<value>Must not contain any special characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.maxRepeatedCharacters" xml:space="preserve">
+		<value>Can only contain a maximum of {0} repeated characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.maxSequentialCharacters" xml:space="preserve">
+		<value>Can only contain a maximum of {0} sequential characters.</value>
+	</data>
+	<data name="forms.securityPhrases.validation.rule.text.allowedCharacters" xml:space="preserve">
+		<value>Can only contain the following characters: {0}</value>
+	</data>
+	<data name="forms.requisiteUserData.validation.error.fieldTooLong" xml:space="preserve">
+		<value>The allowed value(s) for this field must contain no more than 255 characters.</value>
+	</data>
+	<data name="forms.requisiteUserData.validation.error.incorrectDNFormat" xml:space="preserve">
+		<value>The allowed value for this field is not a correctly formatted Distinguished Name.</value>
+	</data>
+	<data name="forms.requisiteUserData.validation.error.containsInvalidCharacters" xml:space="preserve">
+		<value>The allowed value(s) for this field must only include alphanumeric or certain characters ( @-.' and space ).</value>
+	</data>
+	<data name="forms.searchresults.systemstatusinstallationhistory.Time" xml:space="preserve">
+		<value>Time</value>
+	</data>
+	<data name="forms.searchresults.systemstatusinstallationhistory.Description" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.systemstatusinstallationhistory.Name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.systemstatusinstallationhistory.Version" xml:space="preserve">
+		<value>Version</value>
+	</data>
+	<data name="forms.searchresults.systemstatusconfiguration.Name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.systemstatusconfiguration.Description" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.systemstatusconfiguration.Value" xml:space="preserve">
+		<value>Value</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.status" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.server" xml:space="preserve">
+		<value>Server</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.purpose" xml:space="preserve">
+		<value>Purpose</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.credential" xml:space="preserve">
+		<value>Credential</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.detected" xml:space="preserve">
+		<value>Detected</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.lastModified" xml:space="preserve">
+		<value>Last Checked</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.expires" xml:space="preserve">
+		<value>Expiry</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercredentials.lastNotified" xml:space="preserve">
+		<value>Last Notification Date</value>
+	</data>
+	<data name="forms.searchresults.systemstatusdevicetypes.name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.systemstatusdevicetypes.gpKey" xml:space="preserve">
+		<value>Requires Customer GlobalPlatform Key</value>
+	</data>
+	<data name="forms.searchresults.systemstatusdevicetypes.piv9B" xml:space="preserve">
+		<value>Requires Customer PIV9B Key</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevices.credProfileName" xml:space="preserve">
+		<value>Credential Profile</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevices.credProfileDescription" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevices.credProfileVersion" xml:space="preserve">
+		<value>Version</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevices.numberEnabled" xml:space="preserve">
+		<value>Enabled</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevices.numberDisabled" xml:space="preserve">
+		<value>Disabled</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevicetypes.deviceTypeName" xml:space="preserve">
+		<value>Device Type Name</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevicetypes.assigned" xml:space="preserve">
+		<value>Assigned</value>
+	</data>
+	<data name="forms.searchresults.systemstatusissueddevicetypes.unassigned" xml:space="preserve">
+		<value>Unassigned</value>
+	</data>
+	<data name="forms.searchresults.systemstatuspendingdevices.credProfileName" xml:space="preserve">
+		<value>Credential Profile</value>
+	</data>
+	<data name="forms.searchresults.systemstatuspendingdevices.credProfileDescription" xml:space="preserve">
+		<value>Description</value>
+	</data>
+	<data name="forms.searchresults.systemstatuspendingdevices.credProfileVersion" xml:space="preserve">
+		<value>Version</value>
+	</data>
+	<data name="forms.searchresults.systemstatuspendingdevices.numberPendingBureauResponse" xml:space="preserve">
+		<value>Pending Bureau Response</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercomponents.component" xml:space="preserve">
+		<value>Component</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercomponents.fileVersion" xml:space="preserve">
+		<value>File Version</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercomponents.productVersion" xml:space="preserve">
+		<value>Product Version</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercomponents.server" xml:space="preserve">
+		<value>Server</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercomponents.location" xml:space="preserve">
+		<value>Location</value>
+	</data>
+	<data name="forms.searchresults.systemstatusservercomponents.lastRegistered" xml:space="preserve">
+		<value>Last Registered Date</value>
+	</data>
+	<data name="forms.searchresults.operations.linkType" xml:space="preserve">
+		<value>Link Type</value>
+	</data>
+	<data name="forms.searchresults.operations.name" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="forms.searchresults.operations.id" xml:space="preserve">
+		<value>ID</value>
+	</data>
+	<data name="forms.searchresults.operations.types" xml:space="preserve">
+		<value>Applies To</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Collected.display" xml:space="preserve">
+		<value>Collected</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Collected.description" xml:space="preserve">
+		<value>Device has been returned</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Disposed.display" xml:space="preserve">
+		<value>Disposed</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Disposed.description" xml:space="preserve">
+		<value>Device has been destroyed</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Legacy.display" xml:space="preserve">
+		<value>Legacy</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Legacy.description" xml:space="preserve">
+		<value>Device has been discontinued from use</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Lost.display" xml:space="preserve">
+		<value>Lost</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.Lost.description" xml:space="preserve">
+		<value>Device has been reported lost</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.None.display" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.None.description" xml:space="preserve">
+		<value>No disposal status recorded</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.NotDisposed.display" xml:space="preserve">
+		<value>Not Collected</value>
+	</data>
+	<data name="forms.deviceProcessStatuses.NotDisposed.description" xml:space="preserve">
+		<value>Device has not been returned</value>
+	</data>
+	<data name="forms.keys.purpose.values.Application" xml:space="preserve">
+		<value>Application Key</value>
+	</data>
+	<data name="forms.keys.purpose.values.ConfigLockCode" xml:space="preserve">
+		<value>Configuration Lock Code</value>
+	</data>
+	<data name="forms.keys.purpose.values.GlobalPlatform" xml:space="preserve">
+		<value>GlobalPlatform Key</value>
+	</data>
+	<data name="forms.keys.purpose.values.InitializationKey" xml:space="preserve">
+		<value>Initialization Key</value>
+	</data>
+	<data name="forms.keys.purpose.values.PINGeneration" xml:space="preserve">
+		<value>PIN Generation Key</value>
+	</data>
+	<data name="forms.keys.purpose.values.PIV9B" xml:space="preserve">
+		<value>PIV 9B Card Administration Key</value>
+	</data>
+	<data name="forms.keys.purpose.values.PIVPUK" xml:space="preserve">
+		<value>PIV PUK</value>
+	</data>
+	<data name="forms.keys.purpose.values.TransportKey" xml:space="preserve">
+		<value>Transport Key(ZMK)</value>
+	</data>
+	<data name="forms.keys.purpose.values.PIV9E" xml:space="preserve">
+		<value>PIV 9E Card Authentication Key</value>
+	</data>
+	<data name="forms.keys.purpose.values.MPCOS" xml:space="preserve">
+		<value>MPCOS</value>
+	</data>
+	<data name="forms.keys.generationMechanism.explicitKey.enterMasterKey.label" xml:space="preserve">
+		<value>Enter Master Key</value>
+	</data>
+	<data name="forms.keys.generationMechanism.explicitKey.enterEncryptionKey.label" xml:space="preserve">
+		<value>Enter Encryption Key</value>
+	</data>
+	<data name="forms.keys.transportkey.provided.index.label" xml:space="preserve">
+		<value>provided</value>
+	</data>
+	<data name="forms.keys.transportkey.first.index.label" xml:space="preserve">
+		<value>first</value>
+	</data>
+	<data name="forms.keys.transportkey.second.index.label" xml:space="preserve">
+		<value>second</value>
+	</data>
+	<data name="forms.keys.transportkey.third.index.label" xml:space="preserve">
+		<value>third</value>
+	</data>
+  <data name="forms.pin.validation.error.range" xml:space="preserve">
+    	<value>The provided pin must be between {0}-{1} characters.</value>
+  </data>
+  <data name="forms.pin.validation.error.sequential" xml:space="preserve">
+    	<value>The provided pin must have no more than {0} sequential characters.</value>
+  </data>
+  <data name="forms.pin.validation.error.repeated" xml:space="preserve">
+    	<value>The provided pin must have no more than {0} repeated characters.</value>
+  </data>
+  <data name="forms.pin.validation.error.lowercase" xml:space="preserve">
+    	<value>The Lowercase character rule hasn't been met for the provided pin. Options: (Optional: 0, Mandatory: 1, Not Allowed: 2). Rule={0}</value>
+  </data>
+  <data name="forms.pin.validation.error.uppercase" xml:space="preserve">
+    	<value>The Uppercase character rule hasn't been met for the provided pin. Options: (Optional: 0, Mandatory: 1, Not Allowed: 2). Rule={0}</value>
+  </data>
+  <data name="forms.pin.validation.error.numeric" xml:space="preserve">
+    	<value>The Numeric character rule hasn't been met for the provided pin. Options: (Optional: 0, Mandatory: 1, Not Allowed: 2). Rule={0}</value>
+  </data>
+  <data name="forms.pin.validation.error.symbol" xml:space="preserve">
+    	<value>The Symbol character rule hasn't been met for the provided pin. Options: (Optional: 0, Mandatory: 1, Not Allowed: 2). Rule={0}</value>
+  </data>
+</root>

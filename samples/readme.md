@@ -7,6 +7,7 @@ This folder contains sample German (de) translations of MyID CMS Enterprise reso
 | MyID-12.6/   | v12.6                       |
 | MyID-12.17/  | v12.17                      |
 | MyID-12.18/  | v12.18                      |
+| MyID-2026.1/ | v2026.1                     |
 
 Each folder mirrors the folder structure found on the MyID CMS Enterprise web server under `C:\Program Files\Intercede\MyID`, and contains both the English source (`.en-US.resx`) and translated German (`.de.resx`) files.
 
