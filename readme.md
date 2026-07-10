@@ -223,7 +223,7 @@ C:\Program Files\Intercede\MyID\
 
 ## Sample translations
 
-The `samples/` folder contains German translations of MyID CMS Enterprise resource files for versions v12.6, v12.17 and v12.18, produced using an Azure-hosted GPT-4.1-mini LLM. These can be:
+The `samples/` folder contains German translations of MyID CMS Enterprise resource files for versions v12.6, v12.17, v12.18, and v2026.1, produced using an Azure-hosted GPT-4.1-mini LLM. These can be:
 
 - **Installed directly** onto a matching version of MyID as a ready-made set of German translations.
 - **Used as `--previousFile` inputs** when translating a newer version. Where a string has not changed, the existing translation is reused — speeding up translation and improving consistency across versions.
