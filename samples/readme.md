@@ -50,6 +50,24 @@ By default this copies every German (`de`) sample translation into the matching 
 
 Copy the sample translated files for the closest previous version into a `previous` subfolder within the directory you are translating, then run `LlmTranslateFilesInDirectory.ps1` as normal.
 
+## Comparing releases to see what has changed
+
+`Compare-ResxReleases.ps1` generates diff reports showing how the resource dictionary tags have changed between two MyID CMS releases. This is useful for getting an idea of what has changed between releases before translating, so you can focus on new or modified strings.
+
+For each component it reports:
+
+- New tags added in a release
+- Tags whose values have changed
+- Tags removed from a release
+
+Run it by pointing it at two release folders in this `samples` directory (the `de` translation files are skipped, so only the English source strings are compared):
+
+```
+.\Compare-ResxReleases.ps1 -RelA 12.18 -RelB 2026.1
+```
+
+`-RelA` and `-RelB` are mandatory and correspond to the version folder suffixes (e.g. `MyID-12.18`, `MyID-2026.1`). The diff reports are written to `samples\diffs\MyID-<RelA>_vs_<RelB>`, with one `_diffs.txt` file per component.
+
 ## Notes
 
 - These translations were produced by an LLM and have not been professionally reviewed. Spot-checking is recommended before deployment to production.
