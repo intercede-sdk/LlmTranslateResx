@@ -24,15 +24,24 @@ jobs:
       - name: Publish self-contained exe
         run: dotnet publish LlmTranslateResx.csproj --configuration Release --runtime win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Add PowerShell scripts to package
+        shell: pwsh
+        run: Copy-Item ./*.ps1 ./publish/
+
+      - name: Convert documentation to HTML
+        uses: natescherer/markdown-to-html-with-github-style-action@v1
         with:
-          name: LlmTranslateResx-win-x64
-          path: ./publish/*
+          path: README.md
+          outputpath: ./publish
+
+      - name: Create release ZIP
+        shell: pwsh
+        run: Compress-Archive -Path ./publish/* -DestinationPath "./LlmTranslateResx-${{ github.ref_name }}-win-x64.zip"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: ./publish/*
+          files: ./LlmTranslateResx-${{ github.ref_name }}-win-x64.zip
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
