@@ -28,11 +28,20 @@ jobs:
         shell: pwsh
         run: Copy-Item ./*.ps1 ./publish/
 
+      - name: Add samples to package
+        shell: pwsh
+        run: Copy-Item ./samples ./publish/ -Recurse
+
       - name: Convert documentation to HTML
         uses: natescherer/markdown-to-html-with-github-style-action@v1.1.0
         with:
-          path: README.md
+          path: README.md,samples/readme.md
           outputpath: ./publish
+          matchpathstructure: true
+
+      - name: Remove Markdown documentation
+        shell: pwsh
+        run: Remove-Item ./publish/README.md, ./publish/samples/readme.md -ErrorAction SilentlyContinue
 
       - name: Create release ZIP
         shell: pwsh
